@@ -1,65 +1,54 @@
-name: Update Jio (__hdnea__), Zee5 (hdntl) tokens + EPG URL in full_channels.json
+name: Update Channels JSON
 
 on:
-  schedule:
-    - cron: '0 */11 * * *'  # every 11 hours
   workflow_dispatch:
+  schedule:
+    - cron: '0 */11 * * *'   # Runs every 11 hours
 
 jobs:
-  update-json-tokens:
+  update-file:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-    - name: Fetch remote playlists and extract tokens
+    - name: Fetch required files
       run: |
-        # Fetch JioTV playlist for __hdnea__ token
-        curl -sL -o jio.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/jstar.m3u"
-        jio_cookie=$(grep -o '__hdnea__=[^"]*' jio.m3u | head -n1)
-        echo "$jio_cookie" > jio_cookie.txt
+        curl -s -o jio_cookie.txt ${{ secrets.JIO_COOKIE_URL }}
+        curl -s -o zee_hdntl.txt ${{ secrets.ZEE_HDNTL_URL }}
+        curl -s -o epg_url.txt ${{ secrets.EPG_URL }}
 
-        # Fetch Zee5 playlist for hdntl token
-        curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"
-        zee_hdntl=$(grep -o 'hdntl=[^"]*' zee.m3u | head -n1)
-        echo "$zee_hdntl" > zee_hdntl.txt
-
-        # Extract EPG URL from M3U header
-        epg_url=$(grep -o 'x-tvg-url="[^"]*"' jio.m3u | sed -E 's/x-tvg-url="([^"]*)"/\1/')
-        echo "$epg_url" > epg_url.txt
-
-    - name: Update tokens + EPG in full_channels.json
+    - name: Update JSON with new tokens and EPG URL
       run: |
         jio_cookie=$(cat jio_cookie.txt)
         zee_hdntl=$(cat zee_hdntl.txt)
         epg_url=$(cat epg_url.txt)
 
         jq --arg epg "$epg_url" --arg jio "$jio_cookie" --arg zee "$zee_hdntl" '
-          .epg_url = $epg |
-          .channels |= map(
-            if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
-              .cookie = $jio |
-              .stream_url |= sub("__hdnea__=[^&]*"; $jio) |
-              .stream_url |= sub("cookie=__hdnea__=[^&]*"; "cookie=" + $jio)
-            elif (.stream_url | test("zee5.com")) then
-              .cookie = $zee |
-              .stream_url |= sub("hdntl=[^&]*"; $zee)
-            else
-              .
-            end
-          )
+          {
+            epg_url: $epg,
+            channels: (
+              .[] | map(
+                if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
+                  .cookie = $jio |
+                  .stream_url |= sub("__hdnea__=[^&]*"; $jio) |
+                  .stream_url |= sub("cookie=__hdnea__=[^&]*"; "cookie=" + $jio)
+                elif (.stream_url | test("zee5.com")) then
+                  .cookie = $zee |
+                  .stream_url |= sub("hdntl=[^&]*"; $zee)
+                else
+                  .
+                end
+              )
+            )
+          }
         ' full_channels.json > temp.json && mv temp.json full_channels.json
 
-    - name: Commit and push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit and Push changes
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         git add full_channels.json
-        git commit -m "Auto-update __hdnea__, hdntl tokens + EPG URL" || echo "No changes"
-
-        git pull --rebase origin main || true
-        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+        git commit -m "Auto-update tokens & EPG URL"
+        git push
