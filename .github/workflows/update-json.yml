@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Fetch remote playlists and extract tokens
       run: |
@@ -25,7 +25,7 @@ jobs:
         zee_hdntl=$(grep -o 'hdntl=[^"]*' zee.m3u | head -n1)
         echo "$zee_hdntl" > zee_hdntl.txt
 
-        # Extract EPG URL from EXTINF header
+        # Extract EPG URL from M3U header
         epg_url=$(grep -o 'x-tvg-url="[^"]*"' jio.m3u | sed -E 's/x-tvg-url="([^"]*)"/\1/')
         echo "$epg_url" > epg_url.txt
 
@@ -35,7 +35,6 @@ jobs:
         zee_hdntl=$(cat zee_hdntl.txt)
         epg_url=$(cat epg_url.txt)
 
-        # Update epg_url + tokens inside JSON
         jq --arg epg "$epg_url" --arg jio "$jio_cookie" --arg zee "$zee_hdntl" '
           .epg_url = $epg |
           .channels |= map(
@@ -58,13 +57,9 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        
+
         git add full_channels.json
-        git commit -m "Auto-update __hdnea__, hdntl tokens + EPG URL" || echo "No changes to commit"
+        git commit -m "Auto-update __hdnea__, hdntl tokens + EPG URL" || echo "No changes"
 
-        # Rebase onto latest main to avoid rejected push
-        git fetch origin main
-        git rebase origin/main || git rebase --skip
-
-        # Push with token authentication
+        git pull --rebase origin main || true
         git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
