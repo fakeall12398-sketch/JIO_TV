@@ -1,4 +1,7 @@
-[
+
+{
+  "epg_url": "https://avkb.short.gy/jioepg.xml.gz",
+  "channels": [
   {
     "id": "1373",
     "title": "Disney Channel",
