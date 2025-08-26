@@ -1,4 +1,4 @@
-name: Update Jio (__hdnea__), Zee5 (hdntl), and EPG in full_channels.json
+name: Update Jio (__hdnea__) + Zee5 (hdntl) tokens in full_channels.json
 
 on:
   schedule:
@@ -17,39 +17,33 @@ jobs:
       run: |
         # Fetch JioTV playlist for __hdnea__ token
         curl -sL -o jio.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/jstar.m3u"
-        jio_cookie=$(grep -o '__hdnea__=[^"]*' jio.m3u | head -n1)
+        jio_cookie=$(grep -o '__hdnea__=[^"&]*' jio.m3u | head -n1)
         echo "$jio_cookie" > jio_cookie.txt
 
         # Fetch Zee5 playlist for hdntl token
         curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"
-        zee_hdntl=$(grep -o 'hdntl=[^"]*' zee.m3u | head -n1)
+        zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1)
         echo "$zee_hdntl" > zee_hdntl.txt
 
-        # Write EPG URL from secret
-        echo "${{ secrets.EPG_URL }}" > epg_url.txt
-
-    - name: Update tokens and epg in full_channels.json
+    - name: Update tokens in full_channels.json
       run: |
         jio_cookie=$(cat jio_cookie.txt)
         zee_hdntl=$(cat zee_hdntl.txt)
-        epg_url=$(cat epg_url.txt)
 
-        jq --arg jio "$jio_cookie" --arg zee "$zee_hdntl" --arg epg "$epg_url" '
-          {
-            epg_url: $epg,
-            channels: map(
-              if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
-                .cookie = $jio |
-                .stream_url |= sub("__hdnea__=[^&]*"; $jio) |
-                .stream_url |= sub("cookie=__hdnea__=[^&]*"; "cookie=" + $jio)
-              elif (.stream_url | test("zee5.com")) then
-                .cookie = $zee |
-                .stream_url |= sub("hdntl=[^&]*"; $zee)
-              else
-                .
-              end
-            )
-          }
+        # Update inside .channels array, keep epg_url intact
+        jq --arg jio "$jio_cookie" --arg zee "$zee_hdntl" '
+          .channels |= map(
+            if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
+              .cookie = $jio |
+              .stream_url |= sub("__hdnea__=[^&]*"; $jio) |
+              .stream_url |= sub("cookie=__hdnea__=[^&]*"; "cookie=" + $jio)
+            elif (.stream_url | test("zee5.com")) then
+              .cookie = $zee |
+              .stream_url |= sub("hdntl=[^&]*"; $zee)
+            else
+              .
+            end
+          )
         ' full_channels.json > temp.json && mv temp.json full_channels.json
 
     - name: Commit and push changes
@@ -60,11 +54,8 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
         git add full_channels.json
-        git commit -m "Auto-update __hdnea__, hdntl tokens and EPG in full_channels.json" || echo "No changes to commit"
+        git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
 
-        # Rebase onto latest main to avoid rejected push
         git fetch origin main
         git rebase origin/main || git rebase --skip
-
-        # Push with token authentication
         git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
