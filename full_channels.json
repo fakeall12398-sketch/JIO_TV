@@ -2,6 +2,17 @@
   "epg_url": "https://avkb.short.gy/jioepg.xml.gz",
   "channels": [
     {
+    "id": "1",
+    "movie-type": "web"
+    "title": "BIG BOSS",
+    "group_title": "24/7", 
+    "logo_url": "https://ibb.co/bg52dC6f",
+    "stream_url": "https://restream-bay.vercel.app/?id=356533.m3u8",
+    "license_url": "",
+    "user_agent": "",
+    "cookie": ""
+    }
+    {
       "id": "1373",
       "title": "Disney Channel",
       "group_title": "Jiostar",
