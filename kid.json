@@ -742,7 +742,7 @@
         "user_agent": "",
         "cookie": ""
     },
-{
+    {
         "id": "Animax.in",
         "title": "Animax [Geo-blocked]",
         "group_title": "Animation",
@@ -3491,8 +3491,6 @@
         "license_url": "",
         "user_agent": "",
         "cookie": ""
-    },
-    
+    }  
 ]
-
 }
