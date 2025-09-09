@@ -1,0 +1,4762 @@
+[
+    {
+        "id": "1",
+        "title": "6 TV Telugu (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/l3EcRnZ.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/232/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "2",
+        "title": "7S Music (576p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/zDiIhdN.png",
+        "stream_url": "http://103.199.161.254/Content/7smusic/Live/Channel(7smusic)/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "3",
+        "title": "9X Jalwa (1080p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/qubgOi5.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "4",
+        "title": "9x Jhakaas",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/aZ0f85I.png",
+        "stream_url": "https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "5",
+        "title": "9X Tashan",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/MMR1RMF.png",
+        "stream_url": "https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "6",
+        "title": "9XM (576p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/F17QtN2.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/23886666-8fc5-470f-aab1-bd637ed607b1/3.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "7",
+        "title": "10 TV (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/TauWtuJ.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/391/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "8",
+        "title": "99TV (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/dZA4gel.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/1211/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "9",
+        "title": "&flix (480p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/WOyfzjC.png",
+        "stream_url": "https://edge3-moblive.yuppcdn.net/drm/smil:nflixdrm.smil/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "10",
+        "title": "&xplor HD (1080p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/9mK6dgM.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-209",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "11",
+        "title": "A1 TV Rajasthan (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/XJA3bh1.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/a1tv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "12",
+        "title": "Aaj Tak (404p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/RpIdCB3.png",
+        "stream_url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "13",
+        "title": "Aakaash Aath (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/rAAgfJ4.png",
+        "stream_url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "14",
+        "title": "Aamar Bangla (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://www.jagobd.com/wp-content/uploads/2022/07/Aamar-Bangla.jpg",
+        "stream_url": "https://live-stream.utkalbongo.com/utkalbongo/stream10/hls/amarbangla.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "15",
+        "title": "Aastha (480p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/IqgrV92.png",
+        "stream_url": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/chunklist_b1328000.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "16",
+        "title": "Aastha Bhajan (480p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/LyDxqnF.png",
+        "stream_url": "https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8",
+        "license_url": "",
+        "user_agent": "Aasthatv.in",
+        "cookie": ""
+    },
+    {
+        "id": "17",
+        "title": "Aastha Kannada (480p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/wP9q0KZ.png",
+        "stream_url": "https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "18",
+        "title": "Aastha Tamil (480p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/YQK9ewf.png",
+        "stream_url": "https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "19",
+        "title": "Aastha Telugu (480p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/P0IIqZn.png",
+        "stream_url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "20",
+        "title": "ABN Andhra Jyoti (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/gcoiZJ3.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/407/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "21",
+        "title": "ABN TV India (540p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/VcZn60X.png",
+        "stream_url": "https://mediaserver.abnvideos.com/streams/abntvindia.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "22",
+        "title": "ABP Ananda (1080p)",
+        "group_title": "News",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ABP_Ananda_logo.svg/512px-ABP_Ananda_logo.svg.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "23",
+        "title": "ABP Asmita (1080p)",
+        "group_title": "News",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/ABP_Asmita_logo.svg/512px-ABP_Asmita_logo.svg.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-asmita/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "24",
+        "title": "ABP Ganga (1080p)",
+        "group_title": "News",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/ABP_Ganga.svg/512px-ABP_Ganga.svg.png",
+        "stream_url": "https://abplivetv.akamaized.net/hls/live/2043013/ganga/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "25",
+        "title": "ABP Majha (360p)",
+        "group_title": "News",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/ABP_Majha_logo.svg/512px-ABP_Majha_logo.svg.png",
+        "stream_url": "https://in1.sunilprasad.com.np/yuppLive/abp-majha/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "26",
+        "title": "ABP News (720p)",
+        "group_title": "News",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/ABP_News_logo.svg/512px-ABP_News_logo.svg.png",
+        "stream_url": "https://abplivetv.akamaized.net/hls/live/2043010/hindi/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "27",
+        "title": "ABP Sanjha (720p)",
+        "group_title": "News",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ABP_Sanjha_logo.svg/512px-ABP_Sanjha_logo.svg.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-sanjha/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "28",
+        "title": "Abzy Dhakad (480p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/5ORC4tn.png",
+        "stream_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "29",
+        "title": "Abzy Movies (480p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/LnVgKVF.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "30",
+        "title": "Alankar TV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/fY3ApRs.png",
+        "stream_url": "https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "31",
+        "title": "Amrita TV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/WdSjlPl.png",
+        "stream_url": "https://d2lzf5tle3ge1s.cloudfront.net/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "32",
+        "title": "Angel TV India (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/qKLEGU7.png",
+        "stream_url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelindia_all/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "33",
+        "title": "Animax [Geo-blocked]",
+        "group_title": "Animation",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png",
+        "stream_url": "https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "34",
+        "title": "Anjan (1080p) [Not 24/7]",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/sh0yFSf.png",
+        "stream_url": "https://anjantvevent.pc.cdn.bitgravity.com/anjantv/live/amlst:event_anjan_,b400,b800,b1024,b1200,b1500,b4000,.smil/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "35",
+        "title": "ANN News (720p)",
+        "group_title": "News",
+        "logo_url": "https://asianewsnetwork.net/wp-content/uploads/2020/03/cropped-LOGO-NEW.png",
+        "stream_url": "https://cdn.ottlive.co.in/annnews/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "36",
+        "title": "APN (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/RhkbhZD.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/apnnews/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "37",
+        "title": "Apna Punjab TV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/IM4D8Wz.png",
+        "stream_url": "https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "38",
+        "title": "Argus News (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/cGjRe01.png",
+        "stream_url": "https://live.argusnews.in/hls/argustv.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "39",
+        "title": "Artist Aloud (1080p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/urLlfSo.png",
+        "stream_url": "https://live.hungama.com/linear/artist-aloud/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "40",
+        "title": "Ashrafi Channel (484p) [Not 24/7]",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/IXpFcJA.png",
+        "stream_url": "https://ashrafichannel.livebox.co.in/ashrafivhannelhls/live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "41",
+        "title": "Asianet News (360p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/LrHGfdC.png",
+        "stream_url": "https://vidcdn.vidgyor.com/asianet-origin/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "42",
+        "title": "Asianet News Kannada (360p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/19joZ1o.png",
+        "stream_url": "https://vidcdn.vidgyor.com/suvarna-origin/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "43",
+        "title": "Asianet News Tamil (360p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/pGA2R8l.png",
+        "stream_url": "https://vidcdn.vidgyor.com/ptm-origin/aslive/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "44",
+        "title": "Asianet Plus (1080p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/qg1IhV8.png",
+        "stream_url": "http://217.20.112.199/asianet/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "45",
+        "title": "Awaaz India TV (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.ytimg.com/vi/8BzmlfZm2xU/hqdefault.jpg",
+        "stream_url": "http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "46",
+        "title": "Ayush TV (360p) [Not 24/7]",
+        "group_title": "Lifestyle",
+        "logo_url": "https://i.imgur.com/PWzvp0B.png",
+        "stream_url": "https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "47",
+        "title": "B4U Bhojpuri (1080p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/NwOQUDp.png",
+        "stream_url": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "48",
+        "title": "B4U Kadak (1080p) [Not 24/7]",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/CKLn0ft.png",
+        "stream_url": "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "49",
+        "title": "B4U Movies India (1080p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/M9kMFJl.png",
+        "stream_url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "50",
+        "title": "B4U Music (1080p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/KSxPLJA.png",
+        "stream_url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "51",
+        "title": "B4U Plus (576p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.postimg.cc/L4Cpy9qt/b4uplus.png",
+        "stream_url": "http://183.89.246.119:8881/play/a08l/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "52",
+        "title": "Bada Khabar (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/XiwygDJ.png",
+        "stream_url": "https://badakhabar.livebox.co.in/Badakhabarhls/live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "53",
+        "title": "Balle Balle (720p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/oxkkWH5.png",
+        "stream_url": "https://mcncdndigital.com/balleballetv/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "54",
+        "title": "Bansal News (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/8QL8SiB.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/bansalnews/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "55",
+        "title": "Bhakthi TV (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/6/61/Bhakthi_TV_logo.jpg",
+        "stream_url": "https://cdn-1.pishow.tv/live/397/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "56",
+        "title": "Bharat24 (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/Jx1OX9N.png",
+        "stream_url": "https://legitpro.co.in/bharat24live/bharat24live/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "57",
+        "title": "Bharat Express (480p)",
+        "group_title": "News",
+        "logo_url": "https://bharatexpress.com/wp-content/themes/newstrackcms/images/bharat-express-new-logo.png",
+        "stream_url": "https://stream1.livebox.co.in/VCAREhls/live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "58",
+        "title": "Bharat Samachar TV (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/x5f8E3K.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/bharatsamachar/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "59",
+        "title": "Bhojpuri Cinema (720p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/ABxIO7r.jpg",
+        "stream_url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "60",
+        "title": "BIG TV (720p)",
+        "group_title": "News",
+        "logo_url": "https://static.wikia.nocookie.net/logopedia/images/4/4f/BiG_TV_%28Stacked%29.svg/revision/latest/scale-to-width-down/250?cb=20180316124023",
+        "stream_url": "https://cdn-1.pishow.tv/live/1059/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "61",
+        "title": "Blessing TV Tamil (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/GlfrYs7.png",
+        "stream_url": "https://stream.blessingtv.tv:1443/blessingtv-tamillive/mystream_720p/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "62",
+        "title": "Boogle Bollywood (1080p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/gaKzWdo.png",
+        "stream_url": "http://live.agmediachandigarh.com/booglebollywood/774e3ea9f3fa9bcdac47f445b83b6653.sdp/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "63",
+        "title": "BTV News (720p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/0BEPrNQ.png",
+        "stream_url": "https://vidcdn.vidgyor.com/btv-origin/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "64",
+        "title": "Calvary TV (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/BvQzwSp.png",
+        "stream_url": "https://player.mslivestream.net/mslive/71e7f7cc7dc7c51206b7b3bbb51e3052.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "65",
+        "title": "Captain TV (576p) [Not 24/7]",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/nLRqcj1.png",
+        "stream_url": "http://103.199.160.85/Content/captain/Live/Channel(Captain)/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "66",
+        "title": "CCV (480p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/4ss0KfA.png",
+        "stream_url": "https://5a1178b42cc03.streamlock.net/8212/8212/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "67",
+        "title": "CD News (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/zIXsuC2.png",
+        "stream_url": "https://5a1178b42cc03.streamlock.net/8174/8174/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "68",
+        "title": "Channel Divya (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/RZVmCxf.png",
+        "stream_url": "https://mcncdndigital.com/divyatv/index.fmp4.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "69",
+        "title": "Channel WIN (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/yrBBCO4.png",
+        "stream_url": "https://cdn-4.pishow.tv/live/229/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "70",
+        "title": "Chumbak TV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/hi/7/77/Chumbak-TV.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/1451/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "71",
+        "title": "CNBC Bajar (504p) [Geo-blocked]",
+        "group_title": "Business",
+        "logo_url": "https://i.imgur.com/cORao6C.png",
+        "stream_url": "https://cnbcbazar-lh.akamaihd.net/i/cnbcbajar_1@178933/index_5_av-p.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "72",
+        "title": "CNBC TV18 (1080p)",
+        "group_title": "Business",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CNBC_TV18.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cnbc-tv18/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "73",
+        "title": "CTVN AKD Plus (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/QThBcw4.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/ctvnakdplus/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "74",
+        "title": "CVR English (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/k0WTQKi.png",
+        "stream_url": "https://cdn-2.pishow.tv/live/425/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "75",
+        "title": "Dabangg (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/6ChpxLy.png",
+        "stream_url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01448-samsungin-dabanggin-samsungin/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "76",
+        "title": "Dangal TV (720p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/6JTb3cd.png",
+        "stream_url": "https://live-dangal.akamaized.net/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "77",
+        "title": "Darshana TV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "",
+        "stream_url": "https://cdn-2.pishow.tv/live/1453/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "78",
+        "title": "DD Arun Prabha (360p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/dHURIzT.png",
+        "stream_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/308556d9fd1246adb479ef012a39bbfe/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "79",
+        "title": "DD Assam",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/UAkOyRI.png",
+        "stream_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/d380bf5c167b4319a46cdd8204bc26b2/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "80",
+        "title": "DD Bangla",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/RHly9gC.png",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/2e9e32a4-c4f7-49c3-96d6-c4e3660c7e3f/2.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "81",
+        "title": "DD Bharati (720p)",
+        "group_title": "Culture",
+        "logo_url": "https://i.imgur.com/4tfUIEo.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/10/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "82",
+        "title": "DD Bihar (720p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/C7KQiZI.png",
+        "stream_url": "https://cdn-4.pishow.tv/live/35/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "83",
+        "title": "DD Chandana",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/MaDlMtb.png",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/3829f99b-4951-4a9d-98c1-dbc3acfe5193/2.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "84",
+        "title": "DD Chhattisgarh (720p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/zBg6Iuv.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/15/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "85",
+        "title": "DD Girnar",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/4RT559e.png",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/4a7a0c8a-c58d-43d6-baff-13492d67bf3e/2.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "86",
+        "title": "DD Goa (504p)",
+        "group_title": "General",
+        "logo_url": "https://yt3.googleusercontent.com/TMl5_x4s5QmOQczAtF9Yc4S-l2APomVtQy_diHuDvxLaF70UwFzXgfwTNw8j1adNPKBItex1o5k=s900-c-k-c0x00ffffff-no-rj",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/e5b9db1cc184406bb97159da2f120f91/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "87",
+        "title": "DD Haryana",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/1T92u0F.jpeg",
+        "stream_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/950fc69666474351bde0a32b9600c804/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "88",
+        "title": "DD Himachal Pradesh (504p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/5IfuVGR.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/afd2e335b0ba40eb9bdf1096118c6ede/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "89",
+        "title": "DD Jharkhand",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/VKpjoD9.png",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/2c6c5c20-6afe-47c4-934f-a0d7002cb151/2.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "90",
+        "title": "DD Kashir (720p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/1EI4LOf.png",
+        "stream_url": "https://cdn-6.pishow.tv/live/16/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "91",
+        "title": "DD Kisan (720p)",
+        "group_title": "Education;Outdoor",
+        "logo_url": "https://i.imgur.com/x56WJEa.png",
+        "stream_url": "https://cdn-6.pishow.tv/live/9/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "92",
+        "title": "DD Madhya Pradesh (720p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/Z1yIY4M.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/31/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "93",
+        "title": "DD Malayalam",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/ywm2dTl.png",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/562ee8f9-9950-48a0-ba1d-effa00cf0478/2.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "94",
+        "title": "DD Manipur (504p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/CvmIwPF.png",
+        "stream_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/8b75afc6576f450e8f554b6c877681d2/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "95",
+        "title": "DD Meghalaya (504p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/ik83EbG.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/4f81bc8d13dd49b484da35988abb8729/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "96",
+        "title": "DD Mizoram (504p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/I5zT1DG.png",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/22ee1f87-4ac9-4d6b-9ec4-d5287739b4b4/2.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "97",
+        "title": "DD Nagaland (504p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/HUL4aF6.png",
+        "stream_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/29c92e0bef954a6d9b0908d1be29c1f0/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "98",
+        "title": "DD National HD (1080p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/MohlE5B.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "99",
+        "title": "DD News (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/H4f9R7n.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "100",
+        "title": "DD Odia",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/Rw61ile.png",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/245d9a9e-4820-43b1-af33-4a3017d09f52/2.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "101",
+        "title": "DD Punjabi",
+        "group_title": "Culture",
+        "logo_url": "https://i.imgur.com/WVtl6n2.png",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/20c8ad14-a158-4a42-8889-e032d070856e/2.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "102",
+        "title": "DD Rajasthan (720p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/t8KCi4L.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/34/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "103",
+        "title": "DD Sahyadri",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/svjI6U6.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/66dcc3ebe182447ba42837e746cf0c7c/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "104",
+        "title": "DD Saptagiri",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/tmMEsEe.png",
+        "stream_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/26e915d6d12b4a06822c5e33c088ed56/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "105",
+        "title": "DD Sports (720p)",
+        "group_title": "Sports",
+        "logo_url": "https://i.imgur.com/J2Ky5OO.png",
+        "stream_url": "https://cdn-6.pishow.tv/live/13/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "106",
+        "title": "DD Tamil (1080p)",
+        "group_title": "General",
+        "logo_url": "https://yt3.googleusercontent.com/gOPDl0p0Ssungy3AfKG9MNHeW1QEwRmoFw0_dwDsUulDPE5Hv9nicA3MCjYyzYInzw8kbd5C=s900-c-k-c0x00ffffff-no-rj",
+        "stream_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "107",
+        "title": "DD Tripura",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/ctlcdOw.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/52b998e9510d41c29ad2ceca8ea3d849/index_3.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "108",
+        "title": "DD Urdu (720p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/OiQPS34.png",
+        "stream_url": "https://cdn-4.pishow.tv/live/8/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "109",
+        "title": "DD Uttar Pradesh (720p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/oKsUqBs.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/36/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "110",
+        "title": "DD Uttarakhand (720p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/GzBsbos.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/17/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "111",
+        "title": "Desi Channel (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "",
+        "stream_url": "https://live.wmncdn.net/desichannel/7e2dd0aed46b70a5c77f4affdb702e4b.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "112",
+        "title": "Dhamaal (1080p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/J6D56EF.png",
+        "stream_url": "https://live.hungama.com/linear/dhamaal/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "113",
+        "title": "Dheeran TV (576p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/jSedjXf.png",
+        "stream_url": "https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "114",
+        "title": "Dhinchaak (576p) [Not 24/7]",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/oqqChlH.png",
+        "stream_url": "http://14.199.164.20:4001/play/a0o5/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "115",
+        "title": "Dhoom Music (720p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/ai9gpjy.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/1456/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "116",
+        "title": "Dighvijay (240p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/gSuWhWd.png",
+        "stream_url": "https://vidcdn.vidgyor.com/dighvijay-origin/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "117",
+        "title": "Dil Se (360p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/zYbltEk.png",
+        "stream_url": "https://live.hungama.com/linear/dil-se/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "118",
+        "title": "Disha TV (576p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/U4W0Rw8.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/dishatv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "119",
+        "title": "Disney Channel (576p) [Not 24/7]",
+        "group_title": "Kids",
+        "logo_url": "https://i.postimg.cc/854KwmH1/disneychannel.png",
+        "stream_url": "http://116.90.120.149:8000/play/a0bx/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "120",
+        "title": "Disney Junior (576p)",
+        "group_title": "Kids",
+        "logo_url": "https://i.postimg.cc/KvRqrLg2/disneyjunior.png",
+        "stream_url": "http://116.90.120.149:8000/play/a0b3/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "121",
+        "title": "Doctor Live (720p)",
+        "group_title": "Lifestyle",
+        "logo_url": "https://i.imgur.com/D6cMaVs.png",
+        "stream_url": "https://5a1178b42cc03.streamlock.net/8250/8250/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "122",
+        "title": "DY 365 (360p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/8LZS3z6.png",
+        "stream_url": "https://cdn.smartstream.video/smartstream-us/dy365/dy365/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "123",
+        "title": "E 24",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/vCaPNTe.png",
+        "stream_url": "https://live-e24.dailyhunt.in/eternowsa/live/amlst:E24_,b256,b512,b1024,b1824,.smil/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "124",
+        "title": "EET TV (1080p) [Not 24/7]",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/rMldFW8.png",
+        "stream_url": "https://live.streamjo.com/eetlive/eettv.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "125",
+        "title": "Enlight News (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/GhiGi5A.png",
+        "stream_url": "https://live.enlightnews.com/live/enlightnews/tracks-v1a1/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "126",
+        "title": "Enter10 Bangla (720p) [Not 24/7]",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/fkOxQtS.png",
+        "stream_url": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "127",
+        "title": "Epic TV (1080p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/h1Ofnon.png",
+        "stream_url": "https://epiconvh.akamaized.net/live/epic/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "128",
+        "title": "ET Now (720p)",
+        "group_title": "Business",
+        "logo_url": "https://i.imgur.com/ueI0VwW.png",
+        "stream_url": "https://etnowweblive.akamaized.net/hls/live/2034678/ETNOWMSL4/chunklist_2.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "129",
+        "title": "ET Now Swadesh (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/AJpMZIv.png",
+        "stream_url": "https://d32gxr3r1ksq2p.cloudfront.net/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "130",
+        "title": "ETV Abhiruchi (1080p)",
+        "group_title": "Cooking",
+        "logo_url": "https://i.imgur.com/3D5SN3E.png",
+        "stream_url": "https://d2tbworamivdmb.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264-3_cloud-in/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "131",
+        "title": "ETV Andhra Pradesh (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/pFNCRnf.png",
+        "stream_url": "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "132",
+        "title": "ETV Cinema HD (1080p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/iMxePjI.png",
+        "stream_url": "https://d1q7j6ha51ro6f.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264-3_cloud_in/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "133",
+        "title": "ETV Life (480p)",
+        "group_title": "Lifestyle",
+        "logo_url": "https://i.imgur.com/RFfpcoY.png",
+        "stream_url": "https://d2cj1h11htct8o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_LIFE_H264_cloud_in/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "134",
+        "title": "ETV Plus HD (1080p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/GYGOWI2.png",
+        "stream_url": "https://d27tnkf60df3v4.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_PLUS_H264-3_cloud_in/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "135",
+        "title": "ETV Telangana (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/DkgvWTK.png",
+        "stream_url": "https://dssp63pjfajz9.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264-3_cloud_in/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "136",
+        "title": "ETV Telugu HD (1080p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/0/07/ETV_old_logo.png",
+        "stream_url": "https://d2z3q47xzd535o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264-2_cloud_in/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "137",
+        "title": "Fakt Marathi (720p) [Not 24/7]",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/y0VS4QN.png",
+        "stream_url": "https://cdn-6.pishow.tv/live/10002/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "138",
+        "title": "Fateh TV",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/c4ItNkB.png",
+        "stream_url": "https://ott.livelegitpro.in/fatehtv/fatehtv/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "139",
+        "title": "Filamchi Bhojpuri (1080p)",
+        "group_title": "Movies",
+        "logo_url": "",
+        "stream_url": "https://epiconvh.akamaized.net/live/filamchi/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "140",
+        "title": "Filmeraa (720p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.ibb.co/p4BwH0x/images-5.png",
+        "stream_url": "https://a.jsrdn.com/broadcast/7ef91d3d7a/+0000/c.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "141",
+        "title": "First India News (360p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/MUTe7cu.png",
+        "stream_url": "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "142",
+        "title": "Flowers TV (576p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/vpoiA6i.png",
+        "stream_url": "http://103.199.161.254/Content/flowers/Live/Channel(Flowers)/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "143",
+        "title": "Food Food (576p) [Not 24/7]",
+        "group_title": "Cooking;Lifestyle",
+        "logo_url": "https://i.imgur.com/J930pA1.png",
+        "stream_url": "http://14.199.164.20:4001/play/a0qx/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "144",
+        "title": "Fox TV (720p) [Not 24/7]",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/cvpDeYH.png",
+        "stream_url": "http://stream-live.in:11037/hls/foxtv.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "145",
+        "title": "Gaunda Punjab TV",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/ArRZRM3.png",
+        "stream_url": "http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "146",
+        "title": "GDNS Ludhiana (1080p) [Not 24/7]",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/JRjcYGl.jpg",
+        "stream_url": "http://akalmultimedia.net:1935/gdnslive/gdns-live/chunklist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "147",
+        "title": "Global Punjab (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/WDLqcWW.png",
+        "stream_url": "https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "148",
+        "title": "Goa365 (1080p)",
+        "group_title": "News",
+        "logo_url": "https://www.goa365.tv/images/GOA-365-Logo.jpg",
+        "stream_url": "https://ktismaservers.in:3086/live/goa365live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "149",
+        "title": "Good News Today (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/iMzUrb9.png",
+        "stream_url": "https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "150",
+        "title": "Good Shepherd TV (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/1vQH3cM.png",
+        "stream_url": "http://162.250.201.58:8032/goodshepherd/web/index.fmp4.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "151",
+        "title": "GoodNews TV (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/ZrvoGqS.png",
+        "stream_url": "https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "152",
+        "title": "Gospel TV India (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.ibb.co/xhbZvzt/cropped-final-logo-300x127.png",
+        "stream_url": "http://live.adostream.com:1935/gospeltv/gospeltv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "153",
+        "title": "Gosree Vision (576p) [Not 24/7]",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/pdBo8Xb.png",
+        "stream_url": "https://5a1178b42cc03.streamlock.net/8068/8068/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "154",
+        "title": "Grace Family TV (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/srOoujm.png",
+        "stream_url": "https://gracefamilytv.livebox.co.in/gracefamilytvhls/live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "155",
+        "title": "GSTV (720p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/VCKeGFj.png",
+        "stream_url": "https://1-213-10546-44.b.cdn13.com/388656798579293628302251.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "156",
+        "title": "Gubbare (1080p)",
+        "group_title": "Kids",
+        "logo_url": "https://i.imgur.com/Bvbf9o7.png",
+        "stream_url": "https://epiconvh.akamaized.net/live/gubbare/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "157",
+        "title": "Gulistan News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/q5z6ycZ.png",
+        "stream_url": "https://live.gulistannews.in/hls/gul.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "158",
+        "title": "Gyandarshan (720p)",
+        "group_title": "Education",
+        "logo_url": "https://i.imgur.com/YJQhlpq.png",
+        "stream_url": "https://cdn-6.pishow.tv/live/14/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "159",
+        "title": "Hamdard TV (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.ibb.co/JcD2xck/logo-hamda.png",
+        "stream_url": "https://tv.hamdardtv.com/hamdard/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "160",
+        "title": "Harvest TV (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/Aoq6mpT.png",
+        "stream_url": "https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvesttvlive1/bbb19eae240ec100af921d511efc86a0.sdp/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "161",
+        "title": "Harvest TV Keralam (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/1DyPuIt.png",
+        "stream_url": "https://live.wmncdn.net/harvestenglish/d1796a22d24e8696c7d5d0b5c349fdd2.sdp/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "162",
+        "title": "Harvest USA (576p)",
+        "group_title": "Religious",
+        "logo_url": "https://www.lyngsat.com/logo/tv/hh/harvest_tv_in_usa.png",
+        "stream_url": "https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "163",
+        "title": "Hebron TV (432p)",
+        "group_title": "Religious",
+        "logo_url": "https://i0.wp.com/hebrontv.in/wp-content/uploads/2023/11/hebron-.png?w=512",
+        "stream_url": "https://account20.livebox.co.in/charleshls/live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "164",
+        "title": "Hi Dost! (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/bnST6y5.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/224/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "165",
+        "title": "High News (480p)",
+        "group_title": "News",
+        "logo_url": "https://pbs.twimg.com/profile_images/1104268476858937351/USUT4ykS_400x400.png",
+        "stream_url": "https://highmedia.livebox.co.in/HIGHNEWShls/LIVE.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "166",
+        "title": "Hindi Khabar (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/iuz6K6i.png",
+        "stream_url": "https://server.livelegitpro.in:9899/hindikhabar/hindikhabar/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "167",
+        "title": "History TV18 HD (1080p) [Geo-blocked]",
+        "group_title": "Documentary",
+        "logo_url": "https://i.imgur.com/zNJKdRf.png",
+        "stream_url": "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "168",
+        "title": "HMTV (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/GJ52eFs.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/280/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "169",
+        "title": "HNN 24x7 (576p)",
+        "group_title": "News",
+        "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCVaHnXsaEt_m9s71ZRgHMPUckFZ8cW87J-AsQh0Q6pA&s",
+        "stream_url": "https://ott.livelegitpro.in:9899/hnnnews/hnnnews/tracks-v1/index.fmp4.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "170",
+        "title": "Hope Channel India (1080p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/wPzPUrK.png",
+        "stream_url": "https://videodelivery.net/98334a974d26e45759c6baa8bceabbcf/manifest/video.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "171",
+        "title": "Hornbill TV (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/7Y4vQnG.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/hornbilltv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "172",
+        "title": "Hulchul TV (720p) [Not 24/7]",
+        "group_title": "Culture",
+        "logo_url": "https://i.imgur.com/LvkdhRw.png",
+        "stream_url": "http://cdn12.henico.net:8080/live/jbani/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "173",
+        "title": "Hyder TV",
+        "group_title": "Culture",
+        "logo_url": "https://i.imgur.com/reHjjRZ.png",
+        "stream_url": "https://cdn.live247stream.com/hyder/tv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "174",
+        "title": "IBC 24 (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/2LbR2a0.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/220/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "175",
+        "title": "Imayam (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/jHv7t9t.png",
+        "stream_url": "https://server1.thewebworld.in:3114/live/iniyantvlive.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "176",
+        "title": "IND 24 (360p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/exRpVmL.png",
+        "stream_url": "https://gmkd5nkednxo-hls-live.wmncdn.net/ind24tv/live.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "177",
+        "title": "India News (576p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/l54AGtz.png",
+        "stream_url": "https://livetv.newsx.com/itv/itvnetwork5/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "178",
+        "title": "India News Haryana (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/Ot8FDqS.png",
+        "stream_url": "https://livetv.newsx.com/itv/itvnetwork2/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "179",
+        "title": "India News Madhya Pradesh/Chhattisgarh (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/3IoC5QR.png",
+        "stream_url": "https://livetv.newsx.com/itv/itvnetwork7/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "180",
+        "title": "India News Punjab/Himachal (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/Mu1MPvt.png",
+        "stream_url": "https://livetv.newsx.com/itv/itvnetwork8/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "181",
+        "title": "India News Rajasthan (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/i16786i.png",
+        "stream_url": "https://livetv.newsx.com/itv/itvnetwork9/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "182",
+        "title": "India News Uttar Pradesh (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/nMsMlig.png",
+        "stream_url": "https://livetv.newsx.com/itv/itvnetwork3/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "183",
+        "title": "India Today (720p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.postimg.cc/bJ3J8d8z/indiatoday.png",
+        "stream_url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "184",
+        "title": "India TV (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/ztn2IR8.png",
+        "stream_url": "https://poclive-indiatvnews.akamaized.net/hlslive/Admin/px0219297/live/digital/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "185",
+        "title": "India Voice (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/CwDznyQ.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/indiavoice/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "186",
+        "title": "Indywood TV (720p)",
+        "group_title": "Movies;News",
+        "logo_url": "https://i.ibb.co/jT3NCPp/logo-tv.png",
+        "stream_url": "https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "187",
+        "title": "INews (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.postimg.cc/sfHXNBwm/inews.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/411/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "188",
+        "title": "INH 24x7 (360p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/Es3QiVx.png",
+        "stream_url": "https://7epd6o8edk9b-hls-live.wmncdn.net/inh24/live.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "189",
+        "title": "Insync (576p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/fAJdazJ.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/insync/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "190",
+        "title": "iPlus TV (1080p) [Not 24/7]",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/rnfEh0c.png",
+        "stream_url": "https://live.we2live.in/iplustv/iplustv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "191",
+        "title": "Isai Aruvi (576p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/yO18FLo.png",
+        "stream_url": "https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "192",
+        "title": "Ishara TV (1080p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/W5YlC2v.png",
+        "stream_url": "https://epiconvh.akamaized.net/live/ishaara/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "193",
+        "title": "Ishwar Bhakti TV (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/tsPPU1Y.png",
+        "stream_url": "https://6n3yow8pl9ok-hls-live.5centscdn.com/ishwartvlive/tv.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "194",
+        "title": "Jan TV (576p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/RfJBuf5.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/jantv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "195",
+        "title": "Janam TV (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/NMDqooF.png",
+        "stream_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/janamtv_nim_https/140622/janamtv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "196",
+        "title": "Janta TV (360p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/0nKfwhV.png",
+        "stream_url": "https://live.wmncdn.net/jantatv/live.stream/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "197",
+        "title": "Jantantra TV (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/IneOiic.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/jantantratv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "198",
+        "title": "Jeevan TV (396p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/zKDrzDq.png",
+        "stream_url": "https://yupplivefragcp5.yuppcdn.net/030523/smil:jeevan.smil/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "199",
+        "title": "Jinvani Channel (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/lztyGVi.png",
+        "stream_url": "https://cdn-2.pishow.tv/live/989/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "200",
+        "title": "JK 24x7 News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/VIPPB6t.png",
+        "stream_url": "https://live.gulistannews.in/hls/jk.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "201",
+        "title": "Jonack TV (360p) [Not 24/7]",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/X2MU1lm.png",
+        "stream_url": "https://cdn.smartstream.video/smartstream-us/jonakk/jonakk/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "202",
+        "title": "K News India (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/LeBL7ML.png",
+        "stream_url": "https://knews.livebox.co.in/youtubehls/live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "203",
+        "title": "Kadak Hits (1080p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/jxZYTO2.png",
+        "stream_url": "https://live.hungama.com/linear/kadak-hits/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "204",
+        "title": "Kairali News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/GfrEhbx.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/1469/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "205",
+        "title": "Kairali We (396p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/zXpROBj.png",
+        "stream_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/wetv_nim_https/050522/wetv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "206",
+        "title": "Kalaignar Murasu (576p) [Not 24/7]",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/ZDXVWVQ.png",
+        "stream_url": "https://segment.yuppcdn.net/050522/murasu/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "207",
+        "title": "Kalaignar Seithikal (576p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/Pgp3EXM.png",
+        "stream_url": "http://103.199.160.85/Content/kalaignarseithikal/Live/Channel(KalaignarSeithikal)/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "208",
+        "title": "Kalaignar TV (576p)",
+        "group_title": "General",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/3/3a/Kalaignar_logo.jpg",
+        "stream_url": "https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "209",
+        "title": "Kalika TV (576p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/XWXFoJA.png",
+        "stream_url": "http://185.105.4.244:1935/livesp/kalika/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "210",
+        "title": "Kalinga TV (576p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/zdAWlRo.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/kalingatv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "211",
+        "title": "Kanak News (720p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/OzFMOKH.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/kanaknews/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "212",
+        "title": "Kappa TV (576p)",
+        "group_title": "Lifestyle",
+        "logo_url": "https://i.imgur.com/e9qTjgB.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/kappatv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "213",
+        "title": "Kashish News (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/qfINs2r.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/kashishnews/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "214",
+        "title": "Kasthuri (576p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/ZQW6MbU.png",
+        "stream_url": "http://103.199.161.254/Content/kasthuritv/Live/Channel(KasthuriTV)/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "215",
+        "title": "Kaumudy TV (720p)",
+        "group_title": "General",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/7/74/Kaumudy_TV_Logo.jpg",
+        "stream_url": "https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "216",
+        "title": "KCL TV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/bkp9dIm.png",
+        "stream_url": "https://kcltv.livebox.co.in/kclhls/live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "217",
+        "title": "Kerala Vision (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/SWNjyyp.png",
+        "stream_url": "https://yupplivefragcp3.yuppcdn.net/260423/smil:keralavision.smil/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "218",
+        "title": "Keralabhumi (576p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/05BslNS.png",
+        "stream_url": "http://103.153.92.157:11037/hls/kbh.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "219",
+        "title": "Khabar Fast (720p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/l5Li5Pd.png",
+        "stream_url": "https://live.gbtechnology.in/khabarfast/khabarfast/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "220",
+        "title": "Khabrain Abhi Tak (576p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/LIrolUQ.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/khabrainabhitak/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "221",
+        "title": "Khushboo Bangla (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/pQRvsQu.png",
+        "stream_url": "https://cdn-4.pishow.tv/live/1473/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "222",
+        "title": "KITE Victers (Kerala) (720p) [Not 24/7]",
+        "group_title": "Education",
+        "logo_url": "https://i.imgur.com/kj4OEsb.png",
+        "stream_url": "https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "223",
+        "title": "Kolkata TV (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/Umi45ZJ.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kolkata-tv/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "224",
+        "title": "Life TV (480p) [Not 24/7]",
+        "group_title": "Religious",
+        "logo_url": "https://i.postimg.cc/1ztS1BWj/lifetv.png",
+        "stream_url": "http://59c3ec70cfde0.streamlock.net/channel_6/channel6/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "225",
+        "title": "Living India News (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/YikaJvd.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/living-india-news/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "226",
+        "title": "Lok Sabha TV (1080p)",
+        "group_title": "Legislative",
+        "logo_url": "https://i.imgur.com/QavgfiK.png",
+        "stream_url": "https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8",
+        "license_url": "",
+        "user_agent": "https://webcast.gov.in/",
+        "cookie": ""
+    },
+    {
+        "id": "227",
+        "title": "M Sign Media (720p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/8fdUkOl.png",
+        "stream_url": "http://rtmp2.logicwebs.in:1935/msign/msignmedia/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "228",
+        "title": "Madha TV (600p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/UBBaXzz.png",
+        "stream_url": "https://60e68b19dd194.streamlock.net:55/madhatv/madhatv.stream_HDp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "229",
+        "title": "Maha Movie (576p) [Not 24/7]",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/hpShFDL.png",
+        "stream_url": "http://14.199.164.20:4001/play/a0q7/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "230",
+        "title": "Mahaa News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/buT76vR.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahaa-news/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "231",
+        "title": "Maiboli (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/Aaih0rw.png",
+        "stream_url": "https://sablive-ddpb.akamaized.net/maiboli/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "232",
+        "title": "Makkal TV (576i)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/gmnHoRu.png",
+        "stream_url": "https://5k8q87azdy4v-hls-live.wmncdn.net/MAKKAL/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "233",
+        "title": "Malabar News (720p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/Un2gxt4.png",
+        "stream_url": "http://cloud.logicwebs.in:1935/live/malabarnews/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "234",
+        "title": "Malai Murasu TV (720p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/M92IDhq.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/1606/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "235",
+        "title": "Malar TV (720p) [Not 24/7]",
+        "group_title": "General",
+        "logo_url": "https://www.lyngsat.com/logo/tv/mm/malar-tv-in.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/473/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "236",
+        "title": "Mandra TV",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.ibb.co/92vyxNQ/logo.jpg",
+        "stream_url": "http://192.99.2.28/mandra_hls/mandra.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "237",
+        "title": "Manorama News (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/adjRrVx.png",
+        "stream_url": "https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "238",
+        "title": "Manoranjan Grand (720p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/qfMEz78.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/1011/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "239",
+        "title": "Manoranjan Movies (720p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/oTBVML2.png",
+        "stream_url": "https://cdn-2.pishow.tv/live/228/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "240",
+        "title": "Manoranjan TV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/YvAAgPo.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/1013/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "241",
+        "title": "Mantavya News (576p)",
+        "group_title": "News",
+        "logo_url": "",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/mantavya/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "242",
+        "title": "Mastiii (1080p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/lxgXHx4.png",
+        "stream_url": "https://sablive-ddpb.akamaized.net/mastii/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "243",
+        "title": "Mathrubhumi News (576p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/diQftzP.png",
+        "stream_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mathrubhuminews_nim_https/110322/mathrubhuminews/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "244",
+        "title": "Max Middle East (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/AFXPVYD.png",
+        "stream_url": "https://tv.bdixtv24.com/toffee/live.php?e=.m3u8&id=b6192dbff21b",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "245",
+        "title": "Mayyazhi (720p) [Not 24/7]",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/E3WYWF5.jpg",
+        "stream_url": "http://131.153.22.8:1935/MAYYAZHI/live/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "246",
+        "title": "Mazhavil Manorama (396p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/fjgzW20.png",
+        "stream_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "247",
+        "title": "Mazhavil Manorama HD (1080p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/fjgzW20.png",
+        "stream_url": "https://cdn-7.pishow.tv/live/1129/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "248",
+        "title": "Media One (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/oOb7d7R.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/1481/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "249",
+        "title": "Mercy TV (1080p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/klNH4tV.png",
+        "stream_url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "250",
+        "title": "Metro TV (576p)",
+        "group_title": "General",
+        "logo_url": "https://i.postimg.cc/HL6NDmMX/metrotv.png",
+        "stream_url": "https://2nbyjxw5l53k-hls-live.qezycdn.com/metrotv/live.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "251",
+        "title": "Mh 1 Music (720p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/Pi6ldXm.png",
+        "stream_url": "https://mhonemusic.com/hls/1/stream.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "252",
+        "title": "Mh 1 News (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/RH52BX4.png",
+        "stream_url": "https://mhonenews.in/hls/stream.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "253",
+        "title": "MH One Shraddha (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/Lrm8qTO.png",
+        "stream_url": "https://mhoneshaddha.com/hls/1/stream.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "254",
+        "title": "Mirror Now (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/N96LwKG.png",
+        "stream_url": "https://pubads.g.doubleclick.net/ssai/event/DXkHhH2QSnma-HnE3QJqlA/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "255",
+        "title": "MK Six (720p) [Not 24/7]",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/wZjEssv.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/1253/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "256",
+        "title": "MK Tunes (720p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/6SUnfuM.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/433/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "257",
+        "title": "MK TV (720p) [Not 24/7]",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/RyYmyWy.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/1482/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "258",
+        "title": "MNTV (1080p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/cFNw4Af.png",
+        "stream_url": "https://mntv.livebox.co.in/mntvhls/live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "259",
+        "title": "MNTV Music (1080p)",
+        "group_title": "Music",
+        "logo_url": "",
+        "stream_url": "https://mntv.livebox.co.in/musichls/live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "260",
+        "title": "MON TV Bangla (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/8eftKdr.jpeg",
+        "stream_url": "https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "261",
+        "title": "Moon TV (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/3l25EZI.png",
+        "stream_url": "https://player.mslivestream.net/mslive/e10bb900976df9177b9a080314f26f86.sdp/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "262",
+        "title": "MTV HD",
+        "group_title": "Entertainment",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png",
+        "stream_url": "http://144.217.70.181:9587/hin2/MTVINDIA/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "263",
+        "title": "Munsif TV (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/FQLqnE8.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/munsif-tv/e5ae862b-c65c-4b17-b9a8-038853525c64/0.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "264",
+        "title": "Music India (720p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/kXTCYqg.png",
+        "stream_url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "265",
+        "title": "Nambikkai TV (576p)",
+        "group_title": "Family",
+        "logo_url": "https://i.imgur.com/xnjkUOs.png",
+        "stream_url": "https://live.wmncdn.net/nambikkaitv/live.stream/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "266",
+        "title": "Namdhari (404p) [Not 24/7]",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/NalsXTo.png",
+        "stream_url": "https://namdhari.tv/live/sbs1.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "267",
+        "title": "Nandighosha TV (720p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/cxneGRS.png",
+        "stream_url": "https://www.nandighoshatvlive.com/hls/stream/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "268",
+        "title": "Naxatra News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/IGduUk4.png",
+        "stream_url": "https://wearelive.livebox.co.in/naxatratvhls/naxatratv.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "269",
+        "title": "Nazara (1080p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://www.epicon.in/img/nazara-logo.png",
+        "stream_url": "https://epiconvh.akamaized.net/live/nazara/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "270",
+        "title": "Nazrana (720p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/38Run52.png",
+        "stream_url": "https://live.hungama.com/linear/nazrana/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "271",
+        "title": "NCV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/HZy6x27.png",
+        "stream_url": "http://131.153.22.8:1935/NCV/ncvstream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "272",
+        "title": "NDTV 24X7 (480p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/NDTV_247.svg/512px-NDTV_247.svg.png",
+        "stream_url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "273",
+        "title": "NDTV Good Times (1080p)",
+        "group_title": "Lifestyle",
+        "logo_url": "https://i.imgur.com/7cruYvo.png",
+        "stream_url": "https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "274",
+        "title": "NDTV India (480p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/PyDjUZB.png",
+        "stream_url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "275",
+        "title": "NDTV Profit (480p)",
+        "group_title": "Business",
+        "logo_url": "https://i.imgur.com/WK4tZ6p.png",
+        "stream_url": "https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680-b/ndtvprofit/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "276",
+        "title": "Nepal 1 (576p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/Pgg8dQ2.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/nepal1/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "277",
+        "title": "Network 10 (576p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/xkWfruI.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/network10/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "278",
+        "title": "News 1 India (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/J3EWn2J.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/news1india/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "279",
+        "title": "News 1st (576p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/K3hlwDk.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/news1st/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "280",
+        "title": "News 7 Tamil (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/UjlbR4o.png",
+        "stream_url": "https://segment.yuppcdn.net/240122/news7/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "281",
+        "title": "News9Live (720p)",
+        "group_title": "News",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/News9live-logo_1_300x.png",
+        "stream_url": "https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "282",
+        "title": "News 11 (576p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/brLsWXU.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/news11bharat/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "283",
+        "title": "News18 Kerala (1080p) [Geo-blocked]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/AsIdc9P.png",
+        "stream_url": "https://nw18live.cdn.jio.com/bpk-tv/News18_Kerala_NW18_MOB/output01/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "284",
+        "title": "News 24 (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/x72O77X.png",
+        "stream_url": "https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "285",
+        "title": "News J (720p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/RqeF8RR.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/1279/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "286",
+        "title": "News Live (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/OvSc7dc.png",
+        "stream_url": "https://5b48d7e1b4bce.streamlock.net/myapp/newslive/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "287",
+        "title": "News Malayalam 24x7 (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/UJ9QUhj.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-malayalam-24x7/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "288",
+        "title": "News Nation (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/9xeIWqm.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "289",
+        "title": "News Tamil 24x7 (1080p)",
+        "group_title": "News",
+        "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/News_Tamil_24x7.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-tamil-24x7/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "290",
+        "title": "Nick HD+ (1080p) [Not 24/7]",
+        "group_title": "Kids",
+        "logo_url": "https://i.imgur.com/nJPbTet.png",
+        "stream_url": "http://116.90.120.149:8000/play/a0cw/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "291",
+        "title": "Nick Jr India (1080p)",
+        "group_title": "Kids",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png",
+        "stream_url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Nick_Junior_voot_MOB/Fallback/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "292",
+        "title": "NK TV 24x7 (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/xMJ2bv9.png",
+        "stream_url": "https://nktv.smartstream.video/smartstream-us/nktvplus/nktvplus/chunks.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "293",
+        "title": "Northeast Live (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/0Zpwy1Y.png",
+        "stream_url": "https://5b48d7e1b4bce.streamlock.net/myapp/mbrstream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "294",
+        "title": "NTV Telugu (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/WqTIoWS.png",
+        "stream_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/ntv_nim_https/110322/ntv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "295",
+        "title": "Odisha TV (720p)",
+        "group_title": "Culture",
+        "logo_url": "https://i.imgur.com/tCT3qL9.png",
+        "stream_url": "https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "296",
+        "title": "One TV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/6Jh8LRI.png",
+        "stream_url": "http://137.59.86.218:1935/live/onetv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "297",
+        "title": "Orange Bangla TV (720p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/wjSaHj5.png",
+        "stream_url": "https://cdn-4.pishow.tv/live/1499/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "298",
+        "title": "Oscar Movies Bhojpuri (720p)",
+        "group_title": "Movies",
+        "logo_url": "",
+        "stream_url": "https://cdn-4.pishow.tv/live/233/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "299",
+        "title": "Pasand TV (576p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/d/d7/Pasand-TV.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/pasand/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "300",
+        "title": "Peace TV Bangla (1080p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/1ztVXUi.png",
+        "stream_url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "301",
+        "title": "Peace TV Urdu (1080p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.postimg.cc/cLCfzgqB/peacetvurdu.png",
+        "stream_url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "302",
+        "title": "Peppers TV (576p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/5PyJj2n.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/pepperstv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "303",
+        "title": "Pitaara (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/E8MPUM7.png",
+        "stream_url": "https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-583798/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "304",
+        "title": "Polimer News (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/CxcuvXX.png",
+        "stream_url": "https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "305",
+        "title": "Polimer TV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/BTYagXd.png",
+        "stream_url": "https://cdn-2.pishow.tv/live/1241/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "306",
+        "title": "Pop Pataka (480p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/9NacSLW.png",
+        "stream_url": "https://live.hungama.com/linear/pop-pataka/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "307",
+        "title": "Power TV (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.postimg.cc/RZmwMsnG/powertv.png",
+        "stream_url": "https://liveboxvideoconference.livebox.co.in/PowersmartMediahls/powertvlive.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "308",
+        "title": "Prameya News7 (1080p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/zTgkqdS.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/prameya-news7/index.m3u8?ads.dpname=distrotv",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "309",
+        "title": "Prarthana TV (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/gj7dtNF.png",
+        "stream_url": "https://livetv.tarangplus.in/prarthana-origin/live/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "310",
+        "title": "Pratham Khabar 24x7 (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/HNsg5Px.png",
+        "stream_url": "https://livelegitpro.in/hls2/newstime/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "311",
+        "title": "Pratidin Time (576p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/2kzS7y0.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/protidintime/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "312",
+        "title": "Pravasi Channel (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/1dHarb7.png",
+        "stream_url": "https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "313",
+        "title": "Prudent Media (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/DG0x4UD.png",
+        "stream_url": "https://prudentmcdn.rixcast.com/prudentm.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "314",
+        "title": "PTC Chakde (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/4lUwdME.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/449/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "315",
+        "title": "PTC Dhol (720p)",
+        "group_title": "Music",
+        "logo_url": "https://i.ibb.co/C0y7yFJ/Ptc-Dhol-tv.jpg",
+        "stream_url": "https://streaming.ptcplay.com/ptcdholtvINOne/smil:Live.smil/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "316",
+        "title": "PTC Music (720p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/8PHk66Q.png",
+        "stream_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "317",
+        "title": "PTC News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/8BHV6Gr.png",
+        "stream_url": "https://streaming.ptcplay.com/PTCNEWSINONE/smil:Live.smil/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "318",
+        "title": "PTC Punjabi (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/nbUMvaR.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "319",
+        "title": "PTC Punjabi Gold (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/g88pV3L.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "320",
+        "title": "PTC Simran (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/T5VK7G5.png",
+        "stream_url": "https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/a682c050-1974-4e9b-8935-e5508d1ce94d/3.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "321",
+        "title": "Public Music (720p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/0xS5lNT.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/441/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "322",
+        "title": "Public TV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/wczSawd.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/439/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "323",
+        "title": "Pulari TV (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/v5urG30.png",
+        "stream_url": "https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "324",
+        "title": "Punjabi Hits (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/i9xE87K.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "325",
+        "title": "Punjabi Zindabad (360p) [Not 24/7]",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/H46oTS2.png",
+        "stream_url": "http://stream.pztv.online/pztv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "326",
+        "title": "Puthiya Thalaimurai (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/Hgp4sQq.png",
+        "stream_url": "https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "327",
+        "title": "Puthuyugam TV (576p) [Not 24/7]",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/HjwKtSJ.png",
+        "stream_url": "http://103.199.160.85/Content/puthuyugam/Live/Channel(Puthuyugam)/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "328",
+        "title": "R Plus (768p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/XUnWcZF.png",
+        "stream_url": "https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "329",
+        "title": "R Plus Gold (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/dpI7XPC.png",
+        "stream_url": "https://cdn-4.pishow.tv/live/1231/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "330",
+        "title": "Raj Digital Plus (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/m7lm99w.png",
+        "stream_url": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "331",
+        "title": "Raj Musix Tamil (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/hZVa8eQ.png",
+        "stream_url": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "332",
+        "title": "Raj Musix Telugu (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/PcU35KQ.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/1213/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "333",
+        "title": "Raj News Malayalam",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/6JVLzaa.png",
+        "stream_url": "https://rajnewsmalayalam.ylivestream.com/rajnewsmalayalam/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "334",
+        "title": "Raj News Telugu (1080p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/vGl0Zrj.png",
+        "stream_url": "https://livestream.rajtvnet.in/hlslive/Admin/px08241089/live/Raj_News_Telugu/master_1.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "335",
+        "title": "Raj Pariwar (1080p) [Not 24/7]",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/lV9ZGx9.png",
+        "stream_url": "https://livestream.rajtvnet.in/hlslive/Admin/px08241089/live/Raj_Pariwar/master_1.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "336",
+        "title": "Raj TV",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/4oF38ei.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2839e3d1e0f84a2e821c1708d5fdfdf0/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "337",
+        "title": "RDX Goa (720p)",
+        "group_title": "News",
+        "logo_url": "https://rdxgoa.com/news/wp-content/uploads/2018/07/cropped-RDX-NW-LOGO-8-1.png",
+        "stream_url": "https://g5nl6xoalpq6-hls-live.5centscdn.com/rdxgoa/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "338",
+        "title": "Real News Kerala (1080p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/8hnJuxa.png",
+        "stream_url": "https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "339",
+        "title": "Real TV (720p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/OL5qm2c.png",
+        "stream_url": "http://cloud.logicwebs.in:1935/realtv/realtv1/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "340",
+        "title": "Rengoni (576p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/Ss1OBn1.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/rengonitv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "341",
+        "title": "Reporter TV (576p)",
+        "group_title": "News",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Reporter-Malayalam-TV-Channel-Logo.jpg",
+        "stream_url": "https://segment.yuppcdn.net/050522/reporter/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "342",
+        "title": "Republic Bangla (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/jV4vVpH.png",
+        "stream_url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "343",
+        "title": "Republic Bharat (1080p) [Geo-blocked]",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/NEAoh6O.png",
+        "stream_url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "344",
+        "title": "Republic Kannada (1080p)",
+        "group_title": "News",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Republic_Kannada_logo.svg/1280px-Republic_Kannada_logo.svg.png",
+        "stream_url": "https://vg-republictvlive.akamaized.net/ptnr-republicweb/title-Republic_TV_Kannada/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/1acd1ce1-c6a7-4ae4-afa1-133ffb111ebb/main.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "345",
+        "title": "Republic TV (1080p) [Geo-blocked]",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/K9KX8un.png",
+        "stream_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2e31d831f08640ff92f65003bdc89991/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "346",
+        "title": "Rongeen TV (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/9gImDY5.png",
+        "stream_url": "https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "347",
+        "title": "Rupasi Bangla (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/ev0Vazj.png",
+        "stream_url": "https://cdn-4.pishow.tv/live/1039/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "348",
+        "title": "Saam TV",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/SNsjJjt.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/437/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "349",
+        "title": "Sada TV (1080p) [Not 24/7]",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.ibb.co/cXPzpGp/SADA-CHANNEL-HBN-global-Punjabi-Satellite-TV.png",
+        "stream_url": "http://cdn12.henico.net:8080/live/sadatv/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "350",
+        "title": "Sadhna (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/x13iiuI.png",
+        "stream_url": "https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhanalivetv/live.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "351",
+        "title": "Sadhna Plus News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/h4UehKC.png",
+        "stream_url": "https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "352",
+        "title": "Safari TV (480p) [Not 24/7]",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/dSOfYyh.png",
+        "stream_url": "https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "353",
+        "title": "Sakshi TV (576p)",
+        "group_title": "Undefined",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sakshi_tv.jpg/512px-Sakshi_tv.jpg",
+        "stream_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/sakshi_nim_https/240122/sakshi/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "354",
+        "title": "Salvation TV (1080p)",
+        "group_title": "Religious",
+        "logo_url": "https://content.jdmagicbox.com/comp/bangalore/l5/080pxx80.xx80.150207120517.e4l5/catalogue/salvation-tv-network-pvt-m-g-road-bangalore-religious-organizations-1sabn2d.jpg",
+        "stream_url": "https://ktismaservers.in:3902/live/salvationtvlive.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "355",
+        "title": "Samachar Plus (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.ibb.co/cLXkYvr/IMG-20230610-140232.jpg",
+        "stream_url": "https://samacharplus.livebox.co.in/samacharplushls/live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "356",
+        "title": "Samay Kolkata (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.ibb.co/3mrYZDG/cropped-LOGO-web1.jpg",
+        "stream_url": "https://5dd3981940faa.streamlock.net/kbcration/kbcration/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "357",
+        "title": "Sana Plus (1080p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/N6tKUZv.png",
+        "stream_url": "https://galaxyott.live/hls/sanaplus.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "358",
+        "title": "Sana TV (576p) [Not 24/7]",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/CR7DGBv.png",
+        "stream_url": "https://galaxyott.live/hls/sanatv.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "359",
+        "title": "Sangeet Bangla (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/b1B73Tp.png",
+        "stream_url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "360",
+        "title": "Sangeet Marathi (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sangeet_Marathi.jpg/512px-Sangeet_Marathi.jpg",
+        "stream_url": "https://cdn-3.pishow.tv/live/1229/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "361",
+        "title": "Sansad TV (1080p) [Not 24/7]",
+        "group_title": "Legislative",
+        "logo_url": "https://i.imgur.com/TWSZC2H.png",
+        "stream_url": "https://hls.media.nic.in/hls/live/lstv/lstv.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "362",
+        "title": "Sanskar TV (1080p)",
+        "group_title": "Culture;Religious",
+        "logo_url": "https://i.imgur.com/SDkiMvR.png",
+        "stream_url": "https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "363",
+        "title": "Sanskar UK (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/AU5vSPF.png",
+        "stream_url": "https://d34z4embz0hjf6.cloudfront.net/out/v1/7ac2789ff9a544a49337d1ffc54ce61c/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "364",
+        "title": "Sanskar USA (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/5WBWruX.png",
+        "stream_url": "https://d2netiedy8cz3x.cloudfront.net/out/v1/9bf6fa4ac8d6432cb98da13b121ba3c2/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "365",
+        "title": "Sanskar Web TV (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/mu2B6hw.png",
+        "stream_url": "https://deatfcv3xdvi3.cloudfront.net/out/v1/7a43dd2f64e34ec28da1b4bd6923251a/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "366",
+        "title": "Satsang TV (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/jnsaMrJ.png",
+        "stream_url": "https://d2vfwvjxwtwq1t.cloudfront.net/out/v1/6b24239d5517495b986e7705490c6e65/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "367",
+        "title": "Satsang Web TV (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/40kNu1w.png",
+        "stream_url": "https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "368",
+        "title": "Shalom (1080p) [Not 24/7]",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/7Y2bRDD.png",
+        "stream_url": "https://d2c4zqo2rb5uf1.cloudfront.net/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "369",
+        "title": "Shekinah TV (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/6hTshsG.png",
+        "stream_url": "https://livetv.timeiptv.in/ShekinahNewsIndia/955ad3298db330b5ee880c2c9e6f23a0.sdp/chunks.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "370",
+        "title": "Shemaroo Marathi Bana (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/U63jUUq.png",
+        "stream_url": "https://livetv-channels.b-cdn.net/8042/chunklist0.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "371",
+        "title": "Shemaroo TV (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/UNNcOef.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/230/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "372",
+        "title": "ShowBox",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/Zm4Fhah.png",
+        "stream_url": "https://epiconvh.akamaized.net/live/showbox/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "373",
+        "title": "Shubh TV (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/QHv8CL2.png",
+        "stream_url": "https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "374",
+        "title": "Shubhsandesh (720p) [Not 24/7]",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/XsuFVlf.png",
+        "stream_url": "https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "375",
+        "title": "Sirippoli TV (576p)",
+        "group_title": "Comedy",
+        "logo_url": "https://i.imgur.com/nsplwFc.png",
+        "stream_url": "https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "376",
+        "title": "Songdew TV (396p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/aFlKqH4.png",
+        "stream_url": "https://yupplivefragcp3.yuppcdn.net/260423/smil:songdew.smil/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "377",
+        "title": "Sony Entertainment Television (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/AkdfpVr.png",
+        "stream_url": "https://tv.bdixtv24.com/toffee/live.php?e=.m3u8&id=2bec2112b890",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "378",
+        "title": "Sony Max 2 (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/gqUYk6C.png",
+        "stream_url": "https://tv.bdixtv24.com/toffee/live.php?e=.m3u8&id=420510be5c17",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "379",
+        "title": "Sony Pix (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png",
+        "stream_url": "https://tv.bdixtv24.com/toffee/live.php?e=.m3u8&id=ea02096b0fbc",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "380",
+        "title": "Sony SAB (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Sony_Sab_new.png/512px-Sony_Sab_new.png",
+        "stream_url": "https://tv.bdixtv24.com/toffee/live.php?e=.m3u8&id=b7167fe646a4",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "381",
+        "title": "Sony Six HD (1080p)",
+        "group_title": "Sports",
+        "logo_url": "https://i.imgur.com/40BbQUd.png",
+        "stream_url": "http://103.81.104.118/hls/stream10.m3u8",
+        "license_url": "",
+        "user_agent": "stream",
+        "cookie": ""
+    },
+    {
+        "id": "382",
+        "title": "Sooriyan TV",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg",
+        "stream_url": "https://cdn.jwplayer.com/videos/1m0nMXhZ-3SDdwqdV.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "383",
+        "title": "Star Gold HD (1080p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/xC460sj.png",
+        "stream_url": "http://103.81.104.118/hls/stream19.m3u8",
+        "license_url": "",
+        "user_agent": "stream",
+        "cookie": ""
+    },
+    {
+        "id": "384",
+        "title": "Star Sports 1 HD [Geo-blocked]",
+        "group_title": "Sports",
+        "logo_url": "https://i.imgur.com/E5jjKHI.png",
+        "stream_url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "385",
+        "title": "Star Sports 1 Tamil HD",
+        "group_title": "Sports",
+        "logo_url": "https://i.imgur.com/dfLSnsZ.png",
+        "stream_url": "https://live20.bozztv.com/akamaissh101/ssh101/vboxsungosttamil/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "386",
+        "title": "Starnet (480p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/J3jB7Kr.png",
+        "stream_url": "https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "387",
+        "title": "Steelbird Music (720p) [Not 24/7]",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/Egijzx3.png",
+        "stream_url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "388",
+        "title": "Studio One + (720p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/yOPB7JB.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/276/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "389",
+        "title": "Subharti TV (576p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/9hdNFtt.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/subhartitv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "390",
+        "title": "Subhavaartha TV (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/hfk5jKE.png",
+        "stream_url": "https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "391",
+        "title": "Sudarshan News (1080p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/7AV1VI9.png",
+        "stream_url": "https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "392",
+        "title": "SVBC 2 (576p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/NtmRt1A.png",
+        "stream_url": "https://yuppftalive.akamaized.net/080823/svbc2tamil/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "393",
+        "title": "SVBC 3 (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/Ae2PMTu.png",
+        "stream_url": "https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "394",
+        "title": "SVBC 4 (1080p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/vCFdZny.png",
+        "stream_url": "https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "395",
+        "title": "SVBC Sri Venkateswara Bhakti Channel (1080p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/LSMvXAl.png",
+        "stream_url": "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "396",
+        "title": "Swadesh News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/iQ2CYsn.png",
+        "stream_url": "https://cdn-2.pishow.tv/live/465/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "397",
+        "title": "Swantham (720p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/ye6v4GP.png",
+        "stream_url": "http://131.153.22.8:1935/SWANTHAM/live/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "398",
+        "title": "Swaraj Express SMBC (720p) [Not 24/7]",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/vuF6PCJ.png",
+        "stream_url": "https://cdn-2.pishow.tv/live/477/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "399",
+        "title": "T News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/LYjTtyh.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/385/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "400",
+        "title": "Taaza TV (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/4nTpQLC.png",
+        "stream_url": "https://stream.playbox.co.in:19360/taaza/taaza.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "401",
+        "title": "Tamil Vision TV (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/DodsLuW.png",
+        "stream_url": "http://live.tamilvision.tv:8081/TVI/HD/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "402",
+        "title": "Tamilan TV (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/xdnNAJn.png",
+        "stream_url": "https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "403",
+        "title": "Tarang Music (720p)",
+        "group_title": "Music",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Tarang_Miusic.tif/lossless-page1-512px-Tarang_Miusic.tif.png",
+        "stream_url": "https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "404",
+        "title": "Tarang TV (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/WMhd6V2.png",
+        "stream_url": "https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "405",
+        "title": "Tehzeeb TV (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/PCVOdup.png",
+        "stream_url": "https://cdn-4.pishow.tv/live/239/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "406",
+        "title": "Thanthi One (1080p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAaQKdmdiu7iORzWeeIaeMTSFVXazVHFXMAp2RoevnRYJsy4O8_cGmQl6wHcUTFu1P7MA&usqp=CAU",
+        "stream_url": "https://249553662f3e.ap-south-1.playback.live-video.net/api/video/v1/ap-south-1.588204940461.channel.Sx8XPoik8VX2.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "407",
+        "title": "Thanthi TV (396p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/200ROjU.png",
+        "stream_url": "https://segment.yuppcdn.net/110322/thanthi/110322/thanthi_1800/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "408",
+        "title": "The Pet Collective",
+        "group_title": "Family",
+        "logo_url": "https://i.imgur.com/yH7n2dF.png",
+        "stream_url": "https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "409",
+        "title": "Thendral TV (576p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/kQK80gB.png",
+        "stream_url": "https://live.thendralcloud.in/thendraltv/d0dbe915091d400bd8ee7f27f0791303.sdp/chunks.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "410",
+        "title": "Time Vision News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/qvuOBP7.png",
+        "stream_url": "http://rtmp.logichost.in:1935/timevision/timevision/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "411",
+        "title": "Times Now (480p) [Geo-blocked]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/C6QK1LB.png",
+        "stream_url": "https://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "412",
+        "title": "Times Now Navbharat (1080p) [Geo-blocked]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/kSCozXg.png",
+        "stream_url": "https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/playlist/amg01448-samsungin-tinnavbharat-samsungin/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "413",
+        "title": "Total Bhakti (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/LPwRdmF.png",
+        "stream_url": "https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "414",
+        "title": "Travelxp (720p)",
+        "group_title": "Travel",
+        "logo_url": "https://i.postimg.cc/1tMhRdd1/travelxp.png",
+        "stream_url": "https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "415",
+        "title": "Tribe TV (720p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/zG2P1WZ.png",
+        "stream_url": "https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "416",
+        "title": "TV5 Kannada (396p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/DuZMoo6.png",
+        "stream_url": "https://segment.yuppcdn.net/050522/tv5kannada/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "417",
+        "title": "TV5 News (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/aOrvsYj.png",
+        "stream_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/tv5_nim_https/110322/tv5/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "418",
+        "title": "TV9 Bangla (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/86fVwfu.png",
+        "stream_url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "419",
+        "title": "TV9 Bharatvarsh (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/GEqUslW.png",
+        "stream_url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "420",
+        "title": "TV9 Gujarati (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/Cvuthal.png",
+        "stream_url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9guj3ki8lu/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "421",
+        "title": "TV9 Kannada (720p) [Not 24/7]",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/S3Ded70.png",
+        "stream_url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9kanmo6oiq/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "422",
+        "title": "TV9 Marathi (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/5AshBho.png",
+        "stream_url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "423",
+        "title": "TV9 Telugu (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/ufH48jV.png",
+        "stream_url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "424",
+        "title": "TV BRICS English (1080p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/8rKNuS6.png",
+        "stream_url": "https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "425",
+        "title": "TV Punjab (720p)",
+        "group_title": "News",
+        "logo_url": "https://en.tvpunjab.com/storage/2022/03/logo-2022.png",
+        "stream_url": "https://932y483pdjv8-hls-live.5centscdn.com/stream/deb10bae362f810630ec3abedcae5894.sdp/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "426",
+        "title": "Twenty Four News (396p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/eS2fVDh.png",
+        "stream_url": "https://segment.yuppcdn.net/110322/channel24/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "427",
+        "title": "V6 News (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/ctyGkhe.png",
+        "stream_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/v6news_nim_https/140622/v6news/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "428",
+        "title": "Vaanavil TV (720p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/etr1k08.png",
+        "stream_url": "https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "429",
+        "title": "Vanitha TV (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/KuLZt2a.png",
+        "stream_url": "https://cdn-1.pishow.tv/live/393/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "430",
+        "title": "Vasanth TV (240p)",
+        "group_title": "Undefined",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/b/bf/Vasanth_TV_logo.png",
+        "stream_url": "https://vasanth.pc.cdn.bitgravity.com/vasanth/secure/live/feed01/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "431",
+        "title": "VBC News (576p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/SvXCjha.png",
+        "stream_url": "https://5a1178b42cc03.streamlock.net/8200/8200/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "432",
+        "title": "VCV (720p) [Not 24/7]",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/KbU36xI.png",
+        "stream_url": "https://5a1178b42cc03.streamlock.net/8210/8210/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "433",
+        "title": "Velicham (360p) [Not 24/7]",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/y1voO3k.png",
+        "stream_url": "https://rtmp.smartstream.video/velichamtv/velichamtv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "434",
+        "title": "Venad News (360p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/MC6edvH.jpg",
+        "stream_url": "https://5a1178b42cc03.streamlock.net/8222/8222/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "435",
+        "title": "Vendhar TV (720p) [Not 24/7]",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/okesED3.png",
+        "stream_url": "https://cdn-3.pishow.tv/live/1271/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "436",
+        "title": "Vision (1080p)",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/YozqNL3.jpg",
+        "stream_url": "http://103.85.204.205:1935/VISIONMEDIA/live/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "437",
+        "title": "VTV News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/Ni8pZLF.png",
+        "stream_url": "https://5b48d7e1b4bce.streamlock.net/myapp/vtvlive/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "438",
+        "title": "Vyas NIC (576p)",
+        "group_title": "Education",
+        "logo_url": "",
+        "stream_url": "https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "439",
+        "title": "We One Kerala (720p) [Geo-blocked]",
+        "group_title": "General",
+        "logo_url": "https://i.imgur.com/iZufxya.jpg",
+        "stream_url": "http://kl.logicwebs.in:1935/sreemedia/sreemedia/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "440",
+        "title": "Weatherspy",
+        "group_title": "Weather",
+        "logo_url": "https://i.imgur.com/KIEKOt1.png",
+        "stream_url": "https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "441",
+        "title": "Win TV (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/xQutJMq.png",
+        "stream_url": "https://cdn-4.pishow.tv/live/1531/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "442",
+        "title": "Yoganadam News (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/y3UoKhx.png",
+        "stream_url": "https://yoganadam.cinesoftcdn.com/yoganadam/live/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "443",
+        "title": "Zainabia Channel",
+        "group_title": "Religious",
+        "logo_url": "",
+        "stream_url": "https://zainabia.livebox.co.in/ZainabiaChannelhls/channel.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "444",
+        "title": "ZB Bhakti (720p)",
+        "group_title": "Religious",
+        "logo_url": "https://i.imgur.com/MBaKNPC.jpeg",
+        "stream_url": "https://server.zillarbarta.com/zbbhakti/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "445",
+        "title": "ZB Cartoon (1080p)",
+        "group_title": "Kids",
+        "logo_url": "https://i.imgur.com/BbFNpMr.jpeg",
+        "stream_url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "446",
+        "title": "ZB Cinema (720p)",
+        "group_title": "Classic;Movies",
+        "logo_url": "https://i.imgur.com/kUg6WSk.jpeg",
+        "stream_url": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "447",
+        "title": "ZB Music (720p)",
+        "group_title": "Music",
+        "logo_url": "https://i.imgur.com/k1nb8u1.jpeg",
+        "stream_url": "https://server.zillarbarta.com/zbmusic/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "448",
+        "title": "Zee 24 Kalak (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/RKrvmVo.png",
+        "stream_url": "https://livetv-channels.b-cdn.net/8077/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "449",
+        "title": "Zee 24 Taas (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/KVDGQI1.png",
+        "stream_url": "https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "450",
+        "title": "Zee Bangla (1080p)",
+        "group_title": "Entertainment",
+        "logo_url": "https://i.imgur.com/zTGTWa8.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-zeebangla",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "451",
+        "title": "Zee Bihar Jharkhand (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/e26mQ7x.png",
+        "stream_url": "https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-4_24_in/streams/in/ZeeBiharJharkhand.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "452",
+        "title": "Zee Business (720p)",
+        "group_title": "Business",
+        "logo_url": "https://i.imgur.com/vkWBtL4.png",
+        "stream_url": "https://dwby15d04agvq.cloudfront.net/index_1.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "453",
+        "title": "Zee Cinema (1080p) [Geo-blocked]",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/uYjCv5p.png",
+        "stream_url": "https://amg17931-zee-amg17931c5-samsung-th-5696.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeecinema-samsungth/playlist.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "454",
+        "title": "Zee Cinemalu (1080p)",
+        "group_title": "Movies",
+        "logo_url": "https://i.imgur.com/uq8WSzG.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-zeecinemalu",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "455",
+        "title": "Zee Delhi NCR Haryana (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/jeBUXYz.png",
+        "stream_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "456",
+        "title": "Zee Hindustan (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/3eAZMxA.png",
+        "stream_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "457",
+        "title": "Zee Kannada (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/aHLRen7.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-zeekannada",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "458",
+        "title": "Zee Kannada News (720p)",
+        "group_title": "News",
+        "logo_url": "",
+        "stream_url": "https://d3vzwoqcbpfm8p.cloudfront.net/index_4.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "459",
+        "title": "Zee Keralam (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/NileYZz.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-129",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "460",
+        "title": "Zee Madhya Pradesh Chhattisgarh (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/YccuVVI.png",
+        "stream_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "461",
+        "title": "Zee Marathi (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/vv9ysD3.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-zeemarathi",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "462",
+        "title": "Zee News (1080p)",
+        "group_title": "News",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Zee_news.svg/512px-Zee_news.svg.png",
+        "stream_url": "https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "463",
+        "title": "Zee News Malayalam (720p)",
+        "group_title": "News",
+        "logo_url": "https://i.imgur.com/MePj7ET.png",
+        "stream_url": "https://d1ty2af03alkwd.cloudfront.net/index_4.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "464",
+        "title": "Zee Picchar (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/e1g8qZJ.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-241",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "465",
+        "title": "Zee Punjab Haryana Himachal (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/wnALPbu.png",
+        "stream_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeepunjabharyanahima/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/65eed269-2f3a-4dd0-ac89-d18959af28e3/main.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "466",
+        "title": "Zee Rajasthan (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/iYrrGlL.png",
+        "stream_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "467",
+        "title": "Zee Salaam (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/9wemlu5.png",
+        "stream_url": "https://d3i8oqsdv88b3m.cloudfront.net/out/v1/08f6360f9104421f90319460c0e03f11/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "468",
+        "title": "Zee Talkies (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/GowDXFz.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-zeetalkies",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "469",
+        "title": "Zee Tamil (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/KwTVqSe.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-zeetamil",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "470",
+        "title": "Zee Telugu (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/YSc3G9d.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-zeetelugu",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "471",
+        "title": "Zee Thirai (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/vmHfPD8.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-224",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "472",
+        "title": "Zee TV (1080p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/g3eT2vP.png",
+        "stream_url": "https://playyonogames.in/z5/stream.m3u8?id=0-9-zeetvhd",
+        "license_url": "",
+        "user_agent": "https://onezoo.net",
+        "cookie": ""
+    },
+    {
+        "id": "473",
+        "title": "Zee Uttar Pradesh/Uttarakhand (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/gxKFKRG.png",
+        "stream_url": "https://duw35ict5q7th.cloudfront.net/index_3.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "474",
+        "title": "ZillarBarta News (720p)",
+        "group_title": "Classic;News",
+        "logo_url": "https://i.imgur.com/6uestzY.jpeg",
+        "stream_url": "https://live-stream.utkalbongo.com/utkalbongo/stream18/hls/zillarbartalive.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "475",
+        "title": "Zing! (576p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/zStK8g2.png",
+        "stream_url": "http://183.89.246.119:8881/play/a09a/index.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    },
+    {
+        "id": "476",
+        "title": "Zoom (720p)",
+        "group_title": "Undefined",
+        "logo_url": "https://i.imgur.com/kcDJ4g0.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8",
+        "license_url": "",
+        "user_agent": "",
+        "cookie": ""
+    }
+]
