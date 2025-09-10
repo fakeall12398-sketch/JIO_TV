@@ -1,4 +1,4 @@
-name: Merge CricHD Playlists and Convert to JSON
+name: Merge CricHD Playlists
 
 on:
   schedule:
@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install dependencies
+      - name: Install requests
         run: pip install requests
 
       - name: Download, Merge, and Convert
@@ -27,6 +27,9 @@ jobs:
 
           url1 = os.environ["CRICHD1_URL"]
           url2 = os.environ["CRICHD2_URL"]
+
+          if not url1 or not url2:
+              raise ValueError("❌ CRICHD1_URL or CRICHD2_URL secrets are missing!")
 
           # Fetch playlists
           m3u1 = requests.get(url1).text.strip().splitlines()
