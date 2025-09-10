@@ -1,4 +1,23 @@
-- name: Convert M3U to JSON
+name: Update CricHD Playlist
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"   # every 20 minutes
+  workflow_dispatch:
+
+jobs:
+  update-crichd:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Fetch CricHD.m3u
+      run: |
+        curl -sL -o CricHD.m3u "https://iptv-scraper-zilla.pages.dev/CricHD.m3u"
+
+    - name: Convert M3U to JSON
       run: |
         python - <<'EOF'
         import re, json
@@ -14,10 +33,15 @@
                 group = re.search(r'group-title="(.*?)"', m3u[i])
                 title = m3u[i].split(",")[-1].strip()
 
-                # find the next NON-# line (actual stream URL)
+                # Find next non-# line = actual stream URL
                 j = i + 1
                 stream_url = ""
+                referrer = ""
                 while j < len(m3u) and m3u[j].startswith("#"):
+                    # capture referrer if present
+                    ref_match = re.search(r'#EXTVLCOPT:http-referrer=(.*)', m3u[j])
+                    if ref_match:
+                        referrer = ref_match.group(1).strip()
                     j += 1
                 if j < len(m3u):
                     stream_url = m3u[j]
@@ -30,7 +54,8 @@
                     "stream_url": stream_url,
                     "license_url": "",
                     "user_agent": "",
-                    "cookie": ""
+                    "cookie": "",
+                    "referrer": referrer
                 })
                 i = j
             i += 1
@@ -38,3 +63,17 @@
         with open("CricHD.json", "w", encoding="utf-8") as f:
             json.dump(channels, f, indent=2)
         EOF
+
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        git add CricHD.m3u CricHD.json
+        git commit -m "Auto-update CricHD playlist and JSON" || echo "No changes to commit"
+
+        git fetch origin main
+        git rebase origin/main || git rebase --skip
+        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
