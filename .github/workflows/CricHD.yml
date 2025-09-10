@@ -36,12 +36,12 @@ jobs:
                 # Find next non-# line = actual stream URL
                 j = i + 1
                 stream_url = ""
-                referrer = ""
+                user_agent = ""
                 while j < len(m3u) and m3u[j].startswith("#"):
-                    # capture referrer if present
+                    # Capture referrer if present
                     ref_match = re.search(r'#EXTVLCOPT:http-referrer=(.*)', m3u[j])
                     if ref_match:
-                        referrer = ref_match.group(1).strip()
+                        user_agent = ref_match.group(1).strip()
                     j += 1
                 if j < len(m3u):
                     stream_url = m3u[j]
@@ -53,9 +53,8 @@ jobs:
                     "logo_url": logo.group(1) if logo else "",
                     "stream_url": stream_url,
                     "license_url": "",
-                    "user_agent": "",
-                    "cookie": "",
-                    "referrer": referrer
+                    "user_agent": user_agent,
+                    "cookie": ""
                 })
                 i = j
             i += 1
