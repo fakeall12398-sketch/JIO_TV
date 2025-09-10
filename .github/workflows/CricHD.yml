@@ -1,4 +1,4 @@
-name: Merge CricHD Playlists
+name: Update CricHD Playlist
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  merge:
+  update:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,49 +21,25 @@ jobs:
       - name: Install requests
         run: pip install requests
 
-      - name: Download, Merge, and Convert
+      - name: Fetch and Convert M3U
         run: |
-          import requests, re, os, json
+          import requests, re, json
 
-          url1 = os.environ["CRICHD1_URL"]
-          url2 = os.environ["CRICHD2_URL"]
+          url = "https://iptv-scraper-zilla.pages.dev/CricHD.m3u"
+          m3u = requests.get(url).text.strip().splitlines()
 
-          if not url1 or not url2:
-              raise ValueError("❌ CRICHD1_URL or CRICHD2_URL secrets are missing!")
-
-          # Fetch playlists
-          m3u1 = requests.get(url1).text.strip().splitlines()
-          m3u2 = requests.get(url2).text.strip().splitlines()
-
-          def change_group_title(lines, title):
-              result = []
-              for line in lines:
-                  if line.startswith("#EXTINF:"):
-                      if 'group-title="' in line:
-                          line = re.sub(r'group-title="[^"]*"', f'group-title="{title}"', line)
-                      else:
-                          line = line.replace(',', f' group-title="{title}",', 1)
-                  result.append(line)
-              return result
-
-          # Assign groups
-          m3u1 = change_group_title(m3u1, "CricHD 1")
-          m3u2 = change_group_title(m3u2, "CricHD 2")
-
-          # Merge into one playlist
-          merged = ["#EXTM3U"] + m3u1[1:] + m3u2[1:]
+          # Save raw playlist
           with open("CricHD.m3u", "w", encoding="utf-8") as f:
-              f.write("\n".join(merged))
+              f.write("\n".join(m3u))
 
           # Convert to JSON
           channels = []
-          lines = merged
-          for i in range(len(lines)):
-              if lines[i].startswith("#EXTINF"):
-                  logo = re.search(r'tvg-logo="(.*?)"', lines[i])
-                  group = re.search(r'group-title="(.*?)"', lines[i])
-                  title = lines[i].split(",")[-1].strip()
-                  stream_url = lines[i + 1] if i + 1 < len(lines) else ""
+          for i in range(len(m3u)):
+              if m3u[i].startswith("#EXTINF"):
+                  logo = re.search(r'tvg-logo="(.*?)"', m3u[i])
+                  group = re.search(r'group-title="(.*?)"', m3u[i])
+                  title = m3u[i].split(",")[-1].strip()
+                  stream_url = m3u[i + 1] if i + 1 < len(m3u) else ""
                   channels.append({
                       "id": "(no tvg-id)",
                       "title": title,
@@ -78,15 +54,10 @@ jobs:
           with open("CricHD.json", "w", encoding="utf-8") as f:
               json.dump(channels, f, indent=2)
 
-        env:
-          CRICHD1_URL: ${{ secrets.CRICHD1_URL }}
-          CRICHD2_URL: ${{ secrets.CRICHD2_URL }}
-        shell: python
-
       - name: Commit and Push
         run: |
           git config user.name "${{ secrets.GIT_U }}"
           git config user.email "${{ secrets.GIT_E }}"
           git add CricHD.m3u CricHD.json
-          git commit -m "Auto-update CricHD playlists and JSON" || echo "No changes"
+          git commit -m "Auto-update CricHD playlist and JSON" || echo "No changes"
           git push
