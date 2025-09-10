@@ -6,58 +6,27 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
+  update-crichd:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout repo
+      uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.x
+    - name: Fetch CricHD.m3u
+      run: |
+        curl -sL -o CricHD.m3u "https://iptv-scraper-zilla.pages.dev/CricHD.m3u"
 
-      - name: Install requests
-        run: pip install requests
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Fetch and Convert M3U
-        run: |
-          import requests, re, json
+        git add CricHD.m3u
+        git commit -m "Auto-update CricHD.m3u" || echo "No changes to commit"
 
-          url = "https://iptv-scraper-zilla.pages.dev/CricHD.m3u"
-          m3u = requests.get(url).text.strip().splitlines()
-
-          # Save raw playlist
-          with open("CricHD.m3u", "w", encoding="utf-8") as f:
-              f.write("\n".join(m3u))
-
-          # Convert to JSON
-          channels = []
-          for i in range(len(m3u)):
-              if m3u[i].startswith("#EXTINF"):
-                  logo = re.search(r'tvg-logo="(.*?)"', m3u[i])
-                  group = re.search(r'group-title="(.*?)"', m3u[i])
-                  title = m3u[i].split(",")[-1].strip()
-                  stream_url = m3u[i + 1] if i + 1 < len(m3u) else ""
-                  channels.append({
-                      "id": "(no tvg-id)",
-                      "title": title,
-                      "group_title": group.group(1) if group else "",
-                      "logo_url": logo.group(1) if logo else "",
-                      "stream_url": stream_url,
-                      "license_url": "",
-                      "user_agent": "",
-                      "cookie": ""
-                  })
-
-          with open("CricHD.json", "w", encoding="utf-8") as f:
-              json.dump(channels, f, indent=2)
-
-      - name: Commit and Push
-        run: |
-          git config user.name "${{ secrets.GIT_U }}"
-          git config user.email "${{ secrets.GIT_E }}"
-          git add CricHD.m3u CricHD.json
-          git commit -m "Auto-update CricHD playlist and JSON" || echo "No changes"
-          git push
+        git fetch origin main
+        git rebase origin/main || git rebase --skip
+        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
