@@ -2,7 +2,7 @@ name: Update CricHD Playlist
 
 on:
   schedule:
-    - cron: "*/20 * * * *"   # every 20 minutes
+    - cron: "*/20 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,23 +13,18 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.x
-
-    - name: Fetch and Convert CricHD
+    - name: Fetch CricHD.m3u
       run: |
-        import requests, re, json
+        curl -sL -o CricHD.m3u "https://iptv-scraper-zilla.pages.dev/CricHD.m3u"
 
-        url = "https://iptv-scraper-zilla.pages.dev/CricHD.m3u"
-        m3u = requests.get(url).text.strip().splitlines()
+    - name: Convert M3U to JSON
+      run: |
+        python - <<'EOF'
+        import re, json
 
-        # Save raw playlist
-        with open("CricHD.m3u", "w", encoding="utf-8") as f:
-            f.write("\n".join(m3u))
+        with open("CricHD.m3u", "r", encoding="utf-8") as f:
+            m3u = f.read().strip().splitlines()
 
-        # Convert to JSON
         channels = []
         for i in range(len(m3u)):
             if m3u[i].startswith("#EXTINF"):
@@ -50,7 +45,7 @@ jobs:
 
         with open("CricHD.json", "w", encoding="utf-8") as f:
             json.dump(channels, f, indent=2)
-      shell: python
+        EOF
 
     - name: Commit and push changes
       env:
