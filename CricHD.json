@@ -4,7 +4,7 @@
     "title": "Star Sports 1",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/16-by-xfireflix.png",
-    "stream_url": "https://d5.merichunidya.com:1686/hls/star1in.m3u8?md5=KtGQawYSE-tJUHBUwelrkQ&expires=1757582670",
+    "stream_url": "https://d4.merichunidya.com:1686/hls/star1in.m3u8?md5=pnR-BtD4vM1Dh261Dg2XsQ&expires=1757586713",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -14,7 +14,7 @@
     "title": "Star Sports 1 Hindi",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/1-by-xfireflix.png",
-    "stream_url": "https://d2.merichunidya.com:1686/hls/starhindi.m3u8?md5=g0iuUMTn3mYY_v7KyEI1TA&expires=1757582671",
+    "stream_url": "https://d1.merichunidya.com:1686/hls/starhindi.m3u8?md5=coAYmXPFjmlGSvKJ-z8Pag&expires=1757586713",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -24,7 +24,7 @@
     "title": "PTV Sports",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/20-by-xfireflix.png",
-    "stream_url": "https://d3.merichunidya.com:1686/hls/ptvpk.m3u8?md5=JHrMAxjb7KIV0ifLAX6q4Q&expires=1757582671",
+    "stream_url": "https://d10.merichunidya.com:1686/hls/ptvpk.m3u8?md5=-o1fqTzdQ6H_EEs9dZtjuA&expires=1757586713",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -34,7 +34,7 @@
     "title": "Willow HD",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/38-by-xfireflix.png",
-    "stream_url": "https://d3.merichunidya.com:1686/hls/willowusa.m3u8?md5=QTU7eEPeUGjW7VTeYQyb9Q&expires=1757582671",
+    "stream_url": "https://d5.merichunidya.com:1686/hls/willowusa.m3u8?md5=9fS9p-xFHWCBRbBoy9L50Q&expires=1757586713",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -44,7 +44,7 @@
     "title": "Willow HD 2",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/8-by-xfireflix.png",
-    "stream_url": "https://d6.merichunidya.com:1686/hls/willowextra.m3u8?md5=Oc_p6LXc3Z6FBNVJMd1Y0A&expires=1757582671",
+    "stream_url": "https://d6.merichunidya.com:1686/hls/willowextra.m3u8?md5=FyM1IoXcb8ZiX_Aa4zm3IA&expires=1757586713",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -54,7 +54,7 @@
     "title": "Ten Sports",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/10-by-xfireflix.png",
-    "stream_url": "https://d4.merichunidya.com:1686/hls/tenspk.m3u8?md5=JG4t-q3LBIev5HMRfMWShQ&expires=1757582671",
+    "stream_url": "https://d8.merichunidya.com:1686/hls/tenspk.m3u8?md5=I9bSewBRdUYxEaIght5Umw&expires=1757586713",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -64,7 +64,7 @@
     "title": "A Sports HD",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/12-by-xfireflix.png",
-    "stream_url": "https://d10.merichunidya.com:1686/hls/asportshd.m3u8?md5=kxNYKExHOsLAnDIQGDc2ZA&expires=1757582671",
+    "stream_url": "https://d5.merichunidya.com:1686/hls/asportshd.m3u8?md5=xK8lKwg0pD1Kw-XWLuTanA&expires=1757586713",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -74,7 +74,17 @@
     "title": "Sky Sports Cricket",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/9-by-xfireflix.png",
-    "stream_url": "https://d1.merichunidya.com:1686/hls/skyscric.m3u8?md5=XSEBqQP2WLhBSReBlw-o-g&expires=1757582671",
+    "stream_url": "https://d1.merichunidya.com:1686/hls/skyscric.m3u8?md5=9ENlWumeYTpqIeYa6jBq_g&expires=1757586713",
+    "license_url": "",
+    "user_agent": "",
+    "cookie": ""
+  },
+  {
+    "id": "(no tvg-id)",
+    "title": "Sky Sports Main Event",
+    "group_title": "CricHD 1",
+    "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/18-by-xfireflix.png",
+    "stream_url": "https://d10.merichunidya.com:1686/hls/skysme.m3u8?md5=j4hhbwrbZ_g_qM0YjnH72g&expires=1757586714",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -84,7 +94,7 @@
     "title": "TNT 1",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/tnt.png",
-    "stream_url": "https://d7.merichunidya.com:1686/hls/bbtsp1.m3u8?md5=APkF1ZdXxSeRDzPY_funRw&expires=1757582672",
+    "stream_url": "https://d5.merichunidya.com:1686/hls/bbtsp1.m3u8?md5=YAlTdR_r-9g2VMDa6qN8XQ&expires=1757586714",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -94,7 +104,7 @@
     "title": "TNT 2",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/tnt.png",
-    "stream_url": "https://d5.merichunidya.com:1686/hls/bbtsp2.m3u8?md5=oLYmTBlzUhqnUg4n5RkhWg&expires=1757582672",
+    "stream_url": "https://d10.merichunidya.com:1686/hls/bbtsp2.m3u8?md5=e6yua94JZWbg-jE-wF-JZQ&expires=1757586714",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -104,7 +114,7 @@
     "title": "TNT 3",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/tnt.png",
-    "stream_url": "https://d7.merichunidya.com:1686/hls/bbtsp3.m3u8?md5=rkeMZ-MrAiinRx2b1Q5oFg&expires=1757582672",
+    "stream_url": "https://d3.merichunidya.com:1686/hls/bbtsp3.m3u8?md5=d1YULAvdvujfdNay-SL7vQ&expires=1757586714",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -114,7 +124,7 @@
     "title": "TNT 4",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/tnt.png",
-    "stream_url": "https://d3.merichunidya.com:1686/hls/bbtespn.m3u8?md5=oSECQxjHyxS2u_7J5g9CrA&expires=1757582672",
+    "stream_url": "https://d4.merichunidya.com:1686/hls/bbtespn.m3u8?md5=7JrU-wmteV_JO3j0mt-JXg&expires=1757586714",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -124,7 +134,7 @@
     "title": "Sky Sports 1",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/56-by-xfireflix.png",
-    "stream_url": "https://d5.merichunidya.com:1686/hls/sky1nz.m3u8?md5=vnVVxEBGTlg8ApdJDrgR_Q&expires=1757582672",
+    "stream_url": "https://d1.merichunidya.com:1686/hls/sky1nz.m3u8?md5=pIv1RNM9F41HRtdZcbzTow&expires=1757586714",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -134,7 +144,7 @@
     "title": "Sky Sports 2",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/56-by-xfireflix.png",
-    "stream_url": "https://d8.merichunidya.com:1686/hls/sky2nz.m3u8?md5=m9nQ2NMsWCYoSJhQ-VymtQ&expires=1757582672",
+    "stream_url": "https://d3.merichunidya.com:1686/hls/sky2nz.m3u8?md5=A4xU4ODj7jli1dw7PwfbEA&expires=1757586714",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -144,7 +154,7 @@
     "title": "Sky Sports 3",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/56-by-xfireflix.png",
-    "stream_url": "https://d6.merichunidya.com:1686/hls/sky3nz.m3u8?md5=qmKFkVafeFu8vMWJEoIq7w&expires=1757582672",
+    "stream_url": "https://d5.merichunidya.com:1686/hls/sky3nz.m3u8?md5=cJm-HbBWYR3Ybb8ZkVk-_w&expires=1757586714",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -154,7 +164,7 @@
     "title": "Sky Sports 4",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/56-by-xfireflix.png",
-    "stream_url": "https://d4.merichunidya.com:1686/hls/sky4nz.m3u8?md5=YxsEAEM2E0q3ZQ_oYBlA6w&expires=1757582672",
+    "stream_url": "https://d4.merichunidya.com:1686/hls/sky4nz.m3u8?md5=egRKruSOu2684TOfR2KutA&expires=1757586715",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -164,7 +174,7 @@
     "title": "Sky Sports 5",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/56-by-xfireflix.png",
-    "stream_url": "https://d10.merichunidya.com:1686/hls/sky5nz.m3u8?md5=NAMg9PGBVo79sXoMgm7GWg&expires=1757582673",
+    "stream_url": "https://d7.merichunidya.com:1686/hls/sky5nz.m3u8?md5=Ks0hgDINUuAQm5LUxZ-IRw&expires=1757586715",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -174,7 +184,7 @@
     "title": "Sky Sports 6",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/56-by-xfireflix.png",
-    "stream_url": "https://d10.merichunidya.com:1686/hls/sky6nz.m3u8?md5=Q5LHeK2orvt6p-LnapGTGQ&expires=1757582673",
+    "stream_url": "https://d9.merichunidya.com:1686/hls/sky6nz.m3u8?md5=VCKwlpErdjAkMoTWXA3raA&expires=1757586715",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -184,7 +194,7 @@
     "title": "Sky Sports 7",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/56-by-xfireflix.png",
-    "stream_url": "https://d10.merichunidya.com:1686/hls/sky7nz.m3u8?md5=DI0t1zRl-e0bYsCmtclLLQ&expires=1757582673",
+    "stream_url": "https://d7.merichunidya.com:1686/hls/sky7nz.m3u8?md5=PGq3W5Ip9ZzrOtD-_QSQ5A&expires=1757586715",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -194,7 +204,7 @@
     "title": "Sky Sports 8",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/56-by-xfireflix.png",
-    "stream_url": "https://d7.merichunidya.com:1686/hls/sky8nz.m3u8?md5=sMvDVQY9gVQY8gyMr_3PcQ&expires=1757582673",
+    "stream_url": "https://d5.merichunidya.com:1686/hls/sky8nz.m3u8?md5=uxFZvuU-3YS26bYv3AaZtA&expires=1757586715",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -204,7 +214,17 @@
     "title": "Sky Sports 9",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/56-by-xfireflix.png",
-    "stream_url": "https://d1.merichunidya.com:1686/hls/sky9nz.m3u8?md5=jMArYwT_6Te5d4qdYJNPyQ&expires=1757582673",
+    "stream_url": "https://d2.merichunidya.com:1686/hls/sky9nz.m3u8?md5=gFZgcyIUKRSPs0Q3sKGcog&expires=1757586715",
+    "license_url": "",
+    "user_agent": "",
+    "cookie": ""
+  },
+  {
+    "id": "(no tvg-id)",
+    "title": "Sky Cinema",
+    "group_title": "CricHD 1",
+    "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/skycinema.png",
+    "stream_url": "https://d9.merichunidya.com:1686/hls/skysme.m3u8?md5=ULUrPFdIRx9t5gwYXcBcpg&expires=1757586715",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -214,7 +234,7 @@
     "title": "Sky Sports Action",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/1745007829332.png",
-    "stream_url": "https://d4.merichunidya.com:1686/hls/skysact.m3u8?md5=WpMCLHSD7Amb1QTL8XkFRQ&expires=1757582674",
+    "stream_url": "https://d1.merichunidya.com:1686/hls/skysact.m3u8?md5=hzYxTfPPUevCGRfOUxSfmw&expires=1757586715",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -224,7 +244,7 @@
     "title": "Sky Sports Golf",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/1745008055327.png",
-    "stream_url": "https://d3.merichunidya.com:1686/hls/skysgol.m3u8?md5=VouNhFY5cuIWBqSVvpem-Q&expires=1757582674",
+    "stream_url": "https://d3.merichunidya.com:1686/hls/skysgol.m3u8?md5=gyC4Umx4HxmMboOKKr8tgw&expires=1757586716",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -234,7 +254,7 @@
     "title": "Sky Sports Premier League",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/43-by-xfireflix.png",
-    "stream_url": "https://d5.merichunidya.com:1686/hls/skysprem.m3u8?md5=6at0-HI484CLF6e7EVnCtA&expires=1757582674",
+    "stream_url": "https://d2.merichunidya.com:1686/hls/skysprem.m3u8?md5=j5AAOGuk5Volpx2oxcNdmw&expires=1757586716",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -244,7 +264,17 @@
     "title": "Sky Sports Football",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/44-by-xfireflix.png",
-    "stream_url": "https://d3.merichunidya.com:1686/hls/skysfott.m3u8?md5=ekuB4azWZlq37nR93JQoYA&expires=1757582674",
+    "stream_url": "https://d8.merichunidya.com:1686/hls/skysfott.m3u8?md5=DuCfn-Z1ZVBIUx4IpNgWmQ&expires=1757586716",
+    "license_url": "",
+    "user_agent": "",
+    "cookie": ""
+  },
+  {
+    "id": "(no tvg-id)",
+    "title": "Sky Sports Plus",
+    "group_title": "CricHD 1",
+    "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/1745008347584.png",
+    "stream_url": "https://d5.merichunidya.com:1686/hls/skysare.m3u8?md5=Qqb91IlR-QKcMEon2OcVUQ&expires=1757586716",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -254,7 +284,7 @@
     "title": "Sky Sports F1",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/1745008468637.png",
-    "stream_url": "https://d1.merichunidya.com:1686/hls/skysfor1.m3u8?md5=eCc-D0LJhzze5m4hxHik_Q&expires=1757582674",
+    "stream_url": "https://d1.merichunidya.com:1686/hls/skysfor1.m3u8?md5=SIhuuNYcWJk_yNvBVpFjMQ&expires=1757586716",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -264,7 +294,7 @@
     "title": "LaLiGA",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/19-by-xfireflix.png",
-    "stream_url": "https://d8.merichunidya.com:1686/hls/laligauk.m3u8?md5=ZFcZ6c-vBc-NinL7btyzjQ&expires=1757582674",
+    "stream_url": "https://d3.merichunidya.com:1686/hls/laligauk.m3u8?md5=TsZY3AsfzzcBMphaFI8deA&expires=1757586716",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -274,7 +304,7 @@
     "title": "Premier Sports 1",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/31-by-xfireflix.png",
-    "stream_url": "https://d7.merichunidya.com:1686/hls/premieruk.m3u8?md5=YECRKgYpWDoFVuRMHS6CTQ&expires=1757582674",
+    "stream_url": "https://d3.merichunidya.com:1686/hls/premieruk.m3u8?md5=lWXp7YVGeIbkznx1eFTYlA&expires=1757586716",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -284,7 +314,7 @@
     "title": "Premier Sports 2",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/31-by-xfireflix.png",
-    "stream_url": "https://d9.merichunidya.com:1686/hls/hdchnl2.m3u8?md5=_lwf6BFQrfiz3fghb_wY2g&expires=1757582674",
+    "stream_url": "https://d7.merichunidya.com:1686/hls/hdchnl2.m3u8?md5=AmUN3EmFT2QUVHCV7G2qEg&expires=1757586716",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -294,7 +324,7 @@
     "title": "Super Football",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/34-by-xfireflix.png",
-    "stream_url": "https://d5.merichunidya.com:1686/hls/superfotball.m3u8?md5=7ggtz3bok3FLguEtRQ8IEg&expires=1757582675",
+    "stream_url": "https://d7.merichunidya.com:1686/hls/superfotball.m3u8?md5=Zyh601KJoHLy0KcJCTuwcw&expires=1757586716",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -304,7 +334,7 @@
     "title": "Super Premier League",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/1745008781606.png",
-    "stream_url": "https://d3.merichunidya.com:1686/hls/superpremier.m3u8?md5=Ndvg-bw4IrZXc9LJJgrKIQ&expires=1757582675",
+    "stream_url": "https://d8.merichunidya.com:1686/hls/superpremier.m3u8?md5=if7ikktEZHChbjQcDB0thQ&expires=1757586717",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -314,7 +344,7 @@
     "title": "Astro Cricket",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/1745008895589.png",
-    "stream_url": "https://d6.merichunidya.com:1686/hls/fox501.m3u8?md5=CFoQpeOUJ3YhvG8WCSnw_A&expires=1757582675",
+    "stream_url": "https://d6.merichunidya.com:1686/hls/fox501.m3u8?md5=pNkOPXhSuVqaIkiv_9COaA&expires=1757586717",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -324,7 +354,7 @@
     "title": "ESPN 1",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/17-by-xfireflix.png",
-    "stream_url": "https://d7.merichunidya.com:1686/hls/espnusa.m3u8?md5=DcbBaPIxaKirFhGDu5Jbug&expires=1757582675",
+    "stream_url": "https://d2.merichunidya.com:1686/hls/espnusa.m3u8?md5=Dm_tql1P8i8xn1drEpuMtg&expires=1757586717",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -334,7 +364,17 @@
     "title": "ESPN 2",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/17-by-xfireflix.png",
-    "stream_url": "https://d1.merichunidya.com:1686/hls/espn2.m3u8?md5=6OsCOzJvbil_MZMVZd3D8A&expires=1757582675",
+    "stream_url": "https://d3.merichunidya.com:1686/hls/espn2.m3u8?md5=Rd2N4y0pvP4PXT4nYLoV-Q&expires=1757586717",
+    "license_url": "",
+    "user_agent": "",
+    "cookie": ""
+  },
+  {
+    "id": "(no tvg-id)",
+    "title": "Sky Sports Arena",
+    "group_title": "CricHD 1",
+    "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/1745007829327.png",
+    "stream_url": "https://d4.merichunidya.com:1686/hls/skysare.m3u8?md5=u_bM9VengBYXUR7-VzTdYg&expires=1757586717",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -344,7 +384,7 @@
     "title": "Sky Sports Mix",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/13-by-xfireflix.png",
-    "stream_url": "https://d5.merichunidya.com:1686/hls/skysmixx.m3u8?md5=Pk-_uFQvI3pgk6CHQFwrNA&expires=1757582675",
+    "stream_url": "https://d10.merichunidya.com:1686/hls/skysmixx.m3u8?md5=6HeEbL-dT3_poS81Cxfb-w&expires=1757586717",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -354,7 +394,7 @@
     "title": "Sky Sports Tennis",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/1745009085794.png",
-    "stream_url": "https://d10.merichunidya.com:1686/hls/skystennis.m3u8?md5=4vF8iX2ZpT9wo0PmSzyTvw&expires=1757582675",
+    "stream_url": "https://d9.merichunidya.com:1686/hls/skystennis.m3u8?md5=sBvipRQUITZaMl2PyNCjRQ&expires=1757586717",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -364,7 +404,7 @@
     "title": "Fox Cricket 501 HD",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/6-by-xfireflix.png",
-    "stream_url": "https://d9.merichunidya.com:1686/hls/fox501.m3u8?md5=zu8KJZ3sPSPYo6o2Se7o4w&expires=1757582676",
+    "stream_url": "https://d7.merichunidya.com:1686/hls/fox501.m3u8?md5=pNkOPXhSuVqaIkiv_9COaA&expires=1757586717",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -374,7 +414,7 @@
     "title": "Sony Sports3",
     "group_title": "CricHD 1",
     "logo_url": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/1000173192-modified.png",
-    "stream_url": "https://d9.merichunidya.com:1686/hls/ten1hd.m3u8?md5=t9msa1Ywt2EGauWQGutTrQ&expires=1757582676",
+    "stream_url": "https://d4.merichunidya.com:1686/hls/ten1hd.m3u8?md5=ERLodnf3c1s7XSgCgjSnSw&expires=1757586718",
     "license_url": "",
     "user_agent": "",
     "cookie": ""
@@ -384,7 +424,7 @@
     "title": "Sky Sports Cricket",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/sky_sports_cricket.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/skyscric3.m3u8?md6=e8B0KYlPYIMw-dSdeL6uPQ&expires=1757579281|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/skyscric3.m3u8?md6=zl3TGsHpoBWSKGzXjYauLw&expires=1757583199|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -394,7 +434,7 @@
     "title": "T Sports BD",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/tsportsbd.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/bdgtv.m3u8?md6=xJH2nUweV_O79IlGo_dnYg&expires=1757579281|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/bdgtv.m3u8?md6=q2XbhsgTxcaGWwIx_iqzJQ&expires=1757583200|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -404,7 +444,7 @@
     "title": "Willow",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/willow.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/willowuse.m3u8?md6=zmjiAR7irT8wOU6R05LHBw&expires=1757579282|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/willowuse.m3u8?md6=t3NlONsqylo1QdALd50XHg&expires=1757583201|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -414,7 +454,7 @@
     "title": "Star Sports 1",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/star_sports_1.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/starsp.m3u8?md6=RPcccaxdY2qrsFe5G6F-mg&expires=1757579283|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/starsp.m3u8?md6=Xf_5IHrbTYGCYJMad5XttA&expires=1757583202|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -424,7 +464,7 @@
     "title": "Star Sports 1 Hindi",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/star_sports_1_hindi.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/starsp.m3u8?md6=Ac0mkPWpDao0-iWzwJk5uA&expires=1757579284|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/starsp.m3u8?md6=99wKsolR8kAGBOqHoto9VA&expires=1757583203|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -434,7 +474,7 @@
     "title": "Star Sports 2",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/Star_Sports_2.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/star2in.m3u8?md6=5lquF770m9sG71VGXqBRpQ&expires=1757579285|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/star2in.m3u8?md6=5zRZWdCIQAqJR527SEu_gQ&expires=1757583204|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -444,7 +484,7 @@
     "title": "Star Sports 3",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/star_sports3.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/star1hi.m3u8?md6=fPxnI_hEWdtwQkp6x5KZDQ&expires=1757579286|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/star1hi.m3u8?md6=bSvbqFtlH6_VtjowLoPtAg&expires=1757583204|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -454,7 +494,7 @@
     "title": "PTV Sports",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/ptv_sports.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/ptvpk.m3u8?md6=mk5DqBFCc95AhveTr-fN1Q&expires=1757579286|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/ptvpk.m3u8?md6=nUBF69jZnvZG9Wa_L2zWlg&expires=1757583205|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -464,7 +504,7 @@
     "title": "A Sports",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/a_sports.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/asportiso.m3u8?md6=JlQC5Xy2nQrdj80F48Qpjw&expires=1757579287|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/asportiso.m3u8?md6=eD3NnWwR73BrRyGZkVRf9A&expires=1757583206|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -474,7 +514,7 @@
     "title": "Ten Cricket",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/ten_cricket.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/tenspk.m3u8?md6=MfroSlw0H1vGpibgX_AgUg&expires=1757579288|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/tenspk.m3u8?md6=UPEf5YrsLlPSqj6bQL8pPg&expires=1757583207|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -484,7 +524,7 @@
     "title": "Geo Super",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/geo.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/geosp.m3u8?md6=-UuTo6zWRO9RcpLEZ_fVPA&expires=1757579289|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/geosp.m3u8?md6=I_xO8HlMzAP-IfUdfmhLvA&expires=1757583207|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -494,7 +534,7 @@
     "title": "Astro Cricket",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/astro_cricket.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/astrocric.m3u8?md6=wojFKv2hr4MYZleFAOa5WA&expires=1757579290|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/astrocric.m3u8?md6=xIzAtWRboH-Ze7MR_1Ws_w&expires=1757583208|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -504,7 +544,7 @@
     "title": "Sky Sports Main Event",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/sky_sports_main_event.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/laxkiaxnasdjpdskykxahsdsme.m3u8?md6=O33UIN3d13Y038pliLDhJg&expires=1757579290|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/laxkiaxnasdjpdskykxahsdsme.m3u8?md6=8wzE4zXli-i6-ROFrCo7SQ&expires=1757583209|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -514,7 +554,7 @@
     "title": "Sky Sports Football",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/skysportsf.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/kasdloasxaddskysfottadxasdllk.m3u8?md6=vwgdPvaoXtUbmlsjkhS8QA&expires=1757579291|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/kasdloasxaddskysfottadxasdllk.m3u8?md6=bkRw3iuXrBakqinSUl-XGg&expires=1757583209|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -524,7 +564,7 @@
     "title": "Sky Sports Arena",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/sky_sports_areana.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/amnoasdkaxasdsdkaskylolkjarejona.m3u8?md6=D6MiQ2uBKECndY5EQqypSg&expires=1757579292|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/amnoasdkaxasdsdkaskylolkjarejona.m3u8?md6=xrDnS_8nG82JNMeDCCEg9w&expires=1757583211|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -534,7 +574,7 @@
     "title": "Sky Sports Action",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/skysportaction.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/skysact.m3u8?md6=wLQ8_ONHM4iFzghqrhhh-A&expires=1757579292|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/skysact.m3u8?md6=RmFqABTlrrB_1pBjY1YQew&expires=1757583212|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -544,7 +584,7 @@
     "title": "Sky Sports Golf",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/skysportdglof.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/skysgol.m3u8?md6=g_ku3mybuRpyAD-uJyYAPQ&expires=1757579293|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/skysgol.m3u8?md6=Y2DPDwRsr2AWfFB2sabt6w&expires=1757583212|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -554,7 +594,7 @@
     "title": "Sky Sports Premier League",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/skysportspr.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/skypremol.m3u8?md6=SoriR-ook33OlIt_FlMLtw&expires=1757579294|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/skypremol.m3u8?md6=ow3-EWAKKTJ2UIUt9K5QgA&expires=1757583213|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -564,7 +604,7 @@
     "title": "Sky Sports F1",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/sky_sportsl.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/adkslknyospfqqorrs1tuvw.m3u8?md6=SbeKWlYYK-1c_hTYluwmxA&expires=1757579295|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/adkslknyospfqqorrs1tuvw.m3u8?md6=5psu4rXOyfUnisHc5TlHgA&expires=1757583214|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -574,7 +614,7 @@
     "title": "Sky Sports Mix",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/skysportmix.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/skysmixx.m3u8?md6=YGrKXYJgHN3fQ7xyLJW_Pg&expires=1757579295|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/skysmixx.m3u8?md6=PrwgwMC6IHUWCXG4yxYgMQ&expires=1757583215|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -584,7 +624,7 @@
     "title": "Sky Sports Tennis",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/sky_Sports_tenis.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/skyten.m3u8?md6=EBiW7sVbfeOE3GR7XOoFcQ&expires=1757579296|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/skyten.m3u8?md6=h5vanVm0rMB6PVvG7Se7eg&expires=1757583215|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -594,7 +634,7 @@
     "title": "SuperSport Cricket",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/sli.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/super2cric.m3u8?md6=aYjwpre6s4CHNZGbxTqaiA&expires=1757579297|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/super2cric.m3u8?md6=3EamWdlRB1zbeJXaEosJ0Q&expires=1757583216|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -604,7 +644,7 @@
     "title": "SuperSport Premier League",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/ssp.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/superprem.m3u8?md6=j2aR0--mPXDvzGk_60aikg&expires=1757579297|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/superprem.m3u8?md6=N8xRLGR2tK4SSthat4SCWw&expires=1757583217|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -614,7 +654,7 @@
     "title": "SuperSport LaLiga",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/superla.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/dasdadaskasdlaliga.m3u8?md6=lJP7ti9_Fy8A5CBAwOUwJA&expires=1757579298|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/dasdadaskasdlaliga.m3u8?md6=hhX6btErAw-_KXdyBO7uYQ&expires=1757583218|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -624,7 +664,7 @@
     "title": "SuperSport Football",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/Supersf.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/superspfb.m3u8?md6=jMSZteRjGuu0aqTJ42WY0w&expires=1757579299|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/superspfb.m3u8?md6=HoejIMU24goKMD7r4h3TWQ&expires=1757583218|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -634,7 +674,7 @@
     "title": "SuperSport Action",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/Supersa.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/superspaction.m3u8?md6=SsVkB-DGPJmC_Mm0EdLpdQ&expires=1757579300|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/superspaction.m3u8?md6=b5S6xMpJ-aVjAxk5cyyhnA&expires=1757583219|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -644,7 +684,7 @@
     "title": "SuperSport GrandStand",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/Supersg.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/supergs.m3u8?md6=75SkguYMVt6_O9Wo1LS0Jg&expires=1757579300|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/supergs.m3u8?md6=qKLp7zUzNz7f1HaPk5p1hQ&expires=1757583220|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -654,7 +694,7 @@
     "title": "TNT Sports 1",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/tnt1.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/bmkbh4ts42pads1ad1ad.m3u8?md6=yUfVT6RK2eNSg-1_iaTo0Q&expires=1757579301|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/bmkbh4ts42pads1ad1ad.m3u8?md6=JDbx5mFMUGCI7E-h4ylNzQ&expires=1757583221|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -664,7 +704,7 @@
     "title": "TNT Sports 2",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/tnt2.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/bbasdadtasfafgsdsgpgdg2s.m3u8?md6=At5yamUJYBW5gT5ITdBakQ&expires=1757579302|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/bbasdadtasfafgsdsgpgdg2s.m3u8?md6=kR6qqrT7vjr0FO2fz33jew&expires=1757583221|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -674,7 +714,7 @@
     "title": "TNT Sports 3",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/tnt3.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/keaffbasdbgsdgtgsdgsfgp43.m3u8?md6=Spih_bkr4Kws7gG8hqYfZw&expires=1757579302|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/keaffbasdbgsdgtgsdgsfgp43.m3u8?md6=L1h9jfIN6MQj_UksmnvJ4g&expires=1757583222|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -684,7 +724,7 @@
     "title": "TNT Sports 4",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/tnt4.png",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/basdbkklltadsnbpgh4io9.m3u8?md6=sOPf3UPxtzPo8G9li7k7jA&expires=1757579303|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/basdbkklltadsnbpgh4io9.m3u8?md6=AMpbbR2IWlbieKeNM71Yhw&expires=1757583223|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -694,7 +734,7 @@
     "title": "Sony Sports Ten 1",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/sony1.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/ten1endia.m3u8?md6=vQ8dJMwkD0yzgt3dmEe7Og&expires=1757579304|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/ten1endia.m3u8?md6=UQtXN2OtpIapQshn4bOSeQ&expires=1757583224|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -704,7 +744,7 @@
     "title": "CricLife 1",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/criclife.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/criclife1.m3u8?md6=gGTDf8fpSCECEn0v9-QIQg&expires=1757579304|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/criclife1.m3u8?md6=NV2-LPmQpyv1xe4HikffkA&expires=1757583224|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -714,7 +754,7 @@
     "title": "CricLife 2",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/criclife.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/criclife2.m3u8?md6=VpW_Joor48onHlnAu7GcYQ&expires=1757579305|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/criclife2.m3u8?md6=PqHXLrmuJymVkGyeWvMZIg&expires=1757583225|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -724,7 +764,7 @@
     "title": "Eurosport 1",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/Eurosport1.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/eurosp1.m3u8?md6=Eh_Pv5KJG9eTJbradOC1iQ&expires=1757579306|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/eurosp1.m3u8?md6=MdyWveFVdtglQKBesvBxUQ&expires=1757583226|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -734,7 +774,7 @@
     "title": "Eurosport 2",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/Eurosport2.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/eurosp2.m3u8?md6=n91KUWgHsUfhU1-iaTeTSQ&expires=1757579307|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/eurosp2.m3u8?md6=WO_K8Gh_EqYgQzTil9FBFg&expires=1757583227|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -744,7 +784,7 @@
     "title": "Premier Sports 1",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/Premiers1.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/viaplaysp1.m3u8?md6=f9OAS7l9Jl5wxDXTrZE3Qw&expires=1757579307|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/viaplaysp1.m3u8?md6=gxavEqwP6xLl88nAyCz_0A&expires=1757583227|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
@@ -754,7 +794,7 @@
     "title": "Premier Sports 2",
     "group_title": "CricHD 2",
     "logo_url": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/Premiers2.jpg",
-    "stream_url": "https://biz3.dlolcast.com:7059/hls/viaplaysp2.m3u8?md6=S3k0Do889JiqrlaWUNxCPw&expires=1757579308|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
+    "stream_url": "https://biz3.dlolcast.com:7059/hls/viaplaysp2.m3u8?md6=T5oEGDKGPoOGwLeMNPdlwQ&expires=1757583228|Referer=https://dlolcast.com/&Origin=https://dlolcast.com",
     "license_url": "",
     "user_agent": "https://dlolcast.com/",
     "cookie": ""
