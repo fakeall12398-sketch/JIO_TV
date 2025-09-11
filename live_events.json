@@ -1,15 +1,5 @@
 [
     {
-        "id": "1998",
-        "title": "@dtvlive",
-        "group_title": "",
-        "logo_url": "https://i.ibb.co/qMPXJL53/photo.jpg",
-        "stream_url": "https://cdn.viqeo.tv/storage/hls/,b8/52/0842b176dfbc5e031d92dda4e63fe171.mp4,b8/52/e24a0810a4d19a1195284929ee39e18a.mp4,b8/52/f8e72d350568bb12f4b90a38c540d297.mp4,b8/52/fc07058c6b3414dd7300b802bc14b8a0.mp4,.urlset/master.m3u8",
-        "license_url": "",
-        "user_agent": "",
-        "cookie": ""
-    },
-    {
         "id": "ts81",
         "title": "Aisa Cup Live (ENGLISH)",
         "group_title": "Sports",
