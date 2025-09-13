@@ -16,7 +16,7 @@ jobs:
     - name: Fetch remote playlists and extract tokens
       run: |
         # Fetch JioTV playlist for __hdnea__ token
-        curl -sL -o jio.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/jstar.m3u"
+        curl -sL -o jio.m3u "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u"
         jio_cookie=$(grep -o '__hdnea__=[^"&]*' jio.m3u | head -n1)
         echo "$jio_cookie" > jio_cookie.txt
 
