@@ -1,4 +1,4 @@
-name: Update Jio (__hdnea__) playlist in jtvultimate.txt
+name: Update Jio (__hdnea__) playlist as jstar.m3u
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-jtv-playlist:
+  update-jstar-playlist:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,7 +18,7 @@ jobs:
         curl -s -H "User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; Pixel 4 Build/PQ3A.190801.002)" \
              -H "Accept-Encoding: gzip" \
              -H "Connection: Keep-Alive" \
-             -o jtvultimate.txt \
+             -o jstar.m3u \
              "https://dtvlive.dtvhindi.news/jtvultimate.txt"
 
     - name: Commit and push updated playlist
@@ -28,8 +28,8 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-        git add jtvultimate.txt
-        git commit -m "Auto-update jstar.m3u playlist" || echo "No changes to commit"
+        git add jstar.m3u
+        git commit -m "Auto-update Jio IPTV playlist as jstar.m3u" || echo "No changes to commit"
 
         git fetch origin main
         git rebase origin/main || git rebase --skip
