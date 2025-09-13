@@ -2,7 +2,7 @@ name: Update Jio (__hdnea__) playlist as jstar.m3u
 
 on:
   schedule:
-    - cron: '0 */11 * * *'  # every 11 hours
+    - cron: '0 */11 * * *'
   workflow_dispatch:
 
 jobs:
@@ -13,11 +13,12 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Fetch JioTV playlist
+    - name: Fetch JioTV playlist and save as text
       run: |
         curl -s -H "User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; Pixel 4 Build/PQ3A.190801.002)" \
              -H "Accept-Encoding: gzip" \
              -H "Connection: Keep-Alive" \
+             --compressed \
              -o jstar.m3u \
              "https://dtvlive.dtvhindi.news/jtvultimate.txt"
 
