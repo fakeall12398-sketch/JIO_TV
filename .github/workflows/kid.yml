@@ -1,4 +1,4 @@
-name: Update Jio (__hdnea__) + Zee5 (hdntl) tokens in kid.json
+name: Update Jio (__hdnea__) + Zee5 (hdntl) tokens in full_channels.json
 
 on:
   schedule:
@@ -17,28 +17,24 @@ jobs:
       run: |
         # Fetch JioTV playlist for __hdnea__ token
         curl -sL -o jio.m3u "https://m3u-fetcher.vercel.app/hotstar.m3u"
-        jio_token=$(grep -o '__hdnea__=[^|]*' jio.m3u | head -n1)
+        jio_token=$(grep -o '__hdnea__=[^|&]*' jio.m3u | head -n1 | tr -d '"}|')
         echo "$jio_token" > jio_token.txt
 
         # Fetch Zee5 playlist for hdntl token
         curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"
-        zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1)
+        zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1 | tr -d '"}|')
         echo "$zee_hdntl" > zee_hdntl.txt
 
-    - name: Update tokens in kid.json
+    - name: Update tokens in full_channels.json
       run: |
         jio_token=$(cat jio_token.txt)
         zee_hdntl=$(cat zee_hdntl.txt)
-
-        # Safely escape the tokens for jq input
-        jio_token_escaped=$(printf '%s\n' "$jio_token" | jq -R .)
-        zee_hdntl_escaped=$(printf '%s\n' "$zee_hdntl" | jq -R .)
 
         jq --arg jio "$jio_token" --arg zee "$zee_hdntl" '
           .channels |= map(
             if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
               .cookie = $jio |
-              .stream_url = (.stream_url | sub("__hdnea__=[^&|]*"; $jio) + "&xxx=%7Ccookie=" + $jio)
+              .stream_url = (.stream_url | sub("__hdnea__=[^&]*"; $jio) | sub("&xxx=%7Ccookie=[^&]*"; "&xxx=%7Ccookie=" + $jio))
             elif (.stream_url | test("zee5.com")) then
               .cookie = $zee |
               .stream_url |= sub("hdntl=[^&]*"; $zee)
@@ -46,7 +42,7 @@ jobs:
               .
             end
           )
-        ' kid.json > temp.json && mv temp.json kid.json
+        ' full_channels.json > temp.json && mv temp.json full_channels.json
 
     - name: Commit and push changes
       env:
@@ -55,8 +51,8 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
-        git add kid.json
-        git commit -m "Auto-update __hdnea__ and hdntl tokens in kid.json" || echo "No changes to commit"
+        git add full_channels.json
+        git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
 
         git fetch origin main
         git rebase origin/main || git rebase --skip
