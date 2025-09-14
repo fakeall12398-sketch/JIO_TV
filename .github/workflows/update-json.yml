@@ -17,7 +17,7 @@ jobs:
       run: |
         # Fetch JioTV playlist for __hdnea__ token
         curl -sL -o jio.m3u "https://m3u-fetcher.vercel.app/hotstar.m3u"
-        jio_token=$(grep -o '__hdnea__=[^|]*' jio.m3u | head -n1)
+        jio_token=$(grep -o '__hdnea__=[^|&]*' jio.m3u | head -n1)
         echo "$jio_token" > jio_token.txt
 
         # Fetch Zee5 playlist for hdntl token
@@ -30,15 +30,11 @@ jobs:
         jio_token=$(cat jio_token.txt)
         zee_hdntl=$(cat zee_hdntl.txt)
 
-        # Safely escape the tokens for jq input
-        jio_token_escaped=$(printf '%s\n' "$jio_token" | jq -R .)
-        zee_hdntl_escaped=$(printf '%s\n' "$zee_hdntl" | jq -R .)
-
         jq --arg jio "$jio_token" --arg zee "$zee_hdntl" '
           .channels |= map(
             if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
               .cookie = $jio |
-              .stream_url = (.stream_url | sub("__hdnea__=[^&|]*"; $jio) + "&xxx=%7Ccookie=" + $jio)
+              .stream_url = (.stream_url | sub("__hdnea__=[^&]*"; $jio) | sub("&xxx=%7Ccookie=[^&]*"; "&xxx=%7Ccookie=" + $jio))
             elif (.stream_url | test("zee5.com")) then
               .cookie = $zee |
               .stream_url |= sub("hdntl=[^&]*"; $zee)
