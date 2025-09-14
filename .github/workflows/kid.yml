@@ -1,4 +1,4 @@
-name: Update Jio (__hdnea__) + Zee5 (hdntl) tokens in full_channels.json
+name: Update Jio (__hdnea__) + Zee5 (hdntl) tokens in kid.json
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
         zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1 | tr -d '"}|')
         echo "$zee_hdntl" > zee_hdntl.txt
 
-    - name: Update tokens in full_channels.json
+    - name: Update tokens in kid.json
       run: |
         jio_token=$(cat jio_token.txt)
         zee_hdntl=$(cat zee_hdntl.txt)
@@ -42,7 +42,7 @@ jobs:
               .
             end
           )
-        ' full_channels.json > temp.json && mv temp.json full_channels.json
+        ' kid.json > temp.json && mv temp.json kid.json
 
     - name: Commit and push changes
       env:
@@ -51,8 +51,8 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
-        git add full_channels.json
-        git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
+        git add kid.json
+        git commit -m "Auto-update __hdnea__ and hdntl tokens in kid.json" || echo "No changes to commit"
 
         git fetch origin main
         git rebase origin/main || git rebase --skip
