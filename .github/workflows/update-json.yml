@@ -1,6 +1,6 @@
 # .github/workflows/update-tokens.yml
 
-name: Update Streaming Tokens
+name: Update Jio (__hdnea__) + Zee5 (hdntl) tokens in full_channels.json
 
 on:
   schedule:
