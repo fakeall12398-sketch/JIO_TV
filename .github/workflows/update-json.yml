@@ -15,12 +15,12 @@ jobs:
 
     - name: Fetch remote playlists and extract tokens
       run: |
-        # Fetch JioTV playlist to get __hdnea__ token
+        # Fetch JioTV playlist for __hdnea__ token
         curl -sL -o jio.m3u "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u"
         jio_token=$(grep -o '__hdnea__=[^|]*' jio.m3u | head -n1)
         echo "$jio_token" > jio_token.txt
 
-        # Fetch Zee5 playlist to get hdntl token
+        # Fetch Zee5 playlist for hdntl token
         curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"
         zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1)
         echo "$zee_hdntl" > zee_hdntl.txt
@@ -35,8 +35,7 @@ jobs:
             if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
               .cookie = $jio |
               .stream_url = (
-                (.stream_url | sub("__hdnea__=[^&|]*"; $jio))
-                + "&xxx=%7Ccookie=" + $jio
+                (.stream_url | sub("\\|cookie=[^|]*"; "") | sub("\\?__hdnea__=[^|]*"; "")) + "?__hdnea__=" + ($jio | sub("__hdnea__="; "")) + "&xxx=%7Ccookie=" + $jio
               )
             elif (.stream_url | test("zee5.com")) then
               .cookie = $zee |
@@ -53,7 +52,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        
+
         git add full_channels.json
         git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
 
