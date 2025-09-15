@@ -15,10 +15,12 @@ jobs:
 
     - name: Fetch remote playlists and extract tokens
       run: |
+        # Fetch JioTV playlist to get __hdnea__ token
         curl -sL -o jio.m3u "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u"
         jio_token=$(grep -o '__hdnea__=[^|]*' jio.m3u | head -n1)
         echo "$jio_token" > jio_token.txt
 
+        # Fetch Zee5 playlist to get hdntl token
         curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"
         zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1)
         echo "$zee_hdntl" > zee_hdntl.txt
@@ -33,10 +35,7 @@ jobs:
             if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
               .cookie = $jio |
               .stream_url = (
-                .stream_url
-                | sub("(__hdnea__=[^&|]*)"; $jio)
-                | sub("\\?{1}&*", "?")  # Ensure URL starts with '?'
-                | sub("&{2,}", "&")    # Remove double ampersands
+                (.stream_url | sub("__hdnea__=[^&|]*"; $jio))
                 + "&xxx=%7Ccookie=" + $jio
               )
             elif (.stream_url | test("zee5.com")) then
