@@ -1,8 +1,11 @@
-name: Update Jio (__hdnea__) + Zee5 (hdntl) tokens in full_channels.json
+# .github/workflows/update-tokens.yml
+
+name: Update Streaming Tokens
 
 on:
   schedule:
-    - cron: '0 */11 * * *'  # every 11 hours
+    # Runs every 11 hours
+    - cron: '0 */11 * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,44 +13,55 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # 1. Checkout the repository code
     - name: Checkout repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
+    # 2. Fetch the latest M3U files and extract the tokens
     - name: Fetch remote playlists and extract tokens
       run: |
         # Fetch JioTV playlist for __hdnea__ token
         curl -sL -o jio.m3u "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u"
         jio_token=$(grep -o '__hdnea__=[^|]*' jio.m3u | head -n1)
+        echo "Extracted Jio Token: $jio_token"
         echo "$jio_token" > jio_token.txt
 
         # Fetch Zee5 playlist for hdntl token
         curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"
         zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1)
+        echo "Extracted Zee5 Token: $zee_hdntl"
         echo "$zee_hdntl" > zee_hdntl.txt
 
+    # 3. Update the full_channels.json file with the new tokens
     - name: Update tokens in full_channels.json
       run: |
         jio_token=$(cat jio_token.txt)
         zee_hdntl=$(cat zee_hdntl.txt)
 
         jq --arg jio "$jio_token" --arg zee "$zee_hdntl" '
-        .channels |= map(
-        if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
-          # Update the cookie with the new Jio token
-          .cookie = $jio |
-          # Only substitute the old token in the URL, don't add anything extra
-          .stream_url |= sub("__hdnea__=[^&|]*"; $jio)
-        elif (.stream_url | test("zee5.com")) then
-          # Update the cookie with the new Zee5 token
-          .cookie = $zee |
-          # Only substitute the old token in the URL
-          .stream_url |= sub("hdntl=[^&]*"; $zee)
-        else
-          .
-        end
-        )
+          .channels |= map(
+            # For JioTV URLs
+            if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
+              # Update the cookie field with the new Jio token
+              .cookie = $jio |
+              # Correctly substitute the token in the stream_url without adding duplicates
+              .stream_url |= sub("__hdnea__=[^&|]*"; $jio)
+
+            # For Zee5 URLs
+            elif (.stream_url | test("zee5.com")) then
+              # Update the cookie field with the new Zee5 token
+              .cookie = $zee |
+              # Correctly substitute the token in the stream_url
+              .stream_url |= sub("hdntl=[^&]*"; $zee)
+
+            # For all other URLs, do nothing
+            else
+              .
+            end
+          )
         ' full_channels.json > temp.json && mv temp.json full_channels.json
 
+    # 4. Commit the changes back to the repository
     - name: Commit and push changes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -56,8 +70,9 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
         git add full_channels.json
-        git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
-
-        git fetch origin main
-        git rebase origin/main || git rebase --skip
-        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+        # Only commit if there are changes
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update __hdnea__ and hdntl tokens"
+        
+        # Pull the latest changes before pushing to avoid conflicts
+        git pull --rebase
+        git push
