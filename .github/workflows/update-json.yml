@@ -46,7 +46,7 @@ jobs:
           .
         end
         )
-    ' full_channels.json > temp.json && mv temp.json full_channels.json
+        ' full_channels.json > temp.json && mv temp.json full_channels.json
 
     - name: Commit and push changes
       env:
