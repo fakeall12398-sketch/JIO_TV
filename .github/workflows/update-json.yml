@@ -30,15 +30,11 @@ jobs:
         jio_token=$(cat jio_token.txt)
         zee_hdntl=$(cat zee_hdntl.txt)
 
-        # Safely escape the tokens for jq input
-        jio_token_escaped=$(printf '%s\n' "$jio_token" | jq -R .)
-        zee_hdntl_escaped=$(printf '%s\n' "$zee_hdntl" | jq -R .)
-
         jq --arg jio "$jio_token" --arg zee "$zee_hdntl" '
           .channels |= map(
             if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
               .cookie = $jio |
-              .stream_url = (.stream_url | sub("__hdnea__=[^&|]*"; $jio) + "&xxx=%7Ccookie=" + $jio)
+              .stream_url |= sub("(__hdnea__=[^&|]*)"; "\(__hdnea__=" + ($jio | split("=")[1]) + "&xxx=%7Ccookie=" + $jio + "\)")
             elif (.stream_url | test("zee5.com")) then
               .cookie = $zee |
               .stream_url |= sub("hdntl=[^&]*"; $zee)
