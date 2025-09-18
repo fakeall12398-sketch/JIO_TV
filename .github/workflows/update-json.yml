@@ -54,6 +54,8 @@ jobs:
         git add full_channels.json
         git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
 
-        git fetch origin main
-        git rebase origin/main || git rebase --skip
+        # Pull with rebase and auto-stash to avoid conflicts
+        git pull --rebase --autostash origin main
+
+        # Push changes
         git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
