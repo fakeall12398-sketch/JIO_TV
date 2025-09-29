@@ -2,7 +2,7 @@ name: Update Jio (__hdnea__) + Zee5 (hdntl) tokens in full_channels.json
 
 on:
   schedule:
-    - cron: '0 */11 * * *'
+    - cron: '0 */11 * * *'  # every 11 hours
   workflow_dispatch:
 
 jobs:
@@ -15,112 +15,28 @@ jobs:
 
     - name: Fetch remote playlists and extract tokens
       run: |
+        # Fetch JioTV playlist and extract __hdnea__ token
         curl -sL -o jio.m3u "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u"
-        jio_token="$(grep -o '__hdnea__=[^|]*' jio.m3u | head -n1)"
-        echo "Jio token: $jio_token"
+        jio_token=$(grep -o '__hdnea__=[^|]*' jio.m3u | head -n1)
         echo "$jio_token" > jio_token.txt
 
+        # Fetch Zee5 playlist and extract hdntl token
         curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"
-        zee_hdntl="$(grep -o 'hdntl=[^\"&]*' zee.m3u | head -n1)"
-        echo "Zee5 hdntl: $zee_hdntl"
+        zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1)
         echo "$zee_hdntl" > zee_hdntl.txt
 
     - name: Update tokens in full_channels.json
       run: |
-        jio_token="$(cat jio_token.txt)"
-        zee_hdntl="$(cat zee_hdntl.txt)"
+        jio_token=$(cat jio_token.txt)
+        zee_hdntl=$(cat zee_hdntl.txt)
 
-        # Use jq with proper quoting to avoid syntax errors
         jq --arg jio "$jio_token" --arg zee "$zee_hdntl" '
-        .channels |= map(
-          if (.stream_url | test("jiotvpllive.cdn.jio.com|jiotvmblive.cdn.jio.com")) then
-            .cookie = $jio |
-            .stream_url = ((.stream_url | sub("\\?.*$"; "")) + "?" + $jio)
-          elif (.stream_url | test("zee5.com")) then
-            .cookie = $zee |
-            .stream_url |= sub("hdntl=[^&]*"; $zee)
-          else
-            .
-          end
-        )
-        ' full_channels.json > temp.json && mv temp.json full_channels.json
-
-        echo "Preview of updated channels:"
-        head -n 20 full_channels.json
-
-    - name: Commit and push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-        git add full_channels.json
-        git diff --cached || echo "No changes detected"
-        git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
-
-        git pull --rebase --autostash origin main
-        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main          .channels |= map(
-            if (.stream_url | test("cdn.jio.com")) then
+          .channels |= map(
+            if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
               .cookie = $jio |
-              .stream_url = ((.stream_url | sub("\\?.*$"; "")) + "?" + $jio)
+              .stream_url = (.stream_url | sub("\\?.*$"; "") + "?" + $jio)
             elif (.stream_url | test("zee5.com")) then
               .cookie = $zee |
-              .stream_url |= sub("hdntl=[^&]*"; $zee)
-            else
-              .
-            end
-          )
-        ' full_channels.json > temp.json && mv temp.json full_channels.json
-
-        echo "Preview of updated channels:"
-        head -n 20 full_channels.json
-
-    - name: Commit and push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-        git add full_channels.json
-        git diff --cached || echo "No changes to commit"
-        git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
-
-        git pull --rebase --autostash origin main
-        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main            if (.stream_url | test("cdn.jio.com")) then
-              .cookie = $jio |
-              .stream_url = ((.stream_url | sub("\\?.*$"; "")) + "?" + $jio)
-            elif (.stream_url | test("zee5.com")) then
-              .cookie = $zee |
-              .stream_url |= sub("hdntl=[^&]*"; $zee)
-            else
-              .
-            end
-          )
-        ' full_channels.json > temp.json && mv temp.json full_channels.json
-
-        # Debug: show first 3 updated channels
-        echo "Updated channels preview:"
-        head -n 20 full_channels.json
-
-    - name: Commit and push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-        git add full_channels.json
-        git diff --cached || echo "No changes detected"
-        git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
-
-        git pull --rebase --autostash origin main
-        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main              # strip old query completely, then append new token
-              .stream_url = ((.stream_url | sub("\\?.*$"; "")) + "?" + $jio)
-            elif (.stream_url | test("zee5.com")) then
-              .cookie = $zee |
-              # replace only hdntl part with fresh token
               .stream_url |= sub("hdntl=[^&]*"; $zee)
             else
               .
