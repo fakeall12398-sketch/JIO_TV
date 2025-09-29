@@ -17,38 +17,25 @@ jobs:
       run: |
         # Fetch JioTV playlist and extract __hdnea__ token
         curl -sL -o jio.m3u "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u"
-        jio_token=$(grep -o '__hdnea__=[^|]*' jio.m3u | head -n1 || echo "")
-        echo "Jio token: $jio_token"
+        jio_token=$(grep -o '__hdnea__=[^|]*' jio.m3u | head -n1)
         echo "$jio_token" > jio_token.txt
 
         # Fetch Zee5 playlist and extract hdntl token
         curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"
-        zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1 || echo "")
-        echo "Zee5 hdntl: $zee_hdntl"
+        zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1)
         echo "$zee_hdntl" > zee_hdntl.txt
 
     - name: Update tokens in full_channels.json
       run: |
-        jio_token="$(cat jio_token.txt)"
-        zee_hdntl="$(cat zee_hdntl.txt)"
+        jio_token=$(cat jio_token.txt)
+        zee_hdntl=$(cat zee_hdntl.txt)
 
-        # Fail early only if Jio token missing (critical)
-        if [ -z "$jio_token" ]; then
-          echo "ERROR: __hdnea__ token not found!"
-          exit 1
-        fi
-
-        # Step 1 & 2: Clean broken stream_url/cookie and append tokens safely
         jq --arg jio "$jio_token" --arg zee "$zee_hdntl" '
           .channels |= map(
-            if (.stream_url | test("cdn.jio.com")) then
-              .stream_url |= gsub("\\\\\"}$"; "") |
-              .cookie |= gsub("\\\\\"}$"; "") |
+            if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
               .cookie = $jio |
-              .stream_url = ((.stream_url | sub("\\?.*$"; "")) + "?" + $jio)
-            elif (.stream_url | test("zee5.com")) and ($zee != "") then
-              .stream_url |= gsub("\\\\\"}$"; "") |
-              .cookie |= gsub("\\\\\"}$"; "") |
+              .stream_url = (.stream_url | sub("\\?.*$"; "") + "?" + $jio)
+            elif (.stream_url | test("zee5.com")) then
               .cookie = $zee |
               .stream_url |= sub("hdntl=[^&]*"; $zee)
             else
@@ -56,10 +43,6 @@ jobs:
             end
           )
         ' full_channels.json > temp.json && mv temp.json full_channels.json
-
-        # Preview first 20 lines of updated JSON
-        echo "Updated channels preview:"
-        head -n 20 full_channels.json
 
     - name: Commit and push changes
       env:
@@ -69,8 +52,8 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
         git add full_channels.json
-        git diff --cached || echo "No changes to commit"
         git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
 
-        git pull --rebase --autostash origin main
+        git fetch origin main
+        git rebase origin/main || git rebase --skip
         git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
