@@ -1,61 +1,72 @@
-name: Update Jio (__hdnea__) + Zee5 (hdntl) tokens in full_channels.json  
-  
-on:  
-  schedule:  
-    - cron: '0 */11 * * *'  # every 11 hours  
-  workflow_dispatch:  
-  
-jobs:  
-  update-json-tokens:  
-    runs-on: ubuntu-latest  
-  
-    steps:  
-    - name: Checkout repo  
-      uses: actions/checkout@v2  
-  
-    - name: Fetch remote playlists and extract tokens  
-      run: |  
-        # Fetch JioTV playlist for __hdnea__ token  
-        curl -sL -o jio.m3u "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u"  
-        jio_cookie=$(grep -o '__hdnea__=[^"&]*' jio.m3u | head -n1)  
-        echo "$jio_cookie" > jio_cookie.txt  
-  
-        # Fetch Zee5 playlist for hdntl token  
-        curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"  
-        zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1)  
-        echo "$zee_hdntl" > zee_hdntl.txt  
-  
-    - name: Update tokens in full_channels.json  
-      run: |  
-        jio_cookie=$(cat jio_cookie.txt)  
-        zee_hdntl=$(cat zee_hdntl.txt)  
-  
-        # Update inside .channels array, keep epg_url intact  
-        jq --arg jio "$jio_cookie" --arg zee "$zee_hdntl" '  
-          .channels |= map(  
-            if (.stream_url | test("jiotvmblive.cdn.jio.com")) then  
-              .cookie = $jio |  
-              .stream_url |= sub("__hdnea__=[^&]*"; $jio) |  
-              .stream_url |= sub("cookie=__hdnea__=[^&]*"; "cookie=" + $jio)  
-            elif (.stream_url | test("zee5.com")) then  
-              .cookie = $zee |  
-              .stream_url |= sub("hdntl=[^&]*"; $zee)  
-            else  
-              .  
-            end  
-          )  
-        ' full_channels.json > temp.json && mv temp.json full_channels.json  
-  
-    - name: Commit and push changes  
-      env:  
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-      run: |  
-        git config --global user.name "github-actions[bot]"  
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"  
-          
-        git add full_channels.json  
-        git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"  
-  
-        git fetch origin main  
-        git rebase origin/main || git rebase --skip  
-        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main  
+name: Update Jio (__hdnea__) + Zee5 (hdntl) tokens in full_channels.json
+
+on:
+  schedule:
+    - cron: '0 */11 * * *'  # every 11 hours
+  workflow_dispatch:
+
+jobs:
+  update-json-tokens:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Fetch remote playlists and extract tokens
+      run: |
+        # Fetch JioTV playlist for __hdnea__ token
+        curl -sL -o jio.m3u "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u"
+        jio_token=$(grep -o '__hdnea__=[^|]*' jio.m3u | head -n1)
+        echo "$jio_token" > jio_token.txt
+
+        # Fetch Zee5 playlist for hdntl token
+        curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"
+        zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1)
+        echo "$zee_hdntl" > zee_hdntl.txt
+
+    - name: Update tokens in full_channels.json
+      run: |
+        jio_token=$(cat jio_token.txt)
+        zee_hdntl=$(cat zee_hdntl.txt)
+
+        # Update Jio streams
+        jq --arg jio_token "$jio_token" '
+          .[] |=
+            if .stream_url and (.stream_url | contains("jiotvmblive.cdn.jio.com")) then
+              .cookie = $jio_token |
+              .stream_url = (.stream_url | 
+                # Replace token in query string
+                sub("__hdnea__=[^&|]*"; $jio_token) |
+                # Replace token in the appended cookie parameter
+                sub("\\|cookie=__hdnea__=[^&|]*"; "|cookie=" + $jio_token)
+              )
+            else
+              .
+            end
+        ' full_channels.json > temp.json && mv temp.json full_channels.json
+
+        # Update Zee5 streams
+        jq --arg zee_hdntl "$zee_hdntl" '
+          .[] |=
+            if .stream_url and (.stream_url | contains("zee5.com")) then
+              .cookie = $zee_hdntl |
+              .stream_url = (.stream_url | sub("hdntl=[^&]*"; $zee_hdntl))
+            else
+              .
+            end
+        ' full_channels.json > temp.json && mv temp.json full_channels.json
+
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        git add full_channels.json
+        git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
+
+        git fetch origin main
+        git rebase origin/main || git rebase --skip
+        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
