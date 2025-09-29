@@ -34,7 +34,8 @@ jobs:
           .channels |= map(
             if (.stream_url | test("jiotvmblive.cdn.jio.com")) then
               .cookie = $jio |
-              .stream_url = (.stream_url | sub("\\?.*$"; "") + "?" + $jio)
+              # strip existing query and append token cleanly
+              .stream_url = ((.stream_url | sub("\\?.*$"; "")) + "?" + $jio)
             elif (.stream_url | test("zee5.com")) then
               .cookie = $zee |
               .stream_url |= sub("hdntl=[^&]*"; $zee)
@@ -43,7 +44,6 @@ jobs:
             end
           )
         ' full_channels.json > temp.json && mv temp.json full_channels.json
-
     - name: Commit and push changes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
