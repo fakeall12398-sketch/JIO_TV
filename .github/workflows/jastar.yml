@@ -20,7 +20,7 @@ jobs:
              -H "Connection: Keep-Alive" \
              --compressed \
              -o jstar.m3u \
-             "https://m3u-fetcher.vercel.app/hotstar.m3u"
+             "https://dtvlive.dtvhindi.news/jtvurl.txt"
 
     - name: Commit and push updated playlist
       env:
