@@ -54,6 +54,28 @@ jobs:
         git add full_channels.json
         git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
 
+        git fetch origin main
+        git rebase origin/main || git rebase --skip
+        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main              .stream_url = (.stream_url | sub("\\?.*$"; "") + "?" + $jio)
+            elif (.stream_url | test("zee5.com")) then
+              .cookie = $zee |
+              .stream_url |= sub("hdntl=[^&]*"; $zee)
+            else
+              .
+            end
+          )
+        ' full_channels.json > temp.json && mv temp.json full_channels.json
+
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        git add full_channels.json
+        git commit -m "Auto-update __hdnea__ and hdntl tokens in full_channels.json" || echo "No changes to commit"
+
         # Pull with rebase and auto-stash to avoid conflicts
         git pull --rebase --autostash origin main
 
