@@ -1,3 +1,6 @@
+#EXTINF:-1 tvg-id="2" tvg-name="Sony SAB SD" tvg-language="Hindi" tvg-logo="https://i.ibb.co/svHcHWBz/x.jpg" group-title="SONYLI√" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony SAB SD
+https://restream-bay.vercel.app/?id=221256.m3u8
+
 #EXTINF:-1 tvg-id="1" tvg-name="SET HD" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="SONYLI√" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", SET HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
 https://public.kliv.fun/zs500/Sony/stream.php?id=1
