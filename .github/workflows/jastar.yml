@@ -11,9 +11,9 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
-    - name: Fetch JioTV playlist and save as text
+    - name: Fetch JioTV playlist and save as jstar.m3u
       run: |
         curl -s -H "User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; Pixel 4 Build/PQ3A.190801.002)" \
              -H "Accept-Encoding: gzip" \
@@ -21,6 +21,7 @@ jobs:
              --compressed \
              -o jstar.m3u \
              "https://dtvlive.dtvhindi.news/jtvurl.txt"
+
     - name: Commit and push updated playlist
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -29,6 +30,12 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add jstar.m3u
         git commit -m "Auto-update Jio IPTV playlist as jstar.m3u" || echo "No changes to commit"
-        git fetch origin main
-        git rebase origin/main || git rebase --skip
         git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+
+  deploy-pages:
+    needs: update-jstar-playlist
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4
+      continue-on-error: true   # This prevents workflow failure if Pages cancel fails
