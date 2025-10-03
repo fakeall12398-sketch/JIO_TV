@@ -2,8 +2,14 @@ name: Update Jio (__hdnea__) + Zee5 (hdntl) tokens in kid.json + Deploy Pages
 
 on:
   schedule:
-    - cron: '0 */11 * * *'  # every 11 hours
+    - cron: '0 */11 * * *'
   workflow_dispatch:
+
+# ✅ Required for Pages deployments
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   update-json-tokens:
@@ -15,12 +21,10 @@ jobs:
 
     - name: Fetch remote playlists and extract tokens
       run: |
-        # Fetch JioTV playlist and extract __hdnea__ token
         curl -sL -o jio.m3u "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u"
         jio_token=$(grep -o '__hdnea__=[^|]*' jio.m3u | head -n1)
         echo "$jio_token" > jio_token.txt
 
-        # Fetch Zee5 playlist and extract hdntl token
         curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"
         zee_hdntl=$(grep -o 'hdntl=[^"&]*' zee.m3u | head -n1)
         echo "$zee_hdntl" > zee_hdntl.txt
@@ -57,14 +61,12 @@ jobs:
         git pull --rebase --autostash origin main
         git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
 
-    # ✅ Upload artifact for Pages deployment
     - name: Upload GitHub Pages artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: '.'   # whole repo or just the files you want served
-        name: github-pages-${{ github.run_id }}  # unique name
+        path: '.'
+        name: github-pages-${{ github.run_id }}
 
-  # ✅ Deploy job runs only after update-json-tokens
   deploy:
     environment:
       name: github-pages
