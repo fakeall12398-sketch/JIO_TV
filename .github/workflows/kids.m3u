@@ -32,7 +32,7 @@ jobs:
           import re, requests, os
           from datetime import datetime
 
-          API_URL = "https://billatv.pages.dev/slivbyfreelivtv"
+          API_URL = "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u"
           LOCAL_FILE = "kids.m3u"
 
           def parse_m3u(content):
@@ -57,7 +57,7 @@ jobs:
 
           new_entries = parse_m3u(new_data)
           kids_new = {k: v for k, v in new_entries.items() if k.lower().startswith("kids")}
-          print(f"✅ Found {len(kids_new)} Sony channels in API.")
+          print(f"✅ Found {len(kids_new)} Kids channels in API.")
 
           if not os.path.exists(LOCAL_FILE):
               print("⚠️ kids.m3u not found — creating new one.")
@@ -76,7 +76,7 @@ jobs:
           updated_lines = ["#EXTM3U", f"# Updated: {datetime.utcnow().isoformat()} UTC", ""]
           updated_count = 0
 
-          # Replace URLs for matching Sony channels
+          # Replace URLs for matching Kids channels
           for tvg_id, (header, old_url) in old_entries.items():
               if tvg_id in kids_new:
                   new_header, new_url = kids_new[tvg_id]
@@ -103,6 +103,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "✅ No changes to commit"
           else
-            git commit -m "🔄 Auto-update Sony M3U tokens ($(date -u))"
+            git commit -m "🔄 Auto-update Kids M3U tokens ($(date -u))"
             git push origin HEAD:${{ github.ref }}
           fi
