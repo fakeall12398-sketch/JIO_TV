@@ -1,0 +1,90 @@
+name: Update Sony M3U Tokens
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # every 12 hours
+  workflow_dispatch:         # manual trigger support
+
+jobs:
+  update-sony:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Update sony.m3u with new tokens
+        run: |
+          import requests, re, os
+          from datetime import datetime
+
+          API_URL = "https://billatv.pages.dev/slivbyfreelivtv"
+          LOCAL_FILE = "sony.m3u"
+
+          def parse_m3u(content):
+              entries = {}
+              lines = content.splitlines()
+              for i in range(len(lines)):
+                  if lines[i].startswith("#EXTINF"):
+                      header = lines[i]
+                      if i + 1 < len(lines):
+                          url = lines[i + 1].strip()
+                          match = re.search(r'tvg-id="([^"]+)"', header)
+                          if match:
+                              tvg_id = match.group(1)
+                              entries[tvg_id] = (header, url)
+              return entries
+
+          print("🔄 Fetching latest data...")
+          response = requests.get(API_URL, timeout=30)
+          response.raise_for_status()
+          new_data = response.text.strip()
+
+          if not os.path.exists(LOCAL_FILE):
+              print(f"⚠️ {LOCAL_FILE} not found, creating new one.")
+              with open(LOCAL_FILE, "w", encoding="utf-8") as f:
+                  f.write(new_data)
+              exit(0)
+
+          print("📂 Reading local sony.m3u...")
+          with open(LOCAL_FILE, "r", encoding="utf-8") as f:
+              old_data = f.read()
+
+          old_channels = parse_m3u(old_data)
+          new_channels = parse_m3u(new_data)
+
+          updated_lines = ["#EXTM3U", f"# Updated: {datetime.utcnow().isoformat()} UTC\n"]
+
+          updated_count = 0
+          for tvg_id, (header, old_url) in old_channels.items():
+              if tvg_id in new_channels:
+                  new_header, new_url = new_channels[tvg_id]
+                  if new_url != old_url:
+                      updated_count += 1
+                      print(f"✅ Updated token for {tvg_id}")
+                  updated_lines.append(new_header)
+                  updated_lines.append(new_url)
+              else:
+                  updated_lines.append(header)
+                  updated_lines.append(old_url)
+
+          with open(LOCAL_FILE, "w", encoding="utf-8") as f:
+              f.write("\n".join(updated_lines))
+
+          print(f"🎉 Update complete — {updated_count} URLs updated.")
+        shell: python
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add sony.m3u
+          git diff --quiet && echo "No changes to commit" || (git commit -m "🔄 Update Sony M3U tokens" && git push)
