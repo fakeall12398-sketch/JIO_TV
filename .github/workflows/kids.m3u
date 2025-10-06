@@ -1,0 +1,108 @@
+name: Auto Update Kids M3U Tokens
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # every 12 hours
+  workflow_dispatch:
+
+jobs:
+  update-kids:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Update kids.m3u tokens
+        run: |
+          python - <<'PY'
+          import re, requests, os
+          from datetime import datetime
+
+          API_URL = "https://billatv.pages.dev/slivbyfreelivtv"
+          LOCAL_FILE = "kids.m3u"
+
+          def parse_m3u(content):
+              """Parse M3U entries as tvg-id -> (header, url)."""
+              entries = {}
+              lines = content.splitlines()
+              for i, line in enumerate(lines):
+                  if line.startswith("#EXTINF"):
+                      header = line.strip()
+                      if i + 1 < len(lines):
+                          url = lines[i + 1].strip()
+                          m = re.search(r'tvg-id="([^"]+)"', header)
+                          if m:
+                              entries[m.group(1)] = (header, url)
+              return entries
+
+          # Fetch new playlist
+          print("🔄 Fetching latest playlist...")
+          resp = requests.get(API_URL, timeout=30)
+          resp.raise_for_status()
+          new_data = resp.text.strip()
+
+          new_entries = parse_m3u(new_data)
+          kids_new = {k: v for k, v in new_entries.items() if k.lower().startswith("kids")}
+          print(f"✅ Found {len(kids_new)} Sony channels in API.")
+
+          if not os.path.exists(LOCAL_FILE):
+              print("⚠️ kids.m3u not found — creating new one.")
+              lines = ["#EXTM3U", f"# Created: {datetime.utcnow().isoformat()} UTC", ""]
+              for _, (header, url) in kids_new.items():
+                  lines += [header, url]
+              with open(LOCAL_FILE, "w", encoding="utf-8") as f:
+                  f.write("\n".join(lines))
+              exit(0)
+
+          # Read current kids.m3u
+          with open(LOCAL_FILE, "r", encoding="utf-8") as f:
+              old_data = f.read()
+
+          old_entries = parse_m3u(old_data)
+          updated_lines = ["#EXTM3U", f"# Updated: {datetime.utcnow().isoformat()} UTC", ""]
+          updated_count = 0
+
+          # Replace URLs for matching Sony channels
+          for tvg_id, (header, old_url) in old_entries.items():
+              if tvg_id in kids_new:
+                  new_header, new_url = kids_new[tvg_id]
+                  if new_url != old_url:
+                      updated_count += 1
+                      print(f"🔁 Updated token for {tvg_id}")
+                  updated_lines.append(new_header)
+                  updated_lines.append(new_url)
+              else:
+                  updated_lines.append(header)
+                  updated_lines.append(old_url)
+
+          with open(LOCAL_FILE, "w", encoding="utf-8") as f:
+              f.write("\n".join(updated_lines))
+
+          print(f"🎉 kids.m3u updated successfully ({updated_count} tokens refreshed).")
+          PY
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add kids.m3u
+          if git diff --staged --quiet; then
+            echo "✅ No changes to commit"
+          else
+            git commit -m "🔄 Auto-update Sony M3U tokens ($(date -u))"
+            git push origin HEAD:${{ github.ref }}
+          fi
