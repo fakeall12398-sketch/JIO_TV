@@ -1,49 +1,49 @@
 #EXTM3U
-# Updated: 2025-10-07T01:17:55.435227 UTC
+# Updated: 2025-10-07T12:37:33.173317 UTC
 
 #EXTINF:-1 tvg-id="2" tvg-name="Sony SAB SD" tvg-language="Hindi" tvg-logo="https://i.ibb.co/svHcHWBz/x.jpg" group-title="SONYLI√" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony SAB SD
 https://restream-bay.vercel.app/?id=221256.m3u8
 #EXTINF:-1 tvg-id="sonysethd" tvg-name="SETHD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="Entertainment", SETHD
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011671%2FSETHD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonysabhd" tvg-name="Sony SAB HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="Entertainment", Sony SAB HD
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011749%2FSABHD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonypal" tvg-name="Sony PAL" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment", Sony PAL
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011741%2FSonyPalSD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonyyay" tvg-name="Sony YAY" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids", Sony YAY
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011746%2FSonyYaySD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonymarathi" tvg-name="Sony Marathi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" group-title="Marathi", Sony Marathi
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011740%2FSonyMarathi%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonyaath" tvg-name="Sony AATH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="Bengali", Sony AATH
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011641%2FSonyAathSD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonymaxhd" tvg-name="Sony MAX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" group-title="Movies", Sony MAX HD
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011670%2FSonyMaxhd%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonymax" tvg-name="Sony MAX" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX.png" group-title="Movies", Sony MAX
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011745%2FSonyMaxSD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonywah" tvg-name="Sony WAH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="Movies", Sony WAH
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011906%2FSonyWah%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonymax2" tvg-name="Sony MAX2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png" group-title="Movies", Sony MAX 2
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011908%2FMAX2%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonypixhd" tvg-name="Sony PIX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="Movies", Sony PIX HD
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011748%2FPIXHD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonybbcearthhd" tvg-name="Sony BBC Earth HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" group-title="Infotainment", Sony BBC Earth HD
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011907%2FSonyBBCEarthHD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonysportsten1" tvg-name="Sony TEN 1" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" group-title="Sports", Sony TEN 1
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2011739%2FTEN1SD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonysportsten2" tvg-name="Sony TEN 2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" group-title="Sports", Sony TEN 2
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2020590%2FTEN2SD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2020590/TEN2SD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonysportsten3" tvg-name="Sony TEN 3" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi.png" group-title="Sports", Sony TEN 3
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fplay.denver1769.fun%2FSliv%2Fhls%2Fsony-ten-3%2Findex.m3u8%3F
+https://play.denver1769.fun/Sliv/hls/sony-ten-3/index.m3u8?
 #EXTINF:-1 tvg-id="sonysportsten4" tvg-name="Sony TEN 4" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Tamil.png" group-title="Sports", Sony TEN 4
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2020437%2Ften4sd%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonysportsten5" tvg-name="Sony TEN 5" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports", Sony TEN 5
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2020594%2FSONYSIXSD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2020594/SONYSIXSD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonysportsten1hd" tvg-name="Sony TEN 1 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="Sports", Sony TEN 1 HD
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2F%2Fhls%2Flive%2F2011747%2FTEN1HD%2Fmaster.m3u8%3F
+https://dishmt.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8?
 #EXTINF:-1 tvg-id="sonysportsten2hd" tvg-name="Sony TEN 2 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="Sports", Sony TEN 2 HD
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2020434%2FTEN2HD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonysportsten3hd" tvg-name="Sony TEN 3 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi_HD.png" group-title="Sports", Sony TEN 3 HD
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2020591%2FTEN3HD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonysportsten4hd" tvg-name="Sony TEN 4 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Telugu.png" group-title="Sports", Sony TEN 4 HD
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2020589%2Ften4hd%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
 #EXTINF:-1 tvg-id="sonysportsten5hd" tvg-name="Sony TEN 5 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports", Sony TEN 5 HD
-https://mini.allinonereborn.online/events/stream_proxy.php?url=https%3A%2F%2Fdishmt.slivcdn.com%2Fhls%2Flive%2F2020593%2FSONYSIXHD%2Fmaster.m3u8%3Fhdnea%3Dexp%3D1759797000~acl%3D%2F*~id%3D79493329046060230805154086103940~hmac%3D3a75188eb19887b00269bd08b4ceb893caaf29f09f3bf377fffd0279f243086d
+https://dishmt.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8??hdnea=exp=1759883531~acl=/*~id=53421253520200284063483369205156~hmac=2115dfcd90c40f610bc6d13989856b379991f1a4502def5029768e7a5aec3266
