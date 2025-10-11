@@ -1,0 +1,139 @@
+name: 🔄 Auto Update IPTV Tokens & License Keys
+
+on:
+  schedule:
+    - cron: "0 */11 * * *"  # every 11 hours
+  workflow_dispatch:        # allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # required to push updated files
+
+    steps:
+      - name: 🧩 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: 🔄 Fetch Tokens from M3U Playlists and Update kids.m3u
+        run: |
+          python - <<'PYCODE'
+          import re, requests
+
+          # === Configuration ===
+          M3U_FILE = "kids.m3u"
+          PLAYLIST_URLS = [
+              "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u",
+              "https://fakeall12398-sketch.github.io/JIO_TV/sony.m3u",
+              "https://freelivtv.xyz/oppu/opplex.m3u",
+              "https://fakeall12398-sketch.github.io/JIO_TV/Allinone.m3u"
+          ]
+          # =====================
+
+          def fetch_playlist_tokens():
+              tokens = {"hdnea": None, "hdntl": None, "license_key": None}
+              pattern_hdnea = re.compile(r"__hdnea__=([^&\"\\s]+)")
+              pattern_hdntl = re.compile(r"hdntl=([^&\"\\s]+)")
+              pattern_license = re.compile(r"#KODIPROP:inputstream\.adaptive\.license_key=([^\n]+)")
+
+              for url in PLAYLIST_URLS:
+                  try:
+                      print(f"[INFO] Fetching tokens from: {url}")
+                      resp = requests.get(url, timeout=15)
+                      resp.raise_for_status()
+                      text = resp.text
+
+                      if not tokens["hdnea"]:
+                          match = pattern_hdnea.search(text)
+                          if match:
+                              tokens["hdnea"] = match.group(1)
+                              print(f"✅ Found hdnea token: {tokens['hdnea'][:40]}...")
+
+                      if not tokens["hdntl"]:
+                          match = pattern_hdntl.search(text)
+                          if match:
+                              tokens["hdntl"] = match.group(1)
+                              print(f"✅ Found hdntl token: {tokens['hdntl'][:40]}...")
+
+                      if not tokens["license_key"]:
+                          match = pattern_license.search(text)
+                          if match:
+                              tokens["license_key"] = match.group(1).strip()
+                              print(f"✅ Found license key: {tokens['license_key'][:60]}...")
+
+                      if all(tokens.values()):
+                          break  # stop early if all found
+                  except Exception as e:
+                      print(f"[WARN] Could not fetch {url}: {e}")
+              return tokens
+
+          def update_tokens_in_file(tokens):
+              try:
+                  with open(M3U_FILE, "r", encoding="utf-8") as f:
+                      content = f.read()
+              except FileNotFoundError:
+                  print(f"[ERROR] {M3U_FILE} not found!")
+                  return False
+
+              updated = content
+              changed = False
+
+              if tokens["hdnea"]:
+                  updated = re.sub(r"__hdnea__=[^&\"\\s]+", f"__hdnea__={tokens['hdnea']}", updated)
+                  updated = re.sub(r"cookie=\"__hdnea__=[^\"}]+", f"cookie=\"__hdnea__={tokens['hdnea']}", updated)
+                  changed = True
+
+              if tokens["hdntl"]:
+                  updated = re.sub(r"hdntl=[^&\"\\s]+", f"hdntl={tokens['hdntl']}", updated)
+                  changed = True
+
+              if tokens["license_key"]:
+                  updated = re.sub(
+                      r"(#KODIPROP:inputstream\.adaptive\.license_key=)[^\n]+",
+                      f"\\1{tokens['license_key']}",
+                      updated
+                  )
+                  changed = True
+
+              if changed and updated != content:
+                  with open(M3U_FILE, "w", encoding="utf-8") as f:
+                      f.write(updated)
+                  print("[INFO] kids.m3u updated successfully ✅")
+              else:
+                  print("[INFO] No updates needed — tokens unchanged.")
+              return changed
+
+          tokens = fetch_playlist_tokens()
+          if not any(tokens.values()):
+              print("[ERROR] No tokens found from any playlist. Exiting.")
+              exit(1)
+
+          if update_tokens_in_file(tokens):
+              exit(0)
+          else:
+              exit(78)  # no changes
+
+          PYCODE
+
+      - name: 💾 Commit & Push Changes
+        if: ${{ success() }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No changes to commit."
+          else
+            git add kids.m3u
+            git commit -m "🔄 Auto Update kids.m3u tokens [$(date '+%Y-%m-%d %H:%M')]"
+            git push
