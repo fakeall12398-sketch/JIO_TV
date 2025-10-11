@@ -108,9 +108,14 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Get current UTC date safely
+          DATE="$(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+
           if git diff --quiet; then
             echo "No changes to commit."
           else
             git add kids.m3u
-            git commit -m "🔄 Auto Update kids.m3u tokens [$(date '+%Y-%m-%d %H:%M:%S')]"
+            git commit -m "🔄 Auto Update kids.m3u tokens [${DATE}]"
             git push
+          fi
