@@ -1,132 +1,162 @@
-name: 🔄 Auto Update IPTV Tokens & License Keys
+name: Update Kids IPTV Playlist
 
 on:
   schedule:
-    - cron: "0 */11 * * *"  # Every 11 hours
-  workflow_dispatch:  # Manual trigger allowed
+    - cron: '0 */11 * * *'  # every 11 hours
+  workflow_dispatch:
 
 jobs:
-  update:
+  update_playlist:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - name: 🧩 Checkout Repository
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: 🐍 Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
 
-      - name: 📦 Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+    - name: Install dependencies
+      run: pip install requests
 
-      - name: 🔄 Fetch & Update kids.m3u
-        run: |
-          python - <<'PYCODE'
-          import re, requests, time
+    - name: Fetch & Update Kids Playlist
+      env:
+        TOKEN_API_URL: ${{ secrets.TOKEN_API_URL }}   # your API providing fresh tokens/license keys
+      run: |
+        python - <<'PYTHON_CODE'
+import re
+import requests
+from urllib.parse import urljoin
 
-          M3U_FILE = "kids.m3u"
+# ---------------- CONFIG ----------------
+PLAYLIST_URLS = [
+    "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u",
+    "https://fakeall12398-sketch.github.io/JIO_TV/sony.m3u",
+    "https://fakeall12398-sketch.github.io/JIO_TV/Allinone.m3u",
+]
+OUTPUT_FILE = "kids.m3u"
+TIMEOUT = 15
+MAX_DEPTH = 2
+WHITELIST_CHANNELS = [
+    "disney channel","disney junior","nickelodeon","nick jr","sonic",
+    "hungama","super hungama","sony yay","yay",
+    "cartoon network","pogo","boomerang"
+]
 
-          PLAYLIST_URLS = [
-              "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u",
-              "https://fakeall12398-sketch.github.io/JIO_TV/sony.m3u",
-              "https://freelivtv.xyz/oppu/opplex.m3u",
-              "https://fakeall12398-sketch.github.io/JIO_TV/Allinone.m3u8"
-          ]
+# ---------------- FUNCTIONS ----------------
+def fetch_text(url):
+    try:
+        r = requests.get(url, timeout=TIMEOUT, headers={"User-Agent":"Mozilla/5.0"})
+        r.raise_for_status()
+        return r.text
+    except:
+        return None
 
-          def fetch_tokens():
-              tokens = {"hdnea": None, "hdntl": None, "license_key": None}
-              pattern_hdnea = re.compile(r"__hdnea__=([^&\"\\s]+)")
-              pattern_hdntl = re.compile(r"hdntl=([^&\"\\s]+)")
-              pattern_license = re.compile(r"#KODIPROP:inputstream\.adaptive\.license_key=([^\n]+)")
+def parse_playlist(content, base_url=None):
+    lines = content.splitlines()
+    i, n = 0, len(lines)
+    while i < n:
+        line = lines[i].strip()
+        if line.upper().startswith("#EXTINF"):
+            extinf = line
+            metadata = []
+            stream_url = None
+            j = i + 1
+            while j < n:
+                nxt = lines[j].rstrip()
+                if not nxt: j+=1; continue
+                if nxt.startswith("#"):
+                    metadata.append(nxt)
+                    j+=1
+                    continue
+                stream_url = nxt
+                break
+            if stream_url:
+                if base_url:
+                    stream_url = urljoin(base_url, stream_url)
+                yield extinf, metadata, stream_url
+            i = j + 1
+        else:
+            i += 1
 
-              for url in PLAYLIST_URLS:
-                  try:
-                      print(f"[INFO] Fetching: {url}")
-                      resp = requests.get(url, timeout=20)
-                      text = resp.text
+def title_from_extinf(extinf_line):
+    m = re.search(r'#EXTINF:[^,]*,(.*)', extinf_line, re.IGNORECASE)
+    return m.group(1).strip() if m else ""
 
-                      if not tokens["hdnea"]:
-                          m = pattern_hdnea.search(text)
-                          if m:
-                              tokens["hdnea"] = m.group(1)
-                              print(f"✅ Found hdnea: {tokens['hdnea'][:40]}...")
+def is_whitelisted(extinf_line):
+    text = extinf_line.lower()
+    title = title_from_extinf(extinf_line).lower()
+    return any(name in text or name in title for name in WHITELIST_CHANNELS)
 
-                      if not tokens["hdntl"]:
-                          m = pattern_hdntl.search(text)
-                          if m:
-                              tokens["hdntl"] = m.group(1)
-                              print(f"✅ Found hdntl: {tokens['hdntl'][:40]}...")
+def is_playlist_url(url):
+    return url.lower().endswith((".m3u", ".m3u8"))
 
-                      if not tokens["license_key"]:
-                          m = pattern_license.search(text)
-                          if m:
-                              tokens["license_key"] = m.group(1).strip()
-                              print(f"✅ Found license key")
+def fetch_new_token():
+    try:
+        r = requests.get(os.environ.get("TOKEN_API_URL"), timeout=10)
+        r.raise_for_status()
+        return r.text.strip()
+    except:
+        return None
 
-                      if all(tokens.values()):
-                          print("[INFO] All tokens collected ✅")
-                          break
-                  except Exception as e:
-                      print(f"[WARN] Skipping {url}: {e}")
+def update_tokens_in_meta(meta_lines, new_token):
+    updated = []
+    for m in meta_lines:
+        m_new = re.sub(r'__hdnea__=[^&\s]+', f"__hdnea__={new_token}", m)
+        m_new = re.sub(r'inputstream\.adaptive\.license_key\s*=\s*[^ ]+', f"inputstream.adaptive.license_key={new_token}", m_new)
+        updated.append(m_new)
+    return updated
 
-              print(f"[INFO] Final tokens: {tokens}")
-              return tokens
+def extract_kids(url, visited=None, depth=0):
+    import os
+    if visited is None: visited = set()
+    if url in visited or depth > MAX_DEPTH: return []
+    visited.add(url)
+    txt = fetch_text(url)
+    if not txt: return []
+    entries = []
+    new_token = fetch_new_token()
+    for extinf, meta, stream_url in parse_playlist(txt, base_url=url):
+        if is_playlist_url(stream_url):
+            entries.extend(extract_kids(stream_url, visited, depth+1))
+            continue
+        if is_whitelisted(extinf):
+            meta_updated = update_tokens_in_meta(meta, new_token) if new_token else meta
+            entries.append({"extinf": extinf,"meta": meta_updated,"url": stream_url})
+    return entries
 
-          def update_file(tokens):
-              try:
-                  with open(M3U_FILE, encoding="utf-8") as f:
-                      content = f.read()
-              except FileNotFoundError:
-                  print(f"[ERROR] File {M3U_FILE} not found.")
-                  return False
+# ---------------- MAIN ----------------
+import os
+all_entries = []
+visited = set()
+for u in PLAYLIST_URLS:
+    found = extract_kids(u, visited)
+    all_entries.extend(found)
 
-              updated = content
+# deduplicate by URL
+unique = {}
+for item in all_entries:
+    u = item["url"]
+    if u not in unique: unique[u] = item
 
-              if tokens["hdnea"]:
-                  updated = re.sub(r"__hdnea__=[^&\"\\s]+", f"__hdnea__={tokens['hdnea']}", updated)
-                  updated = re.sub(r'cookie=\"__hdnea__=[^\"}]+', f'cookie="__hdnea__={tokens["hdnea"]}', updated)
+with open(OUTPUT_FILE,"w",encoding="utf-8") as f:
+    f.write("#EXTM3U\n")
+    for u,item in unique.items():
+        f.write(item["extinf"]+"\n")
+        for m in item["meta"]:
+            f.write(m+"\n")
+        f.write(u+"\n")
+print(f"✅ Updated kids playlist saved to {OUTPUT_FILE}")
+PYTHON_CODE
 
-              if tokens["hdntl"]:
-                  updated = re.sub(r"hdntl=[^&\"\\s]+", f"hdntl={tokens['hdntl']}", updated)
-
-              if tokens["license_key"]:
-                  updated = re.sub(
-                      r"(?m)^#KODIPROP:inputstream\.adaptive\.license_key=.*$",
-                      f"#KODIPROP:inputstream.adaptive.license_key={tokens['license_key']}",
-                      updated
-                  )
-
-              # Add timestamp to force commit
-              timestamp = time.strftime("%Y-%m-%d %H:%M:%S UTC")
-              updated += f"\n# Auto-updated on {timestamp}\n"
-
-              with open(M3U_FILE, "w", encoding="utf-8") as f:
-                  f.write(updated)
-
-              print(f"[INFO] ✅ {M3U_FILE} updated successfully.")
-              return True
-
-          tokens = fetch_tokens()
-          if not any(tokens.values()):
-              print("[ERROR] No tokens found. Skipping update.")
-              exit(1)
-
-          update_file(tokens)
-          PYCODE
-
-      - name: 💾 Commit & Push Updated Tokens
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          DATE="$(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-
-          git add kids.m3u
-          git commit -m "🔄 Auto Update kids.m3u tokens [${DATE}]" || echo "⚠️ No diff detected, forcing commit."
-          git push origin HEAD:main || echo "⚠️ Push failed — likely no diff."
+    - name: Commit & Push
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add kids.m3u
+        git commit -m "Auto-update kids playlist with new tokens [skip ci]" || echo "No changes"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
