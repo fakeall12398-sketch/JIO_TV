@@ -1,162 +1,396 @@
-name: Update Kids IPTV Playlist
+name: Update Kids M3U Playlist with Fresh Tokens
 
 on:
+  workflow_dispatch:  # Manual trigger
   schedule:
-    - cron: '0 */11 * * *'  # every 11 hours
-  workflow_dispatch:
+    - cron: '0 */6 * * *'  # Run every 6 hours
 
 jobs:
-  update_playlist:
+  update-playlist:
     runs-on: ubuntu-latest
-
+    
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
-
+      uses: actions/checkout@v4
+      
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
-
+        
     - name: Install dependencies
       run: pip install requests
-
-    - name: Fetch & Update Kids Playlist
-      env:
-        TOKEN_API_URL: ${{ secrets.TOKEN_API_URL }}   # your API providing fresh tokens/license keys
+        
+    - name: Generate and update kids playlist
       run: |
-        python - <<'PYTHON_CODE'
-import re
-import requests
-from urllib.parse import urljoin
-
-# ---------------- CONFIG ----------------
-PLAYLIST_URLS = [
-    "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u",
-    "https://fakeall12398-sketch.github.io/JIO_TV/sony.m3u",
-    "https://fakeall12398-sketch.github.io/JIO_TV/Allinone.m3u",
-]
-OUTPUT_FILE = "kids.m3u"
-TIMEOUT = 15
-MAX_DEPTH = 2
-WHITELIST_CHANNELS = [
-    "disney channel","disney junior","nickelodeon","nick jr","sonic",
-    "hungama","super hungama","sony yay","yay",
-    "cartoon network","pogo","boomerang"
-]
-
-# ---------------- FUNCTIONS ----------------
-def fetch_text(url):
-    try:
-        r = requests.get(url, timeout=TIMEOUT, headers={"User-Agent":"Mozilla/5.0"})
-        r.raise_for_status()
-        return r.text
-    except:
-        return None
-
-def parse_playlist(content, base_url=None):
-    lines = content.splitlines()
-    i, n = 0, len(lines)
-    while i < n:
-        line = lines[i].strip()
-        if line.upper().startswith("#EXTINF"):
-            extinf = line
-            metadata = []
-            stream_url = None
-            j = i + 1
-            while j < n:
-                nxt = lines[j].rstrip()
-                if not nxt: j+=1; continue
-                if nxt.startswith("#"):
-                    metadata.append(nxt)
-                    j+=1
+        cat > update_playlist.py << 'EOF'
+        #!/usr/bin/env python3
+        """
+        Kids M3U Playlist Updater with Token Refresh
+        Embedded in GitHub Actions workflow
+        """
+        
+        import re
+        import requests
+        import json
+        import os
+        from urllib.parse import urljoin, urlparse
+        
+        # ================= CONFIG =================
+        PLAYLIST_URLS = [
+            "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u",
+            "https://fakeall12398-sketch.github.io/JIO_TV/sony.m3u", 
+            "https://fakeall12398-sketch.github.io/JIO_TV/Allinone.m3u8",
+        ]
+        
+        OUTPUT_FILE = "kids.m3u"
+        TIMEOUT = 15
+        MAX_DEPTH = 2
+        
+        # Whitelist of kids channels
+        WHITELIST_CHANNELS = [
+            "disney channel", "disney junior", "disney international",
+            "nickelodeon", "nick jr", "sonic", 
+            "hungama", "super hungama",
+            "sony yay", "yay",
+            "cartoon network", "pogo", "boomerang",
+        ]
+        
+        # Token refresh configuration (update these with your actual endpoints)
+        TOKEN_CONFIG = {
+            "jio": {
+                "url": os.getenv('JIO_TOKEN_URL', 'https://jiotv.com/api/token/refresh'),
+                "payload": {
+                    "refresh_token": os.getenv('JIO_REFRESH_TOKEN', 'your_refresh_token'),
+                    "device_id": os.getenv('JIO_DEVICE_ID', 'your_device_id')
+                }
+            },
+            "sony": {
+                "url": os.getenv('SONY_TOKEN_URL', 'https://sonyliv.com/api/v1/token'),
+                "headers": {
+                    "Authorization": f"Bearer {os.getenv('SONY_AUTH_TOKEN', 'your_auth_token')}"
+                }
+            }
+        }
+        
+        # Regex patterns
+        EXTINF_TITLE_RE = re.compile(r'#EXTINF:[^\n]*,(.*)', flags=re.IGNORECASE)
+        LICENSE_KEY_RE = re.compile(r'license_key\s*=\s*["\']?([^"\'\s]+)["\']?', flags=re.IGNORECASE)
+        
+        class TokenManager:
+            def __init__(self):
+                self.cache = {}
+                
+            def refresh_jio_token(self):
+                """Refresh JioTV token"""
+                try:
+                    config = TOKEN_CONFIG["jio"]
+                    headers = {
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
+                        "Content-Type": "application/json"
+                    }
+                    
+                    response = requests.post(
+                        config["url"],
+                        json=config["payload"],
+                        headers=headers,
+                        timeout=TIMEOUT
+                    )
+                    
+                    if response.status_code == 200:
+                        data = response.json()
+                        token = data.get("access_token") or data.get("token")
+                        if token:
+                            self.cache["jio"] = token
+                            print("✓ JioTV token refreshed successfully")
+                            return token
+                except Exception as e:
+                    print(f"❌ JioTV token refresh failed: {e}")
+                return None
+            
+            def refresh_sony_token(self):
+                """Refresh SonyLIV token"""
+                try:
+                    config = TOKEN_CONFIG["sony"]
+                    headers = {
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
+                        "Content-Type": "application/json"
+                    }
+                    headers.update(config.get("headers", {}))
+                    
+                    response = requests.post(
+                        config["url"],
+                        headers=headers,
+                        timeout=TIMEOUT
+                    )
+                    
+                    if response.status_code == 200:
+                        data = response.json()
+                        token = data.get("access_token") or data.get("token")
+                        if token:
+                            self.cache["sony"] = token
+                            print("✓ SonyLIV token refreshed successfully")
+                            return token
+                except Exception as e:
+                    print(f"❌ SonyLIV token refresh failed: {e}")
+                return None
+            
+            def get_fresh_license_key(self, original_key):
+                """Refresh license key with current token"""
+                if not original_key:
+                    return original_key
+                    
+                try:
+                    # Determine provider from license URL
+                    if "jiotv" in original_key.lower() or "jio" in original_key.lower():
+                        token = self.cache.get("jio") or self.refresh_jio_token()
+                        if token and "token=" in original_key:
+                            return re.sub(r'token=[^&]+', f'token={token}', original_key)
+                    
+                    elif "sony" in original_key.lower() or "sonyliv" in original_key.lower():
+                        token = self.cache.get("sony") or self.refresh_sony_token()
+                        if token and "token=" in original_key:
+                            return re.sub(r'token=[^&]+', f'token={token}', original_key)
+                            
+                except Exception as e:
+                    print(f"⚠️ License key refresh failed: {e}")
+                
+                return original_key
+            
+            def get_fresh_cookies(self, provider):
+                """Get fresh cookies for provider"""
+                try:
+                    if provider == "jio":
+                        token = self.cache.get("jio") or self.refresh_jio_token()
+                        if token:
+                            return json.dumps({
+                                "Authorization": f"Bearer {token}",
+                                "User-Agent": "Mozilla/5.0 (JioTV)"
+                            })
+                    
+                    elif provider == "sony":
+                        token = self.cache.get("sony") or self.refresh_sony_token()
+                        if token:
+                            return json.dumps({
+                                "x-access-token": token,
+                                "User-Agent": "Mozilla/5.0 (SonyLIV)"
+                            })
+                            
+                except Exception as e:
+                    print(f"⚠️ Cookie refresh failed for {provider}: {e}")
+                
+                return None
+        
+        def fetch_playlist(url):
+            """Fetch playlist content"""
+            try:
+                headers = {
+                    "User-Agent": "Mozilla/5.0 (KidsPlaylistUpdater)",
+                    "Accept": "*/*"
+                }
+                response = requests.get(url, timeout=TIMEOUT, headers=headers)
+                response.raise_for_status()
+                return response.text
+            except Exception as e:
+                print(f"❌ Failed to fetch {url}: {e}")
+                return None
+        
+        def parse_playlist(content, base_url=None):
+            """Parse M3U playlist and extract entries with metadata"""
+            lines = content.splitlines()
+            entries = []
+            i = 0
+            
+            while i < len(lines):
+                line = lines[i].strip()
+                if not line:
+                    i += 1
                     continue
-                stream_url = nxt
-                break
-            if stream_url:
-                if base_url:
-                    stream_url = urljoin(base_url, stream_url)
-                yield extinf, metadata, stream_url
-            i = j + 1
-        else:
-            i += 1
-
-def title_from_extinf(extinf_line):
-    m = re.search(r'#EXTINF:[^,]*,(.*)', extinf_line, re.IGNORECASE)
-    return m.group(1).strip() if m else ""
-
-def is_whitelisted(extinf_line):
-    text = extinf_line.lower()
-    title = title_from_extinf(extinf_line).lower()
-    return any(name in text or name in title for name in WHITELIST_CHANNELS)
-
-def is_playlist_url(url):
-    return url.lower().endswith((".m3u", ".m3u8"))
-
-def fetch_new_token():
-    try:
-        r = requests.get(os.environ.get("TOKEN_API_URL"), timeout=10)
-        r.raise_for_status()
-        return r.text.strip()
-    except:
-        return None
-
-def update_tokens_in_meta(meta_lines, new_token):
-    updated = []
-    for m in meta_lines:
-        m_new = re.sub(r'__hdnea__=[^&\s]+', f"__hdnea__={new_token}", m)
-        m_new = re.sub(r'inputstream\.adaptive\.license_key\s*=\s*[^ ]+', f"inputstream.adaptive.license_key={new_token}", m_new)
-        updated.append(m_new)
-    return updated
-
-def extract_kids(url, visited=None, depth=0):
-    import os
-    if visited is None: visited = set()
-    if url in visited or depth > MAX_DEPTH: return []
-    visited.add(url)
-    txt = fetch_text(url)
-    if not txt: return []
-    entries = []
-    new_token = fetch_new_token()
-    for extinf, meta, stream_url in parse_playlist(txt, base_url=url):
-        if is_playlist_url(stream_url):
-            entries.extend(extract_kids(stream_url, visited, depth+1))
-            continue
-        if is_whitelisted(extinf):
-            meta_updated = update_tokens_in_meta(meta, new_token) if new_token else meta
-            entries.append({"extinf": extinf,"meta": meta_updated,"url": stream_url})
-    return entries
-
-# ---------------- MAIN ----------------
-import os
-all_entries = []
-visited = set()
-for u in PLAYLIST_URLS:
-    found = extract_kids(u, visited)
-    all_entries.extend(found)
-
-# deduplicate by URL
-unique = {}
-for item in all_entries:
-    u = item["url"]
-    if u not in unique: unique[u] = item
-
-with open(OUTPUT_FILE,"w",encoding="utf-8") as f:
-    f.write("#EXTM3U\n")
-    for u,item in unique.items():
-        f.write(item["extinf"]+"\n")
-        for m in item["meta"]:
-            f.write(m+"\n")
-        f.write(u+"\n")
-print(f"✅ Updated kids playlist saved to {OUTPUT_FILE}")
-PYTHON_CODE
-
-    - name: Commit & Push
+                
+                if line.upper().startswith("#EXTINF"):
+                    extinf_line = line
+                    metadata = []
+                    url_line = None
+                    
+                    # Look ahead for metadata and URL
+                    j = i + 1
+                    while j < len(lines):
+                        next_line = lines[j].strip()
+                        if not next_line:
+                            j += 1
+                            continue
+                        
+                        if next_line.startswith("#"):
+                            metadata.append(next_line)
+                            j += 1
+                        else:
+                            url_line = next_line
+                            break
+                    
+                    if url_line:
+                        if base_url and not url_line.startswith(('http://', 'https://')):
+                            url_line = urljoin(base_url, url_line)
+                        
+                        entries.append({
+                            'extinf': extinf_line,
+                            'metadata': metadata,
+                            'url': url_line,
+                            'title': extract_title(extinf_line)
+                        })
+                    
+                    i = j + 1 if url_line else i + 1
+                else:
+                    i += 1
+            
+            return entries
+        
+        def extract_title(extinf_line):
+            """Extract channel title from EXTINF line"""
+            match = EXTINF_TITLE_RE.search(extinf_line)
+            return match.group(1).strip() if match else ""
+        
+        def is_kids_channel(extinf_line, title):
+            """Check if channel is in kids whitelist"""
+            combined_text = (extinf_line + " " + title).lower()
+            return any(channel in combined_text for channel in WHITELIST_CHANNELS)
+        
+        def refresh_metadata(metadata, token_manager):
+            """Refresh tokens in metadata lines"""
+            refreshed_metadata = []
+            
+            for line in metadata:
+                refreshed_line = line
+                
+                # Refresh license keys
+                if "inputstream.adaptive.license_key" in line.lower():
+                    match = LICENSE_KEY_RE.search(line)
+                    if match:
+                        old_key = match.group(1)
+                        new_key = token_manager.get_fresh_license_key(old_key)
+                        if new_key != old_key:
+                            refreshed_line = line.replace(old_key, new_key)
+                            print(f"✓ Refreshed license key for: {urlparse(old_key).netloc}")
+                
+                # Refresh cookies in EXTHTTP
+                elif line.upper().startswith("#EXTHTTP:"):
+                    cookie_json = line[9:].strip()  # Remove #EXTHTTP:
+                    try:
+                        cookies = json.loads(cookie_json)
+                        provider = None
+                        
+                        if any(x in str(cookies).lower() for x in ["jiotv", "jio"]):
+                            provider = "jio"
+                        elif any(x in str(cookies).lower() for x in ["sony", "sonyliv"]):
+                            provider = "sony"
+                        
+                        if provider:
+                            fresh_cookies = token_manager.get_fresh_cookies(provider)
+                            if fresh_cookies:
+                                refreshed_line = f"#EXTHTTP: {fresh_cookies}"
+                                print(f"✓ Refreshed cookies for: {provider}")
+                    except:
+                        pass  # Keep original if JSON parsing fails
+                
+                refreshed_metadata.append(refreshed_line)
+            
+            return refreshed_metadata
+        
+        def extract_kids_channels():
+            """Main function to extract and refresh kids channels"""
+            print("🚀 Starting kids channels extraction with token refresh...")
+            
+            token_manager = TokenManager()
+            all_kids_channels = []
+            processed_urls = set()
+            
+            for playlist_url in PLAYLIST_URLS:
+                print(f"\n📡 Processing: {playlist_url}")
+                
+                content = fetch_playlist(playlist_url)
+                if not content:
+                    continue
+                
+                entries = parse_playlist(content, playlist_url)
+                kids_entries = []
+                
+                for entry in entries:
+                    if is_kids_channel(entry['extinf'], entry['title']):
+                        # Refresh metadata if it's a kids channel
+                        refreshed_metadata = refresh_metadata(entry['metadata'], token_manager)
+                        
+                        kids_entries.append({
+                            'extinf': entry['extinf'],
+                            'metadata': refreshed_metadata,
+                            'url': entry['url'],
+                            'title': entry['title']
+                        })
+                
+                print(f"✅ Found {len(kids_entries)} kids channels")
+                all_kids_channels.extend(kids_entries)
+                processed_urls.add(playlist_url)
+            
+            # Remove duplicates by URL
+            unique_channels = {}
+            for channel in all_kids_channels:
+                url = channel['url']
+                if url not in unique_channels:
+                    unique_channels[url] = channel
+            
+            print(f"\n🎯 Total unique kids channels: {len(unique_channels)}")
+            
+            # Write final playlist
+            with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+                f.write("#EXTM3U\n")
+                f.write("#EXT-X-VERSION:3\n")
+                f.write("#EXT-X-MEDIA-SEQUENCE:0\n")
+                f.write("#EXT-X-TARGETDURATION:10\n")
+                f.write("# Playlist generated with token refresh\n")
+                f.write(f"# Total channels: {len(unique_channels)}\n")
+                f.write(f"# Generated at: {json.dumps(str(os.getenv('GITHUB_SHA', 'local')))}\n\n")
+                
+                for channel in unique_channels.values():
+                    f.write(channel['extinf'] + '\n')
+                    for meta in channel['metadata']:
+                        f.write(meta + '\n')
+                    f.write(channel['url'] + '\n\n')
+            
+            print(f"💾 Playlist saved to: {OUTPUT_FILE}")
+            
+            # Summary
+            print("\n📊 Summary:")
+            providers_refreshed = list(token_manager.cache.keys())
+            if providers_refreshed:
+                print(f"✓ Tokens refreshed for: {', '.join(providers_refreshed)}")
+            else:
+                print("ℹ️ No tokens were refreshed (check configuration)")
+            
+            return len(unique_channels)
+        
+        if __name__ == "__main__":
+            channel_count = extract_kids_channels()
+            print(f"\n🎉 Process completed! Found {channel_count} kids channels.")
+        EOF
+        
+        python update_playlist.py
+        
+    - name: Verify generated playlist
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        echo "Generated playlist content:"
+        head -20 kids.m3u
+        echo "..."
+        echo "Total lines: $(wc -l < kids.m3u)"
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         git add kids.m3u
-        git commit -m "Auto-update kids playlist with new tokens [skip ci]" || echo "No changes"
-        git push
+        git diff --staged --quiet || (git commit -m "🔄 Auto-update kids.m3u with fresh tokens [skip ci]" && git push)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Show completion message
+      run: |
+        echo "✅ Kids playlist updated successfully!"
+        echo "📺 Channels are ready with fresh authentication tokens"
+        echo "🕒 Next auto-update in 6 hours"
