@@ -1,670 +1,173 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-TARGETDURATION:10
+# Playlist generated with token refresh
+# Total channels: 19
+# Generated at: "3f8814af9c58b1f5684e457fac6e01aeb964e051"
+
 #EXTINF:-1 tvg-id="1373" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="1374" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Junior.png",Disney Junior
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=1b1f9702f7d853c1b198495f64924311&key=40e11e60a12dd6c154dfea0ffbd5bda8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Junior_BTS/output/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Junior_BTS/output/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="1375" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_International_HD.png",Disney International HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=d0e021aa91c65e68a7028c2a6a762eca&key=d50822403365e360d12840251cecee84
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_International_HD_BTS/output/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_International_HD_BTS/output/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="1391" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Hungama.png",Hungama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=454f8353caac500d95d641e0c7cfe048&key=0aaca46ea0f5096335598781fbe590e4
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Hungama_BTS/output/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Hungama_BTS/output/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="1392" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Super_Hungama.png",Super Hungama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=7a450f0820c4589690eb336c29f18da6&key=820e84119563b56d6e6f0bf514cbdc3c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Super_Hungama_BTS/output/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Super_Hungama_BTS/output/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="166" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Cartoon_Network_Telugu.png",Cartoon Network Telugu
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=3e5ec63e26c1520380236941c3848f68&key=f944e7ee9260a9e6239170db4d6fa713
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Cartoon_Network_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Cartoon_Network_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="290" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/sonic_Tamil.png",sonic Tamil
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=a62d4ca4ef095564bede0fe525956634&key=5e34a5126bfe29c18947046513f18cce
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/sonic_Tamil_MOB/WDVLive/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/sonic_Tamil_MOB/WDVLive/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="542" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pogo_Tamil.png",Pogo Tamil
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=ace8ad8aaff258edb8743bea9825d2d2&key=89bbc643fba2d72470ee30668ec749c9
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Pogo_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Pogo_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="548" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Nickelodeon_Jr.png",Nickelodeon Jr.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=aa04d2fbafc55891b207f51d7ecca936&key=5fd9741321499a18954304ef9c57ab8a
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Nickelodeon_Jr_MOB/WDVLive/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Nickelodeon_Jr_MOB/WDVLive/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="559" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pogo_Hindi.png",Pogo Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=4b967f351139503a88b1d1945203150b&key=c3e26279cc513e13154958f934141dc0
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Pogo_Hindi_BTS/output/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Pogo_Hindi_BTS/output/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="815" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/sonic_Hindi.png",Sonic Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=fdf348b106045794a5ab265d08c677ef&key=83f7bddd4290a229e07c62c6b78f1e74
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/sonic_Hindi_BTS/output/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/sonic_Hindi_BTS/output/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="816" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Cartoon_Network_Hindi.png",Cartoon Network Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=ea48cf7b24dd54dd98c369626b9ad105&key=ee5778d627dfae2c2affc02d76e8db6c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Cartoon_Network_Hindi_BTS/output/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Cartoon_Network_Hindi_BTS/output/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="1242" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Telugu.png",Sonic Telugu
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=c5f797fac3ce566c990a2057c99a81c2&key=a65755a4676a6c2e9d803d5611954b26
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Telugu_MOB/WDVLive/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Telugu_MOB/WDVLive/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="1243" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Kannada.png",Sonic Kannada
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=6cf1045c66ec5b1681bbf34a0971ab86&key=f0c1edef4ea6b46c8ec0fe04627d8afb
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Kannada_MOB/WDVLive/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Kannada_MOB/WDVLive/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="1344" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Malayalam.png",Sonic Malayalam
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=e5cee6f28393554c94ed38b0d8a65b88&key=ed3a9586ece4ac6cd147e784e0ce1fc6
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Malayalam_MOB/WDVLive/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Malayalam_MOB/WDVLive/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="1345" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Bangla.png",Sonic Bangla
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5d26427bf9a85808bd34848fa7ae1f8a&key=aac720bb73a9db2b2cb64763d5f8942b
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Bangla_MOB/WDVLive/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Bangla_MOB/WDVLive/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="1346" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Marathi.png",Sonic Marathi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=c329e1a4429c525cad86d4346efcd68a&key=7c21c2f9cddaa5c084bf1d5b02fb4610
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Marathi_MOB/WDVLive/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Marathi_MOB/WDVLive/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
+
 #EXTINF:-1 tvg-id="2040" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bollywood_Hungama.png",Bollywood Hungama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=8a529014ba1a53bdac8c0bec19e6fbf2&key=cc5162d7ae3197bc0ed70f1d652aa210
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Bollywood_Hungama_BTS/output/index.mpd?__hdnea__=st&xxx=||cookie=__hdnea__=st
-#EXTINF:-1 tvg-id="sonyyay" tvg-name="Sony YAY" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids", Sony YAY
-https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8??hdnea=exp=1760173520~acl=/*~id=98295798671468561264817691309908~hmac=f8108f3a8acf953ba79fb71391761febceb0db19697d8a74a80c32a68f38ebce
-#EXTINF:-1 tvg-id="" tvg-name="SONY YAY!" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sony_YAY%21_logo_%282017-present%29.png" group-title="BANGLADESH",SONY YAY!
-https://freelivtv.xyz/oppu/oppu.php?id=245959
-#EXTINF:-1 tvg-id="cartoonnetworkhd.in" tvg-name="IN: Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/2000px-Cartoon_Network_2010_logo.svg.png" group-title="INDIAN | KIDS Cartoon",IN: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=150478
-#EXTINF:-1 tvg-id="pogo.in" tvg-name="IN: Pogo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/POGO-logo.png" group-title="INDIAN | KIDS Cartoon",IN: Pogo
-https://freelivtv.xyz/oppu/oppu.php?id=150483
-#EXTINF:-1 tvg-id="" tvg-name="IN: Cartoon Network HD+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Cartoon_Network_HD%2B_India_logo.png" group-title="INDIAN | KIDS Cartoon",IN: Cartoon Network HD+
-https://freelivtv.xyz/oppu/oppu.php?id=153154
-#EXTINF:-1 tvg-id="" tvg-name="IN | Sony yay" tvg-logo="https://static.epg.best/in/SonyYAY.in.png" group-title="INDIAN | KIDS Cartoon",IN | Sony yay
-https://freelivtv.xyz/oppu/oppu.php?id=26187
-#EXTINF:-1 tvg-id="" tvg-name="IN: Hungama**" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f2/Hungama_tv_logo.png" group-title="INDIAN | KIDS Cartoon",IN: Hungama**
-https://freelivtv.xyz/oppu/oppu.php?id=150480
-#EXTINF:-1 tvg-id="nick.in" tvg-name="IN: Nick" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/1200px-Nickelodeon_2009_logo.svg.png" group-title="INDIAN | KIDS Cartoon",IN: Nick
-https://freelivtv.xyz/oppu/oppu.php?id=150482
-#EXTINF:-1 tvg-id="" tvg-name="IN: Disney Junior" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/1200px-Disney_Junior.svg.png" group-title="INDIAN | KIDS Cartoon",IN: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=153175
-#EXTINF:-1 tvg-id="" tvg-name="IN: NICK SONIC" tvg-logo="https://static.epg.best/in/NickHDPlus.in.png" group-title="INDIAN | KIDS Cartoon",IN: NICK SONIC
-https://freelivtv.xyz/oppu/oppu.php?id=34011
-#EXTINF:-1 tvg-id="" tvg-name="24/7 MOTU PATLU 02" tvg-logo="https://e7.pngegg.com/pngimages/990/187/png-clipart-motu-patlu-television-show-animated-film-nickelodeon-motu-patlu-television-food.png" group-title="INDIAN | KIDS Cartoon",24/7 MOTU PATLU 02
-https://freelivtv.xyz/oppu/oppu.php?id=311373
-#EXTINF:-1 tvg-id="" tvg-name="24/7 SHIVA" tvg-logo="https://w7.pngwing.com/pngs/352/597/png-transparent-shiva-nickelodeon-sonic-cartoon-television-show-shiva-sports-equipment-fictional-character-pakdam-pakdai-thumbnail.png" group-title="INDIAN | KIDS Cartoon",24/7 SHIVA
-https://freelivtv.xyz/oppu/oppu.php?id=342074
-#EXTINF:-1 tvg-id="" tvg-name="KIDS: Sonic 24/7" tvg-logo="" group-title="INDIAN | KIDS Cartoon",KIDS: Sonic 24/7
-https://freelivtv.xyz/oppu/oppu.php?id=301500
-#EXTINF:-1 tvg-id="cartoonnetwork.za" tvg-name="Af | DSTV: Cartoon Network HD" tvg-logo="http://www.vod-logo.net/photos/918ed66fc55bb226ff2c85716da1c90c.jpg" group-title="DSTV | KIDS",Af | DSTV: Cartoon Network HD
-https://freelivtv.xyz/oppu/oppu.php?id=238525
-#EXTINF:-1 tvg-id="boomerang.za" tvg-name="Af | DSTV: Boomerang HD" tvg-logo="http://www.vod-logo.net/photos/a9c63aede3ceb20585dd259601a6f3f6.jpg" group-title="DSTV | KIDS",Af | DSTV: Boomerang HD
-https://freelivtv.xyz/oppu/oppu.php?id=238526
-#EXTINF:-1 tvg-id="disneychannel.za" tvg-name="Af | DSTV: Disney Channel HD" tvg-logo="http://www.vod-logo.net/photos/c9c6afef702accfdae08d7239bd8d080.JPG" group-title="DSTV | KIDS",Af | DSTV: Disney Channel HD
-https://freelivtv.xyz/oppu/oppu.php?id=238527
-#EXTINF:-1 tvg-id="disneyjunior.za" tvg-name="Af | DSTV: Disney Junior HD" tvg-logo="http://www.vod-logo.net/photos/7ecee542c33472c3af78f5f5e2fcf534.png" group-title="DSTV | KIDS",Af | DSTV: Disney Junior HD
-https://freelivtv.xyz/oppu/oppu.php?id=238528
-#EXTINF:-1 tvg-id="nickelodeon.za" tvg-name="Af | DSTV: Nickelodeon HD" tvg-logo="http://www.vod-logo.net/photos/9fc794edf45f82c0efcc0f794f62b1e9.jpg" group-title="DSTV | KIDS",Af | DSTV: Nickelodeon HD
-https://freelivtv.xyz/oppu/oppu.php?id=238529
-#EXTINF:-1 tvg-id="nickjr.za" tvg-name="Af | DSTV: Nick Jr. HD" tvg-logo="http://www.vod-logo.net/photos/74e72cc046c8272bd32d874dc1721264.jpg" group-title="DSTV | KIDS",Af | DSTV: Nick Jr. HD
-https://freelivtv.xyz/oppu/oppu.php?id=238531
-#EXTINF:-1 tvg-id="" tvg-name="AR: BeIN Cartoon Network HD" tvg-logo="http://109.238.11.8:25461/logo/tv/cc/cartoon_network_global.png" group-title="BEIN ENTERTAINMENT",AR: BeIN Cartoon Network HD
-https://freelivtv.xyz/oppu/oppu.php?id=381385
-#EXTINF:-1 tvg-id="" tvg-name="AR: BeIN Boomerang HD" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/6/6a/Boomerang_hd.png" group-title="BEIN ENTERTAINMENT",AR: BeIN Boomerang HD
-https://freelivtv.xyz/oppu/oppu.php?id=381386
-#EXTINF:-1 tvg-id="" tvg-name="IND: TG: CARTOON NETWORK" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Cartoon-Network.png" group-title="IND | TELUGU D2H",IND: TG: CARTOON NETWORK
-https://freelivtv.xyz/oppu/oppu.php?id=381094
-#EXTINF:-1 tvg-id="" tvg-name="IND: TG: Sonic Telugu" tvg-logo="" group-title="IND | TELUGU D2H",IND: TG: Sonic Telugu
-https://freelivtv.xyz/oppu/oppu.php?id=382279
-#EXTINF:-1 tvg-id="" tvg-name="IND: TG: CARTOON NETWORK" tvg-logo="" group-title="IND | TELUGU D2H",IND: TG: CARTOON NETWORK
-https://freelivtv.xyz/oppu/oppu.php?id=382274
-#EXTINF:-1 tvg-id="" tvg-name="IN-TM | DISNEY JUNIOR" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Disney-Junior.png" group-title="IND | TAMIL",IN-TM | DISNEY JUNIOR
-https://freelivtv.xyz/oppu/oppu.php?id=381018
-#EXTINF:-1 tvg-id="" tvg-name="IN-TM | SONIC" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic-1.png" group-title="IND | TAMIL",IN-TM | SONIC
-https://freelivtv.xyz/oppu/oppu.php?id=380965
-#EXTINF:-1 tvg-id="" tvg-name="IN-TM | POGO" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Pogo.png" group-title="IND | TAMIL",IN-TM | POGO
-https://freelivtv.xyz/oppu/oppu.php?id=380964
-#EXTINF:-1 tvg-id="" tvg-name="IN-TM | CARTOON NETWORK" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Cartoon-Network.png" group-title="IND | TAMIL",IN-TM | CARTOON NETWORK
-https://freelivtv.xyz/oppu/oppu.php?id=380956
-#EXTINF:-1 tvg-id="" tvg-name="IN-MY | One TV" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic.png" group-title="IND | MALAYALAM",IN-MY | One TV
-https://freelivtv.xyz/oppu/oppu.php?id=380875
-#EXTINF:-1 tvg-id="" tvg-name="IN-MAR | SONIC" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic.png" group-title="IND |  MARATHI",IN-MAR | SONIC
-https://freelivtv.xyz/oppu/oppu.php?id=380860
-#EXTINF:-1 tvg-id="" tvg-name="IN-MAR | SONIC NICKELODEON" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic.png" group-title="IND |  MARATHI",IN-MAR | SONIC NICKELODEON
-https://freelivtv.xyz/oppu/oppu.php?id=380828
-#EXTINF:-1 tvg-id="Nickelodeon.uk" tvg-name="|UK| SONY TV UK" tvg-logo="http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0009/0897/brand.gif?itok=mclSgXjH" group-title="UK | ASIA",|UK| SONY TV UK
-https://freelivtv.xyz/oppu/oppu.php?id=222827
-#EXTINF:-1 tvg-id="boomerang.uk" tvg-name="UK: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/128b14884de50bdd5bedeb5f55bf67c3.png" group-title="UK ➾ Kids",UK: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=346248
-#EXTINF:-1 tvg-id="cartoonnetwork.uk" tvg-name="UK: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8d22efc9e80e82953c3f1ee26bb699e5.png" group-title="UK ➾ Kids",UK: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=346249
-#EXTINF:-1 tvg-id="" tvg-name="UK: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/b81b699ab1552f3c15dea79e34e5f017.png" group-title="UK ➾ Kids",UK: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=346254
-#EXTINF:-1 tvg-id="" tvg-name="UK: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/609b7a99eeb990acd812fafb408cd606.png" group-title="UK ➾ Kids",UK: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=346255
-#EXTINF:-1 tvg-id="" tvg-name="UK: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/47718e36a9a5c42f3d005fcd9f3d94be.png" group-title="UK ➾ Kids",UK: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=346261
-#EXTINF:-1 tvg-id="" tvg-name="USA Asian: Sony Yay" tvg-logo="" group-title="USA ➾ ASIAN",USA Asian: Sony Yay
-https://freelivtv.xyz/oppu/oppu.php?id=388626
-#EXTINF:-1 tvg-id="" tvg-name="US: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/261ed359779524389a93dbdcc083cac4.png" group-title="USA ➾ Kids",US: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=346453
-#EXTINF:-1 tvg-id="" tvg-name="US: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/6562a84816a8995a0ad41c76cd6ff7be.png" group-title="USA ➾ Kids",US: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=346454
-#EXTINF:-1 tvg-id="" tvg-name="US: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/e6d37c2e387c58ce62dffa4b5130a4d4.png" group-title="USA ➾ Kids",US: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=346456
-#EXTINF:-1 tvg-id="" tvg-name="US: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/239223919b68f1ddfee44002f2820718.png" group-title="USA ➾ Kids",US: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=346464
-#EXTINF:-1 tvg-id="" tvg-name="US: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/e4f6e7fe7bbed7f932fdfa9399261604.png" group-title="USA ➾ Kids",US: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=346465
-#EXTINF:-1 tvg-id="" tvg-name="AL: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2020-06/18f4f54f7148e2049f237e8b2a2ed8ba.png" group-title="Albania ➾ Kids",AL: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=347651
-#EXTINF:-1 tvg-id="" tvg-name="AL: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2020-06/218b80728b2371099f57f0b9a8caf84c.png" group-title="Albania ➾ Kids",AL: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=347653
-#EXTINF:-1 tvg-id="" tvg-name="AL: Super Sonic TV" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/780ca28c4b7d72fbb4584650714e9012.png" group-title="Albania ➾ Music",AL: Super Sonic TV
-https://freelivtv.xyz/oppu/oppu.php?id=347770
-#EXTINF:-1 tvg-id="" tvg-name="EX-YU: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/64ddfe1ff8937a8582c2a1d4f9bfa3d2.png" group-title="EX-YU",EX-YU: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=349835
-#EXTINF:-1 tvg-id="" tvg-name="EX-YU: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2022-05/fe95c08a07f3ca8d6a38f534bb221946.png" group-title="EX-YU",EX-YU: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=349836
-#EXTINF:-1 tvg-id="" tvg-name="AR: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/3a6f00998c394d719e3ac4c8d9e0d2f8.png" group-title="ARABIC",AR: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=348017
-#EXTINF:-1 tvg-id="" tvg-name="AR: Cartoon Network Arabic" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/107149260ff2561c10e3bc31d0ca121e.png" group-title="ARABIC",AR: Cartoon Network Arabic
-https://freelivtv.xyz/oppu/oppu.php?id=348019
-#EXTINF:-1 tvg-id="" tvg-name="AR: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/ffb7811407ecff8787e5451a7022a4bf.png" group-title="ARABIC",AR: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=348025
-#EXTINF:-1 tvg-id="" tvg-name="AR: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/2b85183c51913c4a1ca0c30410caf9c0.png" group-title="ARABIC",AR: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=348026
-#EXTINF:-1 tvg-id="" tvg-name="BE: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-12/438829f28228280fa49faa086e333815.png" group-title="Belgium",BE: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=348327
-#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/072885790a3958b2fbf1e2ad147e4d16.png" group-title="Brazil ➾ Kids",BR: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=348486
-#EXTINF:-1 tvg-id="" tvg-name="BR: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/50a6bc80d5e23b687df1568a1e850667.png" group-title="Brazil ➾ Kids",BR: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=348491
-#EXTINF:-1 tvg-id="" tvg-name="BR: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/1ee3dbf19ac4cdf59a75ea3cf6310d90.png" group-title="Brazil ➾ Kids",BR: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=348492
-#EXTINF:-1 tvg-id="" tvg-name="BR: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/c1f0d129b5b9e0eef699d00f5c802bee.png" group-title="Brazil ➾ Kids",BR: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=348500
-#EXTINF:-1 tvg-id="" tvg-name="BG: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/bb5a424c02e97e3d31d47ae25e303653.png" group-title="Bulgaria ➾ Kids",BG: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=348739
-#EXTINF:-1 tvg-id="" tvg-name="BG: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/053f22bbe7c371cc90536400b957dee1.png" group-title="Bulgaria ➾ Kids",BG: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=348740
-#EXTINF:-1 tvg-id="disneychannel.bg" tvg-name="BG: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/023a778ed7fc53bef2db3568bd6fff7b.png" group-title="Bulgaria ➾ Kids",BG: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=348742
-#EXTINF:-1 tvg-id="" tvg-name="BG: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/6ed0886c29e249c2e2fe3d1df76a6539.png" group-title="Bulgaria ➾ Kids",BG: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=348743
-#EXTINF:-1 tvg-id="" tvg-name="BG: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/13cd4d60e65f839c9a9f9341c4042d9e.jpg" group-title="Bulgaria ➾ Kids",BG: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=348746
-#EXTINF:-1 tvg-id="" tvg-name="BG: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/e9a165f3d2e73570934840138faa4aa1.png" group-title="Bulgaria ➾ Kids",BG: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=348747
-#EXTINF:-1 tvg-id="" tvg-name="CA: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/99c3edcb269c216e26bc148281cce876.png" group-title="Canada ➾ Kids",CA: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=348865
-#EXTINF:-1 tvg-id="" tvg-name="CA: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/5cd2618cbbf8039811d0e52a037bcfba.png" group-title="Canada ➾ Kids",CA: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=348866
-#EXTINF:-1 tvg-id="" tvg-name="CA: Disney Junior (FR)" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/9f57e3bc438fc8a83d70ffb611831921.png" group-title="Canada ➾ Kids",CA: Disney Junior (FR)
-https://freelivtv.xyz/oppu/oppu.php?id=348867
-#EXTINF:-1 tvg-id="" tvg-name="CA: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/6d91245e05f5d744aa3b063a8225409b.png" group-title="Canada ➾ Kids",CA: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=348871
-#EXTINF:-1 tvg-id="" tvg-name="CAR: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/250791d9452ae0fbac31a64609d2237a.png" group-title="Caribbean",CAR: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=349066
-#EXTINF:-1 tvg-id="" tvg-name="CZ: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/67095c1b8ebce3e86859bda1bb49515d.png" group-title="Czech Republic",CZ: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=349446
-#EXTINF:-1 tvg-id="" tvg-name="CZ: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/34abe88cc2635b2b8266c1cf1cfccf1d.png" group-title="Czech Republic",CZ: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=349456
-#EXTINF:-1 tvg-id="" tvg-name="CZ: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/972f7cd2c1b242bd2b5d568537beade4.png" group-title="Czech Republic",CZ: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=349479
-#EXTINF:-1 tvg-id="" tvg-name="CZ: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/b9fe2bda607f816e4927771afab3035b.png" group-title="Czech Republic",CZ: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=349480
-#EXTINF:-1 tvg-id="" tvg-name="ES: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/1e2090e42349272d08620af54d65981a.png" group-title="Spain ➾ Kids",ES: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=354054
-#EXTINF:-1 tvg-id="disneyjunior.es" tvg-name="ES: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/cda21230d303c9e299518f56cddf9b76.png" group-title="Spain ➾ Kids",ES: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=354055
-#EXTINF:-1 tvg-id="nickelodeon.es" tvg-name="ES: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/5c0d67120f875960ab87b5db7e8969a2.png" group-title="Spain ➾ Kids",ES: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=354059
-#EXTINF:-1 tvg-id="" tvg-name="FI: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/f6b4ac88659ef016aa45048ea7ef0f81.svg" group-title="Finland",FI: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=349853
-#EXTINF:-1 tvg-id="" tvg-name="FI: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/d94c4322aad7fe1daadc48ebc7e3a67a.png" group-title="Finland",FI: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=349858
-#EXTINF:-1 tvg-id="" tvg-name="FI: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/9be134ca232b1b56e05ecc9f576b7eb0.png" group-title="Finland",FI: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=349861
-#EXTINF:-1 tvg-id="" tvg-name="FI: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/15a81b6b0f2c86d28d21360f2f9c953e.png" group-title="Finland",FI: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=349862
-#EXTINF:-1 tvg-id="boomerang.fr" tvg-name="FR: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/4ee0ef9d57ab3fea6c81b25344389d3a.png" group-title="France ➾ Kids",FR: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=349912
-#EXTINF:-1 tvg-id="" tvg-name="FR: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/fa16ed0fe174c20405700a242d501eda.png" group-title="France ➾ Kids",FR: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=349914
-#EXTINF:-1 tvg-id="" tvg-name="FR: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/bc864973b604dc0d8e16a24243fe0d02.png" group-title="France ➾ Kids",FR: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=349915
-#EXTINF:-1 tvg-id="" tvg-name="FR: Disney Channel +1" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/cd6e4ceaae299ab5405b27576c72869a.png" group-title="France ➾ Kids",FR: Disney Channel +1
-https://freelivtv.xyz/oppu/oppu.php?id=349916
-#EXTINF:-1 tvg-id="disneyjunior.fr" tvg-name="FR: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/cd0bba464088b84bcb5ccc23a4157edc.png" group-title="France ➾ Kids",FR: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=349917
-#EXTINF:-1 tvg-id="nickelodeon.fr" tvg-name="FR: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/14135529b1428ce104dd767dc74b2ef9.png" group-title="France ➾ Kids",FR: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=349924
-#EXTINF:-1 tvg-id="" tvg-name="FR: nickelodeon +1" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/f765657aa3b32ca1eee3faed369e40a9.png" group-title="France ➾ Kids",FR: nickelodeon +1
-https://freelivtv.xyz/oppu/oppu.php?id=349925
-#EXTINF:-1 tvg-id="" tvg-name="FR: nickelodeon Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/d55b7ee2246b0c58a79f71347ebd2fdd.png" group-title="France ➾ Kids",FR: nickelodeon Junior
-https://freelivtv.xyz/oppu/oppu.php?id=349926
-#EXTINF:-1 tvg-id="nickelodeon4teen.fr" tvg-name="FR: nickelodeon Teen" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/c24228a83ce6c33dfda9337865271d00.png" group-title="France ➾ Kids",FR: nickelodeon Teen
-https://freelivtv.xyz/oppu/oppu.php?id=349927
-#EXTINF:-1 tvg-id="cartoonnetwork.de" tvg-name="DE: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/737c89acac29a375abc84fa6db9f7608.png" group-title="Germany ➾ Kids",DE: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=350259
-#EXTINF:-1 tvg-id="disneycinemagic.de" tvg-name="DE: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/a5af65e344f7b824fbda309c3606aa1a.png" group-title="Germany ➾ Kids",DE: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=350261
-#EXTINF:-1 tvg-id="disneyjunior.de" tvg-name="DE: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/db7665573ac43d4418b35f2d2dff77ed.png" group-title="Germany ➾ Kids",DE: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=350262
-#EXTINF:-1 tvg-id="" tvg-name="DE: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/c7b6dc8925b4046e77a1a128c4761c05.png" group-title="Germany ➾ Kids",DE: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=350267
-#EXTINF:-1 tvg-id="" tvg-name="GR: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/3e94c4a67d568865d1c916fffb36c2ab.png" group-title="Greece ➾ Kids",GR: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=350601
-#EXTINF:-1 tvg-id="" tvg-name="HU: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/e56e85265479360b10a3bbe536a3b856.png" group-title="Hungary",HU: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=350853
-#EXTINF:-1 tvg-id="" tvg-name="HU: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/2321506ea62dbdf99336ed3272631dd8.png" group-title="Hungary",HU: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=350854
-#EXTINF:-1 tvg-id="" tvg-name="HU: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/b85ac4b79071b816162ba3eb43270559.png" group-title="Hungary",HU: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=350856
-#EXTINF:-1 tvg-id="" tvg-name="HU: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/576c18732365eb8fee5fe97849391f42.png" group-title="Hungary",HU: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=350858
-#EXTINF:-1 tvg-id="" tvg-name="ID: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/1d192d86ab16c1103668385201f76d94.png" group-title="Indonesia",ID: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=350908
-#EXTINF:-1 tvg-id="" tvg-name="ID: Boomerang EN" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/417e73b7aedc07a73aa59b7d76bc6e6b.png" group-title="Indonesia",ID: Boomerang EN
-https://freelivtv.xyz/oppu/oppu.php?id=350909
-#EXTINF:-1 tvg-id="" tvg-name="ID: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/bbdc8a56aca2bffb311728507a93f75f.png" group-title="Indonesia",ID: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=350910
-#EXTINF:-1 tvg-id="" tvg-name="ID: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/7dcbeab064ba8b1eefb6115fc283aaeb.png" group-title="Indonesia",ID: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=350934
-#EXTINF:-1 tvg-id="" tvg-name="ID: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/c407878e19cad2a98a707210492d0f4c.png" group-title="Indonesia",ID: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=351012
-#EXTINF:-1 tvg-id="" tvg-name="ID: Nick Jr EN" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/7e1eb622eae30edbe35b5b87868b19f4.png" group-title="Indonesia",ID: Nick Jr EN
-https://freelivtv.xyz/oppu/oppu.php?id=351013
-#EXTINF:-1 tvg-id="" tvg-name="ID: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/e1dd8b2c9477e9c047fc597e8835eebb.png" group-title="Indonesia",ID: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=351014
-#EXTINF:-1 tvg-id="" tvg-name="IT: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/766e34949d3cb177af2403bab9119438.png" group-title="Italy",IT: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=351388
-#EXTINF:-1 tvg-id="" tvg-name="IT: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/ae8686643287877d73369cf9257e066a.png" group-title="Italy",IT: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=351400
-#EXTINF:-1 tvg-id="" tvg-name="IT: Disney junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-12/fb50a384f85db6919c67afb48373edb4.png" group-title="Italy",IT: Disney junior
-https://freelivtv.xyz/oppu/oppu.php?id=351418
-#EXTINF:-1 tvg-id="" tvg-name="IT: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/a6a4a28d9a8eb7f6231181ac3c9a7932.jpg" group-title="Italy",IT: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=351490
-#EXTINF:-1 tvg-id="" tvg-name="LA: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2023-04/04249b2b53774c473e57a399f8d6228f.jpg" group-title="Latino",LA: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=351815
-#EXTINF:-1 tvg-id="" tvg-name="LA: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/24c5abcd3b88a3d9382fd2df13623209.png" group-title="Latino",LA: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=351816
-#EXTINF:-1 tvg-id="" tvg-name="LA: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/eeb06c226acc25e1495ef0f80d0533f4.png" group-title="Latino",LA: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=351841
-#EXTINF:-1 tvg-id="" tvg-name="LA: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/cf8964d602d9e1b26bab23889ee6677a.png" group-title="Latino",LA: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=351842
-#EXTINF:-1 tvg-id="" tvg-name="LA: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/ee33bd11cd243384f5a340f8e12e189d.png" group-title="Latino",LA: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=351893
-#EXTINF:-1 tvg-id="" tvg-name="LA: Nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/4f2ba976aa4e755a5050bb4966037d34.png" group-title="Latino",LA: Nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=351894
-#EXTINF:-1 tvg-id="boomerang.nl" tvg-name="NL: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/6a0cc5c7c7e9abb6178a79ee7d4b9ab5.png" group-title="Netherlands ➾ Kids",NL: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=352314
-#EXTINF:-1 tvg-id="disneychannel.nl" tvg-name="NL: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/9c99903730dcdd4202c8e2e14d9dfe3f.png" group-title="Netherlands ➾ Kids",NL: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=352315
-#EXTINF:-1 tvg-id="" tvg-name="NL: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/8a91f712ecb8d6dbf56807d350172b04.png" group-title="Netherlands ➾ Kids",NL: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=352316
-#EXTINF:-1 tvg-id="nickelodeon.nl" tvg-name="NL: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/f743eb5388e637bb20cbffb86681f3a7.png" group-title="Netherlands ➾ Kids",NL: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=352321
-#EXTINF:-1 tvg-id="cartoonnetwork.nl" tvg-name="NL: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/7adf096442e7c93d2660b9edf0681524.png" group-title="Netherlands ➾ Movie",NL: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=352362
-#EXTINF:-1 tvg-id="boomerang.pt" tvg-name="PT: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/871261a4089358903b96c27d13de2f1f.png" group-title="Portugal ➾ Kids",PT: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=352850
-#EXTINF:-1 tvg-id="cartoonnetwork.pt" tvg-name="PT: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8f4a17537e3d35fc10f7258bda5c1de2.png" group-title="Portugal ➾ Kids",PT: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=352852
-#EXTINF:-1 tvg-id="disneychannel.pt" tvg-name="PT: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8421402691971ea1c41aecab55b6eaba.png" group-title="Portugal ➾ Kids",PT: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=352853
-#EXTINF:-1 tvg-id="disneyjunior.pt" tvg-name="PT: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/d8e3dffef846a877bebfee531a9a986e.png" group-title="Portugal ➾ Kids",PT: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=352854
-#EXTINF:-1 tvg-id="nickelodeon.pt" tvg-name="PT: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/7ba49f9f77fcc701888de284da556394.png" group-title="Portugal ➾ Kids",PT: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=352860
-#EXTINF:-1 tvg-id="boomerang.ro" tvg-name="RO: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/1234659854b81ea4af21bd87412fdb78.png" group-title="Romania ➾ Kids",RO: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=353050
-#EXTINF:-1 tvg-id="cartoonnetwork.ro" tvg-name="RO: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/d6bbea85f344e5522246cef596be55be.png" group-title="Romania ➾ Kids",RO: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=353051
-#EXTINF:-1 tvg-id="disneychannel.ro" tvg-name="RO: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/15f808f9213567f746a00327cd5d54e0.png" group-title="Romania ➾ Kids",RO: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=353053
-#EXTINF:-1 tvg-id="disneyjunior.ro" tvg-name="RO: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/9f41d945b3512bfa5e1f64fe4ce188f8.png" group-title="Romania ➾ Kids",RO: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=353054
-#EXTINF:-1 tvg-id="nickelodeon.ro" tvg-name="RO: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/c90541e2426aafc4cdc8a222946d4e1d.png" group-title="Romania ➾ Kids",RO: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=353057
-#EXTINF:-1 tvg-id="" tvg-name="RU: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/ae0910c0aa70a334ad8c2a8fbb395cc9.png" group-title="Russia ➾ Kids",RU: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=353221
-#EXTINF:-1 tvg-id="" tvg-name="RU: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8436977d35440092a0e74ebf7dec279e.png" group-title="Russia ➾ Kids",RU: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=353222
-#EXTINF:-1 tvg-id="" tvg-name="RU: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/4a99c980c07bdae6bfd8616fe8b6092d.png" group-title="Russia ➾ Kids",RU: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=353227
-#EXTINF:-1 tvg-id="boomerang.no" tvg-name="NO: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/0e833491b8157e0fc3d94bfcf087117e.png" group-title="Norway ➾ Kids",NO: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=352472
-#EXTINF:-1 tvg-id="cartoonnetwork.no" tvg-name="NO: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/be021d1029ecd7f45419e1aa2c5ba8c1.png" group-title="Norway ➾ Kids",NO: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=352473
-#EXTINF:-1 tvg-id="disneychannel.no" tvg-name="NO: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/57788fd3608e9f5a001f57afb32186d5.png" group-title="Norway ➾ Kids",NO: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=352474
-#EXTINF:-1 tvg-id="disneyjunior.no" tvg-name="NO: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/866b491c0a901ee232f8f4e8d0cb3f50.png" group-title="Norway ➾ Kids",NO: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=352475
-#EXTINF:-1 tvg-id="nickjr.no" tvg-name="NO: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/61c16812ae48c34aad4f2ce361a165f6.png" group-title="Norway ➾ Kids",NO: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=352476
-#EXTINF:-1 tvg-id="nickelodeon.no" tvg-name="NO: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/75b64216b9a2938149e0a70d57730065.png" group-title="Norway ➾ Kids",NO: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=352477
-#EXTINF:-1 tvg-id="boomerang.se" tvg-name="SE: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/6e3fe8f7ee06f764c4048f1f2600bd30.png" group-title="Sweden",SE: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=354348
-#EXTINF:-1 tvg-id="cartoonnetwork.se" tvg-name="SE: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/b87a6a20a8e24077aa5b3fd81423a2db.png" group-title="Sweden",SE: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=354365
-#EXTINF:-1 tvg-id="disneychannel.se" tvg-name="SE: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/c6b266540652af8b4384aa2d148febd2.png" group-title="Sweden",SE: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=354370
-#EXTINF:-1 tvg-id="disneyjunior.se" tvg-name="SE: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/92e8d1715f39eb60af8cb2122faecc6d.png" group-title="Sweden",SE: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=354371
-#EXTINF:-1 tvg-id="nickjr.se" tvg-name="SE: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/9c8e75d7d965a4d9409e052fa9167fb9.png" group-title="Sweden",SE: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=354389
-#EXTINF:-1 tvg-id="nickelodeon.se" tvg-name="SE: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/5cafb3c7f46306768d85dc3c654d9915.png" group-title="Sweden",SE: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=354390
-#EXTINF:-1 tvg-id="" tvg-name="CH: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/2c223db1394dd80c2e88f4e0a8fb8556.png" group-title="Switzerland ➾ Kids",CH: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=354439
-#EXTINF:-1 tvg-id="" tvg-name="TH: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-08/80c6a4b784d42d91851c65d6dc8ef19e.png" group-title="Thailand",TH: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=354543
-#EXTINF:-1 tvg-id="" tvg-name="TR: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/51dcf23cb9d1f7f16b31373e2e17aa16.png" group-title="Turkey ➾ Kids",TR: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=354638
-#EXTINF:-1 tvg-id="cartoonnetwork.tr" tvg-name="TR: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/87598c365695f0ec0734167340a7fbdf.png" group-title="Turkey ➾ Kids",TR: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=354640
-#EXTINF:-1 tvg-id="" tvg-name="TR: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/4b7ef9e32b9c4d64adc3330352ac327f.png" group-title="Turkey ➾ Kids",TR: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=354643
-#EXTINF:-1 tvg-id="disneychannel.tr" tvg-name="TR: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/d4bfb7096c986189cad4c27667329846.png" group-title="Turkey ➾ Kids",TR: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=354644
-#EXTINF:-1 tvg-id="" tvg-name="TR: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/daa5f52e567a2b32067451aede36afc7.png" group-title="Turkey ➾ Kids",TR: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=354649
-#EXTINF:-1 tvg-id="" tvg-name="QA: Cartoon Network Arabic" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/e6a4f8ff6413bfda394f72887ba21a33.png" group-title="Qatar ➾ Kids",QA: Cartoon Network Arabic
-https://freelivtv.xyz/oppu/oppu.php?id=352977
-#EXTINF:-1 tvg-id="" tvg-name="AE: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2022-02/9720ca302cb8b8d7855dcb6308804f5d.png" group-title="UAE ➾ Kids",AE: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=354913
-#EXTINF:-1 tvg-id="" tvg-name="ARG: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/72d79a9f0a7874c30f5c357bfcdfa7a1.png" group-title="Argentina",ARG: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=348075
-#EXTINF:-1 tvg-id="" tvg-name="ARG: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/d8ed293e6e5c3e34b781e0c94719a39f.png" group-title="Argentina",ARG: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=348106
-#EXTINF:-1 tvg-id="" tvg-name="ARG: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/5ac89a8ea47d9699a7bc73560eb3339f.png" group-title="Argentina",ARG: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=348141
-#EXTINF:-1 tvg-id="" tvg-name="ARG: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/b1eff9b3fa0ab61c323b719676ea3ae8.png" group-title="Argentina",ARG: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=348142
-#EXTINF:-1 tvg-id="nickelodeon.de" tvg-name="AT: nick Austria" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/3903a880dfc0b23a74c6199b4cfb5242.png" group-title="Austria",AT: nick Austria
-https://freelivtv.xyz/oppu/oppu.php?id=348249
-#EXTINF:-1 tvg-id="" tvg-name="MY: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/515d63ff66edb49dc64a03093e9f6fd2.png" group-title="Malaysia",MY: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=352098
-#EXTINF:-1 tvg-id="" tvg-name="My: Cartoon Network HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_HD_logo.svg/1811px-Cartoon_Network_HD_logo.svg.png" group-title="Malaysia",My: Cartoon Network HD
-https://freelivtv.xyz/oppu/oppu.php?id=388800
-#EXTINF:-1 tvg-id="" tvg-name="MY: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/92307ca79c909c2f7881199792c74c0b.png" group-title="Malaysia",MY: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=352108
-#EXTINF:-1 tvg-id="" tvg-name="My: Nick JR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/640px-Nick_Jr._logo_2009.svg.png" group-title="Malaysia",My: Nick JR
-https://freelivtv.xyz/oppu/oppu.php?id=388799
-#EXTINF:-1 tvg-id="" tvg-name="My: Nickelodeon HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Nick_HD.png" group-title="Malaysia",My: Nickelodeon HD
-https://freelivtv.xyz/oppu/oppu.php?id=388797
-#EXTINF:-1 tvg-id="" tvg-name="RS: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/fecc66b6bd8bf9dcf9a9314e3178145b.png" group-title="Serbia ➾ Kids",RS: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=353588
-#EXTINF:-1 tvg-id="" tvg-name="RS: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/b53aabc13420a0f8c17a0c4aaa65d5be.png" group-title="Serbia ➾ Kids",RS: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=353592
-#EXTINF:-1 tvg-id="" tvg-name="PH: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/a7e076dc55f6f28f063d81b51eeacedc.png" group-title="Philippines",PH: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=352607
-#EXTINF:-1 tvg-id="" tvg-name="PH: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/00cc418921399e9b49aac69a44cf2357.png" group-title="Philippines",PH: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=352613
-#EXTINF:-1 tvg-id="" tvg-name="PH: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/1c7ab06cbf7585369cd9b05e358fa0cd.png" group-title="Philippines",PH: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=352624
-#EXTINF:-1 tvg-id="" tvg-name="MX: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/3f51c3bc985994d3ea01824291571f2f.png" group-title="Mexico ➾ Kids",MX: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=352134
-#EXTINF:-1 tvg-id="" tvg-name="MX: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/80b12d75191338a0152e9a307ddac20c.png" group-title="Mexico ➾ Kids",MX: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=352137
-#EXTINF:-1 tvg-id="" tvg-name="MX: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/b5069c173bae240c9ed582b2cc41caf7.png" group-title="Mexico ➾ Kids",MX: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=352138
-#EXTINF:-1 tvg-id="" tvg-name="MX: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/ffe70df63cfe2611a5b1b5fa96984394.png" group-title="Mexico",MX: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=352236
-#EXTINF:-1 tvg-id="nickjr.hr" tvg-name="HR: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/6d4cbd12e46e0ee58278e8ead269fc56.jpg" group-title="Croatia",HR: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=349369
-#EXTINF:-1 tvg-id="nickelodeon.hr" tvg-name="HR: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/64bd3dedbea5dfab62600808a6978dc3.png" group-title="Croatia",HR: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=349370
-#EXTINF:-1 tvg-id="boomerang.dk" tvg-name="DK: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/bd73044d7df43a2d01a245998c6fd39e.png" group-title="Denmark ➾ Kids",DK: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=349535
-#EXTINF:-1 tvg-id="drultra.dk" tvg-name="DK: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/13c43a019b15b3441f179436375b2d75.png" group-title="Denmark ➾ Kids",DK: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=349536
-#EXTINF:-1 tvg-id="discoverychannel.dk" tvg-name="DK: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/8e547fe92b9c39786194cbd4cf551379.png" group-title="Denmark ➾ Kids",DK: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=349537
-#EXTINF:-1 tvg-id="disneyjunior.dk" tvg-name="DK: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/5ce94c0986f6a07b902c47c26e995d7d.png" group-title="Denmark ➾ Kids",DK: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=349538
-#EXTINF:-1 tvg-id="nickjr.dk" tvg-name="DK: Nick Jr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/ebbe05e6bfcfedc1f1c5936c51d65261.png" group-title="Denmark ➾ Kids",DK: Nick Jr
-https://freelivtv.xyz/oppu/oppu.php?id=349541
-#EXTINF:-1 tvg-id="nickelodeon.dk" tvg-name="DK: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/233690ac60a709c3fb5175ad0773e474.png" group-title="Denmark ➾ Kids",DK: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=349542
-#EXTINF:-1 tvg-id="" tvg-name="IL: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2022-02/b1b98b6471928ce1fccdc92b8d74e28a.png" group-title="Israel",IL: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=351313
-#EXTINF:-1 tvg-id="" tvg-name="IL: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/c4bb1fdd23c87c156ecd715d9f0c4466.png" group-title="Israel",IL: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=351314
-#EXTINF:-1 tvg-id="" tvg-name="IL: Nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2022-12/021ba2f7c81eef487e87f7611998d759.svg" group-title="Israel",IL: Nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=351339
-#EXTINF:-1 tvg-id="boomerang.pl" tvg-name="PL: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/5bda1e92679ba8eeb77067b56ad337c6.png" group-title="Poland ➾ Kids",PL: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=352663
-#EXTINF:-1 tvg-id="cartoonnetwork.pl" tvg-name="PL: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/0f7da7982fa0b9a48cc669a21cd19cd9.png" group-title="Poland ➾ Kids",PL: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=352664
-#EXTINF:-1 tvg-id="disneychannel.pl" tvg-name="PL: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/7100d013931ad704c97e4082742171b2.png" group-title="Poland ➾ Kids",PL: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=352667
-#EXTINF:-1 tvg-id="disneyjunior.pl" tvg-name="PL: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/b1ba4b81984b558b833b12792b131211.png" group-title="Poland ➾ Kids",PL: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=352668
-#EXTINF:-1 tvg-id="nickelodeon.pl" tvg-name="PL: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/1cb2153d9ccfa9c04096fd5a5f2ee276.png" group-title="Poland ➾ Kids",PL: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=352673
-#EXTINF:-1 tvg-id="" tvg-name="ZA: Boomerang" tvg-logo="http://s3.i3ns.net/portal/picon/2022-05/4914d213590c4a814cfb7b1bcfe6d773.png" group-title="South Africa",ZA: Boomerang
-https://freelivtv.xyz/oppu/oppu.php?id=353853
-#EXTINF:-1 tvg-id="" tvg-name="ZA: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2023-01/399f714a24c104eafd6c38bf31ada101.svg" group-title="South Africa",ZA: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=353871
-#EXTINF:-1 tvg-id="" tvg-name="ZA: Disney Channel" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/df0df5e15635e3e475bd858e385ce2c3.png" group-title="South Africa",ZA: Disney Channel
-https://freelivtv.xyz/oppu/oppu.php?id=353882
-#EXTINF:-1 tvg-id="" tvg-name="ZA: Disney Junior" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/715458d589da4093a61b02ed4d3dc36a.png" group-title="South Africa",ZA: Disney Junior
-https://freelivtv.xyz/oppu/oppu.php?id=353883
-#EXTINF:-1 tvg-id="" tvg-name="ZA: nickelodeon" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/422abe7bdc3b2ee19ff91b57cea2d7f9.png" group-title="South Africa",ZA: nickelodeon
-https://freelivtv.xyz/oppu/oppu.php?id=353929
-#EXTINF:-1 tvg-id="" tvg-name="SUR: Cartoon Network" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/2f9728af2a6df2615a328706d5361846.png" group-title="Suriname",SUR: Cartoon Network
-https://freelivtv.xyz/oppu/oppu.php?id=354322
-#EXTINF:-1 tvg-id="0" group-title="ASIA | PREMIUM VIP" tvg-logo="http://103.176.90.118/picons/logos/premium.png",IN-PREM| HUNGAMA SERIES
-http://147.93.153.98/TREX/play.php?id=636192
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",HINDI| SONY YAY
-http://147.93.153.98/TREX/play.php?id=156089
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png",HINDI| HUNGAMA BOL HADIPA
-http://147.93.153.98/TREX/play.php?id=156162
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png",HINDI| HUNGAMA DIL DE HD
-http://147.93.153.98/TREX/play.php?id=156156
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png",HINDI| HUNGAMA NAZRANA HD
-http://147.93.153.98/TREX/play.php?id=156157
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png",HINDI| HUNGAMA POP PATAKA
-http://147.93.153.98/TREX/play.php?id=156171
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/disneychannel.png",HINDI| DISNEY CHANNEL
-http://147.93.153.98/TREX/play.php?id=1158195
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/DISNEY-JUNIOR.png",HINDI| DISNEY JUNIOR
-http://147.93.153.98/TREX/play.php?id=811469
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/POGO-KIDS.png",HINDI| POGO KIDS
-http://147.93.153.98/TREX/play.php?id=156128
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/CARTOON-NETWORK.png",HINDI| CARTOON NETWORK FHD
-http://147.93.153.98/TREX/play.php?id=280748
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="https://logo.protv.cc/piconsnew/nickjrromania.png",HINDI| NICK JR
-http://147.93.153.98/TREX/play.php?id=1752845
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/nickjr.png",HINDI| NICK JR HINDI
-http://147.93.153.98/TREX/play.php?id=1540021
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="https://logo.protv.cc/piconsnew/nickelodeon.png",HINDI| NICKELODEON
-http://147.93.153.98/TREX/play.php?id=1752846
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="https://logo.protv.cc/piconsnew/nickelodeon.png",HINDI| NICKELODEON HD
-http://147.93.153.98/TREX/play.php?id=1752848
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/VT-SONIC-KIDS.png",HINDI| NICK SONIC HINDI
-http://147.93.153.98/TREX/play.php?id=1540020
-#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/VT-SONIC-KIDS.png",HINDI| VT SONIC KIDS FHD
-http://147.93.153.98/TREX/play.php?id=1540024
-#EXTINF:-1 tvg-id="0" group-title="ASIA | PAKISTAN" tvg-logo="http://103.176.90.118/picons/logos/cartoonnetwork.png",PK| CARTOON NETWORK
-http://147.93.153.98/TREX/play.php?id=281106
-#EXTINF:-1 tvg-id="0" group-title="ASIA | ENGLISH" tvg-logo="http://103.176.90.118/picons/logos/INDIA_PAKISTAN/CARTOONNETWORK.png",ENGLISH| CARTOON NETWORK FHD
-http://147.93.153.98/TREX/play.php?id=1110636
-#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/logos/CARTOON-NETWORK.png",TAMIL| CARTOON NETWORK
-http://147.93.153.98/TREX/play.php?id=1526437
-#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/logos/DISNEY-JUNIOR.png",TAMIL| DISNEY JUNIOR
-http://147.93.153.98/TREX/play.php?id=1526427
-#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/INDIA_PAKISTAN/HUNGAMADAMAALHD.png",TAMIL| HUNGAMA
-http://147.93.153.98/TREX/play.php?id=1097666
-#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/INDIA_PAKISTAN/HUNGAMADAMAALHD.png",TAMIL| HUNGAMA KIDS
-http://147.93.153.98/TREX/play.php?id=1097664
-#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/logos/POGO.png",TAMIL| POGO
-http://147.93.153.98/TREX/play.php?id=1526439
-#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",TAMIL| SONY YAY
-http://147.93.153.98/TREX/play.php?id=155900
-#EXTINF:-1 tvg-id="0" group-title="ASIA | PUNJABI" tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png",PUNJABI| HUNGAMA BOL HADIPPA
-http://147.93.153.98/TREX/play.php?id=1670149
-#EXTINF:-1 tvg-id="0" group-title="ASIA | GUJARATI/ASSAM" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",GUJARATI| SONY YAY
-http://147.93.153.98/TREX/play.php?id=1529330
-#EXTINF:-1 tvg-id="0" group-title="ASIA | MALAYALAM" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",MALAYALAM| SONY YAY
-http://147.93.153.98/TREX/play.php?id=1528385
-#EXTINF:-1 tvg-id="0" group-title="ASIA | MARATHI" tvg-logo="http://103.176.90.118/picons/logos/logos/NICKELODEON.png",MARATHI| SONIC NICKELODEON
-http://147.93.153.98/TREX/play.php?id=1531126
-#EXTINF:-1 tvg-id="0" group-title="ASIA | MARATHI" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",MARATHI| SONY YAY FHD
-http://147.93.153.98/TREX/play.php?id=1531124
-#EXTINF:-1 tvg-id="0" group-title="ASIA | MARATHI" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",MARATHI| SONY YAY!
-http://147.93.153.98/TREX/play.php?id=1531125
-#EXTINF:-1 tvg-id="0" group-title="ASIA | TELEGU" tvg-logo="http://103.176.90.118/picons/logos/logos/CARTOON-NETWORK.png",TELUGU| CARTOON NETWORK
-http://147.93.153.98/TREX/play.php?id=1529118
-#EXTINF:-1 tvg-id="0" group-title="ASIA | TELEGU" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",TELUGU| SONY YAY
-http://147.93.153.98/TREX/play.php?id=155862
-#EXTINF:-1 tvg-id="0" group-title="ASIA | TELEGU" tvg-logo="http://103.176.90.118/picons/logos/INDIA_PAKISTAN/HUNGAMADAMAALHD.png",TELUGU| SUPER HUNGAMA
-http://147.93.153.98/TREX/play.php?id=1097624
-#EXTINF:-1 tvg-id="0" group-title="ASIA | KANNADA" tvg-logo="http://103.176.90.118/picons/logos/logos/SONIC.png",KANNADA| SONIC
-http://147.93.153.98/TREX/play.php?id=1528605
-#EXTINF:-1 tvg-id="0" group-title="ASIA | KANNADA" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",KANNADA| SONY YAY
-http://147.93.153.98/TREX/play.php?id=1528600
-#EXTINF:-1 tvg-id="0" group-title="ASIA | BENGALI/BANGLA" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",BANGALI| SONY YAY
-http://147.93.153.98/TREX/play.php?id=1531198
-#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/boomerang.png",PT| BOOMERANG
-http://147.93.153.98/TREX/play.php?id=996540
-#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/cartoonnetwork.png",PT| CARTOON NETWORK
-http://147.93.153.98/TREX/play.php?id=107506
-#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/disneychannel.png",PT| DISNEY CHANNEL
-http://147.93.153.98/TREX/play.php?id=107498
-#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/disneyjunior.png",PT| DISNEY JUNIOR
-http://147.93.153.98/TREX/play.php?id=107497
-#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/nickelodeon.png",PT| NICKELODEON
-http://147.93.153.98/TREX/play.php?id=107460
-#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/nickj.png",PT| NICK JR.
-http://147.93.153.98/TREX/play.php?id=107461
-#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/CARTOON-NETWORK.png",M+| CARTOON NETWORK ᴴᴰ
-http://147.93.153.98/TREX/play.php?id=1829557
-#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/DISNEY-CHANNEL.png",M+| DISNEY CHANNEL ᴴᴰ
-http://147.93.153.98/TREX/play.php?id=1829544
-#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/DISNEY-JUNIOR.png",M+| DISNEY JUNIOR ᴴᴰ
-http://147.93.153.98/TREX/play.php?id=1829543
-#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/NICK-JR.png",M+| NICK JR. ᴴᴰ
-http://147.93.153.98/TREX/play.php?id=1829501
-#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/NICKELODEON.png",M+| NICKELODEON ᴴᴰ
-http://147.93.153.98/TREX/play.php?id=1829500
-#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴿᴬᵂ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/CARTOON-NETWORK.png",M+| CARTOON NETWORK ᴿᴬᵂ
-http://147.93.153.98/TREX/play.php?id=1829385
-#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴿᴬᵂ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/DISNEY-CHANNEL.png",M+| DISNEY CHANNEL ᴿᴬᵂ
-http://147.93.153.98/TREX/play.php?id=1829372
-#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴿᴬᵂ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/DISNEY-JUNIOR.png",M+| DISNEY JUNIOR ᴿᴬᵂ
-http://147.93.153.98/TREX/play.php?id=1829371
-#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴿᴬᵂ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/NICK-JR.png",M+| NICK JR. ᴿᴬᵂ
-http://147.93.153.98/TREX/play.php?id=1829329
-#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴿᴬᵂ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/NICKELODEON.png",M+| NICKELODEON ᴿᴬᵂ
-http://147.93.153.98/TREX/play.php?id=1829328
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/BOOMERANG-1.png",UK| BOOMERANG FHD
-http://147.93.153.98/TREX/play.php?id=45295
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/CARTOON-NETWORK.png",UK| CARTOON NETWORK FHD
-http://147.93.153.98/TREX/play.php?id=30556
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/DISNEYCHANNEL.png",UK| DISNEY CHANNEL FHD
-http://147.93.153.98/TREX/play.php?id=396314
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/NICKELODEON.png",UK| NICKELODEON FHD
-http://147.93.153.98/TREX/play.php?id=30524
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/NICK-JR.png",UK| NICK JR FHD
-http://147.93.153.98/TREX/play.php?id=1014233
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/NICKELODEON.png",UK| NICKELODEON HD
-http://147.93.153.98/TREX/play.php?id=228579
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/NICK-JR.png",UK| NICK JR HD
-http://147.93.153.98/TREX/play.php?id=1014235
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/BOOMERANG-1.png",UK| BOOMERANG +1
-http://147.93.153.98/TREX/play.php?id=1014237
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/CARTOON-NETWORK.png",UK| CARTOON NETWORK +1
-http://147.93.153.98/TREX/play.php?id=1014234
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/NICKELODEON.png",UK| NICKELODEON +1
-http://147.93.153.98/TREX/play.php?id=1014236
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS HEVC" tvg-logo="http://103.176.90.118/picons/logos/UK/CARTOON-NETWORK.png",UK| CARTOON NETWORK  HEVC FHD
-http://147.93.153.98/TREX/play.php?id=1458592
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS HEVC" tvg-logo="http://103.176.90.118/picons/logos/UK/CARTOON-NETWORK.png",UK| CARTOON NETWORK HEVC HD
-http://147.93.153.98/TREX/play.php?id=1458587
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS HEVC" tvg-logo="http://103.176.90.118/picons/logos/UK/NICK-JR.png",UK| NICK JR HEVC FHD
-http://147.93.153.98/TREX/play.php?id=1458590
-#EXTINF:-1 tvg-id="0" group-title="UK| KIDS HEVC" tvg-logo="http://103.176.90.118/picons/logos/UK/NICK-JR.png",UK| NICK JR HEVC HD
-http://147.93.153.98/TREX/play.php?id=1458585
-#EXTINF:-1 tvg-id="0" group-title="UK| BFBS" tvg-logo="https://logo.protv.cc/piconsnew/nickelodeon.png",UK-BFBS| NICKELODEON
-http://147.93.153.98/TREX/play.php?id=1731671
-#EXTINF:-1 tvg-id="0" group-title="UK| BFBS" tvg-logo="https://logo.protv.cc/piconsnew/nickjr.png",UK-BFBS| NICK JR.
-http://147.93.153.98/TREX/play.php?id=1731670
+#EXTHTTP:{"cookie":"__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Bollywood_Hungama_BTS/output/index.mpd?__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968&xxx=||cookie=__hdnea__=st=1760229804~exp=1760316204~acl=/*~hmac=c876b4cc94c6853326f6cf1d08beb115979e3b20b837161655fc2df1c045e968
 
-# Auto-updated on 2025-10-12 07:19:46 UTC
+#EXTINF:-1 tvg-id="sonyyay" tvg-name="Sony YAY" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids", Sony YAY
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8??hdnea=exp=1760275968~acl=/*~id=87721494590372573334990766363951~hmac=29a33f2206f98a6ebe745477e85c97597b44c92e072980b8e2194933d639516b
+
