@@ -6,8 +6,6 @@
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1760143127~exp=1760229527~acl=/*~hmac=adbbda1cef3e3d58f98da940986ed3d3534194d38b02a807aa1bcbd3948c350f"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st=1760143127~exp=1760229527~acl=/*~hmac=adbbda1cef3e3d58f98da940986ed3d3534194d38b02a807aa1bcbd3948c350f&xxx=||cookie=__hdnea__=st=1760143127~exp=1760229527~acl=/*~hmac=adbbda1cef3e3d58f98da940986ed3d3534194d38b02a807aa1bcbd3948c350f
-
-
 #EXTINF:-1 tvg-id="1374" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Junior.png",Disney Junior
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -16,8 +14,6 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdn
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1760143127~exp=1760229527~acl=/*~hmac=adbbda1cef3e3d58f98da940986ed3d3534194d38b02a807aa1bcbd3948c350f"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Junior_BTS/output/index.mpd?__hdnea__=st=1760143127~exp=1760229527~acl=/*~hmac=adbbda1cef3e3d58f98da940986ed3d3534194d38b02a807aa1bcbd3948c350f&xxx=||cookie=__hdnea__=st=1760143127~exp=1760229527~acl=/*~hmac=adbbda1cef3e3d58f98da940986ed3d3534194d38b02a807aa1bcbd3948c350f
-
-
 #EXTINF:-1 tvg-id="1375" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_International_HD.png",Disney International HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
