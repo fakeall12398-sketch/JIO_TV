@@ -1,9 +1,9 @@
-name: 🔄 Auto Update IPTV Tokens & License Keys (Robust)
+name: 🔄 Auto Update IPTV Tokens & License Keys
 
 on:
   schedule:
-    - cron: "0 */11 * * *"
-  workflow_dispatch:
+    - cron: "0 */11 * * *"  # Every 11 hours
+  workflow_dispatch:  # Manual trigger allowed
 
 jobs:
   update:
@@ -12,216 +12,121 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repo
+      - name: 🧩 Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: 🐍 Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
+      - name: 📦 Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Fetch playlists, extract tokens, and update kids.m3u
+      - name: 🔄 Fetch & Update kids.m3u
         run: |
           python - <<'PYCODE'
-          import re, requests, json
+          import re, requests, time
 
-          # Config
           M3U_FILE = "kids.m3u"
+
           PLAYLIST_URLS = [
               "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u",
               "https://fakeall12398-sketch.github.io/JIO_TV/sony.m3u",
               "https://freelivtv.xyz/oppu/opplex.m3u",
-              "https://fakeall12398-sketch.github.io/JIO_TV/Allinone.m3u"
+              "https://fakeall12398-sketch.github.io/JIO_TV/Allinone.m3u8"
           ]
 
-          # Patterns
-          # capture full token value (stop at &, whitespace, or closing brace/quote)
-          HDNEA_PAT = re.compile(r"__hdnea__=([^&\"'\\s\\}]+)")
-          HDNTL_PAT = re.compile(r"hdntl=([^&\"'\\s\\}]+)")
-          # license key from #KODIPROP
-          LICENSE_PAT = re.compile(r"#KODIPROP:inputstream\.adaptive\.license_key=([^\n\r]+)")
-          # find JSON inside #EXTHTTP:...
-          EXTHTTP_JSON_PAT = re.compile(r'#EXTHTTP:\s*(\{.*?\})', re.DOTALL)
+          def fetch_tokens():
+              tokens = {"hdnea": None, "hdntl": None, "license_key": None}
+              pattern_hdnea = re.compile(r"__hdnea__=([^&\"\\s]+)")
+              pattern_hdntl = re.compile(r"hdntl=([^&\"\\s]+)")
+              pattern_license = re.compile(r"#KODIPROP:inputstream\.adaptive\.license_key=([^\n]+)")
 
-          # helper to parse expiration timestamp from token (exp=NUMBER)
-          def parse_exp(token):
-              try:
-                  m = re.search(r"exp=(\d+)", token)
-                  if m:
-                      return int(m.group(1))
-              except:
-                  pass
-              return 0
-
-          def valid_hdnea_token(tok):
-              """Ignore placeholder tokens like exactly 'st' or too short tokens."""
-              if not tok or tok.strip().lower() == "st":
-                  return False
-              # prefer tokens that contain 'exp=' and 'hmac=' or at least 'exp='
-              if "exp=" in tok:
-                  return True
-              # fallback: token length threshold
-              return len(tok) > 30
-
-          def fetch_candidates():
-              hdnea_candidates = []
-              hdntl_candidates = []
-              license_candidates = []
               for url in PLAYLIST_URLS:
                   try:
-                      r = requests.get(url, timeout=20)
-                      r.raise_for_status()
-                      txt = r.text
+                      print(f"[INFO] Fetching: {url}")
+                      resp = requests.get(url, timeout=20)
+                      text = resp.text
+
+                      if not tokens["hdnea"]:
+                          m = pattern_hdnea.search(text)
+                          if m:
+                              tokens["hdnea"] = m.group(1)
+                              print(f"✅ Found hdnea: {tokens['hdnea'][:40]}...")
+
+                      if not tokens["hdntl"]:
+                          m = pattern_hdntl.search(text)
+                          if m:
+                              tokens["hdntl"] = m.group(1)
+                              print(f"✅ Found hdntl: {tokens['hdntl'][:40]}...")
+
+                      if not tokens["license_key"]:
+                          m = pattern_license.search(text)
+                          if m:
+                              tokens["license_key"] = m.group(1).strip()
+                              print(f"✅ Found license key")
+
+                      if all(tokens.values()):
+                          print("[INFO] All tokens collected ✅")
+                          break
                   except Exception as e:
-                      print(f"[WARN] Failed fetch {url}: {e}")
-                      continue
+                      print(f"[WARN] Skipping {url}: {e}")
 
-                  # 1) From #EXTHTTP JSON cookie
-                  for jm in EXTHTTP_JSON_PAT.finditer(txt):
-                      jstr = jm.group(1)
-                      try:
-                          # sometimes JSON uses single quotes or not strictly JSON -> try replace single quotes with double
-                          jsafe = jstr
-                          # fix unescaped single quotes by trying json.loads; fallback to crude extraction
-                          data = None
-                          try:
-                              data = json.loads(jsafe)
-                          except:
-                              try:
-                                  data = json.loads(jsafe.replace("'", '"'))
-                              except:
-                                  data = None
-                          if isinstance(data, dict):
-                              cookie_val = data.get("cookie") or data.get("Cookie") or ""
-                              if cookie_val:
-                                  m = HDNEA_PAT.search(cookie_val)
-                                  if m:
-                                      tok = m.group(1)
-                                      if valid_hdnea_token(tok):
-                                          hdnea_candidates.append((tok, parse_exp(tok)))
-                          else:
-                              # crude extraction in case JSON parsing failed
-                              m = re.search(r"__hdnea__=([^&\"'\\s\\}]+)", jstr)
-                              if m:
-                                  tok = m.group(1)
-                                  if valid_hdnea_token(tok):
-                                      hdnea_candidates.append((tok, parse_exp(tok)))
-                      except Exception as e:
-                          print("[WARN] exthttp json parse failed:", e)
+              print(f"[INFO] Final tokens: {tokens}")
+              return tokens
 
-                  # 2) From URLs in playlist text
-                  for m in HDNEA_PAT.finditer(txt):
-                      tok = m.group(1)
-                      if valid_hdnea_token(tok):
-                          hdnea_candidates.append((tok, parse_exp(tok)))
-
-                  for m in HDNTL_PAT.finditer(txt):
-                      tok = m.group(1)
-                      # hdntl may not have exp; accept if longer than small threshold
-                      if tok and len(tok) > 8:
-                          hdntl_candidates.append((tok, parse_exp(tok)))
-
-                  # 3) license key
-                  for m in LICENSE_PAT.finditer(txt):
-                      lk = m.group(1).strip()
-                      if lk:
-                          license_candidates.append(lk)
-
-              # select best token by highest exp (if any), else longest token
-              def pick_best(cands):
-                  if not cands:
-                      return None
-                  # cands: list of (token, exp)
-                  cands_sorted = sorted(cands, key=lambda t: (t[1], len(t[0])), reverse=True)
-                  return cands_sorted[0][0]
-
-              hdnea = pick_best(hdnea_candidates)
-              hdntl = pick_best(hdntl_candidates)
-              license_key = license_candidates[0] if license_candidates else None
-
-              print(f"[INFO] hdnea candidate count: {len(hdnea_candidates)}, chosen: {hdnea and hdnea[:60]+'...' or None}")
-              print(f"[INFO] hdntl candidate count: {len(hdntl_candidates)}, chosen: {hdntl and hdntl[:60]+'...' or None}")
-              print(f"[INFO] license_key found: {bool(license_key)}")
-              return {"hdnea": hdnea, "hdntl": hdntl, "license_key": license_key}
-
-          def replace_tokens_in_file(tokens):
+          def update_file(tokens):
               try:
-                  with open(M3U_FILE, "r", encoding="utf-8") as f:
+                  with open(M3U_FILE, encoding="utf-8") as f:
                       content = f.read()
               except FileNotFoundError:
-                  print(f"[ERROR] {M3U_FILE} not found")
+                  print(f"[ERROR] File {M3U_FILE} not found.")
                   return False
 
               updated = content
 
-              # Replace any __hdnea__=... in URLs or params
-              if tokens.get("hdnea"):
-                  new = tokens["hdnea"]
-                  # generic __hdnea__ replacement (stops at & or whitespace or " or ' or })
-                  updated = re.sub(r"__hdnea__=[^&\"'\\s\\}]+", "__hdnea__=" + new, updated)
+              if tokens["hdnea"]:
+                  updated = re.sub(r"__hdnea__=[^&\"\\s]+", f"__hdnea__={tokens['hdnea']}", updated)
+                  updated = re.sub(r'cookie=\"__hdnea__=[^\"}]+', f'cookie="__hdnea__={tokens["hdnea"]}', updated)
 
-                  # replace cookie JSON inside #EXTHTTP:{"cookie":"..."}
-                  def repl_exthttp(m):
-                      jstr = m.group(1)
-                      try:
-                          data = None
-                          try:
-                              data = json.loads(jstr)
-                          except:
-                              data = json.loads(jstr.replace("'", '"'))
-                          if isinstance(data, dict) and "cookie" in data:
-                              cookie_val = data["cookie"]
-                              cookie_val = re.sub(r"__hdnea__=[^&\"'\\s\\}]+", "__hdnea__=" + new, cookie_val)
-                              data["cookie"] = cookie_val
-                              return "#EXTHTTP:" + json.dumps(data, separators=(',',':'))
-                      except Exception:
-                          # fallback: simple replace inside the JSON-like string
-                          return '#EXTHTTP:' + re.sub(r"__hdnea__=[^&\"'\\s\\}]+", "__hdnea__=" + new, jstr)
-                      return m.group(0)
+              if tokens["hdntl"]:
+                  updated = re.sub(r"hdntl=[^&\"\\s]+", f"hdntl={tokens['hdntl']}", updated)
 
-                  updated = re.sub(r'#EXTHTTP:\s*(\{.*?\})', repl_exthttp, updated, flags=re.DOTALL)
+              if tokens["license_key"]:
+                  updated = re.sub(
+                      r"(?m)^#KODIPROP:inputstream\.adaptive\.license_key=.*$",
+                      f"#KODIPROP:inputstream.adaptive.license_key={tokens['license_key']}",
+                      updated
+                  )
 
-                  # replace ||cookie=__hdnea__=... suffix form
-                  updated = re.sub(r"\|\|cookie=__hdnea__=[^\\s]+", "||cookie=__hdnea__=" + new, updated)
+              # Add timestamp to force commit
+              timestamp = time.strftime("%Y-%m-%d %H:%M:%S UTC")
+              updated += f"\n# Auto-updated on {timestamp}\n"
 
-              if tokens.get("hdntl"):
-                  new_hdntl = tokens["hdntl"]
-                  updated = re.sub(r"hdntl=[^&\"'\\s\\}]+", "hdntl=" + new_hdntl, updated)
-
-              if tokens.get("license_key"):
-                  lk = tokens["license_key"]
-                  updated = re.sub(r"(#KODIPROP:inputstream\.adaptive\.license_key=)[^\n\r]+", r"\1" + lk, updated)
-
-              # write back always (force update)
               with open(M3U_FILE, "w", encoding="utf-8") as f:
                   f.write(updated)
 
-              print("[INFO] Wrote updated file.")
+              print(f"[INFO] ✅ {M3U_FILE} updated successfully.")
               return True
 
-          tokens = fetch_candidates()
+          tokens = fetch_tokens()
           if not any(tokens.values()):
-              print("[ERROR] No tokens found in any playlist; aborting.")
+              print("[ERROR] No tokens found. Skipping update.")
               exit(1)
 
-          ok = replace_tokens_in_file(tokens)
-          if not ok:
-              print("[ERROR] Failed to update file.")
-              exit(1)
-
-          print("[INFO] Done - tokens updated.")
+          update_file(tokens)
           PYCODE
 
-      - name: Commit & push
+      - name: 💾 Commit & Push Updated Tokens
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
           DATE="$(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+
           git add kids.m3u
-          git commit -m "🔄 Auto refresh kids.m3u tokens [${DATE}]" || echo "No changes to commit"
-          git push || echo "Push failed"
+          git commit -m "🔄 Auto Update kids.m3u tokens [${DATE}]" || echo "⚠️ No diff detected, forcing commit."
+          git push origin HEAD:main || echo "⚠️ Push failed — likely no diff."
