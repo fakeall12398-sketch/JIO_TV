@@ -3,8 +3,8 @@
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-TARGETDURATION:10
 # Playlist generated with token refresh
-# Total channels: 19
-# Generated at: "3f8814af9c58b1f5684e457fac6e01aeb964e051"
+# Total channels: 87
+# Generated at: "d534f316426ab7edab0a248ae82a5e785da061e1"
 
 #EXTINF:-1 tvg-id="1373" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -170,4 +170,208 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bollywood_Hungama_BTS/output/index.mpd?__
 
 #EXTINF:-1 tvg-id="sonyyay" tvg-name="Sony YAY" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids", Sony YAY
 https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8??hdnea=exp=1760275968~acl=/*~id=87721494590372573334990766363951~hmac=29a33f2206f98a6ebe745477e85c97597b44c92e072980b8e2194933d639516b
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | PREMIUM VIP" tvg-logo="http://103.176.90.118/picons/logos/premium.png",IN-PREM| HUNGAMA SERIES
+http://147.93.153.98/TREX/play.php?id=636192
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",HINDI| SONY YAY
+http://147.93.153.98/TREX/play.php?id=156089
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png",HINDI| HUNGAMA BOL HADIPA
+http://147.93.153.98/TREX/play.php?id=156162
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png",HINDI| HUNGAMA DIL DE HD
+http://147.93.153.98/TREX/play.php?id=156156
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png",HINDI| HUNGAMA NAZRANA HD
+http://147.93.153.98/TREX/play.php?id=156157
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png",HINDI| HUNGAMA POP PATAKA
+http://147.93.153.98/TREX/play.php?id=156171
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/disneychannel.png",HINDI| DISNEY CHANNEL
+http://147.93.153.98/TREX/play.php?id=1158195
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/DISNEY-JUNIOR.png",HINDI| DISNEY JUNIOR
+http://147.93.153.98/TREX/play.php?id=811469
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/POGO-KIDS.png",HINDI| POGO KIDS
+http://147.93.153.98/TREX/play.php?id=156128
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/CARTOON-NETWORK.png",HINDI| CARTOON NETWORK FHD
+http://147.93.153.98/TREX/play.php?id=280748
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="https://logo.protv.cc/piconsnew/nickjrromania.png",HINDI| NICK JR
+http://147.93.153.98/TREX/play.php?id=1752845
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/nickjr.png",HINDI| NICK JR HINDI
+http://147.93.153.98/TREX/play.php?id=1540021
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="https://logo.protv.cc/piconsnew/nickelodeon.png",HINDI| NICKELODEON
+http://147.93.153.98/TREX/play.php?id=1752846
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="https://logo.protv.cc/piconsnew/nickelodeon.png",HINDI| NICKELODEON HD
+http://147.93.153.98/TREX/play.php?id=1752848
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/VT-SONIC-KIDS.png",HINDI| NICK SONIC HINDI
+http://147.93.153.98/TREX/play.php?id=1540020
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | INDIA" tvg-logo="http://103.176.90.118/picons/logos/logos/VT-SONIC-KIDS.png",HINDI| VT SONIC KIDS FHD
+http://147.93.153.98/TREX/play.php?id=1540024
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | PAKISTAN" tvg-logo="http://103.176.90.118/picons/logos/cartoonnetwork.png",PK| CARTOON NETWORK
+http://147.93.153.98/TREX/play.php?id=281106
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | ENGLISH" tvg-logo="http://103.176.90.118/picons/logos/INDIA_PAKISTAN/CARTOONNETWORK.png",ENGLISH| CARTOON NETWORK FHD
+http://147.93.153.98/TREX/play.php?id=1110636
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/logos/CARTOON-NETWORK.png",TAMIL| CARTOON NETWORK
+http://147.93.153.98/TREX/play.php?id=1526437
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/logos/DISNEY-JUNIOR.png",TAMIL| DISNEY JUNIOR
+http://147.93.153.98/TREX/play.php?id=1526427
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/INDIA_PAKISTAN/HUNGAMADAMAALHD.png",TAMIL| HUNGAMA
+http://147.93.153.98/TREX/play.php?id=1097666
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/INDIA_PAKISTAN/HUNGAMADAMAALHD.png",TAMIL| HUNGAMA KIDS
+http://147.93.153.98/TREX/play.php?id=1097664
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/logos/POGO.png",TAMIL| POGO
+http://147.93.153.98/TREX/play.php?id=1526439
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | TAMIL" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",TAMIL| SONY YAY
+http://147.93.153.98/TREX/play.php?id=155900
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | PUNJABI" tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png",PUNJABI| HUNGAMA BOL HADIPPA
+http://147.93.153.98/TREX/play.php?id=1670149
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | GUJARATI/ASSAM" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",GUJARATI| SONY YAY
+http://147.93.153.98/TREX/play.php?id=1529330
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | MALAYALAM" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",MALAYALAM| SONY YAY
+http://147.93.153.98/TREX/play.php?id=1528385
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | MARATHI" tvg-logo="http://103.176.90.118/picons/logos/logos/NICKELODEON.png",MARATHI| SONIC NICKELODEON
+http://147.93.153.98/TREX/play.php?id=1531126
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | MARATHI" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",MARATHI| SONY YAY FHD
+http://147.93.153.98/TREX/play.php?id=1531124
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | MARATHI" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",MARATHI| SONY YAY!
+http://147.93.153.98/TREX/play.php?id=1531125
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | TELEGU" tvg-logo="http://103.176.90.118/picons/logos/logos/CARTOON-NETWORK.png",TELUGU| CARTOON NETWORK
+http://147.93.153.98/TREX/play.php?id=1529118
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | TELEGU" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",TELUGU| SONY YAY
+http://147.93.153.98/TREX/play.php?id=155862
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | TELEGU" tvg-logo="http://103.176.90.118/picons/logos/INDIA_PAKISTAN/HUNGAMADAMAALHD.png",TELUGU| SUPER HUNGAMA
+http://147.93.153.98/TREX/play.php?id=1097624
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | KANNADA" tvg-logo="http://103.176.90.118/picons/logos/logos/SONIC.png",KANNADA| SONIC
+http://147.93.153.98/TREX/play.php?id=1528605
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | KANNADA" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",KANNADA| SONY YAY
+http://147.93.153.98/TREX/play.php?id=1528600
+
+#EXTINF:-1 tvg-id="0" group-title="ASIA | BENGALI/BANGLA" tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png",BANGALI| SONY YAY
+http://147.93.153.98/TREX/play.php?id=1531198
+
+#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/boomerang.png",PT| BOOMERANG
+http://147.93.153.98/TREX/play.php?id=996540
+
+#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/cartoonnetwork.png",PT| CARTOON NETWORK
+http://147.93.153.98/TREX/play.php?id=107506
+
+#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/disneychannel.png",PT| DISNEY CHANNEL
+http://147.93.153.98/TREX/play.php?id=107498
+
+#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/disneyjunior.png",PT| DISNEY JUNIOR
+http://147.93.153.98/TREX/play.php?id=107497
+
+#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/nickelodeon.png",PT| NICKELODEON
+http://147.93.153.98/TREX/play.php?id=107460
+
+#EXTINF:-1 tvg-id="0" group-title="PT| CRIANCAS" tvg-logo="http://103.176.90.118/piconsnew/nickj.png",PT| NICK JR.
+http://147.93.153.98/TREX/play.php?id=107461
+
+#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/CARTOON-NETWORK.png",M+| CARTOON NETWORK ᴴᴰ
+http://147.93.153.98/TREX/play.php?id=1829557
+
+#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/DISNEY-CHANNEL.png",M+| DISNEY CHANNEL ᴴᴰ
+http://147.93.153.98/TREX/play.php?id=1829544
+
+#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/DISNEY-JUNIOR.png",M+| DISNEY JUNIOR ᴴᴰ
+http://147.93.153.98/TREX/play.php?id=1829543
+
+#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/NICK-JR.png",M+| NICK JR. ᴴᴰ
+http://147.93.153.98/TREX/play.php?id=1829501
+
+#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/NICKELODEON.png",M+| NICKELODEON ᴴᴰ
+http://147.93.153.98/TREX/play.php?id=1829500
+
+#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴿᴬᵂ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/CARTOON-NETWORK.png",M+| CARTOON NETWORK ᴿᴬᵂ
+http://147.93.153.98/TREX/play.php?id=1829385
+
+#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴿᴬᵂ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/DISNEY-CHANNEL.png",M+| DISNEY CHANNEL ᴿᴬᵂ
+http://147.93.153.98/TREX/play.php?id=1829372
+
+#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴿᴬᵂ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/DISNEY-JUNIOR.png",M+| DISNEY JUNIOR ᴿᴬᵂ
+http://147.93.153.98/TREX/play.php?id=1829371
+
+#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴿᴬᵂ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/NICK-JR.png",M+| NICK JR. ᴿᴬᵂ
+http://147.93.153.98/TREX/play.php?id=1829329
+
+#EXTINF:-1 tvg-id="0" group-title="PT| MEO+ ᴿᴬᵂ" tvg-logo="http://51.158.145.100/picons/logos/PORTUGAL/NICKELODEON.png",M+| NICKELODEON ᴿᴬᵂ
+http://147.93.153.98/TREX/play.php?id=1829328
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/BOOMERANG-1.png",UK| BOOMERANG FHD
+http://147.93.153.98/TREX/play.php?id=45295
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/CARTOON-NETWORK.png",UK| CARTOON NETWORK FHD
+http://147.93.153.98/TREX/play.php?id=30556
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/DISNEYCHANNEL.png",UK| DISNEY CHANNEL FHD
+http://147.93.153.98/TREX/play.php?id=396314
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/NICKELODEON.png",UK| NICKELODEON FHD
+http://147.93.153.98/TREX/play.php?id=30524
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/NICK-JR.png",UK| NICK JR FHD
+http://147.93.153.98/TREX/play.php?id=1014233
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/NICKELODEON.png",UK| NICKELODEON HD
+http://147.93.153.98/TREX/play.php?id=228579
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/NICK-JR.png",UK| NICK JR HD
+http://147.93.153.98/TREX/play.php?id=1014235
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/BOOMERANG-1.png",UK| BOOMERANG +1
+http://147.93.153.98/TREX/play.php?id=1014237
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/CARTOON-NETWORK.png",UK| CARTOON NETWORK +1
+http://147.93.153.98/TREX/play.php?id=1014234
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS" tvg-logo="http://103.176.90.118/picons/logos/UK/NICKELODEON.png",UK| NICKELODEON +1
+http://147.93.153.98/TREX/play.php?id=1014236
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS HEVC" tvg-logo="http://103.176.90.118/picons/logos/UK/CARTOON-NETWORK.png",UK| CARTOON NETWORK  HEVC FHD
+http://147.93.153.98/TREX/play.php?id=1458592
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS HEVC" tvg-logo="http://103.176.90.118/picons/logos/UK/CARTOON-NETWORK.png",UK| CARTOON NETWORK HEVC HD
+http://147.93.153.98/TREX/play.php?id=1458587
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS HEVC" tvg-logo="http://103.176.90.118/picons/logos/UK/NICK-JR.png",UK| NICK JR HEVC FHD
+http://147.93.153.98/TREX/play.php?id=1458590
+
+#EXTINF:-1 tvg-id="0" group-title="UK| KIDS HEVC" tvg-logo="http://103.176.90.118/picons/logos/UK/NICK-JR.png",UK| NICK JR HEVC HD
+http://147.93.153.98/TREX/play.php?id=1458585
+
+#EXTINF:-1 tvg-id="0" group-title="UK| BFBS" tvg-logo="https://logo.protv.cc/piconsnew/nickelodeon.png",UK-BFBS| NICKELODEON
+http://147.93.153.98/TREX/play.php?id=1731671
+
+#EXTINF:-1 tvg-id="0" group-title="UK| BFBS" tvg-logo="https://logo.protv.cc/piconsnew/nickjr.png",UK-BFBS| NICK JR.
+http://147.93.153.98/TREX/play.php?id=1731670
 
