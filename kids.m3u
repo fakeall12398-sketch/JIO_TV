@@ -4,7 +4,7 @@
 #EXT-X-TARGETDURATION:10
 # Playlist generated with token refresh
 # Total channels: 87
-# Generated at: "a0ca8097133e68d10ecf4736b4f50f19bd9f8787"
+# Generated at: "dc03f8b26e87e548b9ba48eb3b7040a5a34bc0ad"
 
 #EXTINF:-1 tvg-id="1373" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -169,7 +169,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Marathi_MOB/WDVLive/index.mpd?__hdn
 https://jiotvpllive.cdn.jio.com/bpk-tv/Bollywood_Hungama_BTS/output/index.mpd?__hdnea__=st=1760402460~exp=1760488860~acl=/*~hmac=29f61dfd843ebbaa1f19b5169ad264db0c44fe3cd38fdac82cd0d95ead76316e&xxx=||cookie=__hdnea__=st=1760402460~exp=1760488860~acl=/*~hmac=29f61dfd843ebbaa1f19b5169ad264db0c44fe3cd38fdac82cd0d95ead76316e
 
 #EXTINF:-1 tvg-id="sonyyay" tvg-name="Sony YAY" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids", Sony YAY
-https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8??hdnea=exp=1760430151~acl=/*~id=63013884399697194575693193177954~hmac=09be8a8a3d918fb579f91af3c9fb9b6fc12de1857d121853caec48f1e08b5824
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8??hdnea=exp=1760503528~acl=/*~id=64164773503966192066082529622873~hmac=6fc4df3a052dd8d678741d8d78be1cdb25c31cc825b8a81297e0a2cf6bb83fde
 
 #EXTINF:-1 tvg-id="0" group-title="ASIA | PREMIUM VIP" tvg-logo="http://103.176.90.118/picons/logos/premium.png",IN-PREM| HUNGAMA SERIES
 http://147.93.153.98/TREX/play.php?id=636192
