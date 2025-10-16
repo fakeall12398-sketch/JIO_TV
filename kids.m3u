@@ -4,7 +4,7 @@
 #EXT-X-TARGETDURATION:10
 # Playlist generated with token refresh
 # Total channels: 87
-# Generated at: "86679e8a4b4f3fbc5ff8bbc99131b2dd85a85e32"
+# Generated at: "740b4f834e3ce1792e6551635f9cd5c21056f005"
 
 #EXTINF:-1 tvg-id="1373" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -169,7 +169,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Marathi_MOB/WDVLive/index.mpd?__hdn
 https://jiotvpllive.cdn.jio.com/bpk-tv/Bollywood_Hungama_BTS/output/index.mpd?__hdnea__=st=1760575330~exp=1760661730~acl=/*~hmac=8b22c32a6f68ad2e6dad0be91951680788f79f188530f04c4f2b5bae462b755f&xxx=||cookie=__hdnea__=st=1760575330~exp=1760661730~acl=/*~hmac=8b22c32a6f68ad2e6dad0be91951680788f79f188530f04c4f2b5bae462b755f
 
 #EXTINF:-1 tvg-id="sony-yay" tvg-name="Sony Yay" tvg-language="Hindi" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Yay
-https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1760617803~acl=/*~id=59579028116495096955910685076940~hmac=783d34b71d18470c9de58e8f4eee0779aa77252ea6e639eb16a96c7f1e485bcf
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1760639403~acl=/*~id=36089149024274682809768442291355~hmac=eae08798437fd0248e26f6a81177bde75ff25ed8b163fe3921938d6f21827405
 
 #EXTINF:-1 tvg-id="0" group-title="ASIA | PREMIUM VIP" tvg-logo="http://103.176.90.118/picons/logos/premium.png",IN-PREM| HUNGAMA SERIES
 http://147.93.153.98/TREX/play.php?id=636192
