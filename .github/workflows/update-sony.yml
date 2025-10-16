@@ -4,7 +4,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 */11 * * *'  # every 12 hours
+    - cron: '0 */11 * * *'  # every 11 hours
   workflow_dispatch:
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install requests
+      - name: Install dependencies
         run: pip install requests
 
       - name: Update sony.m3u tokens
@@ -36,7 +36,6 @@ jobs:
           LOCAL_FILE = "sony.m3u"
 
           def parse_m3u(content):
-              """Parse M3U entries as tvg-id -> (header, url)."""
               entries = {}
               lines = content.splitlines()
               for i, line in enumerate(lines):
@@ -49,7 +48,6 @@ jobs:
                               entries[m.group(1)] = (header, url)
               return entries
 
-          # Fetch new playlist
           print("🔄 Fetching latest playlist...")
           resp = requests.get(API_URL, timeout=30)
           resp.raise_for_status()
@@ -68,7 +66,6 @@ jobs:
                   f.write("\n".join(lines))
               exit(0)
 
-          # Read current sony.m3u
           with open(LOCAL_FILE, "r", encoding="utf-8") as f:
               old_data = f.read()
 
@@ -76,7 +73,6 @@ jobs:
           updated_lines = ["#EXTM3U", f"# Updated: {datetime.utcnow().isoformat()} UTC", ""]
           updated_count = 0
 
-          # Replace URLs for matching Sony channels
           for tvg_id, (header, old_url) in old_entries.items():
               if tvg_id in sony_new:
                   new_header, new_url = sony_new[tvg_id]
@@ -95,14 +91,21 @@ jobs:
           print(f"🎉 sony.m3u updated successfully ({updated_count} tokens refreshed).")
           PY
 
-      - name: Commit and push if changed
+      - name: Commit and push if changed (skip Pages)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage changes
           git add sony.m3u
+
+          # Only commit if there are changes
           if git diff --staged --quiet; then
             echo "✅ No changes to commit"
           else
-            git commit -m "🔄 Auto-update Sony M3U tokens ($(date -u))"
+            # 🔹 Prevent GitHub Pages from deploying
+            # by using [skip ci] and [skip actions] in commit message
+            git commit -m "🔄 Auto-update Sony M3U tokens ($(date -u)) [skip ci] [skip actions]"
             git push origin HEAD:${{ github.ref }}
+            echo "✅ sony.m3u updated and pushed successfully."
           fi
