@@ -1,32 +1,4 @@
-name: Auto Update Sony M3U Tokens
-permissions:
-  contents: write
-
-on:
-  schedule:
-    - cron: '0 */11 * * *'  # every 11 hours
-  workflow_dispatch:
-
-jobs:
-  update-sony:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Update sony.m3u tokens
+- name: Update sony.m3u tokens
         run: |
           python - <<'PY'
           import re, requests, os
@@ -36,6 +8,7 @@ jobs:
           LOCAL_FILE = "sony.m3u"
 
           def parse_m3u(content):
+              """Parse M3U into list of entries with tvg-id, name, header, and url."""
               entries = []
               lines = content.splitlines()
               for i, line in enumerate(lines):
@@ -45,9 +18,10 @@ jobs:
                           url = lines[i + 1].strip()
                           tvg_id = re.search(r'tvg-id="([^"]+)"', header)
                           tvg_name = re.search(r'tvg-name="([^"]+)"', header)
+                          name = tvg_name.group(1).lower() if tvg_name else ""
                           entries.append({
-                              "tvg_id": (tvg_id.group(1).lower() if tvg_id else ""),
-                              "tvg_name": (tvg_name.group(1).lower() if tvg_name else ""),
+                              "id": (tvg_id.group(1).lower() if tvg_id else ""),
+                              "name": name.replace(" ", "").replace("-", ""),
                               "header": header,
                               "url": url
                           })
@@ -59,12 +33,8 @@ jobs:
           new_data = resp.text.strip()
 
           new_entries = parse_m3u(new_data)
-          sony_new = [e for e in new_entries if e["tvg_id"].startswith("sony") or e["tvg_name"].startswith("sony")]
+          sony_new = [e for e in new_entries if "sony" in e["id"] or "sony" in e["name"]]
           print(f"✅ Found {len(sony_new)} Sony channels in API.")
-
-          if not sony_new:
-              print("⚠️ No Sony entries found in API — skipping.")
-              exit(0)
 
           if not os.path.exists(LOCAL_FILE):
               print("⚠️ sony.m3u not found — creating new one.")
@@ -75,52 +45,48 @@ jobs:
                   f.write("\n".join(lines))
               exit(0)
 
-          # Read current sony.m3u
           with open(LOCAL_FILE, "r", encoding="utf-8") as f:
               old_data = f.read()
 
           old_entries = parse_m3u(old_data)
           updated_lines = ["#EXTM3U", f"# Updated: {datetime.utcnow().isoformat()} UTC", ""]
           updated_count = 0
+          added_count = 0
+
+          # Convert new entries to dict for faster lookup by name/id
+          def find_match(old):
+              for new in sony_new:
+                  if (
+                      old["id"] == new["id"]
+                      or old["name"] == new["name"]
+                      or (old["name"] in new["name"] or new["name"] in old["name"])
+                  ):
+                      return new
+              return None
 
           for old in old_entries:
-              match = None
-              for new in sony_new:
-                  # Match by tvg-id or tvg-name (case-insensitive)
-                  if (
-                      old["tvg_id"] and new["tvg_id"] and old["tvg_id"] == new["tvg_id"]
-                  ) or (
-                      old["tvg_name"] and new["tvg_name"] and old["tvg_name"] == new["tvg_name"]
-                  ):
-                      match = new
-                      break
-
+              match = find_match(old)
               if match:
-                  if match["url"] != old["url"]:
+                  if match["url"].strip("?") != old["url"].strip("?"):
                       updated_count += 1
-                      print(f"🔁 Updated token for {old['tvg_id'] or old['tvg_name']}")
+                      print(f"🔁 Updated: {old['id'] or old['name']}")
                   updated_lines.append(match["header"])
                   updated_lines.append(match["url"])
               else:
                   updated_lines.append(old["header"])
                   updated_lines.append(old["url"])
 
+          # Add new sony channels not present
+          old_names = [o["name"] for o in old_entries]
+          for new in sony_new:
+              if not any(n == new["name"] for n in old_names):
+                  updated_lines.append(new["header"])
+                  updated_lines.append(new["url"])
+                  added_count += 1
+                  print(f"🆕 Added: {new['id']}")
+
           with open(LOCAL_FILE, "w", encoding="utf-8") as f:
               f.write("\n".join(updated_lines))
 
-          print(f"🎉 sony.m3u updated successfully ({updated_count} tokens refreshed).")
+          print(f"🎉 sony.m3u updated successfully: {updated_count} updated, {added_count} added.")
           PY
-
-      - name: Commit and push if changed (skip Pages)
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add sony.m3u
-          if git diff --staged --quiet; then
-            echo "✅ No changes to commit"
-          else
-            git commit -m "🔄 Auto-update Sony M3U tokens ($(date -u)) [skip ci] [skip actions]"
-            git push origin HEAD:${{ github.ref }}
-            echo "✅ sony.m3u updated and pushed successfully."
-          fi
