@@ -1,70 +1,49 @@
 #EXTM3U
+# Updated: 2025-10-22T11:28:56.756039 UTC
 
 #EXTINF:-1 tvg-id="2" tvg-name="Sony SAB SD" tvg-language="Hindi" tvg-logo="https://i.ibb.co/svHcHWBz/x.jpg" group-title="SONYLIV" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony SAB SD
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20SAB%20SD&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20SAB%20SD&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysethd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment",SET HD
-https://livetv-cb7.pages.dev/Sonyliv?channel=SET%20HD&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=SET%20HD&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysabhd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Entertainment",Sony SAB HD
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20SAB%20HD&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20SAB%20HD&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonypal" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="Entertainment",Sony PAL
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20PAL&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20PAL&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonyyay" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids",Sony YAY
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20YAY&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20YAY&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonymarathi" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Marathi",Sony Marathii
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Marathii&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Marathii&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonyaath" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Bengali",Sony AATH
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20AATH&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20AATH&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonymaxhd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Movies",Sony MAX HD
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20MAX%20HD&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20MAX%20HD&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonymax" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png" group-title="Movies",Sony MAX
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20MAX&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20MAX&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonymax2" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Movies",Sony MAX 2
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20MAX%202&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20MAX%202&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonywah" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Movies",Sony WAH
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20WAH&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20WAH&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonypixhd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="Movies",Sony PIX HD
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20PIX%20HD&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20PIX%20HD&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonybbcearthhd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Infotainment",Sony BBC Earth HD
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20BBC%20Earth%20HD&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20BBC%20Earth%20HD&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysportsten1" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png" group-title="Sports",Sony Sports TEN 1
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%201&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%201&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysportsten2" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png" group-title="Sports",Sony Sports TEN 2
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%202&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%202&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysportsten3" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png" group-title="Sports",Sony Sports TEN 3
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%203&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%203&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysportsten4" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" group-title="Sports",Sony Sports TEN 4
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%204&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%204&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysportsten5" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports",Sony Sports TEN 5
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%205&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%205&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysportsten1hd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports",Sony Sports TEN 1 HD
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%201%20HD&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%201%20HD&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysportsten2hd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="Sports",Sony Sports TEN 2 HD
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%202%20HD&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%202%20HD&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysportsten3hd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="Sports",Sony Sports TEN 3 HD
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%203%20HD&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%203%20HD&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysportsten4hd" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports",Sony Sports TEN 4 HD
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%204%20HD&token=pw3E8&type=.m3u8
-
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%204%20HD&token=42wsA&type=.m3u8
 #EXTINF:-1 tvg-id="sonysportsten5hd" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports",Sony Sports TEN 5 HD
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%205%20HD&token=pw3E8&type=.m3u8
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20Sports%20TEN%205%20HD&token=42wsA&type=.m3u8
