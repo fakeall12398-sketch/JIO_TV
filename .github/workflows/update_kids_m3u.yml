@@ -40,8 +40,8 @@ jobs:
         PLAYLIST_URLS = [
             "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u",
             "https://fakeall12398-sketch.github.io/JIO_TV/sony.m3u",
-            "https://freelivtv.xyz/oppu/opplex.m3u",
-            "https://fakeall12398-sketch.github.io/JIO_TV/Allinone.m3u",
+            "https://getapks.pages.dev/opplex2.m3u",
+            "https://fakeall12398-sketch.github.io/JIO_TV/Allinone.m3u"
         ]
         
         OUTPUT_FILE = "kids.m3u"
