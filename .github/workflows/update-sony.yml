@@ -57,20 +57,41 @@ jobs:
               return entries
 
           print("🔄 Fetching latest playlist...")
-          resp = requests.get(API_URL, timeout=30)
-          resp.raise_for_status()
-          new_data = resp.text.strip()
+
+          headers = {
+              "User-Agent": "Mozilla/5.0 (compatible; GitHubActionsBot/1.0; +https://github.com/actions)",
+              "Accept": "*/*",
+              "Referer": "https://livetv-cb7.pages.dev/",
+          }
+
+          try:
+              resp = requests.get(API_URL, headers=headers, timeout=30)
+
+              if resp.status_code == 403:
+                  print("❌ 403 Forbidden — retrying with fallback User-Agent...")
+                  headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+                  resp = requests.get(API_URL, headers=headers, timeout=30)
+
+              if resp.status_code != 200:
+                  print(f"⚠️ Failed to fetch playlist. HTTP {resp.status_code}")
+                  exit(0)
+
+              new_data = resp.text.strip()
+
+          except Exception as e:
+              print(f"❌ Error fetching playlist: {e}")
+              exit(0)
 
           new_entries = parse_m3u(new_data)
           sony_new = [e for e in new_entries if "sony" in e["id"] or "sony" in e["name"]]
           print(f"✅ Found {len(sony_new)} Sony channels in API.")
 
           if not sony_new:
-              print("⚠️ No Sony entries found in API — skipping.")
+              print("⚠️ No Sony entries found in API — skipping update.")
               exit(0)
 
           if not os.path.exists(LOCAL_FILE):
-              print("⚠️ sony.m3u not found — creating new one.")
+              print("📄 sony.m3u not found — creating new one.")
               lines = ["#EXTM3U", f"# Created: {datetime.utcnow().isoformat()} UTC", ""]
               for e in sony_new:
                   lines += [e["header"], e["url"]]
@@ -88,7 +109,6 @@ jobs:
 
           def find_match(old):
               for new in sony_new:
-                  # exact id match OR normalized name contains/equals
                   if (old["id"] and new["id"] and old["id"] == new["id"]):
                       return new
                   if old["name"] and new["name"]:
@@ -101,7 +121,6 @@ jobs:
           for old in old_entries:
               match = find_match(old)
               if match:
-                  # normalize small url differences when comparing
                   if match["url"].strip() != old["url"].strip():
                       updated_count += 1
                       print(f"🔁 Updated: {old['raw_name'] or old['id']}")
@@ -111,7 +130,6 @@ jobs:
                   updated_lines.append(old["header"])
                   updated_lines.append(old["url"])
 
-          # add any new sony entries that weren't present before
           old_names = {o["name"] for o in old_entries}
           for new in sony_new:
               if new["name"] not in old_names:
@@ -123,7 +141,7 @@ jobs:
           with open(LOCAL_FILE, "w", encoding="utf-8") as f:
               f.write("\n".join(updated_lines))
 
-          print(f"🎉 sony.m3u updated: {updated_count} updated, {added_count} added.")
+          print(f"🎉 sony.m3u updated successfully: {updated_count} updated, {added_count} added.")
           PY
 
       - name: Commit and push if changed (skip Pages)
