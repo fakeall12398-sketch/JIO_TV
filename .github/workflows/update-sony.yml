@@ -23,17 +23,33 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: pip install requests
-
       - name: Update sony.m3u tokens
         run: |
           python - <<'PY'
-          import re, requests, os
+          import re, subprocess, os
           from datetime import datetime
 
           API_URL = "https://livetv-cb7.pages.dev/Slivplaylist"
           LOCAL_FILE = "sony.m3u"
+
+          def fetch_playlist():
+              print("🔄 Fetching latest playlist (via curl)...")
+              try:
+                  result = subprocess.run([
+                      "curl", "-sL", API_URL,
+                      "-H", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+                      "-H", "Accept: */*",
+                      "-H", "Referer: https://livetv-cb7.pages.dev/"
+                  ], capture_output=True, text=True, timeout=30)
+                  if result.returncode == 0 and result.stdout.strip():
+                      print("✅ Playlist fetched successfully.")
+                      return result.stdout.strip()
+                  else:
+                      print("⚠️ curl returned empty response or failed.")
+                      return ""
+              except Exception as e:
+                  print(f"❌ Error fetching playlist: {e}")
+                  return ""
 
           def parse_m3u(content):
               entries = []
@@ -56,42 +72,30 @@ jobs:
                           })
               return entries
 
-          print("🔄 Fetching latest playlist...")
-
-          headers = {
-              "User-Agent": "Mozilla/5.0 (compatible; GitHubActionsBot/1.0; +https://github.com/actions)",
-              "Accept": "*/*",
-              "Referer": "https://livetv-cb7.pages.dev/",
-          }
-
-          try:
-              resp = requests.get(API_URL, headers=headers, timeout=30)
-
-              if resp.status_code == 403:
-                  print("❌ 403 Forbidden — retrying with fallback User-Agent...")
-                  headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-                  resp = requests.get(API_URL, headers=headers, timeout=30)
-
-              if resp.status_code != 200:
-                  print(f"⚠️ Failed to fetch playlist. HTTP {resp.status_code}")
-                  exit(0)
-
-              new_data = resp.text.strip()
-
-          except Exception as e:
-              print(f"❌ Error fetching playlist: {e}")
+          playlist_data = fetch_playlist()
+          if not playlist_data:
+              print("⚠️ No playlist data fetched — skipping update.")
               exit(0)
 
-          new_entries = parse_m3u(new_data)
-          sony_new = [e for e in new_entries if "sony" in e["id"] or "sony" in e["name"]]
+          new_entries = parse_m3u(playlist_data)
+
+          # Detect any entry related to Sony
+          sony_new = [
+              e for e in new_entries
+              if "sony" in e["id"].lower()
+              or "sony" in e["name"].lower()
+              or "sony" in e["header"].lower()
+          ]
+
           print(f"✅ Found {len(sony_new)} Sony channels in API.")
 
           if not sony_new:
-              print("⚠️ No Sony entries found in API — skipping update.")
+              print("⚠️ No Sony entries found — skipping.")
               exit(0)
 
+          # If sony.m3u doesn't exist, create it
           if not os.path.exists(LOCAL_FILE):
-              print("📄 sony.m3u not found — creating new one.")
+              print("📄 sony.m3u not found — creating new file.")
               lines = ["#EXTM3U", f"# Created: {datetime.utcnow().isoformat()} UTC", ""]
               for e in sony_new:
                   lines += [e["header"], e["url"]]
@@ -99,6 +103,7 @@ jobs:
                   f.write("\n".join(lines))
               exit(0)
 
+          # Compare and update existing entries
           with open(LOCAL_FILE, "r", encoding="utf-8") as f:
               old_data = f.read()
 
@@ -123,7 +128,7 @@ jobs:
               if match:
                   if match["url"].strip() != old["url"].strip():
                       updated_count += 1
-                      print(f"🔁 Updated: {old['raw_name'] or old['id']}")
+                      print(f"🔁 Updated URL: {old['raw_name'] or old['id']}")
                   updated_lines.append(match["header"])
                   updated_lines.append(match["url"])
               else:
@@ -139,12 +144,12 @@ jobs:
                   print(f"🆕 Added: {new['raw_name'] or new['id']}")
 
           with open(LOCAL_FILE, "w", encoding="utf-8") as f:
-              f.write("\n".join(updated_lines))
+              f.write("\n".join(updated_lines).strip() + "\n")
 
-          print(f"🎉 sony.m3u updated successfully: {updated_count} updated, {added_count} added.")
+          print(f"🎉 sony.m3u updated: {updated_count} updated, {added_count} added.")
           PY
 
-      - name: Commit and push if changed (skip Pages)
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
