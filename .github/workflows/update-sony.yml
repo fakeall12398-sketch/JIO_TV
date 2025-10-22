@@ -32,7 +32,7 @@ jobs:
           import re, requests, os
           from datetime import datetime
 
-          API_URL = "https://livetv-cb7.pages.dev/Sony.m3u"
+          API_URL = "https://livetv-cb7.pages.dev/Slivplaylist"
           LOCAL_FILE = "sony.m3u"
 
           def parse_m3u(content):
