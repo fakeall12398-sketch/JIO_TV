@@ -2,7 +2,7 @@
 # Updated: 2025-10-26T04:15:49.511678 UTC
 
 #EXTINF:-1 tvg-id="2" tvg-name="Sony SAB SD" tvg-language="Hindi" tvg-logo="https://i.ibb.co/svHcHWBz/x.jpg" group-title="SONYLIV" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony SAB SD
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20SAB%20SD&token=HgqrD&type=.m3u8
+https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=221256&e=.m3u8
 #EXTINF:-1 tvg-id="sonysethd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment",SET HD
 https://livetv-cb7.pages.dev/Sonyliv?channel=SET%20HD&token=HgqrD&type=.m3u8
 #EXTINF:-1 tvg-id="sonysabhd" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Entertainment",Sony SAB HD
