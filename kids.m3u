@@ -4,7 +4,7 @@
 #EXT-X-TARGETDURATION:10
 # Playlist generated with token refresh
 # Total channels: 232
-# Generated at: "037a4e84b3863348e4097cc951c8b04f691636e1"
+# Generated at: "00461759812f76f2b5a4cfc7968f1327b0076b52"
 
 #EXTINF:-1 tvg-id="1373" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -151,7 +151,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Marathi_MOB/WDVLive/index.mpd?__hdn
 https://jiotvpllive.cdn.jio.com/bpk-tv/Bollywood_Hungama_BTS/output/index.mpd?__hdnea__=st=1761476626~exp=1761563026~acl=/*~hmac=9a9bd01045c13ca55548d0dd3d1d5341d4d64046ce9dab3b2914cfc484bd9f0c&xxx=||cookie=__hdnea__=st=1761476626~exp=1761563026~acl=/*~hmac=9a9bd01045c13ca55548d0dd3d1d5341d4d64046ce9dab3b2914cfc484bd9f0c
 
 #EXTINF:-1 tvg-id="sonyyay" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids",Sony YAY
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20YAY&token=cU8jM&type=.m3u8
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20YAY&token=llalO&type=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Cartoon-Network.png" group-title="IND | TELUGU D2H",IND: TG: CARTOON NETWORK
 https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=381094&e=.m3u8
