@@ -4,715 +4,715 @@
 #EXT-X-TARGETDURATION:10
 # Playlist generated with token refresh
 # Total channels: 232
-# Generated at: "3ed0a0459681e1bd583d04247598b379cb46d79e"
+# Generated at: "939b46a801e86204df199cdcf911a17abe8d9634"
 
 #EXTINF:-1 tvg-id="1373" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="1374" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Junior.png",Disney Junior
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=1b1f9702f7d853c1b198495f64924311&key=40e11e60a12dd6c154dfea0ffbd5bda8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Junior_BTS/output/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Junior_BTS/output/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="1375" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_International_HD.png",Disney International HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=d0e021aa91c65e68a7028c2a6a762eca&key=d50822403365e360d12840251cecee84
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_International_HD_BTS/output/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_International_HD_BTS/output/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="1391" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Hungama.png",Hungama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=454f8353caac500d95d641e0c7cfe048&key=0aaca46ea0f5096335598781fbe590e4
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Hungama_BTS/output/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Hungama_BTS/output/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="1392" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Super_Hungama.png",Super Hungama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=7a450f0820c4589690eb336c29f18da6&key=820e84119563b56d6e6f0bf514cbdc3c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Super_Hungama_BTS/output/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Super_Hungama_BTS/output/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="166" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Cartoon_Network_Telugu.png",Cartoon Network Telugu
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=3e5ec63e26c1520380236941c3848f68&key=f944e7ee9260a9e6239170db4d6fa713
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Cartoon_Network_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Cartoon_Network_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="290" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/sonic_Tamil.png",sonic Tamil
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=a62d4ca4ef095564bede0fe525956634&key=5e34a5126bfe29c18947046513f18cce
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/sonic_Tamil_MOB/WDVLive/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/sonic_Tamil_MOB/WDVLive/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="542" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pogo_Tamil.png",Pogo Tamil
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=ace8ad8aaff258edb8743bea9825d2d2&key=89bbc643fba2d72470ee30668ec749c9
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Pogo_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Pogo_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="548" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Nickelodeon_Jr.png",Nickelodeon Jr.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=aa04d2fbafc55891b207f51d7ecca936&key=5fd9741321499a18954304ef9c57ab8a
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Nickelodeon_Jr_MOB/WDVLive/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Nickelodeon_Jr_MOB/WDVLive/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="559" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pogo_Hindi.png",Pogo Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=4b967f351139503a88b1d1945203150b&key=c3e26279cc513e13154958f934141dc0
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Pogo_Hindi_BTS/output/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Pogo_Hindi_BTS/output/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="815" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/sonic_Hindi.png",Sonic Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=fdf348b106045794a5ab265d08c677ef&key=83f7bddd4290a229e07c62c6b78f1e74
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/sonic_Hindi_BTS/output/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/sonic_Hindi_BTS/output/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="816" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Cartoon_Network_Hindi.png",Cartoon Network Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=ea48cf7b24dd54dd98c369626b9ad105&key=ee5778d627dfae2c2affc02d76e8db6c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Cartoon_Network_Hindi_BTS/output/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Cartoon_Network_Hindi_BTS/output/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="1242" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Telugu.png",Sonic Telugu
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=c5f797fac3ce566c990a2057c99a81c2&key=a65755a4676a6c2e9d803d5611954b26
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Telugu_MOB/WDVLive/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Telugu_MOB/WDVLive/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="1243" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Kannada.png",Sonic Kannada
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=6cf1045c66ec5b1681bbf34a0971ab86&key=f0c1edef4ea6b46c8ec0fe04627d8afb
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Kannada_MOB/WDVLive/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Kannada_MOB/WDVLive/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="1344" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Malayalam.png",Sonic Malayalam
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=e5cee6f28393554c94ed38b0d8a65b88&key=ed3a9586ece4ac6cd147e784e0ce1fc6
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Malayalam_MOB/WDVLive/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Malayalam_MOB/WDVLive/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="1345" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Bangla.png",Sonic Bangla
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5d26427bf9a85808bd34848fa7ae1f8a&key=aac720bb73a9db2b2cb64763d5f8942b
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Bangla_MOB/WDVLive/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Bangla_MOB/WDVLive/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="1346" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Marathi.png",Sonic Marathi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=c329e1a4429c525cad86d4346efcd68a&key=7c21c2f9cddaa5c084bf1d5b02fb4610
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Marathi_MOB/WDVLive/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sonic_Marathi_MOB/WDVLive/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="2040" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bollywood_Hungama.png",Bollywood Hungama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=8a529014ba1a53bdac8c0bec19e6fbf2&key=cc5162d7ae3197bc0ed70f1d652aa210
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Bollywood_Hungama_BTS/output/index.mpd?__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91&xxx=||cookie=__hdnea__=st=1761785091~exp=1761871491~acl=/*~hmac=dab94a397cc6b1d9e4a9628796fc18c620214b67f151bcf8f143f12069072f91
+#EXTHTTP:{"cookie":"__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Bollywood_Hungama_BTS/output/index.mpd?__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b&xxx=||cookie=__hdnea__=st=1761822487~exp=1761908887~acl=/*~hmac=fbca5010d5a79f21cdf955e19bae641d565e6801d087f7da066716db4e8f941b
 
 #EXTINF:-1 tvg-id="sonyyay" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids",Sony YAY
-https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20YAY&token=JHzJR&type=.m3u8
+https://livetv-cb7.pages.dev/Sonyliv?channel=Sony%20YAY&token=4Uarw&type=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Cartoon-Network.png" group-title="IND | TELUGU D2H",IND: TG: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=381094&e=.m3u8
+https://restream-bay.vercel.app/?id=381094&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="IND | TELUGU D2H",IND: TG: SONIC TELUGU
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=382279&e=.m3u8
+https://restream-bay.vercel.app/?id=382279&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="IND | TELUGU D2H",IND: TG: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=382274&e=.m3u8
+https://restream-bay.vercel.app/?id=382274&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Disney-Junior.png" group-title="IND | TAMIL",IN-TM | DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=381018&e=.m3u8
+https://restream-bay.vercel.app/?id=381018&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic-1.png" group-title="IND | TAMIL",IN-TM | SONIC
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=380965&e=.m3u8
+https://restream-bay.vercel.app/?id=380965&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Pogo.png" group-title="IND | TAMIL",IN-TM | POGO
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=380964&e=.m3u8
+https://restream-bay.vercel.app/?id=380964&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Cartoon-Network.png" group-title="IND | TAMIL",IN-TM | CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=380956&e=.m3u8
+https://restream-bay.vercel.app/?id=380956&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic.png" group-title="IND | MALAYALAM",IN-MY | ONE TV
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=380875&e=.m3u8
+https://restream-bay.vercel.app/?id=380875&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic.png" group-title="IND |  MARATHI",IN-MAR | SONIC
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=380860&e=.m3u8
+https://restream-bay.vercel.app/?id=380860&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic.png" group-title="IND |  MARATHI",IN-MAR | SONIC NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=380828&e=.m3u8
+https://restream-bay.vercel.app/?id=380828&e=.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetworkhd.in" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/2000px-Cartoon_Network_2010_logo.svg.png" group-title="INDIAN | KIDS CARTOON",IN: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=150478&e=.m3u8
+https://restream-bay.vercel.app/?id=150478&e=.m3u8
 
 #EXTINF:-1 tvg-id="nick.in" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/1200px-Nickelodeon_2009_logo.svg.png" group-title="INDIAN | KIDS CARTOON",IN: NICK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=150482&e=.m3u8
+https://restream-bay.vercel.app/?id=150482&e=.m3u8
 
 #EXTINF:-1 tvg-id="pogo.in" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/POGO-logo.png" group-title="INDIAN | KIDS CARTOON",IN: POGO
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=150483&e=.m3u8
+https://restream-bay.vercel.app/?id=150483&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/in/SonyYAY.in.png" group-title="INDIAN | KIDS CARTOON",IN | SONY YAY
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=26187&e=.m3u8
+https://restream-bay.vercel.app/?id=26187&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/in/NickHDPlus.in.png" group-title="INDIAN | KIDS CARTOON",IN: NICK SONIC
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=34011&e=.m3u8
+https://restream-bay.vercel.app/?id=34011&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/1200px-Disney_Junior.svg.png" group-title="INDIAN | KIDS CARTOON",IN: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=153175&e=.m3u8
+https://restream-bay.vercel.app/?id=153175&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f2/Hungama_tv_logo.png" group-title="INDIAN | KIDS CARTOON",IN: HUNGAMA**
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=150480&e=.m3u8
+https://restream-bay.vercel.app/?id=150480&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Cartoon_Network_HD%2B_India_logo.png" group-title="INDIAN | KIDS CARTOON",IN: CARTOON NETWORK HD+
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=153154&e=.m3u8
+https://restream-bay.vercel.app/?id=153154&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://e7.pngegg.com/pngimages/990/187/png-clipart-motu-patlu-television-show-animated-film-nickelodeon-motu-patlu-television-food.png" group-title="INDIAN | KIDS CARTOON",24/7 MOTU PATLU 02
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=311373&e=.m3u8
+https://restream-bay.vercel.app/?id=311373&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://w7.pngwing.com/pngs/352/597/png-transparent-shiva-nickelodeon-sonic-cartoon-television-show-shiva-sports-equipment-fictional-character-pakdam-pakdai-thumbnail.png" group-title="INDIAN | KIDS CARTOON",24/7 SHIVA
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=342074&e=.m3u8
+https://restream-bay.vercel.app/?id=342074&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="INDIAN | KIDS CARTOON",KIDS: SONIC 24/7
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=301500&e=.m3u8
+https://restream-bay.vercel.app/?id=301500&e=.m3u8
 
 #EXTINF:-1 tvg-id="Nickelodeon.uk" tvg-logo="http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0009/0897/brand.gif?itok=mclSgXjH" group-title="UK | ASIA",|UK| SONY TV UK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=222827&e=.m3u8
+https://restream-bay.vercel.app/?id=222827&e=.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork.za" tvg-logo="http://www.vod-logo.net/photos/918ed66fc55bb226ff2c85716da1c90c.jpg" group-title="DSTV | KIDS",AF | DSTV: CARTOON NETWORK HD
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=238525&e=.m3u8
+https://restream-bay.vercel.app/?id=238525&e=.m3u8
 
 #EXTINF:-1 tvg-id="boomerang.za" tvg-logo="http://www.vod-logo.net/photos/a9c63aede3ceb20585dd259601a6f3f6.jpg" group-title="DSTV | KIDS",AF | DSTV: BOOMERANG HD
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=238526&e=.m3u8
+https://restream-bay.vercel.app/?id=238526&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneychannel.za" tvg-logo="http://www.vod-logo.net/photos/c9c6afef702accfdae08d7239bd8d080.JPG" group-title="DSTV | KIDS",AF | DSTV: DISNEY CHANNEL HD
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=238527&e=.m3u8
+https://restream-bay.vercel.app/?id=238527&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.za" tvg-logo="http://www.vod-logo.net/photos/7ecee542c33472c3af78f5f5e2fcf534.png" group-title="DSTV | KIDS",AF | DSTV: DISNEY JUNIOR HD
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=238528&e=.m3u8
+https://restream-bay.vercel.app/?id=238528&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.za" tvg-logo="http://www.vod-logo.net/photos/9fc794edf45f82c0efcc0f794f62b1e9.jpg" group-title="DSTV | KIDS",AF | DSTV: NICKELODEON HD
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=238529&e=.m3u8
+https://restream-bay.vercel.app/?id=238529&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickjr.za" tvg-logo="http://www.vod-logo.net/photos/74e72cc046c8272bd32d874dc1721264.jpg" group-title="DSTV | KIDS",AF | DSTV: NICK JR. HD
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=238531&e=.m3u8
+https://restream-bay.vercel.app/?id=238531&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sony_YAY%21_logo_%282017-present%29.png" group-title="BANGLADESH",SONY YAY!
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=245959&e=.m3u8
+https://restream-bay.vercel.app/?id=245959&e=.m3u8
 
 #EXTINF:-1 tvg-id="boomerang.uk" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/128b14884de50bdd5bedeb5f55bf67c3.png" group-title="UK ➾ KIDS",UK: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=346248&e=.m3u8
+https://restream-bay.vercel.app/?id=346248&e=.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork.uk" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8d22efc9e80e82953c3f1ee26bb699e5.png" group-title="UK ➾ KIDS",UK: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=346249&e=.m3u8
+https://restream-bay.vercel.app/?id=346249&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/b81b699ab1552f3c15dea79e34e5f017.png" group-title="UK ➾ KIDS",UK: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=346254&e=.m3u8
+https://restream-bay.vercel.app/?id=346254&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/609b7a99eeb990acd812fafb408cd606.png" group-title="UK ➾ KIDS",UK: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=346255&e=.m3u8
+https://restream-bay.vercel.app/?id=346255&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/47718e36a9a5c42f3d005fcd9f3d94be.png" group-title="UK ➾ KIDS",UK: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=346261&e=.m3u8
+https://restream-bay.vercel.app/?id=346261&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/261ed359779524389a93dbdcc083cac4.png" group-title="USA ➾ KIDS",US: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=346453&e=.m3u8
+https://restream-bay.vercel.app/?id=346453&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/6562a84816a8995a0ad41c76cd6ff7be.png" group-title="USA ➾ KIDS",US: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=346454&e=.m3u8
+https://restream-bay.vercel.app/?id=346454&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/e6d37c2e387c58ce62dffa4b5130a4d4.png" group-title="USA ➾ KIDS",US: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=346456&e=.m3u8
+https://restream-bay.vercel.app/?id=346456&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/239223919b68f1ddfee44002f2820718.png" group-title="USA ➾ KIDS",US: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=346464&e=.m3u8
+https://restream-bay.vercel.app/?id=346464&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/e4f6e7fe7bbed7f932fdfa9399261604.png" group-title="USA ➾ KIDS",US: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=346465&e=.m3u8
+https://restream-bay.vercel.app/?id=346465&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-06/18f4f54f7148e2049f237e8b2a2ed8ba.png" group-title="ALBANIA ➾ KIDS",AL: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=347651&e=.m3u8
+https://restream-bay.vercel.app/?id=347651&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-06/218b80728b2371099f57f0b9a8caf84c.png" group-title="ALBANIA ➾ KIDS",AL: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=347653&e=.m3u8
+https://restream-bay.vercel.app/?id=347653&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/780ca28c4b7d72fbb4584650714e9012.png" group-title="ALBANIA ➾ MUSIC",AL: SUPER SONIC TV
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=347770&e=.m3u8
+https://restream-bay.vercel.app/?id=347770&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/3a6f00998c394d719e3ac4c8d9e0d2f8.png" group-title="ARABIC",AR: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348017&e=.m3u8
+https://restream-bay.vercel.app/?id=348017&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/107149260ff2561c10e3bc31d0ca121e.png" group-title="ARABIC",AR: CARTOON NETWORK ARABIC
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348019&e=.m3u8
+https://restream-bay.vercel.app/?id=348019&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/ffb7811407ecff8787e5451a7022a4bf.png" group-title="ARABIC",AR: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348025&e=.m3u8
+https://restream-bay.vercel.app/?id=348025&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/2b85183c51913c4a1ca0c30410caf9c0.png" group-title="ARABIC",AR: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348026&e=.m3u8
+https://restream-bay.vercel.app/?id=348026&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/72d79a9f0a7874c30f5c357bfcdfa7a1.png" group-title="ARGENTINA",ARG: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348075&e=.m3u8
+https://restream-bay.vercel.app/?id=348075&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/d8ed293e6e5c3e34b781e0c94719a39f.png" group-title="ARGENTINA",ARG: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348106&e=.m3u8
+https://restream-bay.vercel.app/?id=348106&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/5ac89a8ea47d9699a7bc73560eb3339f.png" group-title="ARGENTINA",ARG: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348141&e=.m3u8
+https://restream-bay.vercel.app/?id=348141&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/b1eff9b3fa0ab61c323b719676ea3ae8.png" group-title="ARGENTINA",ARG: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348142&e=.m3u8
+https://restream-bay.vercel.app/?id=348142&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.de" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/3903a880dfc0b23a74c6199b4cfb5242.png" group-title="AUSTRIA",AT: NICK AUSTRIA
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348249&e=.m3u8
+https://restream-bay.vercel.app/?id=348249&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-12/438829f28228280fa49faa086e333815.png" group-title="BELGIUM",BE: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348327&e=.m3u8
+https://restream-bay.vercel.app/?id=348327&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/072885790a3958b2fbf1e2ad147e4d16.png" group-title="BRAZIL ➾ KIDS",BR: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348486&e=.m3u8
+https://restream-bay.vercel.app/?id=348486&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/50a6bc80d5e23b687df1568a1e850667.png" group-title="BRAZIL ➾ KIDS",BR: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348491&e=.m3u8
+https://restream-bay.vercel.app/?id=348491&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/1ee3dbf19ac4cdf59a75ea3cf6310d90.png" group-title="BRAZIL ➾ KIDS",BR: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348492&e=.m3u8
+https://restream-bay.vercel.app/?id=348492&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/c1f0d129b5b9e0eef699d00f5c802bee.png" group-title="BRAZIL ➾ KIDS",BR: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348500&e=.m3u8
+https://restream-bay.vercel.app/?id=348500&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/bb5a424c02e97e3d31d47ae25e303653.png" group-title="BULGARIA ➾ KIDS",BG: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348739&e=.m3u8
+https://restream-bay.vercel.app/?id=348739&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/053f22bbe7c371cc90536400b957dee1.png" group-title="BULGARIA ➾ KIDS",BG: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348740&e=.m3u8
+https://restream-bay.vercel.app/?id=348740&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneychannel.bg" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/023a778ed7fc53bef2db3568bd6fff7b.png" group-title="BULGARIA ➾ KIDS",BG: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348742&e=.m3u8
+https://restream-bay.vercel.app/?id=348742&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/6ed0886c29e249c2e2fe3d1df76a6539.png" group-title="BULGARIA ➾ KIDS",BG: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348743&e=.m3u8
+https://restream-bay.vercel.app/?id=348743&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/13cd4d60e65f839c9a9f9341c4042d9e.jpg" group-title="BULGARIA ➾ KIDS",BG: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348746&e=.m3u8
+https://restream-bay.vercel.app/?id=348746&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/e9a165f3d2e73570934840138faa4aa1.png" group-title="BULGARIA ➾ KIDS",BG: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348747&e=.m3u8
+https://restream-bay.vercel.app/?id=348747&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/99c3edcb269c216e26bc148281cce876.png" group-title="CANADA ➾ KIDS",CA: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348865&e=.m3u8
+https://restream-bay.vercel.app/?id=348865&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/5cd2618cbbf8039811d0e52a037bcfba.png" group-title="CANADA ➾ KIDS",CA: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348866&e=.m3u8
+https://restream-bay.vercel.app/?id=348866&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/9f57e3bc438fc8a83d70ffb611831921.png" group-title="CANADA ➾ KIDS",CA: DISNEY JUNIOR (FR)
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348867&e=.m3u8
+https://restream-bay.vercel.app/?id=348867&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/6d91245e05f5d744aa3b063a8225409b.png" group-title="CANADA ➾ KIDS",CA: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=348871&e=.m3u8
+https://restream-bay.vercel.app/?id=348871&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/250791d9452ae0fbac31a64609d2237a.png" group-title="CARIBBEAN",CAR: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349066&e=.m3u8
+https://restream-bay.vercel.app/?id=349066&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickjr.hr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/6d4cbd12e46e0ee58278e8ead269fc56.jpg" group-title="CROATIA",HR: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349369&e=.m3u8
+https://restream-bay.vercel.app/?id=349369&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.hr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/64bd3dedbea5dfab62600808a6978dc3.png" group-title="CROATIA",HR: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349370&e=.m3u8
+https://restream-bay.vercel.app/?id=349370&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/67095c1b8ebce3e86859bda1bb49515d.png" group-title="CZECH REPUBLIC",CZ: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349446&e=.m3u8
+https://restream-bay.vercel.app/?id=349446&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/34abe88cc2635b2b8266c1cf1cfccf1d.png" group-title="CZECH REPUBLIC",CZ: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349456&e=.m3u8
+https://restream-bay.vercel.app/?id=349456&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/972f7cd2c1b242bd2b5d568537beade4.png" group-title="CZECH REPUBLIC",CZ: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349479&e=.m3u8
+https://restream-bay.vercel.app/?id=349479&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/b9fe2bda607f816e4927771afab3035b.png" group-title="CZECH REPUBLIC",CZ: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349480&e=.m3u8
+https://restream-bay.vercel.app/?id=349480&e=.m3u8
 
 #EXTINF:-1 tvg-id="boomerang.dk" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/bd73044d7df43a2d01a245998c6fd39e.png" group-title="DENMARK ➾ KIDS",DK: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349535&e=.m3u8
+https://restream-bay.vercel.app/?id=349535&e=.m3u8
 
 #EXTINF:-1 tvg-id="drultra.dk" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/13c43a019b15b3441f179436375b2d75.png" group-title="DENMARK ➾ KIDS",DK: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349536&e=.m3u8
+https://restream-bay.vercel.app/?id=349536&e=.m3u8
 
 #EXTINF:-1 tvg-id="discoverychannel.dk" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/8e547fe92b9c39786194cbd4cf551379.png" group-title="DENMARK ➾ KIDS",DK: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349537&e=.m3u8
+https://restream-bay.vercel.app/?id=349537&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.dk" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/5ce94c0986f6a07b902c47c26e995d7d.png" group-title="DENMARK ➾ KIDS",DK: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349538&e=.m3u8
+https://restream-bay.vercel.app/?id=349538&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickjr.dk" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/ebbe05e6bfcfedc1f1c5936c51d65261.png" group-title="DENMARK ➾ KIDS",DK: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349541&e=.m3u8
+https://restream-bay.vercel.app/?id=349541&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.dk" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/233690ac60a709c3fb5175ad0773e474.png" group-title="DENMARK ➾ KIDS",DK: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349542&e=.m3u8
+https://restream-bay.vercel.app/?id=349542&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/64ddfe1ff8937a8582c2a1d4f9bfa3d2.png" group-title="EX-YU",EX-YU: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349835&e=.m3u8
+https://restream-bay.vercel.app/?id=349835&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-05/fe95c08a07f3ca8d6a38f534bb221946.png" group-title="EX-YU",EX-YU: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349836&e=.m3u8
+https://restream-bay.vercel.app/?id=349836&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/f6b4ac88659ef016aa45048ea7ef0f81.svg" group-title="FINLAND",FI: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349853&e=.m3u8
+https://restream-bay.vercel.app/?id=349853&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/d94c4322aad7fe1daadc48ebc7e3a67a.png" group-title="FINLAND",FI: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349858&e=.m3u8
+https://restream-bay.vercel.app/?id=349858&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/9be134ca232b1b56e05ecc9f576b7eb0.png" group-title="FINLAND",FI: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349861&e=.m3u8
+https://restream-bay.vercel.app/?id=349861&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/15a81b6b0f2c86d28d21360f2f9c953e.png" group-title="FINLAND",FI: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349862&e=.m3u8
+https://restream-bay.vercel.app/?id=349862&e=.m3u8
 
 #EXTINF:-1 tvg-id="boomerang.fr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/4ee0ef9d57ab3fea6c81b25344389d3a.png" group-title="FRANCE ➾ KIDS",FR: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349912&e=.m3u8
+https://restream-bay.vercel.app/?id=349912&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/fa16ed0fe174c20405700a242d501eda.png" group-title="FRANCE ➾ KIDS",FR: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349914&e=.m3u8
+https://restream-bay.vercel.app/?id=349914&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/bc864973b604dc0d8e16a24243fe0d02.png" group-title="FRANCE ➾ KIDS",FR: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349915&e=.m3u8
+https://restream-bay.vercel.app/?id=349915&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/cd6e4ceaae299ab5405b27576c72869a.png" group-title="FRANCE ➾ KIDS",FR: DISNEY CHANNEL +1
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349916&e=.m3u8
+https://restream-bay.vercel.app/?id=349916&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.fr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/cd0bba464088b84bcb5ccc23a4157edc.png" group-title="FRANCE ➾ KIDS",FR: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349917&e=.m3u8
+https://restream-bay.vercel.app/?id=349917&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.fr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/14135529b1428ce104dd767dc74b2ef9.png" group-title="FRANCE ➾ KIDS",FR: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349924&e=.m3u8
+https://restream-bay.vercel.app/?id=349924&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/f765657aa3b32ca1eee3faed369e40a9.png" group-title="FRANCE ➾ KIDS",FR: NICKELODEON +1
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349925&e=.m3u8
+https://restream-bay.vercel.app/?id=349925&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/d55b7ee2246b0c58a79f71347ebd2fdd.png" group-title="FRANCE ➾ KIDS",FR: NICKELODEON JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349926&e=.m3u8
+https://restream-bay.vercel.app/?id=349926&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon4teen.fr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/c24228a83ce6c33dfda9337865271d00.png" group-title="FRANCE ➾ KIDS",FR: NICKELODEON TEEN
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=349927&e=.m3u8
+https://restream-bay.vercel.app/?id=349927&e=.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork.de" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/737c89acac29a375abc84fa6db9f7608.png" group-title="GERMANY ➾ KIDS",DE: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350259&e=.m3u8
+https://restream-bay.vercel.app/?id=350259&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneycinemagic.de" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/a5af65e344f7b824fbda309c3606aa1a.png" group-title="GERMANY ➾ KIDS",DE: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350261&e=.m3u8
+https://restream-bay.vercel.app/?id=350261&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.de" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/db7665573ac43d4418b35f2d2dff77ed.png" group-title="GERMANY ➾ KIDS",DE: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350262&e=.m3u8
+https://restream-bay.vercel.app/?id=350262&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/c7b6dc8925b4046e77a1a128c4761c05.png" group-title="GERMANY ➾ KIDS",DE: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350267&e=.m3u8
+https://restream-bay.vercel.app/?id=350267&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/3e94c4a67d568865d1c916fffb36c2ab.png" group-title="GREECE ➾ KIDS",GR: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350601&e=.m3u8
+https://restream-bay.vercel.app/?id=350601&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/e56e85265479360b10a3bbe536a3b856.png" group-title="HUNGARY",HU: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350853&e=.m3u8
+https://restream-bay.vercel.app/?id=350853&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/2321506ea62dbdf99336ed3272631dd8.png" group-title="HUNGARY",HU: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350854&e=.m3u8
+https://restream-bay.vercel.app/?id=350854&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/b85ac4b79071b816162ba3eb43270559.png" group-title="HUNGARY",HU: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350856&e=.m3u8
+https://restream-bay.vercel.app/?id=350856&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/576c18732365eb8fee5fe97849391f42.png" group-title="HUNGARY",HU: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350858&e=.m3u8
+https://restream-bay.vercel.app/?id=350858&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/1d192d86ab16c1103668385201f76d94.png" group-title="INDONESIA",ID: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350908&e=.m3u8
+https://restream-bay.vercel.app/?id=350908&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/417e73b7aedc07a73aa59b7d76bc6e6b.png" group-title="INDONESIA",ID: BOOMERANG EN
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350909&e=.m3u8
+https://restream-bay.vercel.app/?id=350909&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/bbdc8a56aca2bffb311728507a93f75f.png" group-title="INDONESIA",ID: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350910&e=.m3u8
+https://restream-bay.vercel.app/?id=350910&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/7dcbeab064ba8b1eefb6115fc283aaeb.png" group-title="INDONESIA",ID: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=350934&e=.m3u8
+https://restream-bay.vercel.app/?id=350934&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/c407878e19cad2a98a707210492d0f4c.png" group-title="INDONESIA",ID: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351012&e=.m3u8
+https://restream-bay.vercel.app/?id=351012&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/7e1eb622eae30edbe35b5b87868b19f4.png" group-title="INDONESIA",ID: NICK JR EN
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351013&e=.m3u8
+https://restream-bay.vercel.app/?id=351013&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/e1dd8b2c9477e9c047fc597e8835eebb.png" group-title="INDONESIA",ID: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351014&e=.m3u8
+https://restream-bay.vercel.app/?id=351014&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-02/b1b98b6471928ce1fccdc92b8d74e28a.png" group-title="ISRAEL",IL: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351313&e=.m3u8
+https://restream-bay.vercel.app/?id=351313&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/c4bb1fdd23c87c156ecd715d9f0c4466.png" group-title="ISRAEL",IL: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351314&e=.m3u8
+https://restream-bay.vercel.app/?id=351314&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-12/021ba2f7c81eef487e87f7611998d759.svg" group-title="ISRAEL",IL: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351339&e=.m3u8
+https://restream-bay.vercel.app/?id=351339&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/766e34949d3cb177af2403bab9119438.png" group-title="ITALY",IT: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351388&e=.m3u8
+https://restream-bay.vercel.app/?id=351388&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/ae8686643287877d73369cf9257e066a.png" group-title="ITALY",IT: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351400&e=.m3u8
+https://restream-bay.vercel.app/?id=351400&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-12/fb50a384f85db6919c67afb48373edb4.png" group-title="ITALY",IT: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351418&e=.m3u8
+https://restream-bay.vercel.app/?id=351418&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/a6a4a28d9a8eb7f6231181ac3c9a7932.jpg" group-title="ITALY",IT: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351490&e=.m3u8
+https://restream-bay.vercel.app/?id=351490&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2023-04/04249b2b53774c473e57a399f8d6228f.jpg" group-title="LATINO",LA: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351815&e=.m3u8
+https://restream-bay.vercel.app/?id=351815&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/24c5abcd3b88a3d9382fd2df13623209.png" group-title="LATINO",LA: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351816&e=.m3u8
+https://restream-bay.vercel.app/?id=351816&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/eeb06c226acc25e1495ef0f80d0533f4.png" group-title="LATINO",LA: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351841&e=.m3u8
+https://restream-bay.vercel.app/?id=351841&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/cf8964d602d9e1b26bab23889ee6677a.png" group-title="LATINO",LA: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351842&e=.m3u8
+https://restream-bay.vercel.app/?id=351842&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/ee33bd11cd243384f5a340f8e12e189d.png" group-title="LATINO",LA: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351893&e=.m3u8
+https://restream-bay.vercel.app/?id=351893&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/4f2ba976aa4e755a5050bb4966037d34.png" group-title="LATINO",LA: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=351894&e=.m3u8
+https://restream-bay.vercel.app/?id=351894&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/515d63ff66edb49dc64a03093e9f6fd2.png" group-title="MALAYSIA",MY: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352098&e=.m3u8
+https://restream-bay.vercel.app/?id=352098&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/92307ca79c909c2f7881199792c74c0b.png" group-title="MALAYSIA",MY: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352108&e=.m3u8
+https://restream-bay.vercel.app/?id=352108&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/3f51c3bc985994d3ea01824291571f2f.png" group-title="MEXICO ➾ KIDS",MX: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352134&e=.m3u8
+https://restream-bay.vercel.app/?id=352134&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/80b12d75191338a0152e9a307ddac20c.png" group-title="MEXICO ➾ KIDS",MX: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352137&e=.m3u8
+https://restream-bay.vercel.app/?id=352137&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/b5069c173bae240c9ed582b2cc41caf7.png" group-title="MEXICO ➾ KIDS",MX: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352138&e=.m3u8
+https://restream-bay.vercel.app/?id=352138&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/ffe70df63cfe2611a5b1b5fa96984394.png" group-title="MEXICO",MX: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352236&e=.m3u8
+https://restream-bay.vercel.app/?id=352236&e=.m3u8
 
 #EXTINF:-1 tvg-id="boomerang.nl" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/6a0cc5c7c7e9abb6178a79ee7d4b9ab5.png" group-title="NETHERLANDS ➾ KIDS",NL: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352314&e=.m3u8
+https://restream-bay.vercel.app/?id=352314&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneychannel.nl" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/9c99903730dcdd4202c8e2e14d9dfe3f.png" group-title="NETHERLANDS ➾ KIDS",NL: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352315&e=.m3u8
+https://restream-bay.vercel.app/?id=352315&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/8a91f712ecb8d6dbf56807d350172b04.png" group-title="NETHERLANDS ➾ KIDS",NL: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352316&e=.m3u8
+https://restream-bay.vercel.app/?id=352316&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.nl" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/f743eb5388e637bb20cbffb86681f3a7.png" group-title="NETHERLANDS ➾ KIDS",NL: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352321&e=.m3u8
+https://restream-bay.vercel.app/?id=352321&e=.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork.nl" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/7adf096442e7c93d2660b9edf0681524.png" group-title="NETHERLANDS ➾ MOVIE",NL: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352362&e=.m3u8
+https://restream-bay.vercel.app/?id=352362&e=.m3u8
 
 #EXTINF:-1 tvg-id="boomerang.no" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/0e833491b8157e0fc3d94bfcf087117e.png" group-title="NORWAY ➾ KIDS",NO: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352472&e=.m3u8
+https://restream-bay.vercel.app/?id=352472&e=.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork.no" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/be021d1029ecd7f45419e1aa2c5ba8c1.png" group-title="NORWAY ➾ KIDS",NO: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352473&e=.m3u8
+https://restream-bay.vercel.app/?id=352473&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneychannel.no" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/57788fd3608e9f5a001f57afb32186d5.png" group-title="NORWAY ➾ KIDS",NO: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352474&e=.m3u8
+https://restream-bay.vercel.app/?id=352474&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.no" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/866b491c0a901ee232f8f4e8d0cb3f50.png" group-title="NORWAY ➾ KIDS",NO: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352475&e=.m3u8
+https://restream-bay.vercel.app/?id=352475&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickjr.no" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/61c16812ae48c34aad4f2ce361a165f6.png" group-title="NORWAY ➾ KIDS",NO: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352476&e=.m3u8
+https://restream-bay.vercel.app/?id=352476&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.no" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/75b64216b9a2938149e0a70d57730065.png" group-title="NORWAY ➾ KIDS",NO: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352477&e=.m3u8
+https://restream-bay.vercel.app/?id=352477&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/a7e076dc55f6f28f063d81b51eeacedc.png" group-title="PHILIPPINES",PH: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352607&e=.m3u8
+https://restream-bay.vercel.app/?id=352607&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/00cc418921399e9b49aac69a44cf2357.png" group-title="PHILIPPINES",PH: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352613&e=.m3u8
+https://restream-bay.vercel.app/?id=352613&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/1c7ab06cbf7585369cd9b05e358fa0cd.png" group-title="PHILIPPINES",PH: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352624&e=.m3u8
+https://restream-bay.vercel.app/?id=352624&e=.m3u8
 
 #EXTINF:-1 tvg-id="boomerang.pl" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/5bda1e92679ba8eeb77067b56ad337c6.png" group-title="POLAND ➾ KIDS",PL: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352663&e=.m3u8
+https://restream-bay.vercel.app/?id=352663&e=.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork.pl" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/0f7da7982fa0b9a48cc669a21cd19cd9.png" group-title="POLAND ➾ KIDS",PL: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352664&e=.m3u8
+https://restream-bay.vercel.app/?id=352664&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneychannel.pl" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/7100d013931ad704c97e4082742171b2.png" group-title="POLAND ➾ KIDS",PL: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352667&e=.m3u8
+https://restream-bay.vercel.app/?id=352667&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.pl" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/b1ba4b81984b558b833b12792b131211.png" group-title="POLAND ➾ KIDS",PL: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352668&e=.m3u8
+https://restream-bay.vercel.app/?id=352668&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.pl" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/1cb2153d9ccfa9c04096fd5a5f2ee276.png" group-title="POLAND ➾ KIDS",PL: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352673&e=.m3u8
+https://restream-bay.vercel.app/?id=352673&e=.m3u8
 
 #EXTINF:-1 tvg-id="boomerang.pt" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/871261a4089358903b96c27d13de2f1f.png" group-title="PORTUGAL ➾ KIDS",PT: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352850&e=.m3u8
+https://restream-bay.vercel.app/?id=352850&e=.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork.pt" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8f4a17537e3d35fc10f7258bda5c1de2.png" group-title="PORTUGAL ➾ KIDS",PT: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352852&e=.m3u8
+https://restream-bay.vercel.app/?id=352852&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneychannel.pt" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8421402691971ea1c41aecab55b6eaba.png" group-title="PORTUGAL ➾ KIDS",PT: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352853&e=.m3u8
+https://restream-bay.vercel.app/?id=352853&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.pt" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/d8e3dffef846a877bebfee531a9a986e.png" group-title="PORTUGAL ➾ KIDS",PT: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352854&e=.m3u8
+https://restream-bay.vercel.app/?id=352854&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.pt" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/7ba49f9f77fcc701888de284da556394.png" group-title="PORTUGAL ➾ KIDS",PT: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352860&e=.m3u8
+https://restream-bay.vercel.app/?id=352860&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/e6a4f8ff6413bfda394f72887ba21a33.png" group-title="QATAR ➾ KIDS",QA: CARTOON NETWORK ARABIC
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=352977&e=.m3u8
+https://restream-bay.vercel.app/?id=352977&e=.m3u8
 
 #EXTINF:-1 tvg-id="boomerang.ro" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/1234659854b81ea4af21bd87412fdb78.png" group-title="ROMANIA ➾ KIDS",RO: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353050&e=.m3u8
+https://restream-bay.vercel.app/?id=353050&e=.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork.ro" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/d6bbea85f344e5522246cef596be55be.png" group-title="ROMANIA ➾ KIDS",RO: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353051&e=.m3u8
+https://restream-bay.vercel.app/?id=353051&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneychannel.ro" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/15f808f9213567f746a00327cd5d54e0.png" group-title="ROMANIA ➾ KIDS",RO: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353053&e=.m3u8
+https://restream-bay.vercel.app/?id=353053&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.ro" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/9f41d945b3512bfa5e1f64fe4ce188f8.png" group-title="ROMANIA ➾ KIDS",RO: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353054&e=.m3u8
+https://restream-bay.vercel.app/?id=353054&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.ro" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/c90541e2426aafc4cdc8a222946d4e1d.png" group-title="ROMANIA ➾ KIDS",RO: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353057&e=.m3u8
+https://restream-bay.vercel.app/?id=353057&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/ae0910c0aa70a334ad8c2a8fbb395cc9.png" group-title="RUSSIA ➾ KIDS",RU: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353221&e=.m3u8
+https://restream-bay.vercel.app/?id=353221&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8436977d35440092a0e74ebf7dec279e.png" group-title="RUSSIA ➾ KIDS",RU: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353222&e=.m3u8
+https://restream-bay.vercel.app/?id=353222&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/4a99c980c07bdae6bfd8616fe8b6092d.png" group-title="RUSSIA ➾ KIDS",RU: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353227&e=.m3u8
+https://restream-bay.vercel.app/?id=353227&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/fecc66b6bd8bf9dcf9a9314e3178145b.png" group-title="SERBIA ➾ KIDS",RS: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353588&e=.m3u8
+https://restream-bay.vercel.app/?id=353588&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/b53aabc13420a0f8c17a0c4aaa65d5be.png" group-title="SERBIA ➾ KIDS",RS: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353592&e=.m3u8
+https://restream-bay.vercel.app/?id=353592&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-05/4914d213590c4a814cfb7b1bcfe6d773.png" group-title="SOUTH AFRICA",ZA: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353853&e=.m3u8
+https://restream-bay.vercel.app/?id=353853&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2023-01/399f714a24c104eafd6c38bf31ada101.svg" group-title="SOUTH AFRICA",ZA: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353871&e=.m3u8
+https://restream-bay.vercel.app/?id=353871&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/df0df5e15635e3e475bd858e385ce2c3.png" group-title="SOUTH AFRICA",ZA: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353882&e=.m3u8
+https://restream-bay.vercel.app/?id=353882&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/715458d589da4093a61b02ed4d3dc36a.png" group-title="SOUTH AFRICA",ZA: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353883&e=.m3u8
+https://restream-bay.vercel.app/?id=353883&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/422abe7bdc3b2ee19ff91b57cea2d7f9.png" group-title="SOUTH AFRICA",ZA: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=353929&e=.m3u8
+https://restream-bay.vercel.app/?id=353929&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/1e2090e42349272d08620af54d65981a.png" group-title="SPAIN ➾ KIDS",ES: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354054&e=.m3u8
+https://restream-bay.vercel.app/?id=354054&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.es" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/cda21230d303c9e299518f56cddf9b76.png" group-title="SPAIN ➾ KIDS",ES: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354055&e=.m3u8
+https://restream-bay.vercel.app/?id=354055&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.es" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/5c0d67120f875960ab87b5db7e8969a2.png" group-title="SPAIN ➾ KIDS",ES: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354059&e=.m3u8
+https://restream-bay.vercel.app/?id=354059&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/2f9728af2a6df2615a328706d5361846.png" group-title="SURINAME",SUR: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354322&e=.m3u8
+https://restream-bay.vercel.app/?id=354322&e=.m3u8
 
 #EXTINF:-1 tvg-id="boomerang.se" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/6e3fe8f7ee06f764c4048f1f2600bd30.png" group-title="SWEDEN",SE: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354348&e=.m3u8
+https://restream-bay.vercel.app/?id=354348&e=.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork.se" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/b87a6a20a8e24077aa5b3fd81423a2db.png" group-title="SWEDEN",SE: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354365&e=.m3u8
+https://restream-bay.vercel.app/?id=354365&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneychannel.se" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/c6b266540652af8b4384aa2d148febd2.png" group-title="SWEDEN",SE: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354370&e=.m3u8
+https://restream-bay.vercel.app/?id=354370&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.se" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/92e8d1715f39eb60af8cb2122faecc6d.png" group-title="SWEDEN",SE: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354371&e=.m3u8
+https://restream-bay.vercel.app/?id=354371&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickjr.se" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/9c8e75d7d965a4d9409e052fa9167fb9.png" group-title="SWEDEN",SE: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354389&e=.m3u8
+https://restream-bay.vercel.app/?id=354389&e=.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.se" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/5cafb3c7f46306768d85dc3c654d9915.png" group-title="SWEDEN",SE: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354390&e=.m3u8
+https://restream-bay.vercel.app/?id=354390&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/2c223db1394dd80c2e88f4e0a8fb8556.png" group-title="SWITZERLAND ➾ KIDS",CH: NICK JR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354439&e=.m3u8
+https://restream-bay.vercel.app/?id=354439&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-08/80c6a4b784d42d91851c65d6dc8ef19e.png" group-title="THAILAND",TH: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354543&e=.m3u8
+https://restream-bay.vercel.app/?id=354543&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/51dcf23cb9d1f7f16b31373e2e17aa16.png" group-title="TURKEY ➾ KIDS",TR: BOOMERANG
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354638&e=.m3u8
+https://restream-bay.vercel.app/?id=354638&e=.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork.tr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/87598c365695f0ec0734167340a7fbdf.png" group-title="TURKEY ➾ KIDS",TR: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354640&e=.m3u8
+https://restream-bay.vercel.app/?id=354640&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/4b7ef9e32b9c4d64adc3330352ac327f.png" group-title="TURKEY ➾ KIDS",TR: DISNEY CHANNEL
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354643&e=.m3u8
+https://restream-bay.vercel.app/?id=354643&e=.m3u8
 
 #EXTINF:-1 tvg-id="disneychannel.tr" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/d4bfb7096c986189cad4c27667329846.png" group-title="TURKEY ➾ KIDS",TR: DISNEY JUNIOR
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354644&e=.m3u8
+https://restream-bay.vercel.app/?id=354644&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/daa5f52e567a2b32067451aede36afc7.png" group-title="TURKEY ➾ KIDS",TR: NICKELODEON
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354649&e=.m3u8
+https://restream-bay.vercel.app/?id=354649&e=.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://s3.i3ns.net/portal/picon/2022-02/9720ca302cb8b8d7855dcb6308804f5d.png" group-title="UAE ➾ KIDS",AE: CARTOON NETWORK
-https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=354913&e=.m3u8
+https://restream-bay.vercel.app/?id=354913&e=.m3u8
 
 #EXTINF:-1 tvg-id="9200" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/9116.png" group-title="TELUGU | INDIA",CARTOON NETWORK TELUGU
 https://public.kliv.fun/Mac21o/play.php?id=9200
