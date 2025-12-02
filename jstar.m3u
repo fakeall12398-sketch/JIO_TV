@@ -2,13 +2,9 @@
 https://billatv.netlify.app/.netlify/functions/Opplex?id=356533.m3u8
 #EXTINF:-1 group-title="HOTSTAR" tvg-logo="usus",DISNEY HD
 http://66.102.120.18:8000/play/a013/index.m3u8
-<br />
-<b>Warning</b>:  file_get_contents(): php_network_getaddresses: getaddrinfo for play.yuvraj.news failed: Temporary failure in name resolution in <b>/www/wwwroot/play.yuvraj.news/apix824/jstar/playlist.php</b> on line <b>6</b><br />
-<br />
-<b>Warning</b>:  file_get_contents(https://play.yuvraj.news/jio/cookie.php): Failed to open stream: php_network_getaddresses: getaddrinfo for play.yuvraj.news failed: Temporary failure in name resolution in <b>/www/wwwroot/play.yuvraj.news/apix824/jstar/playlist.php</b> on line <b>6</b><br />
 #EXTM3U
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
-#Generated on 1764626888
+#Generated on 1764636356
 
 #EXTINF:-1 tvg-id="1373" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
