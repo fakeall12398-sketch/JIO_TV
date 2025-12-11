@@ -16,6 +16,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    # Required for deploy-pages@v4
+    environment:
+      name: github-pages
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -69,9 +73,7 @@ jobs:
         run: |
           rm -rf site
           mkdir -p site
-          # Copy the gzipped EPG (or change to epg.xml if you prefer)
           cp epg.xml.gz site/epg.xml.gz
-          # (optional) Also include plain epg.xml so both are available
           if [ -f epg.xml ]; then cp epg.xml site/epg.xml || true; fi
           ls -l site
 
@@ -83,5 +85,5 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v4
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages (v4)
         uses: actions/deploy-pages@v4
