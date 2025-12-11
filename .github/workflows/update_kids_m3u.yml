@@ -50,7 +50,7 @@ jobs:
         
         # Whitelist of kids channels
         WHITELIST_CHANNELS = [
-           "disney" "disney HD" "disney channel", "disney junior", "disney international",
+           "disney", "DISNEY", "DISNEY HD", "disney HD", "disney channel", "disney junior", "disney international",
             "nickelodeon", "nick jr", "sonic", 
             "hungama", "super hungama",
             "sony yay", "yay",
