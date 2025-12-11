@@ -1,16 +1,16 @@
 name: Fetch and validate channel.json
 
 on:
-  workflow_dispatch: {}        # manual run
-  schedule:                    # automatic runs (every 6 hours)
-    - cron: '0 */6 * * *'
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours — edit or remove if you want
   push:
     branches:
       - main
 
 env:
   TARGET_URL: "https://livetv-hub.cricindia95.workers.dev/channel.json"
-  OUT_PATH: "data/channel.json"
+  OUT_PATH: "channel.json"   # <-- write to repository root as requested
 
 jobs:
   fetch-and-validate:
@@ -21,7 +21,7 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Ensure dependencies (jq, curl)
+      - name: Install dependencies
         run: |
           sudo apt-get update -y
           sudo apt-get install -y jq curl
@@ -30,7 +30,6 @@ jobs:
         id: download
         run: |
           set -euo pipefail
-          mkdir -p "$(dirname "$OUT_PATH")"
           echo "Downloading ${TARGET_URL} ..."
           curl -fsSL "${TARGET_URL}" -o "${OUT_PATH}.tmp" || { echo "Failed to download ${TARGET_URL}"; exit 2; }
           echo "Downloaded to ${OUT_PATH}.tmp"
@@ -39,22 +38,22 @@ jobs:
         id: validate
         run: |
           set -euo pipefail
-          # 1) Basic JSON validate
+
+          # Basic JSON validity
           if ! jq empty "${OUT_PATH}.tmp" >/dev/null 2>&1; then
             echo "Error: downloaded file is not valid JSON."
             cat "${OUT_PATH}.tmp"
             exit 3
           fi
 
-          # 2) Ensure top-level is an array
+          # Ensure top-level is an array
           TYPE=$(jq -r 'type' "${OUT_PATH}.tmp")
           if [ "$TYPE" != "array" ]; then
             echo "Error: expected top-level JSON type to be array but got: $TYPE"
             exit 4
           fi
 
-          # 3) Ensure every item has required fields (adjust fields here if needed)
-          # Required fields: "tvg-id", "channel-name", "mpd_url"
+          # Check required fields (adjust the list below if you want)
           MISSING_COUNT=$(jq '[ .[] | select( (has("tvg-id") | not) or (has("channel-name") | not) or (has("mpd_url") | not) ) ] | length' "${OUT_PATH}.tmp")
           if [ "$MISSING_COUNT" -ne 0 ]; then
             echo "Error: found ${MISSING_COUNT} item(s) missing one or more required fields (tvg-id, channel-name, mpd_url)."
@@ -63,13 +62,13 @@ jobs:
             exit 5
           fi
 
-          # 4) Optional: further checks (e.g., mpd_url is non-empty string)
+          # Optional: warn about empty mpd_url entries
           BAD_URLS=$(jq '[ .[] | select( (.mpd_url == null) or (.mpd_url == "") ) ] | length' "${OUT_PATH}.tmp")
           if [ "$BAD_URLS" -gt 0 ]; then
-            echo "Warning: ${BAD_URLS} item(s) have empty or null mpd_url. Leaving as valid but please check."
+            echo "Warning: ${BAD_URLS} item(s) have empty or null mpd_url."
           fi
 
-          # 5) Normalize formatting and write to final path
+          # Normalize formatting and save to final path
           jq . "${OUT_PATH}.tmp" > "${OUT_PATH}"
           rm -f "${OUT_PATH}.tmp"
           echo "Validated and saved to ${OUT_PATH}"
@@ -77,7 +76,7 @@ jobs:
       - name: Show git status (debug)
         run: |
           git status --porcelain || true
-          ls -l "$(dirname "${OUT_PATH}")" || true
+          ls -l . || true
 
       - name: Commit and push if changed
         env:
@@ -92,9 +91,9 @@ jobs:
             git add "${OUT_PATH}"
             COMMIT_MSG="Update channel.json from ${TARGET_URL} @ $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
             git commit -m "$COMMIT_MSG" || echo "No changes to commit"
-            # push to current branch (works for schedule and dispatch)
-            git push origin HEAD:${{ github.ref_name }}
-            echo "Pushed changes."
+            # Push directly to main branch
+            git push origin HEAD:main
+            echo "Pushed changes to main."
           else
             echo "No changes detected; nothing to commit."
           fi
