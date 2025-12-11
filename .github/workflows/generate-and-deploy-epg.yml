@@ -27,22 +27,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install pytz
 
-      - name: Compute START_DATE_OVERRIDE (midnight IST)
-        env:
-          TZ: Asia/Kolkata
+      - name: Compute START_DATE_OVERRIDE (midnight IST) and export
         run: |
-          START_DATE_OVERRIDE=$(python3 - <<'PY'
-from datetime import datetime
-import pytz
-
-tz = pytz.timezone("Asia/Kolkata")
-mid = datetime.now(tz).replace(hour=0, minute=0, second=0, microsecond=0)
-print(mid.strftime("%Y-%m-%dT%H:%M:%S"))
-PY
-)
+          # compute today's midnight in Asia/Kolkata and write to GITHUB_ENV
+          START_DATE_OVERRIDE=$(python3 -c "from datetime import datetime; import pytz; tz=pytz.timezone('Asia/Kolkata'); mid=datetime.now(tz).replace(hour=0,minute=0,second=0,microsecond=0); print(mid.strftime('%Y-%m-%dT%H:%M:%S'))")
           echo "START_DATE_OVERRIDE=$START_DATE_OVERRIDE"
           echo "START_DATE_OVERRIDE=$START_DATE_OVERRIDE" >> $GITHUB_ENV
 
@@ -52,14 +43,31 @@ PY
 
       - name: Preview generated epg.xml
         run: |
-          head -n 50 epg.xml || true
+          if [ -f epg.xml ]; then
+            echo "=== epg.xml preview ==="
+            head -n 80 epg.xml || true
+            echo "=== end preview ==="
+          else
+            echo "epg.xml not found!"
+            exit 1
+          fi
 
-      - name: Gzip epg.xml
+      - name: Ensure gz exists (create if missing)
         run: |
-          gzip -c epg.xml > epg.xml.gz
-          ls -lh epg.xml.gz
+          if [ -f epg.xml.gz ]; then
+            echo "epg.xml.gz exists"
+          else
+            if [ -f epg.xml ]; then
+              gzip -c epg.xml > epg.xml.gz
+              echo "Created epg.xml.gz"
+            else
+              echo "No epg.xml to gzip"
+              exit 1
+            fi
+          fi
+          ls -lh epg.xml epg.xml.gz
 
-      - name: Upload Pages artifact
+      - name: Upload Pages artifact (v4)
         uses: actions/upload-pages-artifact@v4
         with:
           path: epg.xml.gz
@@ -67,5 +75,5 @@ PY
       - name: Configure Pages
         uses: actions/configure-pages@v4
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages (v4)
         uses: actions/deploy-pages@v4
