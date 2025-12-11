@@ -4,27 +4,24 @@ on:
   push:
     branches: [ "main" ]
   schedule:
-    # runs daily at 01:00 IST (UTC+5:30 -> 19:30 UTC previous day)
-    - cron: '19 19 * * *' # runs every day at 19:00 UTC (which is 00:30 IST next day)
+    - cron: "0 19 * * *"   # Daily at 00:30 IST (~19:00 UTC)
   workflow_dispatch: {}
 
 permissions:
-  contents: write    # required to create/commit files and for pages deployment
+  contents: write
   pages: write
   id-token: write
 
 jobs:
-  build-and-deploy:
+  epg_job:
     runs-on: ubuntu-latest
-    name: Generate EPG and Deploy to GitHub Pages
+    name: Generate EPG & Deploy
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
 
-    - name: Set up Python
+    - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: "3.11"
@@ -34,76 +31,152 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytz
 
-    - name: Run EPG generator
-      # This runs the generator and writes epg.xml at repository root
-      run: |
-        python generate_epg_7day.py
+    - name: CREATE Python Script + Run it
       env:
-        # optional: allow overriding start date from workflow env if needed
-        # e.g. echo "2025-12-11" > START_DATE
-        # (the script currently uses hard-coded START_DATE; modify script if you want runtime override)
-        TZ: "Asia/Kolkata"
-
-    - name: Show generated file
+        TZ: Asia/Kolkata
       run: |
-        echo "=== epg.xml preview ==="
-        head -n 40 epg.xml || true
-        echo "=== end preview ==="
+        echo "=== Creating generate_epg_7day.py ==="
 
-    - name: Commit epg.xml to gh-pages branch
+        cat << 'EOF' > generate_epg_7day.py
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Auto-Generated EPG Builder
+Outputs: epg.xml + epg.xml.gz
+"""
+
+import os, json, gzip
+from datetime import datetime, timedelta
+import pytz
+import xml.etree.ElementTree as ET
+
+CHANNELS_FILE = "channel.json"
+OUTPUT = "epg.xml"
+OUTPUT_GZ = "epg.xml.gz"
+
+DEFAULT_DAYS = 7
+DEFAULT_SLOT_MINUTES = 30
+TZ = pytz.timezone("Asia/Kolkata")
+
+env_start = os.getenv("START_DATE_OVERRIDE")
+env_days = os.getenv("DAYS")
+env_slot = os.getenv("SLOT_MINUTES")
+
+# START DATE logic
+if env_start:
+    START_DATE = datetime.strptime(env_start, "%Y-%m-%dT%H:%M:%S")
+    START_DATE = TZ.localize(START_DATE)
+else:
+    now = datetime.now(TZ)
+    START_DATE = now.replace(hour=0, minute=0, second=0, microsecond=0)
+
+try: DAYS = int(env_days) if env_days else DEFAULT_DAYS
+except: DAYS = DEFAULT_DAYS
+
+try: SLOT_MINUTES = int(env_slot) if env_slot else DEFAULT_SLOT_MINUTES
+except: SLOT_MINUTES = DEFAULT_SLOT_MINUTES
+
+PROGRAM_TITLES = [
+    "Morning Show","Daily News","Prime Drama","Movie Time","Kids Hour",
+    "Evening Sports","Music Mix","Late Night Special","Documentary Hour","Talk Show"
+]
+PROGRAM_DESCS = [
+    "A lively talk and music show.","Latest news & headlines.","A dramatic serial episode.",
+    "Featured movie presentation.","Cartoons and kids entertainment.",
+    "Live sports highlights & analysis.","Top chart music videos.",
+    "Late-night interviews and features.","A deep-dive documentary.","Celebrity chat and gossip."
+]
+
+with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
+    channels = json.load(f)
+
+tv = ET.Element("tv")
+tv.set("generator-info-name", "GitHub-EPG-Auto")
+
+for ch in channels:
+    tvg = ch.get("tvg-id")
+    if not tvg: continue
+    c = ET.SubElement(tv, "channel", {"id": str(tvg)})
+    dn = ET.SubElement(c, "display-name")
+    dn.text = ch.get("channel-name", "Unknown")
+    logo = ch.get("tvg-logo")
+    if logo: ET.SubElement(c, "icon", {"src": logo})
+
+slot_td = timedelta(minutes=SLOT_MINUTES)
+
+for ch in channels:
+    tvg = ch.get("tvg-id")
+    if not tvg: continue
+    cur = START_DATE
+    end = START_DATE + timedelta(days=DAYS)
+    idx = 0
+    while cur < end:
+        start = cur.strftime("%Y%m%d%H%M%S %z")
+        stop_t = cur + slot_td
+        stop = stop_t.strftime("%Y%m%d%H%M%S %z")
+        p = ET.SubElement(tv, "programme", {
+            "start": start,
+            "stop": stop,
+            "channel": str(tvg)
+        })
+        t = ET.SubElement(p, "title", {"lang":"en"}); t.text = PROGRAM_TITLES[idx % 10]
+        d = ET.SubElement(p, "desc", {"lang":"en"}); d.text = PROGRAM_DESCS[idx % 10]
+        c = ET.SubElement(p, "category", {"lang":"en"})
+        c.text = ch.get("group-title", "General")
+        cur = stop_t
+        idx += 1
+
+# indent formatting
+def indent(e, lvl=0):
+    i = "\n" + lvl*"  "
+    if len(e):
+        if not e.text or not e.text.strip(): e.text = i+"  "
+        for c in e: indent(c, lvl+1)
+        if not e.tail or not e.tail.strip(): e.tail = i
+    else:
+        if lvl and (not e.tail or not e.tail.strip()): e.tail = i
+
+indent(tv)
+ET.ElementTree(tv).write(OUTPUT, encoding="utf-8", xml_declaration=True)
+
+with open(OUTPUT, "rb") as f_in:
+    with gzip.open(OUTPUT_GZ, "wb") as f_out:
+        f_out.writelines(f_in)
+
+print("Generated:", OUTPUT, OUTPUT_GZ)
+EOF
+
+        echo "=== Compute START_DATE_OVERRIDE (IST midnight) ==="
+        export START_DATE_OVERRIDE=$(python - << 'PY'
+from datetime import datetime
+import pytz
+tz = pytz.timezone("Asia/Kolkata")
+print(datetime.now(tz).replace(hour=0,minute=0,second=0,microsecond=0).strftime("%Y-%m-%dT%H:%M:%S"))
+PY
+)
+        echo "START_DATE_OVERRIDE=$START_DATE_OVERRIDE"
+
+        python generate_epg_7day.py
+
+    - name: Show preview
       run: |
-        # configure git identity
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
+        head -n 30 epg.xml
 
-        # create temporary branch to hold generated site (gh-pages)
-        GH_PG_BRANCH="gh-pages"
+    - name: Upload artifact (SUPPORTED v4)
+      uses: actions/upload-pages-artifact@v4
+      with:
+        path: epg.xml.gz
 
-        # create an orphan gh-pages branch if doesn't exist
-        if git show-ref --verify --quiet refs/heads/$GH_PG_BRANCH; then
-          echo "branch $GH_PG_BRANCH exists, checking it out"
-          git checkout $GH_PG_BRANCH
-        else
-          echo "creating orphan branch $GH_PG_BRANCH"
-          git checkout --orphan $GH_PG_BRANCH
-          # remove all files in index and start fresh
-          git rm -rf .
-          git commit --allow-empty -m "Initialize gh-pages branch"
-        fi
-
-        # copy generated epg (and only that) to root of gh-pages
-        git rm -rf . || true
-        git checkout -- epg.xml || true   # ensure file is present in worktree
-        # if epg.xml in working tree path not present, copy from main
-        if [ ! -f "epg.xml" ]; then
-          echo "epg.xml not found after generation. Aborting."
-          exit 1
-        fi
-
-        # add & commit only if changed
-        git add epg.xml
-        if git diff --cached --quiet; then
-          echo "No changes to epg.xml — skipping commit."
-        else
-          git commit -m "Update epg.xml (generated) — $GITHUB_RUN_ID"
-        fi
-
-        # push branch
-        git push origin $GH_PG_BRANCH --force
-
-    - name: Create pages deployment (optional official action)
+    - name: Configure GitHub Pages
       uses: actions/configure-pages@v4
 
-    - name: Upload artifact for Pages
-      uses: actions/upload-pages-artifact@v1
-      with:
-        path: ./epg.xml
-
     - name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v1
+      uses: actions/deploy-pages@v4
 
-    - name: Show Pages URL
+    - name: Show final URL
       run: |
-        echo "If Pages is enabled, your file will be available at:"
-        echo "  https://<USERNAME>.github.io/<REPO>/epg.xml"
-        echo "Replace <USERNAME> and <REPO> with your repo details."
+        echo "======================================"
+        echo "Your EPG is now deployed!"
+        echo "URL:"
+        echo "https://<USERNAME>.github.io/<REPO>/epg.xml.gz"
+        echo "======================================"
