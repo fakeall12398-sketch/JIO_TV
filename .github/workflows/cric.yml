@@ -1,4 +1,4 @@
-name: Fetch channel.json
+name: Fetch and validate channel.json
 
 on:
   workflow_dispatch: {}        # manual run
@@ -8,8 +8,12 @@ on:
     branches:
       - main
 
+env:
+  TARGET_URL: "https://livetv-hub.cricindia95.workers.dev/channel.json"
+  OUT_PATH: "data/channel.json"
+
 jobs:
-  fetch:
+  fetch-and-validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -17,54 +21,80 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Fetch channel.json from remote
-        id: fetch
+      - name: Ensure dependencies (jq, curl)
         run: |
-          set -e
-          TARGET_URL="https://livetv-hub.cricindia95.workers.dev/channel.json"
-          OUT_PATH="data/channel.json"
+          sudo apt-get update -y
+          sudo apt-get install -y jq curl
+
+      - name: Download channel.json
+        id: download
+        run: |
+          set -euo pipefail
           mkdir -p "$(dirname "$OUT_PATH")"
+          echo "Downloading ${TARGET_URL} ..."
+          curl -fsSL "${TARGET_URL}" -o "${OUT_PATH}.tmp" || { echo "Failed to download ${TARGET_URL}"; exit 2; }
+          echo "Downloaded to ${OUT_PATH}.tmp"
 
-          # download to a temp file then move to OUT_PATH
-          curl -fsSL "$TARGET_URL" -o "$OUT_PATH.tmp" || { echo "Failed to download $TARGET_URL"; exit 2; }
-
-          # pretty-print / validate JSON (optional). If invalid, fail.
-          if ! jq --version >/dev/null 2>&1; then
-            echo "Installing jq..."
-            sudo apt-get update -y && sudo apt-get install -y jq
-          fi
-          if ! jq . "$OUT_PATH.tmp" >/dev/null 2>&1; then
-            echo "Downloaded file is not valid JSON. Aborting."
-            cat "$OUT_PATH.tmp"
+      - name: Validate JSON & structure
+        id: validate
+        run: |
+          set -euo pipefail
+          # 1) Basic JSON validate
+          if ! jq empty "${OUT_PATH}.tmp" >/dev/null 2>&1; then
+            echo "Error: downloaded file is not valid JSON."
+            cat "${OUT_PATH}.tmp"
             exit 3
           fi
 
-          # use jq to normalize formatting to avoid spurious diffs
-          jq . "$OUT_PATH.tmp" > "$OUT_PATH"
+          # 2) Ensure top-level is an array
+          TYPE=$(jq -r 'type' "${OUT_PATH}.tmp")
+          if [ "$TYPE" != "array" ]; then
+            echo "Error: expected top-level JSON type to be array but got: $TYPE"
+            exit 4
+          fi
 
-          rm -f "$OUT_PATH.tmp"
-          echo "Saved to $OUT_PATH"
+          # 3) Ensure every item has required fields (adjust fields here if needed)
+          # Required fields: "tvg-id", "channel-name", "mpd_url"
+          MISSING_COUNT=$(jq '[ .[] | select( (has("tvg-id") | not) or (has("channel-name") | not) or (has("mpd_url") | not) ) ] | length' "${OUT_PATH}.tmp")
+          if [ "$MISSING_COUNT" -ne 0 ]; then
+            echo "Error: found ${MISSING_COUNT} item(s) missing one or more required fields (tvg-id, channel-name, mpd_url)."
+            echo "Offending items (first 10 shown):"
+            jq '[ .[] | select( (has("tvg-id") | not) or (has("channel-name") | not) or (has("mpd_url") | not) ) ] | .[:10]' "${OUT_PATH}.tmp"
+            exit 5
+          fi
+
+          # 4) Optional: further checks (e.g., mpd_url is non-empty string)
+          BAD_URLS=$(jq '[ .[] | select( (.mpd_url == null) or (.mpd_url == "") ) ] | length' "${OUT_PATH}.tmp")
+          if [ "$BAD_URLS" -gt 0 ]; then
+            echo "Warning: ${BAD_URLS} item(s) have empty or null mpd_url. Leaving as valid but please check."
+          fi
+
+          # 5) Normalize formatting and write to final path
+          jq . "${OUT_PATH}.tmp" > "${OUT_PATH}"
+          rm -f "${OUT_PATH}.tmp"
+          echo "Validated and saved to ${OUT_PATH}"
 
       - name: Show git status (debug)
         run: |
-          git status --porcelain
-          ls -l data || true
+          git status --porcelain || true
+          ls -l "$(dirname "${OUT_PATH}")" || true
 
       - name: Commit and push if changed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # Only commit if there are changes
           if ! git diff --quiet --exit-code; then
-            git add data/channel.json
-            # Compose informative commit message with timestamp
-            COMMIT_MSG="Update channel.json from livetv-hub.cricindia95.workers.dev @ $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+            git add "${OUT_PATH}"
+            COMMIT_MSG="Update channel.json from ${TARGET_URL} @ $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
             git commit -m "$COMMIT_MSG" || echo "No changes to commit"
-            # Push using the pre-provided GITHUB_TOKEN
+            # push to current branch (works for schedule and dispatch)
             git push origin HEAD:${{ github.ref_name }}
+            echo "Pushed changes."
           else
             echo "No changes detected; nothing to commit."
           fi
