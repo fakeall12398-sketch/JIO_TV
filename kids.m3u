@@ -3,8 +3,19 @@
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-TARGETDURATION:10
 # Playlist generated with token refresh
-# Total channels: 199
-# Generated at: "bfabe8243b668a5e6fdb8ddf0b5d0cc01f73aee2"
+# Total channels: 271
+# Generated at: "7e067fbd03ae55b38a556aaec392b20ea5537617"
+
+#EXTINF:-1 group-title="HOTSTAR" tvg-logo="usus",DISNEY HD
+http://66.102.120.18:8000/play/a013/index.m3u8
+
+#EXTINF:-1 group-title="Others" tvg-logo="https://img.media.jio.com/tvpimages/1/35/302071_1753185243638_l_high.jpg" ,Disney
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1765369919~exp=1765456319~acl=/*~hmac=72bc58e152532bcaba810b4b3622d6b0dd081c9530a84554c64d7b8a8509fd9e"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st=1765369919~exp=1765456319~acl=/*~hmac=72bc58e152532bcaba810b4b3622d6b0dd081c9530a84554c64d7b8a8509fd9e
 
 #EXTINF:-1 group-title="Others" tvg-logo="https://img.media.jio.com/tvpimages/86/46/302072_1753187422934_l_high.jpg" ,Hungama TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -166,6 +177,9 @@ https://www.redbooks.site/x11.php?id=34011.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="INDIAN | KIDS CARTOON" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/1200px-Disney_Junior.svg.png",IN: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=153175.m3u8
 
+#EXTINF:-1 tvg-id="disneychannel.in" tvg-name="" group-title="INDIAN | KIDS CARTOON" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2014_Disney_Channel_logo.svg/1200px-2014_Disney_Channel_logo.svg.png",IN | DISNEY HD
+https://www.redbooks.site/x11.php?id=167551.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="INDIAN | KIDS CARTOON" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f2/Hungama_tv_logo.png",IN: HUNGAMA**
 https://www.redbooks.site/x11.php?id=150480.m3u8
 
@@ -177,6 +191,9 @@ https://www.redbooks.site/x11.php?id=238525.m3u8
 
 #EXTINF:-1 tvg-id="boomerang.za" tvg-name="" group-title="DSTV | KIDS" tvg-logo="http://www.vod-logo.net/photos/a9c63aede3ceb20585dd259601a6f3f6.jpg",AF | DSTV: BOOMERANG HD
 https://www.redbooks.site/x11.php?id=238526.m3u8
+
+#EXTINF:-1 tvg-id="disneychannel.za" tvg-name="" group-title="DSTV | KIDS" tvg-logo="http://www.vod-logo.net/photos/c9c6afef702accfdae08d7239bd8d080.JPG",AF | DSTV: DISNEY CHANNEL HD
+https://www.redbooks.site/x11.php?id=238527.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.za" tvg-name="" group-title="DSTV | KIDS" tvg-logo="http://www.vod-logo.net/photos/7ecee542c33472c3af78f5f5e2fcf534.png",AF | DSTV: DISNEY JUNIOR HD
 https://www.redbooks.site/x11.php?id=238528.m3u8
@@ -202,8 +219,14 @@ https://www.redbooks.site/x11.php?id=346248.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork.uk" tvg-name="" group-title="UK ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8d22efc9e80e82953c3f1ee26bb699e5.png",UK: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=346249.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="UK ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/b81b699ab1552f3c15dea79e34e5f017.png",UK: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=346254.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="UK ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/609b7a99eeb990acd812fafb408cd606.png",UK: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=346255.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="UK ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/06a89cbfbaf2158279d67c8a597bb740.png",UK: DISNEY XD
+https://www.redbooks.site/x11.php?id=346256.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="UK ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/47718e36a9a5c42f3d005fcd9f3d94be.png",UK: NICKELODEON
 https://www.redbooks.site/x11.php?id=346261.m3u8
@@ -217,8 +240,14 @@ https://www.redbooks.site/x11.php?id=346454.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="USA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/e6d37c2e387c58ce62dffa4b5130a4d4.png",US: NICKELODEON
 https://www.redbooks.site/x11.php?id=346456.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="USA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/239223919b68f1ddfee44002f2820718.png",US: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=346464.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="USA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/e4f6e7fe7bbed7f932fdfa9399261604.png",US: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=346465.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="USA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/04dc42d583bea654a88f87449c173839.png",US: DISNEY XD
+https://www.redbooks.site/x11.php?id=346466.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="ALBANIA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2020-06/18f4f54f7148e2049f237e8b2a2ed8ba.png",AL: BOOMERANG
 https://www.redbooks.site/x11.php?id=347651.m3u8
@@ -234,6 +263,9 @@ https://www.redbooks.site/x11.php?id=348017.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="ARABIC" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/107149260ff2561c10e3bc31d0ca121e.png",AR: CARTOON NETWORK ARABIC
 https://www.redbooks.site/x11.php?id=348019.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="ARABIC" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/ffb7811407ecff8787e5451a7022a4bf.png",AR: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=348025.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="ARABIC" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/2b85183c51913c4a1ca0c30410caf9c0.png",AR: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=348026.m3u8
@@ -259,8 +291,14 @@ https://www.redbooks.site/x11.php?id=348327.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="BRAZIL ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/072885790a3958b2fbf1e2ad147e4d16.png",BR: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=348486.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="BRAZIL ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/50a6bc80d5e23b687df1568a1e850667.png",BR: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=348491.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="BRAZIL ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/1ee3dbf19ac4cdf59a75ea3cf6310d90.png",BR: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=348492.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="BRAZIL ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/def76639e5be8fb9e81013303abd42ab.png",BR: DISNEY XD
+https://www.redbooks.site/x11.php?id=348493.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="BRAZIL ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/c1f0d129b5b9e0eef699d00f5c802bee.png",BR: NICKELODEON
 https://www.redbooks.site/x11.php?id=348500.m3u8
@@ -270,6 +308,9 @@ https://www.redbooks.site/x11.php?id=348739.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="BULGARIA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/053f22bbe7c371cc90536400b957dee1.png",BG: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=348740.m3u8
+
+#EXTINF:-1 tvg-id="disneychannel.bg" tvg-name="" group-title="BULGARIA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2020-08/023a778ed7fc53bef2db3568bd6fff7b.png",BG: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=348742.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="BULGARIA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/6ed0886c29e249c2e2fe3d1df76a6539.png",BG: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=348743.m3u8
@@ -283,8 +324,14 @@ https://www.redbooks.site/x11.php?id=348747.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="CANADA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/99c3edcb269c216e26bc148281cce876.png",CA: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=348865.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="CANADA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/5cd2618cbbf8039811d0e52a037bcfba.png",CA: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=348866.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="CANADA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/9f57e3bc438fc8a83d70ffb611831921.png",CA: DISNEY JUNIOR (FR)
 https://www.redbooks.site/x11.php?id=348867.m3u8
+
+#EXTINF:-1 tvg-id="disneyxd.ca" tvg-name="" group-title="CANADA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/9e9bef84f3c14025b4d62cc92a3641c0.png",CA: DISNEY XD
+https://www.redbooks.site/x11.php?id=348868.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="CANADA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/6d91245e05f5d744aa3b063a8225409b.png",CA: NICKELODEON
 https://www.redbooks.site/x11.php?id=348871.m3u8
@@ -301,6 +348,9 @@ https://www.redbooks.site/x11.php?id=349370.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="CZECH REPUBLIC" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/67095c1b8ebce3e86859bda1bb49515d.png",CZ: BOOMERANG
 https://www.redbooks.site/x11.php?id=349446.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="CZECH REPUBLIC" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/34abe88cc2635b2b8266c1cf1cfccf1d.png",CZ: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=349456.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="CZECH REPUBLIC" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/972f7cd2c1b242bd2b5d568537beade4.png",CZ: NICK JR
 https://www.redbooks.site/x11.php?id=349479.m3u8
 
@@ -313,8 +363,14 @@ https://www.redbooks.site/x11.php?id=349535.m3u8
 #EXTINF:-1 tvg-id="drultra.dk" tvg-name="" group-title="DENMARK ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/13c43a019b15b3441f179436375b2d75.png",DK: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=349536.m3u8
 
+#EXTINF:-1 tvg-id="discoverychannel.dk" tvg-name="" group-title="DENMARK ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/8e547fe92b9c39786194cbd4cf551379.png",DK: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=349537.m3u8
+
 #EXTINF:-1 tvg-id="disneyjunior.dk" tvg-name="" group-title="DENMARK ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/5ce94c0986f6a07b902c47c26e995d7d.png",DK: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=349538.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="DENMARK ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/ac06a3fa998e25b8fa9f292bc6e0f347.png",DK: DISNEY+
+https://www.redbooks.site/x11.php?id=349539.m3u8
 
 #EXTINF:-1 tvg-id="nickjr.dk" tvg-name="" group-title="DENMARK ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/ebbe05e6bfcfedc1f1c5936c51d65261.png",DK: NICK JR
 https://www.redbooks.site/x11.php?id=349541.m3u8
@@ -334,6 +390,9 @@ https://www.redbooks.site/x11.php?id=349853.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="FINLAND" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/d94c4322aad7fe1daadc48ebc7e3a67a.png",FI: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=349858.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="FINLAND" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/9be134ca232b1b56e05ecc9f576b7eb0.png",FI: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=349861.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="FINLAND" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/15a81b6b0f2c86d28d21360f2f9c953e.png",FI: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=349862.m3u8
 
@@ -343,8 +402,17 @@ https://www.redbooks.site/x11.php?id=349912.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="FRANCE ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/fa16ed0fe174c20405700a242d501eda.png",FR: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=349914.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="FRANCE ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/bc864973b604dc0d8e16a24243fe0d02.png",FR: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=349915.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="FRANCE ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/cd6e4ceaae299ab5405b27576c72869a.png",FR: DISNEY CHANNEL +1
+https://www.redbooks.site/x11.php?id=349916.m3u8
+
 #EXTINF:-1 tvg-id="disneyjunior.fr" tvg-name="" group-title="FRANCE ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/cd0bba464088b84bcb5ccc23a4157edc.png",FR: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=349917.m3u8
+
+#EXTINF:-1 tvg-id="disneycinema.fr" tvg-name="" group-title="FRANCE ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/7d6bc51edeac20f67b2cfe4c4a23d5df.png",FR: DISNEY+
+https://www.redbooks.site/x11.php?id=349918.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.fr" tvg-name="" group-title="FRANCE ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/14135529b1428ce104dd767dc74b2ef9.png",FR: NICKELODEON
 https://www.redbooks.site/x11.php?id=349924.m3u8
@@ -361,11 +429,20 @@ https://www.redbooks.site/x11.php?id=349927.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork.de" tvg-name="" group-title="GERMANY ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/737c89acac29a375abc84fa6db9f7608.png",DE: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=350259.m3u8
 
+#EXTINF:-1 tvg-id="disneycinemagic.de" tvg-name="" group-title="GERMANY ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/a5af65e344f7b824fbda309c3606aa1a.png",DE: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=350261.m3u8
+
 #EXTINF:-1 tvg-id="disneyjunior.de" tvg-name="" group-title="GERMANY ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/db7665573ac43d4418b35f2d2dff77ed.png",DE: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=350262.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="GERMANY ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-12/0086900f9e43865acfda4ec1f3d57866.png",DE: DISNEY XD
+https://www.redbooks.site/x11.php?id=350263.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="GERMANY ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/c7b6dc8925b4046e77a1a128c4761c05.png",DE: NICKELODEON
 https://www.redbooks.site/x11.php?id=350267.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="GERMANY" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/e3a910620967cfcc35c6f1a34b1cec42.png",DE: DISNEY+
+https://www.redbooks.site/x11.php?id=350505.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="GREECE ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/3e94c4a67d568865d1c916fffb36c2ab.png",GR: NICKELODEON
 https://www.redbooks.site/x11.php?id=350601.m3u8
@@ -375,6 +452,9 @@ https://www.redbooks.site/x11.php?id=350853.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="HUNGARY" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/2321506ea62dbdf99336ed3272631dd8.png",HU: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=350854.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="HUNGARY" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/b85ac4b79071b816162ba3eb43270559.png",HU: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=350856.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="HUNGARY" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/576c18732365eb8fee5fe97849391f42.png",HU: NICKELODEON
 https://www.redbooks.site/x11.php?id=350858.m3u8
@@ -391,6 +471,9 @@ https://www.redbooks.site/x11.php?id=350910.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="INDONESIA" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/7dcbeab064ba8b1eefb6115fc283aaeb.png",ID: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=350934.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="INDONESIA" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/d7b3960e71c668eeaff78b4145d6173e.png",ID: DISNEY XD
+https://www.redbooks.site/x11.php?id=350935.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="INDONESIA" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/c407878e19cad2a98a707210492d0f4c.png",ID: NICK JR
 https://www.redbooks.site/x11.php?id=351012.m3u8
 
@@ -399,6 +482,9 @@ https://www.redbooks.site/x11.php?id=351013.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="INDONESIA" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/e1dd8b2c9477e9c047fc597e8835eebb.png",ID: NICKELODEON
 https://www.redbooks.site/x11.php?id=351014.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="ISRAEL" tvg-logo="http://s3.i3ns.net/portal/picon/2022-02/b1b98b6471928ce1fccdc92b8d74e28a.png",IL: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=351313.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="ISRAEL" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/c4bb1fdd23c87c156ecd715d9f0c4466.png",IL: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=351314.m3u8
@@ -415,6 +501,15 @@ https://www.redbooks.site/x11.php?id=351400.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="ITALY" tvg-logo="http://s3.i3ns.net/portal/picon/2021-12/fb50a384f85db6919c67afb48373edb4.png",IT: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=351418.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="ITALY" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/1121ad5f83689b10c86d1db82a402cf8.png",IT: DISNEY+
+https://www.redbooks.site/x11.php?id=351419.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="ITALY" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/d545beaea4223f15824e24484d9894e6.png",IT: DISNEY+ FILM
+https://www.redbooks.site/x11.php?id=351420.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="ITALY" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/b341cdf0d98a2fe1de2fac22cb03efab.png",IT: DISNEY+ NATURE
+https://www.redbooks.site/x11.php?id=351421.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="ITALY" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/a6a4a28d9a8eb7f6231181ac3c9a7932.jpg",IT: NICK JR
 https://www.redbooks.site/x11.php?id=351490.m3u8
 
@@ -424,8 +519,14 @@ https://www.redbooks.site/x11.php?id=351815.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="LATINO" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/24c5abcd3b88a3d9382fd2df13623209.png",LA: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=351816.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="LATINO" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/eeb06c226acc25e1495ef0f80d0533f4.png",LA: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=351841.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="LATINO" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/cf8964d602d9e1b26bab23889ee6677a.png",LA: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=351842.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="LATINO" tvg-logo="http://s3.i3ns.net/portal/picon/2021-12/a1a2f8a179737017e074ce21003a5100.png",LA: DISNEY XD
+https://www.redbooks.site/x11.php?id=351843.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="LATINO" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/ee33bd11cd243384f5a340f8e12e189d.png",LA: NICK JR
 https://www.redbooks.site/x11.php?id=351893.m3u8
@@ -436,11 +537,17 @@ https://www.redbooks.site/x11.php?id=351894.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="MALAYSIA" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/515d63ff66edb49dc64a03093e9f6fd2.png",MY: BOOMERANG
 https://www.redbooks.site/x11.php?id=352098.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="MALAYSIA" tvg-logo="http://s3.i3ns.net/portal/picon/2021-12/451dbdd3fbdd722d2ca3c1b4ba7ada36.png",MY: DISNEY XD
+https://www.redbooks.site/x11.php?id=352103.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="MALAYSIA" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/92307ca79c909c2f7881199792c74c0b.png",MY: NICK JR
 https://www.redbooks.site/x11.php?id=352108.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="MEXICO ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/3f51c3bc985994d3ea01824291571f2f.png",MX: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=352134.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="MEXICO ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/80b12d75191338a0152e9a307ddac20c.png",MX: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=352137.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="MEXICO ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/b5069c173bae240c9ed582b2cc41caf7.png",MX: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=352138.m3u8
@@ -451,8 +558,14 @@ https://www.redbooks.site/x11.php?id=352236.m3u8
 #EXTINF:-1 tvg-id="boomerang.nl" tvg-name="" group-title="NETHERLANDS ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/6a0cc5c7c7e9abb6178a79ee7d4b9ab5.png",NL: BOOMERANG
 https://www.redbooks.site/x11.php?id=352314.m3u8
 
+#EXTINF:-1 tvg-id="disneychannel.nl" tvg-name="" group-title="NETHERLANDS ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/9c99903730dcdd4202c8e2e14d9dfe3f.png",NL: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=352315.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="NETHERLANDS ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/8a91f712ecb8d6dbf56807d350172b04.png",NL: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=352316.m3u8
+
+#EXTINF:-1 tvg-id="veronicadisneyxd.nl" tvg-name="" group-title="NETHERLANDS ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/cc5555cc94d474813edd2c5249a8f28a.png",NL: DISNEY XD
+https://www.redbooks.site/x11.php?id=352317.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.nl" tvg-name="" group-title="NETHERLANDS ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/f743eb5388e637bb20cbffb86681f3a7.png",NL: NICKELODEON
 https://www.redbooks.site/x11.php?id=352321.m3u8
@@ -466,6 +579,9 @@ https://www.redbooks.site/x11.php?id=352472.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork.no" tvg-name="" group-title="NORWAY ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/be021d1029ecd7f45419e1aa2c5ba8c1.png",NO: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=352473.m3u8
 
+#EXTINF:-1 tvg-id="disneychannel.no" tvg-name="" group-title="NORWAY ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/57788fd3608e9f5a001f57afb32186d5.png",NO: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=352474.m3u8
+
 #EXTINF:-1 tvg-id="disneyjunior.no" tvg-name="" group-title="NORWAY ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/866b491c0a901ee232f8f4e8d0cb3f50.png",NO: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=352475.m3u8
 
@@ -478,6 +594,9 @@ https://www.redbooks.site/x11.php?id=352477.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="PHILIPPINES" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/a7e076dc55f6f28f063d81b51eeacedc.png",PH: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=352607.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="PHILIPPINES" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/00cc418921399e9b49aac69a44cf2357.png",PH: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=352613.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="PHILIPPINES" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/1c7ab06cbf7585369cd9b05e358fa0cd.png",PH: NICKELODEON
 https://www.redbooks.site/x11.php?id=352624.m3u8
 
@@ -487,8 +606,14 @@ https://www.redbooks.site/x11.php?id=352663.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork.pl" tvg-name="" group-title="POLAND ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/0f7da7982fa0b9a48cc669a21cd19cd9.png",PL: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=352664.m3u8
 
+#EXTINF:-1 tvg-id="disneychannel.pl" tvg-name="" group-title="POLAND ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/7100d013931ad704c97e4082742171b2.png",PL: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=352667.m3u8
+
 #EXTINF:-1 tvg-id="disneyjunior.pl" tvg-name="" group-title="POLAND ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/b1ba4b81984b558b833b12792b131211.png",PL: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=352668.m3u8
+
+#EXTINF:-1 tvg-id="disneyxd.pl" tvg-name="" group-title="POLAND ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/feb43bd0e37c845f765b10e13ee750d1.png",PL: DISNEY XD
+https://www.redbooks.site/x11.php?id=352669.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.pl" tvg-name="" group-title="POLAND ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/1cb2153d9ccfa9c04096fd5a5f2ee276.png",PL: NICKELODEON
 https://www.redbooks.site/x11.php?id=352673.m3u8
@@ -499,8 +624,17 @@ https://www.redbooks.site/x11.php?id=352850.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork.pt" tvg-name="" group-title="PORTUGAL ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8f4a17537e3d35fc10f7258bda5c1de2.png",PT: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=352852.m3u8
 
+#EXTINF:-1 tvg-id="disneychannel.pt" tvg-name="" group-title="PORTUGAL ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8421402691971ea1c41aecab55b6eaba.png",PT: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=352853.m3u8
+
 #EXTINF:-1 tvg-id="disneyjunior.pt" tvg-name="" group-title="PORTUGAL ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/d8e3dffef846a877bebfee531a9a986e.png",PT: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=352854.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="PORTUGAL ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/6f0484ce1b78c3e3b76a1e440dfb0682.jpg",PT: DISNEY+
+https://www.redbooks.site/x11.php?id=352855.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="PORTUGAL ➾ KIDS" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png",PT: DISNEY+ PIXAR
+https://www.redbooks.site/x11.php?id=352856.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.pt" tvg-name="" group-title="PORTUGAL ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/7ba49f9f77fcc701888de284da556394.png",PT: NICKELODEON
 https://www.redbooks.site/x11.php?id=352860.m3u8
@@ -514,6 +648,9 @@ https://www.redbooks.site/x11.php?id=353050.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork.ro" tvg-name="" group-title="ROMANIA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/d6bbea85f344e5522246cef596be55be.png",RO: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=353051.m3u8
 
+#EXTINF:-1 tvg-id="disneychannel.ro" tvg-name="" group-title="ROMANIA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/15f808f9213567f746a00327cd5d54e0.png",RO: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=353053.m3u8
+
 #EXTINF:-1 tvg-id="disneyjunior.ro" tvg-name="" group-title="ROMANIA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2020-07/9f41d945b3512bfa5e1f64fe4ce188f8.png",RO: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=353054.m3u8
 
@@ -522,6 +659,9 @@ https://www.redbooks.site/x11.php?id=353057.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="RUSSIA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/ae0910c0aa70a334ad8c2a8fbb395cc9.png",RU: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=353221.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="RUSSIA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/8436977d35440092a0e74ebf7dec279e.png",RU: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=353222.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="RUSSIA ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/4a99c980c07bdae6bfd8616fe8b6092d.png",RU: NICKELODEON
 https://www.redbooks.site/x11.php?id=353227.m3u8
@@ -538,14 +678,23 @@ https://www.redbooks.site/x11.php?id=353853.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="SOUTH AFRICA" tvg-logo="http://s3.i3ns.net/portal/picon/2023-01/399f714a24c104eafd6c38bf31ada101.svg",ZA: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=353871.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="SOUTH AFRICA" tvg-logo="http://s3.i3ns.net/portal/picon/2022-01/df0df5e15635e3e475bd858e385ce2c3.png",ZA: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=353882.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="SOUTH AFRICA" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/715458d589da4093a61b02ed4d3dc36a.png",ZA: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=353883.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="SOUTH AFRICA" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/422abe7bdc3b2ee19ff91b57cea2d7f9.png",ZA: NICKELODEON
 https://www.redbooks.site/x11.php?id=353929.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="SPAIN ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/1e2090e42349272d08620af54d65981a.png",ES: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=354054.m3u8
+
 #EXTINF:-1 tvg-id="disneyjunior.es" tvg-name="" group-title="SPAIN ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/cda21230d303c9e299518f56cddf9b76.png",ES: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=354055.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="SPAIN ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/2c237ade1f69da7e43ad9ac3915f04e0.png",ES: DISNEY XD
+https://www.redbooks.site/x11.php?id=354056.m3u8
 
 #EXTINF:-1 tvg-id="nickelodeon.es" tvg-name="" group-title="SPAIN ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/5c0d67120f875960ab87b5db7e8969a2.png",ES: NICKELODEON
 https://www.redbooks.site/x11.php?id=354059.m3u8
@@ -558,6 +707,9 @@ https://www.redbooks.site/x11.php?id=354348.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork.se" tvg-name="" group-title="SWEDEN" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/b87a6a20a8e24077aa5b3fd81423a2db.png",SE: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=354365.m3u8
+
+#EXTINF:-1 tvg-id="disneychannel.se" tvg-name="" group-title="SWEDEN" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/c6b266540652af8b4384aa2d148febd2.png",SE: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=354370.m3u8
 
 #EXTINF:-1 tvg-id="disneyjunior.se" tvg-name="" group-title="SWEDEN" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/92e8d1715f39eb60af8cb2122faecc6d.png",SE: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=354371.m3u8
@@ -580,6 +732,9 @@ https://www.redbooks.site/x11.php?id=354638.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork.tr" tvg-name="" group-title="TURKEY ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/87598c365695f0ec0734167340a7fbdf.png",TR: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=354640.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="TURKEY ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/4b7ef9e32b9c4d64adc3330352ac327f.png",TR: DISNEY CHANNEL
+https://www.redbooks.site/x11.php?id=354643.m3u8
+
 #EXTINF:-1 tvg-id="disneychannel.tr" tvg-name="" group-title="TURKEY ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/d4bfb7096c986189cad4c27667329846.png",TR: DISNEY JUNIOR
 https://www.redbooks.site/x11.php?id=354644.m3u8
 
@@ -588,6 +743,9 @@ https://www.redbooks.site/x11.php?id=354649.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="UAE ➾ KIDS" tvg-logo="http://s3.i3ns.net/portal/picon/2022-02/9720ca302cb8b8d7855dcb6308804f5d.png",AE: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=354913.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="UAE ➾ MOVIE" tvg-logo="http://s3.i3ns.net/portal/picon/2021-07/4e657d6816f75e73b1bf7e7f0db83f51.png",AE: OSN MOVIES DISNEY
+https://www.redbooks.site/x11.php?id=354969.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="INDIAN | KIDS CARTOON" tvg-logo="",KIDS: SONIC 24/7
 https://www.redbooks.site/x11.php?id=301500.m3u8
@@ -621,6 +779,9 @@ https://public.kliv.fun/Mac21o/play.php?id=11709
 
 #EXTINF:-1 tvg-id="11633" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/11549.png" group-title="HINDI | INDIA KIDS",CARTOON NETWORK HINDI
 https://public.kliv.fun/Mac21o/play.php?id=11633
+
+#EXTINF:-1 tvg-id="11639" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/11555.png" group-title="HINDI | INDIA KIDS",DISNEY CHANNEL INDIA
+https://public.kliv.fun/Mac21o/play.php?id=11639
 
 #EXTINF:-1 tvg-id="11640" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/11556.jpg" group-title="HINDI | INDIA KIDS",DISNEY JUNIOR HINDI
 https://public.kliv.fun/Mac21o/play.php?id=11640
@@ -670,6 +831,66 @@ https://public.kliv.fun/Mac21o/play.php?id=11193
 #EXTINF:-1 tvg-id="61530" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/61308.jpg" group-title="KIDS | 24x7",SMART | SONIC
 https://public.kliv.fun/Mac21o/play.php?id=61530
 
+#EXTINF:-1 tvg-id="58473" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/58257.png" group-title="KIDS | 24x7",SMART | DISNEY MOVIES
+https://public.kliv.fun/Mac21o/play.php?id=58473
+
+#EXTINF:-1 tvg-id="58478" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/58262.png" group-title="KIDS | 24x7",SMART | DISNEY MOVIES 2.
+https://public.kliv.fun/Mac21o/play.php?id=58478
+
+#EXTINF:-1 tvg-id="58482" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/58266.png" group-title="KIDS | 24x7",SMART | DISNEY MOVIES 3.
+https://public.kliv.fun/Mac21o/play.php?id=58482
+
+#EXTINF:-1 tvg-id="58505" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/58289.jpg" group-title="KIDS | 24x7",SMART | DISNEY SHORTS
+https://public.kliv.fun/Mac21o/play.php?id=58505
+
 #EXTINF:-1 tvg-id="58550" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/58334.jpg" group-title="KIDS | 24x7",SMART | SONICX
 https://public.kliv.fun/Mac21o/play.php?id=58550
+
+#EXTINF:-1 tvg-id="67267" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/67795.jpg" group-title="HINDI | 24x7 SERIES",*******DISNEY HOTSTAR HINDI SERIES*******
+https://public.kliv.fun/Mac21o/play.php?id=67267
+
+#EXTINF:-1 tvg-id="67268" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/67796.jpg" group-title="HINDI | 24x7 SERIES",DISNEY HOTSTAR HINDI SERIES 1
+https://public.kliv.fun/Mac21o/play.php?id=67268
+
+#EXTINF:-1 tvg-id="67269" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/67797.jpg" group-title="HINDI | 24x7 SERIES",DISNEY HOTSTAR HINDI SERIES 2
+https://public.kliv.fun/Mac21o/play.php?id=67269
+
+#EXTINF:-1 tvg-id="67270" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/67798.jpg" group-title="HINDI | 24x7 SERIES",DISNEY HOTSTAR HINDI SERIES 3
+https://public.kliv.fun/Mac21o/play.php?id=67270
+
+#EXTINF:-1 tvg-id="67271" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/67799.jpg" group-title="HINDI | 24x7 SERIES",DISNEY HOTSTAR HINDI SERIES 4
+https://public.kliv.fun/Mac21o/play.php?id=67271
+
+#EXTINF:-1 tvg-id="67272" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/67800.jpg" group-title="HINDI | 24x7 SERIES",DISNEY HOTSTAR HINDI SERIES 5
+https://public.kliv.fun/Mac21o/play.php?id=67272
+
+#EXTINF:-1 tvg-id="67273" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/67801.jpg" group-title="HINDI | 24x7 SERIES",DISNEY HOTSTAR HINDI SERIES 6
+https://public.kliv.fun/Mac21o/play.php?id=67273
+
+#EXTINF:-1 tvg-id="67274" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/67802.jpg" group-title="HINDI | 24x7 SERIES",DISNEY HOTSTAR HINDI SERIES 7
+https://public.kliv.fun/Mac21o/play.php?id=67274
+
+#EXTINF:-1 tvg-id="67275" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/67803.jpg" group-title="HINDI | 24x7 SERIES",DISNEY HOTSTAR HINDI SERIES 8
+https://public.kliv.fun/Mac21o/play.php?id=67275
+
+#EXTINF:-1 tvg-id="67276" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/67804.jpg" group-title="HINDI | 24x7 SERIES",DISNEY HOTSTAR HINDI SERIES 9
+https://public.kliv.fun/Mac21o/play.php?id=67276
+
+#EXTINF:-1 tvg-id="67277" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/67805.jpg" group-title="HINDI | 24x7 SERIES",DISNEY HOTSTAR HINDI SERIES 10
+https://public.kliv.fun/Mac21o/play.php?id=67277
+
+#EXTINF:-1 tvg-id="73185" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/72525.png" group-title="KIDS | 24x7 PREMIUM MOVIES & SERIES",SMART | DISNEY MOVIES 1
+https://public.kliv.fun/Mac21o/play.php?id=73185
+
+#EXTINF:-1 tvg-id="73190" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/72530.png" group-title="KIDS | 24x7 PREMIUM MOVIES & SERIES",SMART | DISNEY MOVIES 2
+https://public.kliv.fun/Mac21o/play.php?id=73190
+
+#EXTINF:-1 tvg-id="73193" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/72533.png" group-title="KIDS | 24x7 PREMIUM MOVIES & SERIES",SMART | DISNEY MOVIES 3
+https://public.kliv.fun/Mac21o/play.php?id=73193
+
+#EXTINF:-1 tvg-id="73196" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/72536.png" group-title="KIDS | 24x7 PREMIUM MOVIES & SERIES",SMART | DISNEY MOVIES 4
+https://public.kliv.fun/Mac21o/play.php?id=73196
+
+#EXTINF:-1 tvg-id="73198" tvg-logo="http://234981.cc/stalker_portal/misc/logos/320/72538.png" group-title="KIDS | 24x7 PREMIUM MOVIES & SERIES",SMART | DISNEY MOVIES 5
+https://public.kliv.fun/Mac21o/play.php?id=73198
 
