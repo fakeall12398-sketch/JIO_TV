@@ -1,0 +1,109 @@
+name: Generate & Deploy EPG (7 days)
+
+on:
+  push:
+    branches: [ "main" ]
+  schedule:
+    # runs daily at 01:00 IST (UTC+5:30 -> 19:30 UTC previous day)
+    - cron: '19 19 * * *' # runs every day at 19:00 UTC (which is 00:30 IST next day)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write    # required to create/commit files and for pages deployment
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    name: Generate EPG and Deploy to GitHub Pages
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytz
+
+    - name: Run EPG generator
+      # This runs the generator and writes epg.xml at repository root
+      run: |
+        python generate_epg_7day.py
+      env:
+        # optional: allow overriding start date from workflow env if needed
+        # e.g. echo "2025-12-11" > START_DATE
+        # (the script currently uses hard-coded START_DATE; modify script if you want runtime override)
+        TZ: "Asia/Kolkata"
+
+    - name: Show generated file
+      run: |
+        echo "=== epg.xml preview ==="
+        head -n 40 epg.xml || true
+        echo "=== end preview ==="
+
+    - name: Commit epg.xml to gh-pages branch
+      run: |
+        # configure git identity
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+        # create temporary branch to hold generated site (gh-pages)
+        GH_PG_BRANCH="gh-pages"
+
+        # create an orphan gh-pages branch if doesn't exist
+        if git show-ref --verify --quiet refs/heads/$GH_PG_BRANCH; then
+          echo "branch $GH_PG_BRANCH exists, checking it out"
+          git checkout $GH_PG_BRANCH
+        else
+          echo "creating orphan branch $GH_PG_BRANCH"
+          git checkout --orphan $GH_PG_BRANCH
+          # remove all files in index and start fresh
+          git rm -rf .
+          git commit --allow-empty -m "Initialize gh-pages branch"
+        fi
+
+        # copy generated epg (and only that) to root of gh-pages
+        git rm -rf . || true
+        git checkout -- epg.xml || true   # ensure file is present in worktree
+        # if epg.xml in working tree path not present, copy from main
+        if [ ! -f "epg.xml" ]; then
+          echo "epg.xml not found after generation. Aborting."
+          exit 1
+        fi
+
+        # add & commit only if changed
+        git add epg.xml
+        if git diff --cached --quiet; then
+          echo "No changes to epg.xml — skipping commit."
+        else
+          git commit -m "Update epg.xml (generated) — $GITHUB_RUN_ID"
+        fi
+
+        # push branch
+        git push origin $GH_PG_BRANCH --force
+
+    - name: Create pages deployment (optional official action)
+      uses: actions/configure-pages@v4
+
+    - name: Upload artifact for Pages
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: ./epg.xml
+
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v1
+
+    - name: Show Pages URL
+      run: |
+        echo "If Pages is enabled, your file will be available at:"
+        echo "  https://<USERNAME>.github.io/<REPO>/epg.xml"
+        echo "Replace <USERNAME> and <REPO> with your repo details."
