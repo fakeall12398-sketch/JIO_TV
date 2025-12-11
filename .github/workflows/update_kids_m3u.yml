@@ -39,8 +39,8 @@ jobs:
         # ================= CONFIG =================
         PLAYLIST_URLS = [
             "https://fakeall12398-sketch.github.io/JIO_TV/jstar.m3u",
-            "https://fakeall12398-sketch.github.io/JIO_TV/sony.m3u",
-            "https://getapks.pages.dev/opplex2.m3u",
+            "https://raw.githubusercontent.com/cricindia/sliv/refs/heads/main/sliv.m3u",
+            "https://dzu7.short.gy/OpplexTVByTelegram@M3UIndiaOriginal.m3u",
             "https://fakeall12398-sketch.github.io/JIO_TV/Allinone.m3u"
         ]
         
