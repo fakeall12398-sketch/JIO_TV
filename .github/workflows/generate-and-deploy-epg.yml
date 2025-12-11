@@ -4,7 +4,9 @@ on:
   push:
     branches: [ "main" ]
   schedule:
-    - cron: "0 19 * * *"   # Daily at 19:00 UTC (~00:30 IST next day)
+    # Daily — adjust if you want a different time.
+    # This cron runs at 19:00 UTC every day (~00:30 IST next day).
+    - cron: '0 19 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -13,9 +15,9 @@ permissions:
   id-token: write
 
 jobs:
-  epg_job:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    name: Generate EPG & Deploy
+    name: Generate EPG and Deploy to GitHub Pages
 
     steps:
       - name: Checkout repository
@@ -23,7 +25,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
@@ -33,172 +35,40 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytz
 
-      - name: CREATE Python Script + Run it
+      - name: Compute START_DATE_OVERRIDE (midnight IST) and run generator
         env:
           TZ: Asia/Kolkata
         run: |
-          echo "=== Creating generate_epg_7day.py ==="
-          cat <<'EOF' > generate_epg_7day.py
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-generate_epg_7day.py
-Reads channel.json and writes epg.xml (XMLTV) and epg.xml.gz (gzipped).
-Behavior:
- - Uses START_DATE_OVERRIDE env var (format "YYYY-MM-DDTHH:MM:SS") if present.
- - Otherwise uses today's midnight in Asia/Kolkata as start.
- - Optional env overrides: DAYS, SLOT_MINUTES.
-Requires: pytz (workflow installs it).
-"""
-import os, json, gzip
-from datetime import datetime, timedelta
-import pytz
-import xml.etree.ElementTree as ET
-
-CHANNELS_FILE = "channel.json"
-OUTPUT = "epg.xml"
-OUTPUT_GZ = "epg.xml.gz"
-
-DEFAULT_DAYS = 7
-DEFAULT_SLOT_MINUTES = 30
-TZ = pytz.timezone("Asia/Kolkata")
-
-env_start = os.getenv("START_DATE_OVERRIDE")
-env_days = os.getenv("DAYS")
-env_slot = os.getenv("SLOT_MINUTES")
-
-# START_DATE logic
-if env_start:
-    try:
-        START_DATE = datetime.strptime(env_start, "%Y-%m-%dT%H:%M:%S")
-        START_DATE = TZ.localize(START_DATE)
-    except Exception as e:
-        print(f"Warning: couldn't parse START_DATE_OVERRIDE='{env_start}': {e}")
-        now = datetime.now(TZ)
-        START_DATE = now.replace(hour=0, minute=0, second=0, microsecond=0)
-else:
-    now = datetime.now(TZ)
-    START_DATE = now.replace(hour=0, minute=0, second=0, microsecond=0)
-
-try:
-    DAYS = int(env_days) if env_days else DEFAULT_DAYS
-except:
-    DAYS = DEFAULT_DAYS
-
-try:
-    SLOT_MINUTES = int(env_slot) if env_slot else DEFAULT_SLOT_MINUTES
-except:
-    SLOT_MINUTES = DEFAULT_SLOT_MINUTES
-
-PROGRAM_TITLES = [
-    "Morning Show", "Daily News", "Prime Drama", "Movie Time", "Kids Hour",
-    "Evening Sports", "Music Mix", "Late Night Special", "Documentary Hour",
-    "Talk Show"
-]
-PROGRAM_DESCS = [
-    "A lively talk and music show.",
-    "Latest news & headlines.",
-    "A dramatic serial episode.",
-    "Featured movie presentation.",
-    "Cartoons and kids entertainment.",
-    "Live sports highlights & analysis.",
-    "Top chart music videos.",
-    "Late-night interviews and features.",
-    "A deep-dive documentary.",
-    "Celebrity chat and gossip."
-]
-
-if not os.path.exists(CHANNELS_FILE):
-    print(f"Error: {CHANNELS_FILE} not found in repo root.")
-    raise SystemExit(1)
-
-with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
-    channels = json.load(f)
-
-tv = ET.Element("tv")
-tv.set("generator-info-name", "generate_epg_7day.py")
-
-# Add channels
-for ch in channels:
-    tvg_id = ch.get("tvg-id") or ch.get("tvg_id") or ch.get("id") or ch.get("channel-id")
-    if not tvg_id:
-        continue
-    ch_el = ET.SubElement(tv, "channel", {"id": str(tvg_id)})
-    dn = ET.SubElement(ch_el, "display-name")
-    dn.text = ch.get("channel-name", ch.get("name", "Unknown"))
-    logo = ch.get("tvg-logo") or ch.get("logo")
-    if logo:
-        ET.SubElement(ch_el, "icon", {"src": logo})
-
-slot_td = timedelta(minutes=SLOT_MINUTES)
-
-# Add programme slots
-for ch in channels:
-    tvg_id = ch.get("tvg-id") or ch.get("tvg_id") or ch.get("id") or ch.get("channel-id")
-    if not tvg_id:
-        continue
-    cur = START_DATE
-    end = START_DATE + timedelta(days=DAYS)
-    idx = 0
-    while cur < end:
-        start_str = cur.strftime("%Y%m%d%H%M%S %z")
-        stop_dt = cur + slot_td
-        stop_str = stop_dt.strftime("%Y%m%d%H%M%S %z")
-        prog = ET.SubElement(tv, "programme", {
-            "start": start_str,
-            "stop": stop_str,
-            "channel": str(tvg_id)
-        })
-        t = ET.SubElement(prog, "title", {"lang":"en"})
-        t.text = PROGRAM_TITLES[idx % len(PROGRAM_TITLES)]
-        d = ET.SubElement(prog, "desc", {"lang":"en"})
-        d.text = PROGRAM_DESCS[idx % len(PROGRAM_DESCS)]
-        cat = ET.SubElement(prog, "category", {"lang":"en"})
-        cat.text = ch.get("group-title", "General")
-        cur = stop_dt
-        idx += 1
-
-# pretty print
-def indent(elem, level=0):
-    i = "\n" + level * "  "
-    if len(elem):
-        if not elem.text or not elem.text.strip():
-            elem.text = i + "  "
-        for e in elem:
-            indent(e, level + 1)
-        if not elem.tail or not elem.tail.strip():
-            elem.tail = i
-    else:
-        if level and (not elem.tail or not elem.tail.strip()):
-            elem.tail = i
-
-indent(tv)
-ET.ElementTree(tv).write(OUTPUT, encoding="utf-8", xml_declaration=True)
-with open(OUTPUT, "rb") as f_in:
-    with gzip.open(OUTPUT_GZ, "wb") as f_out:
-        f_out.writelines(f_in)
-
-print("Generated:", OUTPUT, OUTPUT_GZ)
-EOF
-
-          echo "=== Compute START_DATE_OVERRIDE (IST midnight) ==="
-          export START_DATE_OVERRIDE=$(python - <<'PY'
+          # compute today's midnight in Asia/Kolkata and export to START_DATE_OVERRIDE
+          START_DATE_OVERRIDE=$(python - <<'PY'
 from datetime import datetime
 import pytz
 tz = pytz.timezone("Asia/Kolkata")
-print(datetime.now(tz).replace(hour=0,minute=0,second=0,microsecond=0).strftime("%Y-%m-%dT%H:%M:%S"))
+mid = datetime.now(tz).replace(hour=0, minute=0, second=0, microsecond=0)
+print(mid.strftime("%Y-%m-%dT%H:%M:%S"))
 PY
 )
           echo "START_DATE_OVERRIDE=$START_DATE_OVERRIDE"
-
+          export START_DATE_OVERRIDE
+          # Also allow overriding DAYS or SLOT_MINUTES via repo secrets/env if desired
+          # Run generator (it will read START_DATE_OVERRIDE from env)
           python generate_epg_7day.py
 
-      - name: Show preview
+      - name: Preview generated epg.xml
         run: |
-          echo "=== epg.xml head ==="
-          head -n 40 epg.xml || true
-          echo "=== epg.xml.gz info ==="
-          ls -lh epg.xml.gz || true
+          echo "=== epg.xml preview ==="
+          head -n 80 epg.xml || true
+          echo "=== end preview ==="
+
+      - name: Ensure gz exists (just in case)
+        run: |
+          if [ -f epg.xml.gz ]; then
+            echo "epg.xml.gz exists"
+          else
+            echo "gz missing; creating now"
+            gzip -c epg.xml > epg.xml.gz
+          fi
+          ls -lh epg.xml epg.xml.gz
 
       - name: Upload Pages artifact (v4)
         uses: actions/upload-pages-artifact@v4
@@ -211,7 +81,7 @@ PY
       - name: Deploy to GitHub Pages (v4)
         uses: actions/deploy-pages@v4
 
-      - name: Show final URL hint
+      - name: Show Pages URL hint
         run: |
           echo "If Pages is enabled, your file will be available at:"
           echo "  https://<USERNAME>.github.io/<REPO>/epg.xml.gz"
