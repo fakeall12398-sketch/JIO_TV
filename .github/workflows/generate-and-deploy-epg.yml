@@ -16,13 +16,14 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
-    # Required for deploy-pages@v4
     environment:
       name: github-pages
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -43,38 +44,45 @@ jobs:
         run: |
           python generate_epg_7day.py
 
-      - name: Preview generated epg.xml
+      - name: Show generated files (sanity)
         run: |
-          if [ -f epg.xml ]; then
-            echo "=== epg.xml preview ==="
-            head -n 80 epg.xml || true
-            echo "=== end preview ==="
-          else
-            echo "epg.xml not found!"
-            exit 1
-          fi
+          echo "Files in workspace:"
+          ls -lh || true
+          echo "epg.xml exists:" && [ -f epg.xml ] && echo "yes" || echo "no"
+          echo "epg.xml.gz exists:" && [ -f epg.xml.gz ] && echo "yes" || echo "no"
 
-      - name: Ensure gz exists (create if missing)
+      - name: Commit epg.xml and epg.xml.gz to main (if changed)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ -f epg.xml.gz ]; then
-            echo "epg.xml.gz exists"
+          # Configure git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Ensure we are on main and have latest
+          git checkout main || git checkout -b main
+          git pull origin main --rebase || true
+
+          # Add the generated files
+          git add epg.xml epg.xml.gz || true
+
+          # Commit only if there are staged changes
+          if git diff --cached --quiet; then
+            echo "No changes in epg files. Skipping commit."
           else
-            if [ -f epg.xml ]; then
-              gzip -c epg.xml > epg.xml.gz
-              echo "Created epg.xml.gz"
-            else
-              echo "No epg.xml to gzip"
-              exit 1
-            fi
+            git commit -m "chore(epg): update generated epg.xml and epg.xml.gz [skip ci]"
+            # Push back to main using the provided GITHUB_TOKEN
+            # If push fails due to branch protection, the step will fail.
+            git push origin HEAD:main
+            echo "Committed and pushed epg.xml files to main."
           fi
-          ls -lh epg.xml epg.xml.gz
 
       - name: Prepare site directory for Pages
         run: |
           rm -rf site
           mkdir -p site
           cp epg.xml.gz site/epg.xml.gz
-          if [ -f epg.xml ]; then cp epg.xml site/epg.xml || true; fi
+          if [ -f epg.xml ]; then cp epg.xml site/epg.xml; fi
           ls -l site
 
       - name: Upload Pages artifact (v4)
