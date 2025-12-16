@@ -1,99 +1,41 @@
-name: Fetch and validate channel.json
+name: Update Jio (__hdnea__) playlist as channel.json
 
 on:
-  workflow_dispatch: {}
   schedule:
-    - cron: '0 */6 * * *'   # every 6 hours — edit or remove if you want
-  push:
-    branches:
-      - main
-
-env:
-  TARGET_URL: "https://livetv-hub.cricindia95.workers.dev/channel.json"
-  OUT_PATH: "channel.json"   # <-- write to repository root as requested
+    - cron: '0 */11 * * *'
+  workflow_dispatch:
 
 jobs:
-  fetch-and-validate:
+  update-channel-playlist:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Fetch JioTV playlist and save as channel.json
+      run: |
+        curl -s -H "User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; Pixel 4 Build/PQ3A.190801.002)" \
+             -H "Accept-Encoding: gzip" \
+             -H "Connection: Keep-Alive" \
+             --compressed \
+             -o channel.json \
+             "https://livetv-hub.cricindia95.workers.dev/channel.json"
+
+    - name: Commit and push updated playlist
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add channel.json
+        git commit -m "Auto-update Jio IPTV playlist as channel.json" || echo "No changes to commit"
+        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+
+  deploy-pages:
+    needs: update-jstar-playlist
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-
-      - name: Install dependencies
-        run: |
-          sudo apt-get update -y
-          sudo apt-get install -y jq curl
-
-      - name: Download channel.json
-        id: download
-        run: |
-          set -euo pipefail
-          echo "Downloading ${TARGET_URL} ..."
-          curl -fsSL "${TARGET_URL}" -o "${OUT_PATH}.tmp" || { echo "Failed to download ${TARGET_URL}"; exit 2; }
-          echo "Downloaded to ${OUT_PATH}.tmp"
-
-      - name: Validate JSON & structure
-        id: validate
-        run: |
-          set -euo pipefail
-
-          # Basic JSON validity
-          if ! jq empty "${OUT_PATH}.tmp" >/dev/null 2>&1; then
-            echo "Error: downloaded file is not valid JSON."
-            cat "${OUT_PATH}.tmp"
-            exit 3
-          fi
-
-          # Ensure top-level is an array
-          TYPE=$(jq -r 'type' "${OUT_PATH}.tmp")
-          if [ "$TYPE" != "array" ]; then
-            echo "Error: expected top-level JSON type to be array but got: $TYPE"
-            exit 4
-          fi
-
-          # Check required fields (adjust the list below if you want)
-          MISSING_COUNT=$(jq '[ .[] | select( (has("tvg-id") | not) or (has("channel-name") | not) or (has("mpd_url") | not) ) ] | length' "${OUT_PATH}.tmp")
-          if [ "$MISSING_COUNT" -ne 0 ]; then
-            echo "Error: found ${MISSING_COUNT} item(s) missing one or more required fields (tvg-id, channel-name, mpd_url)."
-            echo "Offending items (first 10 shown):"
-            jq '[ .[] | select( (has("tvg-id") | not) or (has("channel-name") | not) or (has("mpd_url") | not) ) ] | .[:10]' "${OUT_PATH}.tmp"
-            exit 5
-          fi
-
-          # Optional: warn about empty mpd_url entries
-          BAD_URLS=$(jq '[ .[] | select( (.mpd_url == null) or (.mpd_url == "") ) ] | length' "${OUT_PATH}.tmp")
-          if [ "$BAD_URLS" -gt 0 ]; then
-            echo "Warning: ${BAD_URLS} item(s) have empty or null mpd_url."
-          fi
-
-          # Normalize formatting and save to final path
-          jq . "${OUT_PATH}.tmp" > "${OUT_PATH}"
-          rm -f "${OUT_PATH}.tmp"
-          echo "Validated and saved to ${OUT_PATH}"
-
-      - name: Show git status (debug)
-        run: |
-          git status --porcelain || true
-          ls -l . || true
-
-      - name: Commit and push if changed
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Only commit if there are changes
-          if ! git diff --quiet --exit-code; then
-            git add "${OUT_PATH}"
-            COMMIT_MSG="Update channel.json from ${TARGET_URL} @ $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-            git commit -m "$COMMIT_MSG" || echo "No changes to commit"
-            # Push directly to main branch
-            git push origin HEAD:main
-            echo "Pushed changes to main."
-          else
-            echo "No changes detected; nothing to commit."
-          fi
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4
+      continue-on-error: true   # This prevents workflow failure if Pages cancel fails
