@@ -33,7 +33,7 @@ jobs:
         git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
 
   deploy-pages:
-    needs: update-jstar-playlist
+    needs: update-channel-playlist
     runs-on: ubuntu-latest
     steps:
     - name: Deploy to GitHub Pages
