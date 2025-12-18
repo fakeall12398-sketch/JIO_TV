@@ -1,10 +1,12 @@
+
 name: Auto Update Sony M3U Tokens
+
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # every 11 hours
+    - cron: '0 */4 * * *'   # every 4 hours
   workflow_dispatch:
 
 jobs:
@@ -12,21 +14,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: 📥 Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
 
-      - name: Set up Python
+      - name: 🐍 Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: 📦 Install dependencies
         run: pip install requests
 
-      - name: Update sony.m3u tokens
+      - name: 🔄 Fetch & Update Sony M3U
         run: |
           python - <<'PY'
           import re, requests, os, time
@@ -35,126 +37,165 @@ jobs:
           API_URL = "https://livetv-cb7.pages.dev/temp"
           LOCAL_FILE = "sony.m3u"
 
-          # 🔹 Android-style headers to bypass Access Denied
           headers = {
-              "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; Pixel 4 Build/PQ3A.190801.002)",
-              "Host": "livetv-cb7.pages.dev",
-              "Connection": "Keep-Alive",
+              "User-Agent": "Dalvik/2.1.0 (Linux; Android 10)",
+              "Accept": "*/*",
               "Accept-Encoding": "gzip",
+              "Connection": "keep-alive",
           }
 
+          # ---------------- FETCH ----------------
           def fetch_playlist():
-              for attempt in range(2):
+              for attempt in range(3):
                   try:
-                      print(f"🔄 Fetching latest playlist (attempt {attempt+1})...")
-                      resp = requests.get(API_URL, headers=headers, timeout=30)
-                      print(f"✅ HTTP {resp.status_code}, bytes: {len(resp.content)}")
-                      preview = resp.text.splitlines()[:5]
-                      print("🔍 Preview:", preview)
-                      if resp.status_code == 200 and "#EXTM3U" in resp.text:
-                          return resp.text
+                      print(f"🔄 Fetching playlist (attempt {attempt+1})...")
+                      r = requests.get(API_URL, headers=headers, timeout=30)
+                      print(f"✅ HTTP {r.status_code}, bytes={len(r.content)}")
+
+                      r.encoding = "utf-8"
+                      if r.status_code == 200 and "#EXTINF" in r.text:
+                          print("✅ Valid M3U detected")
+                          return r.text
+
                   except Exception as e:
-                      print(f"⚠️ Fetch error: {e}")
+                      print("⚠️ Error:", e)
+
                   time.sleep(2)
-              print("❌ Failed to fetch valid playlist after retries.")
+
+              print("❌ Failed to fetch valid playlist")
               exit(1)
 
-          new_data = fetch_playlist()
+          data = fetch_playlist()
 
+          # Ensure EXTM3U header
+          if not data.lstrip().startswith("#EXTM3U"):
+              data = "#EXTM3U\n" + data
+
+          # ---------------- PARSER ----------------
           def parse_m3u(content):
               entries = []
-              lines = content.splitlines()
-              for i, line in enumerate(lines):
-                  if line.startswith("#EXTINF"):
-                      header = line.strip()
-                      if i + 1 < len(lines):
-                          url = lines[i + 1].strip()
-                          tvg_id = re.search(r'tvg-id="([^"]+)"', header)
-                          tvg_name = re.search(r'tvg-name="([^"]+)"', header)
-                          raw_name = tvg_name.group(1) if tvg_name else ""
-                          norm_name = raw_name.lower().replace(" ", "").replace("-", "").replace("_", "")
-                          entries.append({
-                              "id": (tvg_id.group(1).lower() if tvg_id else ""),
-                              "name": norm_name,
-                              "raw_name": raw_name,
-                              "header": header,
-                              "url": url
-                          })
+              lines = [l.strip() for l in content.splitlines() if l.strip()]
+
+              for i in range(len(lines)):
+                  if lines[i].startswith("#EXTINF"):
+                      header = lines[i]
+                      if i + 1 >= len(lines):
+                          continue
+                      url = lines[i + 1].strip()
+
+                      tvg_id = re.search(r'tvg-id="([^"]+)"', header)
+                      tvg_name = re.search(r'tvg-name="([^"]+)"', header)
+
+                      raw_name = tvg_name.group(1) if tvg_name else ""
+                      norm_name = (
+                          raw_name.lower()
+                          .replace(" ", "")
+                          .replace("-", "")
+                          .replace("_", "")
+                      )
+
+                      entries.append({
+                          "id": tvg_id.group(1).lower() if tvg_id else "",
+                          "name": norm_name,
+                          "raw_name": raw_name,
+                          "header": header,
+                          "url": url
+                      })
               return entries
 
-          new_entries = parse_m3u(new_data)
-          sony_new = [e for e in new_entries if "sony" in e["id"] or "sony" in e["name"]]
-          print(f"✅ Found {len(sony_new)} Sony-related channels.")
+          new_entries = parse_m3u(data)
+
+          # ---------------- SONY FILTER ----------------
+          sony_new = [
+              e for e in new_entries
+              if "sony" in e["raw_name"].lower()
+              or e["id"].startswith("1000009")
+          ]
+
+          print(f"🎯 Sony channels found: {len(sony_new)}")
 
           if not sony_new:
-              print("⚠️ No Sony-related channels found — skipping update.")
+              print("⚠️ No Sony channels found. Exiting.")
               exit(0)
 
+          # ---------------- CREATE FILE ----------------
           if not os.path.exists(LOCAL_FILE):
-              print("📄 sony.m3u not found — creating new file.")
-              lines = ["#EXTM3U", f"# Created: {datetime.utcnow().isoformat()} UTC", ""]
+              print("📄 Creating sony.m3u")
+              out = [
+                  "#EXTM3U",
+                  f"# Created: {datetime.utcnow().isoformat()} UTC",
+                  ""
+              ]
               for e in sony_new:
-                  lines += [e["header"], e["url"]]
+                  out.append(e["header"])
+                  out.append(e["url"])
+
               with open(LOCAL_FILE, "w", encoding="utf-8") as f:
-                  f.write("\n".join(lines))
-              print("✅ Created new sony.m3u file.")
+                  f.write("\n".join(out))
+
+              print("✅ sony.m3u created")
               exit(0)
 
+          # ---------------- UPDATE EXISTING ----------------
           with open(LOCAL_FILE, "r", encoding="utf-8") as f:
               old_data = f.read()
+
           old_entries = parse_m3u(old_data)
 
-          updated_lines = ["#EXTM3U", f"# Updated: {datetime.utcnow().isoformat()} UTC", ""]
+          updated = []
           updated_count = 0
           added_count = 0
 
           def find_match(old):
-              for new in sony_new:
-                  if (old["id"] and new["id"] and old["id"] == new["id"]):
-                      return new
-                  if old["name"] and new["name"]:
-                      if old["name"] == new["name"]:
-                          return new
-                      if old["name"] in new["name"] or new["name"] in old["name"]:
-                          return new
+              for n in sony_new:
+                  if old["id"] and old["id"] == n["id"]:
+                      return n
+                  if old["name"] and old["name"] == n["name"]:
+                      return n
               return None
+
+          updated.extend([
+              "#EXTM3U",
+              f"# Updated: {datetime.utcnow().isoformat()} UTC",
+              ""
+          ])
 
           for old in old_entries:
               match = find_match(old)
               if match:
-                  if match["url"].strip() != old["url"].strip():
+                  if old["url"] != match["url"]:
                       updated_count += 1
                       print(f"🔁 Updated: {old['raw_name']}")
-                  updated_lines.append(match["header"])
-                  updated_lines.append(match["url"])
+                  updated.append(match["header"])
+                  updated.append(match["url"])
               else:
-                  updated_lines.append(old["header"])
-                  updated_lines.append(old["url"])
+                  updated.append(old["header"])
+                  updated.append(old["url"])
 
           old_names = {o["name"] for o in old_entries}
-          for new in sony_new:
-              if new["name"] not in old_names:
-                  updated_lines.append(new["header"])
-                  updated_lines.append(new["url"])
+
+          for n in sony_new:
+              if n["name"] not in old_names:
+                  updated.append(n["header"])
+                  updated.append(n["url"])
                   added_count += 1
-                  print(f"🆕 Added: {new['raw_name']}")
+                  print(f"🆕 Added: {n['raw_name']}")
 
           with open(LOCAL_FILE, "w", encoding="utf-8") as f:
-              f.write("\n".join(updated_lines))
+              f.write("\n".join(updated))
 
-          print(f"🎉 sony.m3u updated: {updated_count} updated, {added_count} added.")
+          print(f"🎉 Update complete: {updated_count} updated, {added_count} added")
           PY
 
-      - name: Commit and push if changed
+      - name: 🚀 Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add sony.m3u
           if git diff --staged --quiet; then
             echo "✅ No changes to commit"
           else
-            git commit -m "🔄 Auto-update Sony M3U tokens ($(date -u)) [skip ci] [skip actions]"
-            git push origin HEAD:${{ github.ref }}
-            echo "✅ sony.m3u updated and pushed successfully."
+            git commit -m "🔄 Auto-update Sony M3U tokens ($(date -u))"
+            git push
+            echo "✅ sony.m3u pushed"
           fi
