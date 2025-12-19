@@ -1,125 +1,183 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="0-9-zing" tvg-name="Zing" tvg-type="Music" group-title="Music" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zing/cover/1920x770faf0dc1ecbd449ee9e5a78b6dc49219b",Zing
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105532/ZingELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-348" tvg-name="Zee Zest HD" tvg-type="Lifestyle" group-title="Lifestyle" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-348/cover/1920x770843939449",Zee Zest HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105513/ZeeZestHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-zeeyuva" tvg-name="Zee Yuva" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeeyuva/cover/1920x77045a5db3b831f4e54bfe0682e1932b8ab",Zee Yuva
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105533/ZeeYuvaELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeetvhd" tvg-name="Zee TV HD" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeetvhd/cover/1920x7701886632454",Zee TV HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105531/ZeeTVHDMSLELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-zeetv" tvg-name="Zee TV" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeetv/cover/1920x770563d6d7d80cd46b889b10e458139d11c",Zee TV
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105536/ZeeTVELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-224" tvg-name="Zee Thirai" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-224/cover/1920x77029adbac92550428198fda3ada817c90e",Zee Thirai
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105172/ZeeThiraiELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeetelugu" tvg-name="Zee Telugu HD" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeetelugu/cover/1920x770a50d00e5557243f5a95a500873d3e408",Zee Telugu HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105545/ZeeTeluguHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-9z5383485" tvg-name="Zee Telugu" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383485/cover/1920x770a0da0b1a36b44ee0970bff5b34dd0367",Zee Telugu
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105179/ZeeTeluguELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeetamil" tvg-name="Zee Tamil HD" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeetamil/cover/1920x770c85d128d0cbb47359f3be164211f5d5a40f6b83ed3bd44f0a484adf6756f882a",Zee Tamil HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105530/ZeeTamilHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-9z5383487" tvg-name="Zee Tamil" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383487/cover/1920x77014584d42c3f14248bffcfda4aa1088f0",Zee Tamil
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105537/ZeeTamilELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeetalkies" tvg-name="Zee Talkies HD" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeetalkies/cover/1920x7701714551528",Zee Talkies HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105519/ZeeTalkiesHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-9z5383489" tvg-name="Zee Talkies" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383489/cover/1920x77018a6ca63b3494ec18b480f3a39e5cd50",Zee Talkies
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-sarthaktv" tvg-name="Zee Sarthak" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-sarthaktv/cover/1920x770808309996",Zee Sarthak
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105541/ZeeSarthakELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeesalaam" tvg-name="Zee Salaam" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeesalaam/cover/1920x77082edb805559f4a249e8901fcf4cfb4c3",Zee Salaam
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105104/ZEESALAAMELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeerajasthannews" tvg-name="Zee Rajasthan News" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeerajasthannews/cover/1920x770484cd155fb0048b2b5ae7a279c5cf8e0",Zee Rajasthan News
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105496/ZEERAJASTHANELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-215" tvg-name="Zee Punjabi" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-215/cover/1920x770e44ddcc407d84696a11244e3d8d70769",Zee Punjabi
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105170/ZeePunjabiELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeepunjabharyanahima" tvg-name="Zee Punjab Haryana Himachal Pradesh" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeepunjabharyanahima/cover/1920x77093f5d25f755d4b13868fb8cbc9a7ac99",Zee Punjab Haryana Himachal Pradesh
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105493/ZEEPUHRHIELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-241" tvg-name="Zee Picchar" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-241/cover/1920x7704fb3213b65be474998b2bc22369f1244",Zee Picchar
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105542/ZeePiccharELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-channel_265145625" tvg-name="Zee News Uttar Pradesh Uttrakhand" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-channel_265145625/cover/1920x77040d8ea4e728041a48ebbbf30a8e31693",Zee News Uttar Pradesh Uttrakhand
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105494/ZEEUPUKELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeenews" tvg-name="Zee News" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeenews/cover/1920x770904253b071ea467d9c36319fa7156328",Zee News
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105510/ZEENEWSELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeemarathi" tvg-name="Zee Marathi HD" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeemarathi/cover/1920x7703435e596d4014aeaa99dc4066452cae6",Zee Marathi HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105520/ZeeMarathiHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-9z5383486" tvg-name="Zee Marathi" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383486/cover/1920x7707515bca59e6a416491803a7d4ac2fcf4",Zee Marathi
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105543/ZeeMarathiELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeemadhyapradeshchat" tvg-name="Zee Madhya Pradesh Chhattisgarh" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeemadhyapradeshchat/cover/1920x77068092fce59ba494a9f521ac7e2688a68",Zee Madhya Pradesh Chhattisgarh
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105495/ZEEMPCGELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-129" tvg-name="Zee Keralam HD" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-129/cover/1920x7706599bb35ccf84bb683b9ae637d4c5ad1",Zee Keralam HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105529/ZeeKeralamHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-zeekannada" tvg-name="Zee Kannada HD" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeekannada/cover/zeekannada1920d68ee59ef90340239b5ed67736f119e7",Zee Kannada HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105555/ZeeKannadaHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-9z5383466" tvg-name="Zee Kannada" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383466/cover/1920x770c7b64c28432442b298e4f5eaf414aae5",Zee Kannada
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105177/ZeeKannadaELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeekalinganews" tvg-name="Zee Delhi NCR Haryana" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeekalinganews/cover/1920x770dc265bafdd024befa493f95e0b6ceff3",Zee Delhi NCR Haryana
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105507/ZEEDELNCRHRNEWSNEWELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-176" tvg-name="Zee Classic" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-176/cover/1920x77084103575420c4f508489218d29c3d17a",Zee Classic
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105547/ZeeClassicELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeecinemalu" tvg-name="Zee Cinemalu HD" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinemalu/cover/1920x7708f92b6f0e3004d428dfdd0a7f9e6b762",Zee Cinemalu HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105544/ZeeCinemaluHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-9z5383488" tvg-name="Zee Cinemalu" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383488/cover/1920x7703416fe365df846d8a9394fbd8fadbca3",Zee Cinemalu
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105548/ZeeCinemalauELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeecinemahd" tvg-name="Zee Cinema HD" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinemahd/cover/1920x770cf09b70b183d49a3b1b83830f9951ae5",Zee Cinema HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105540/ZeeCinemaHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-zeecinema" tvg-name="Zee Cinema" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinema/cover/1920x770d9d64b2d44214d70ae11875730ccebec",Zee Cinema
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105552/ZeeCinemaELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-394" tvg-name="Zee Chitramandir" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-394/cover/1920x770c5ee36dda05f4f6080714d8f10535593",Zee Chitramandir
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105261/ZEECHITRAMANDIRELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeecafehd" tvg-name="Zee Café HD" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeecafehd/cover/1920x770966998391",Zee Café HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105539/ZeecafeHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-zeebusiness" tvg-name="Zee Business" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeebusiness/cover/1920x7700119e3ee578f4e3c9afbe80741c8cbef",Zee Business
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105509/ZEEBUSINESSELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeeclassic" tvg-name="Zee Bollywood" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeeclassic/cover/1920x77072b9cfe8d851413bb6f62adc058d1973",Zee Bollywood
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105173/ZeeBollywoodELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-216" tvg-name="Zee Biskope" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-216/cover/1920x7701247494051",Zee Biskope
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105522/ZeeBiskopeELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeebiharjharkhand" tvg-name="Zee Bihar Jharkhand" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeebiharjharkhand/cover/1920x7709d2ab3d10d494196add66d4bfe920436",Zee Bihar Jharkhand
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105492/ZEEBHJKELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeehindustan" tvg-name="Zee Bharat" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeehindustan/cover/1920x7705a554bb94ac24f29a483c0530b89d141",Zee Bharat
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105262/ZEEBHARATNEWSNEWELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeebangla" tvg-name="Zee Bangla HD" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeebangla/cover/1920x7702033935665",Zee Bangla HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105554/ZeeBanglaHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-zeebanglacinema" tvg-name="Zee Bangla Cinema" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeebanglacinema/cover/1920x7702128445576",Zee Bangla Cinema
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105524/ZeeBanglaCinemaELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-9z5383484" tvg-name="Zee Bangla" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383484/cover/1920x77015687622c3b146d2a5d9c9a73641610c",Zee Bangla
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105260/ZeeBanglaELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-bigganga" tvg-name="Zee Anmol Cinema 2" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-bigganga/cover/1920x77095e428c8ae9949b8816e7ebf5fe1bcc1",Zee Anmol Cinema 2
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105171/ZeeGangaELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeeanmolcinema" tvg-name="Zee Anmol Cinema" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeeanmolcinema/cover/1920x770763220640",Zee Anmol Cinema
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105525/ZeeAnmolCinemaELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeeanmol" tvg-name="Zee Anmol" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeeanmol/cover/1920x77021724318",Zee Anmol
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105526/ZeeAnmolELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zeeaction" tvg-name="Zee Action" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zeeaction/cover/1920x770126103899",Zee Action
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105527/ZeeActionELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zee24taas" tvg-name="Zee 24 Taas" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zee24taas/cover/1920x770df97b0e615a543bbb6400b89fa0dc1cb",Zee 24 Taas
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105498/ZEE24TAASNEWSNEWELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-zee24kalak" tvg-name="Zee 24 Kalak" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-zee24kalak/cover/1920x7703ea2d79913a445de8886ae2e38918b23",Zee 24 Kalak
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105497/ZEE24KALAKELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-24ghantatv" tvg-name="Zee 24 Ghanta" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-24ghantatv/cover/1920x77094e303d271fb4aa5a04573c8f76ddd26",Zee 24 Ghanta
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105511/ZEE24GHANTAELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-wion" tvg-name="WION" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-wion/cover/1920x770de42f2680cd147df9d138be501cd657e",WION
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105506/WIONNEWSELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-channel_1144658965" tvg-name="Sanskar TV" tvg-type="Devotional" group-title="Devotional" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-channel_1144658965/cover/1920x77076e152f90bf442189f51ac2bffa99e36",Sanskar TV
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105500/SanskarTVMSLELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-indiatoday" tvg-name="India Today" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-indiatoday/cover/1920x77059d6bfa9b8b44a43b814e80a52b32e43",India Today
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105501/INDIATODAYHDNEWSELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-183" tvg-name="Hare Krsna" tvg-type="Devotional" group-title="Devotional" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-183/cover/1920x770666636469",Hare Krsna
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105502/HareKrsnaMSLELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-255" tvg-name="Good News Today" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-255/cover/1920x770afeda10d79c64c07a859f3190e0e7239",Good News Today
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105499/GOODNEWSTODAYHDNEWSELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-bigmagic_1786965389" tvg-name="Big Magic" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-bigmagic_1786965389/cover/1920x770707847751",Big Magic
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105176/BigMagicELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-aajtak" tvg-name="Aaj Tak" tvg-type="News" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-aajtak/cover/1920x7704fa10c8fcc6f4d7099a8cb6ce68720c8",Aaj Tak
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105503/AAJTAKHDNEWSELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-209" tvg-name="&xplorHD" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-209/cover/1920x770269323586",&xplorHD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105553/AndxploreHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-tvhd_0" tvg-name="&TV HD" tvg-type="Entertainment" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-tvhd_0/cover/1920x7702020794400",&TV HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105504/AndTVHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-9z5543514" tvg-name="&Prive HD" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-9z5543514/cover/1920x77013956063891cd580b48d744982abe72ded613c89bd",&Prive HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2104969/AndPriveHDELENEW/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-tvpictureshd" tvg-name="&Pictures HD" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-tvpictureshd/cover/1920x7701379814372",&Pictures HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105174/ANDPicturesHDELE/index-connected.m3u8
-#EXTINF:-1 tvg-id="0-9-pictures" tvg-name="&Pictures" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-pictures/cover/1920x7701436746315",&Pictures
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105528/ANDPicturesELE/master.m3u8
-#EXTINF:-1 tvg-id="0-9-channel_2105335046" tvg-name="&flix HD" tvg-type="Movies" group-title="Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-9-channel_2105335046/cover/1920x7701912061484",&flix HD
-http://mini.allinonereborn.online/ze/live.php?token=JITENDRA_KUMAR&id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105517/AndFlixHDELE/index-connected.m3u8
+#EXTINF:-1 tvg-id="0-9-zeetamil" tvg-country="IN" tvg-chno="001" tvg-language="ta" tvg-name="Zee Tamil HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetamil/list/1920x1080listef67d9a80c9345bdb8254aa042944e0b.jpg" group-title="ZEE5", Zee Tamil HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeetamil
+#EXTINF:-1 tvg-id="0-9-zeemarathi" tvg-country="IN" tvg-chno="002" tvg-language="mr" tvg-name="Zee Marathi HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeemarathi/list/1920x1080list63a3bd62dcbd42478d7ef28b66d31c3f.jpg" group-title="ZEE5", Zee Marathi HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeemarathi
+#EXTINF:-1 tvg-id="0-9-zeetelugu" tvg-country="IN" tvg-chno="003" tvg-language="te" tvg-name="Zee Telugu HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetelugu/list/1920x1080list975b2fe3f88042eeb5604a149b0f98d4.jpg" group-title="ZEE5", Zee Telugu HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeetelugu
+#EXTINF:-1 tvg-id="0-9-zeecinemalu" tvg-country="IN" tvg-chno="004" tvg-language="te" tvg-name="Zee Cinemalu HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinemalu/list/1920x1080list1c86aa59112c4737ba7db3b4d7d521b4.jpg" group-title="ZEE5", Zee Cinemalu HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeecinemalu
+#EXTINF:-1 tvg-id="0-9-zeebangla" tvg-country="IN" tvg-chno="005" tvg-language="bn" tvg-name="Zee Bangla HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeebangla/list/1920x1080listccb45723a35643a1819bf8220c28c00f.jpg" group-title="ZEE5", Zee Bangla HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeebangla
+#EXTINF:-1 tvg-id="0-9-zeebanglacinema" tvg-country="IN" tvg-chno="006" tvg-language="bn" tvg-name="Zee Bangla Sonar" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeebanglacinema/list/1920x1080listbbd91e5288344aeb9d05ac2aba5ebfa2.jpg" group-title="ZEE5", Zee Bangla Sonar
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeebanglacinema
+#EXTINF:-1 tvg-id="0-9-zeetvhd" tvg-country="IN" tvg-chno="007" tvg-language="hi" tvg-name="Zee TV HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetvhd/list/1920x1080list3424a135de534b88a95bfd69d193ae1c.jpg" group-title="ZEE5", Zee TV HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeetvhd
+#EXTINF:-1 tvg-id="0-9-zeecinemahd" tvg-country="IN" tvg-chno="008" tvg-language="hi" tvg-name="Zee Cinema HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinemahd/list/1920x1080listb0707389e11d47edb651c329f76a0755.jpg" group-title="ZEE5", Zee Cinema HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeecinemahd
+#EXTINF:-1 tvg-id="0-9-9z5383485" tvg-country="IN" tvg-chno="009" tvg-language="te" tvg-name="Zee Telugu" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383485/list/1920x1080listbf351e34400647fb929eff73a83e8ee0.jpg" group-title="ZEE5", Zee Telugu
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5383485
+#EXTINF:-1 tvg-id="0-9-9z5383488" tvg-country="IN" tvg-chno="010" tvg-language="te" tvg-name="Zee Cinemalu" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383488/list/1920x1080list8147fef103204cf4a2bc7a8aef2b9221.jpg" group-title="ZEE5", Zee Cinemalu
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5383488
+#EXTINF:-1 tvg-id="0-9-9z5383486" tvg-country="IN" tvg-chno="011" tvg-language="mr" tvg-name="Zee Marathi" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383486/list/thumbnail1920x10804b8e9b0fdb9a41a6845b71593c54abea.jpg" group-title="ZEE5", Zee Marathi
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5383486
+#EXTINF:-1 tvg-id="0-9-zeetalkies" tvg-country="IN" tvg-chno="012" tvg-language="mr" tvg-name="Zee Talkies HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetalkies/list/1920x1080list8db83dea9fb7450aa0d1bf6a4e5f30f5.jpg" group-title="ZEE5", Zee Talkies HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeetalkies
+#EXTINF:-1 tvg-id="0-9-176" tvg-country="IN" tvg-chno="013" tvg-language="hi" tvg-name="Zee Classic" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-176/list/1920x1080list18cba842de654a3cb92b33556dfa0bc2.jpg" group-title="ZEE5", Zee Classic
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-176
+#EXTINF:-1 tvg-id="0-9-tvpictureshd" tvg-country="IN" tvg-chno="014" tvg-language="hi" tvg-name="&Pictures HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-tvpictureshd/list/1920x1080listead02d49416241ce89c60432d7b879a6.jpg" group-title="ZEE5", &Pictures HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-tvpictureshd
+#EXTINF:-1 tvg-id="0-9-zeeclassic" tvg-country="IN" tvg-chno="015" tvg-language="hi" tvg-name="Zee Bollywood" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeclassic/list/1920x1080list993a532d3c6040d78b2e69a2862f4e28.jpg" group-title="ZEE5", Zee Bollywood
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeeclassic
+#EXTINF:-1 tvg-id="0-9-224" tvg-country="IN" tvg-chno="016" tvg-language="ta" tvg-name="Zee Thirai HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-224/list/1920x1080listb7f3310976d14ed59a22940af7587e9a.jpg" group-title="ZEE5", Zee Thirai HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-224
+#EXTINF:-1 tvg-id="0-9-9z5383487" tvg-country="IN" tvg-chno="017" tvg-language="ta" tvg-name="Zee Tamil" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383487/list/1920x1080listf00742d846d24c75ae2016840ffc0c40.jpg" group-title="ZEE5", Zee Tamil
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5383487
+#EXTINF:-1 tvg-id="0-9-zeecafehd" tvg-country="IN" tvg-chno="018" tvg-language="en" tvg-name="Zee Café HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecafehd/list/1920x1080list813457fc09e349d9ac922d5268ecbf8a.jpg" group-title="ZEE5", Zee Café HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeecafehd
+#EXTINF:-1 tvg-id="0-9-348" tvg-country="IN" tvg-chno="019" tvg-language="en" tvg-name="Zee Zest HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-348/list/1920x1080list7568db782c114329afd8bb7e030eca0d.jpg" group-title="ZEE5", Zee Zest HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-348
+#EXTINF:-1 tvg-id="0-9-zeekannada" tvg-country="IN" tvg-chno="020" tvg-language="kn" tvg-name="Zee Kannada HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeekannada/list/1920x1080list6d595ac187f94ee8a066a848374117fe.jpg" group-title="ZEE5", Zee Kannada HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeekannada
+#EXTINF:-1 tvg-id="0-9-241" tvg-country="IN" tvg-chno="021" tvg-language="kn" tvg-name="Zee Power HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-241/list/1920x1080listc7e052932e2b437489d2f1e14445c837.jpg" group-title="ZEE5", Zee Power HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-241
+#EXTINF:-1 tvg-id="0-9-tvhd_0" tvg-country="IN" tvg-chno="022" tvg-language="hi" tvg-name="&TV HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-tvhd_0/list/1920x1080list8cecf80ef6884ff09063a5abd21f81d6.jpg" group-title="ZEE5", &TV HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-tvhd_0
+#EXTINF:-1 tvg-id="0-9-129" tvg-country="IN" tvg-chno="023" tvg-language="ml" tvg-name="Zee Keralam HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-129/list/1920x1080list18c8c56d87da4f43ac13a1990c44a2e5.jpg" group-title="ZEE5", Zee Keralam HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-129
+#EXTINF:-1 tvg-id="0-9-209" tvg-country="IN" tvg-chno="024" tvg-language="hi" tvg-name="&xplorHD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-209/list/1920x1080list1fb75b73f2e441d49af9bc4a1ad782de.jpg" group-title="ZEE5", &xplorHD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-209
+#EXTINF:-1 tvg-id="0-9-channel_2105335046" tvg-country="IN" tvg-chno="025" tvg-language="en" tvg-name="&flix HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_2105335046/list/1920x1080list5d289fc39bef4ebca19c6bfe64e46e26.jpg" group-title="ZEE5", &flix HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-channel_2105335046
+#EXTINF:-1 tvg-id="0-9-9z5543514" tvg-country="IN" tvg-chno="026" tvg-language="en" tvg-name="&Prive HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5543514/list/1920x1080listd4a78816ce2d4ea7afc7efe5e639e9cd.jpg" group-title="ZEE5", &Prive HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5543514
+#EXTINF:-1 tvg-id="0-9-9z5210099" tvg-country="IN" tvg-chno="027" tvg-language="mr" tvg-name="Mumbaicha Raja" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5210099/list/mumbairaja1920x1080268202555a48672a44741798c26a88760a297b3.jpg" group-title="ZEE5", Mumbaicha Raja
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5210099
+#EXTINF:-1 tvg-id="0-9-zeetv" tvg-country="IN" tvg-chno="028" tvg-language="hi" tvg-name="Zee TV" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetv/list/1920x1080lista5ee31338b52425094454cd07e6981b1.jpg" group-title="ZEE5", Zee TV
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeetv
+#EXTINF:-1 tvg-id="0-9-zeeanmol" tvg-country="IN" tvg-chno="029" tvg-language="hi" tvg-name="Anmol TV" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeanmol/list/1920x1080listef6865f9714b40139037d98300559cd7.jpg" group-title="ZEE5", Anmol TV
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeeanmol
+#EXTINF:-1 tvg-id="0-9-9z5383466" tvg-country="IN" tvg-chno="030" tvg-language="kn" tvg-name="Zee Kannada" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383466/list/1920x1080listfd49e00fc50544278290170f04bc63c0.jpg" group-title="ZEE5", Zee Kannada
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5383466
+#EXTINF:-1 tvg-id="0-9-9z5383484" tvg-country="IN" tvg-chno="031" tvg-language="bn" tvg-name="Zee Bangla" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383484/list/1920x1080listb02eb766e2e74b64a82d99ddd17011ec.jpg" group-title="ZEE5", Zee Bangla
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5383484
+#EXTINF:-1 tvg-id="0-9-zeeyuva" tvg-country="IN" tvg-chno="032" tvg-language="mr" tvg-name="Zee Yuva" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeyuva/list/1920x1080list5dd504da63d94665be555d032df9000c.jpg" group-title="ZEE5", Zee Yuva
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeeyuva
+#EXTINF:-1 tvg-id="0-9-sarthaktv" tvg-country="IN" tvg-chno="033" tvg-language="or" tvg-name="Zee Sarthak" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-sarthaktv/list/1920x1080listed5a7eb2119c49b9b08a90831662c7ed.jpg" group-title="ZEE5", Zee Sarthak
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-sarthaktv
+#EXTINF:-1 tvg-id="0-9-bigmagic_1786965389" tvg-country="IN" tvg-chno="034" tvg-language="hi" tvg-name="Big Magic" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-bigmagic_1786965389/list/1920x1080listde632d881f1f4a879a94669005bb7256.jpg" group-title="ZEE5", Big Magic
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-bigmagic_1786965389
+#EXTINF:-1 tvg-id="0-9-215" tvg-country="IN" tvg-chno="035" tvg-language="pa" tvg-name="Zee Punjabi" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-215/list/1920x1080list480fac72c9754914bae975f1553ad4cb.jpg" group-title="ZEE5", Zee Punjabi
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-215
+#EXTINF:-1 tvg-id="0-9-zeecinema" tvg-country="IN" tvg-chno="036" tvg-language="hi" tvg-name="Zee Cinema" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinema/list/1920x1080list403630fe2cb2485db8bddad83245f88b.jpg" group-title="ZEE5", Zee Cinema
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeecinema
+#EXTINF:-1 tvg-id="0-9-zeeaction" tvg-country="IN" tvg-chno="037" tvg-language="hi" tvg-name="Zee Action" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeaction/list/1920x1080list109ad06dd3c2485a97dbaddc85d22130.jpg" group-title="ZEE5", Zee Action
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeeaction
+#EXTINF:-1 tvg-id="0-9-zeeanmolcinema" tvg-country="IN" tvg-chno="038" tvg-language="hi" tvg-name="Anmol Cinema" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeanmolcinema/list/1920x1080listfa46ad9c89684d268b5c141e7987de38.jpg" group-title="ZEE5", Anmol Cinema
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeeanmolcinema
+#EXTINF:-1 tvg-id="0-9-bigganga" tvg-country="IN" tvg-chno="039" tvg-language="hi" tvg-name="Anmol Cinema 2" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-bigganga/list/1920x1080list07c314433276453ca706229ab5e5c042.jpg" group-title="ZEE5", Anmol Cinema 2
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-bigganga
+#EXTINF:-1 tvg-id="0-9-9z5383489" tvg-country="IN" tvg-chno="040" tvg-language="mr" tvg-name="Zee Talkies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383489/list/1920x1080list43aaeb0656a9484e855f731963eeeb20.jpg" group-title="ZEE5", Zee Talkies
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5383489
+#EXTINF:-1 tvg-id="0-9-394" tvg-country="IN" tvg-chno="041" tvg-language="mr" tvg-name="Zee Chitramandir" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-394/list/1920x1080list5d76d6a3067442e3ad60f749952115e8.jpg" group-title="ZEE5", Zee Chitramandir
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-394
+#EXTINF:-1 tvg-id="0-9-zing" tvg-country="IN" tvg-chno="042" tvg-language="hi" tvg-name="Zing" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zing/list/1920x1080list47035ca213b8483fb3985b221724ae7b.jpg" group-title="ZEE5", Zing
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zing
+#EXTINF:-1 tvg-id="0-9-pictures" tvg-country="IN" tvg-chno="043" tvg-language="hi" tvg-name="&Pictures" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-pictures/list/1920x1080liste1864f84ee8f422e9a726e5fe401050c.jpg" group-title="ZEE5", &Pictures
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-pictures
+#EXTINF:-1 tvg-id="0-9-216" tvg-country="IN" tvg-chno="044" tvg-language="hr" tvg-name="Zee Biskope" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-216/list/1920x1080list277eec9ca86a41f2bdc68935794767e9.jpg" group-title="ZEE5", Zee Biskope
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-216
+#EXTINF:-1 tvg-id="0-9-channel_1144658965" tvg-country="IN" tvg-chno="045" tvg-language="hi" tvg-name="Sanskar TV" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_1144658965/list/rsz1170x658withlogo9a371cbdfe144fbcb45d80f397ba6f96.jpg" group-title="ZEE5", Sanskar TV
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-channel_1144658965
+#EXTINF:-1 tvg-id="0-9-aajtak" tvg-country="IN" tvg-chno="046" tvg-language="hi" tvg-name="Aaj Tak" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-aajtak/list/1920x1080list2e097f784e864937856f4b15d577dea9.jpg" group-title="ZEE5", Aaj Tak
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-aajtak
+#EXTINF:-1 tvg-id="0-9-251" tvg-country="IN" tvg-chno="047" tvg-language="hi" tvg-name="TV9 Bharatvarsh" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-251/list/1920x1080list3997067f8c194d3abd3abf17a183e85b.jpg" group-title="ZEE5", TV9 Bharatvarsh
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-251
+#EXTINF:-1 tvg-id="0-9-zeenews" tvg-country="IN" tvg-chno="048" tvg-language="hi" tvg-name="Zee News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeenews/list/1920x1080list6f46ce2b3345452aaf6486f1138faf55.jpg" group-title="ZEE5", Zee News
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeenews
+#EXTINF:-1 tvg-id="0-9-zeebusiness" tvg-country="IN" tvg-chno="049" tvg-language="hi" tvg-name="Zee Business" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeebusiness/list/1920x1080liste7f9cb0dbb2b4aea95f6f87f31bb0dba.jpg" group-title="ZEE5", Zee Business
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeebusiness
+#EXTINF:-1 tvg-id="0-9-zee24taas" tvg-country="IN" tvg-chno="050" tvg-language="mr" tvg-name="Zee 24 Taas" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zee24taas/list/1920x1080listf3b15afda8194c3a82c592963e562477.jpg" group-title="ZEE5", Zee 24 Taas
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zee24taas
+#EXTINF:-1 tvg-id="0-9-257" tvg-country="IN" tvg-chno="051" tvg-language="mr" tvg-name="TV9 Marathi" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-257/list/1920x1080list5117a7ffa60f4fbb89e4a983d9ff1fd3.jpg" group-title="ZEE5", TV9 Marathi
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-257
+#EXTINF:-1 tvg-id="0-9-259" tvg-country="IN" tvg-chno="052" tvg-language="kn" tvg-name="TV9 Kannada" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-259/list/1920x1080lista505db213ec44e79a15958594030aee3.jpg" group-title="ZEE5", TV9 Kannada
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-259
+#EXTINF:-1 tvg-id="0-9-258" tvg-country="IN" tvg-chno="053" tvg-language="te" tvg-name="TV9 Telugu" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-258/list/1920x1080listf159579f9b3641f9967581c6fe07d2f7.jpg" group-title="ZEE5", TV9 Telugu
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-258
+#EXTINF:-1 tvg-id="0-101-10z5588214" tvg-country="IN" tvg-chno="054" tvg-language="ta" tvg-name="India Today" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-101-10z5588214/list/1170x658withlogofbf8f188fa714b538ff5dd8cb80e3bb5.jpg" group-title="ZEE5", India Today
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-101-10z5588214
+#EXTINF:-1 tvg-id="0-9-24ghantatv" tvg-country="IN" tvg-chno="055" tvg-language="bn" tvg-name="Zee 24 Ghanta" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-24ghantatv/list/zee24ghanta1920x1080list9522f45f8d4c458587ece44d23e70dbe.jpg" group-title="ZEE5", Zee 24 Ghanta
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-24ghantatv
+#EXTINF:-1 tvg-id="0-9-261" tvg-country="IN" tvg-chno="056" tvg-language="en" tvg-name="News 9" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-261/list/1920x1080list3588bf1480f74af3ae326a0a99b250c6.jpg" group-title="ZEE5", News 9
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-261
+#EXTINF:-1 tvg-id="0-9-indiatoday" tvg-country="IN" tvg-chno="057" tvg-language="en" tvg-name="India Today" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-indiatoday/list/1920x1080list7688549badc94ac683c8575a9c294ccd.jpg" group-title="ZEE5", India Today
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-indiatoday
+#EXTINF:-1 tvg-id="0-9-wion" tvg-country="IN" tvg-chno="058" tvg-language="en" tvg-name="WION" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-wion/list/1920x1080listd76e0469ed8b44c5baa119b3564e2f50.jpg" group-title="ZEE5", WION
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-wion
+#EXTINF:-1 tvg-id="0-9-255" tvg-country="IN" tvg-chno="059" tvg-language="hi" tvg-name="Good News Today" tvg-logo="https://akm-img-a-in.tosshub.com/aajtak/resource/img/gnttv-logo.png" group-title="ZEE5", Good News Today
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-255
+#EXTINF:-1 tvg-id="0-9-zeepunjabharyanahima" tvg-country="IN" tvg-chno="060" tvg-language="pa" tvg-name="Zee Punjab Haryana Himachal Pradesh" tvg-logo="https://english.cdn.zeenews.com/images/logo/livetv/ZEE_PHH.svg" group-title="ZEE5", Zee Punjab Haryana Himachal Pradesh
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeepunjabharyanahima
+#EXTINF:-1 tvg-id="0-9-zee24kalak" tvg-country="IN" tvg-chno="061" tvg-language="gu" tvg-name="Zee 24 Kalak" tvg-logo="https://english.cdn.zeenews.com/images/logo/livetv/ZEE_24-KALAK.svg" group-title="ZEE5", Zee 24 Kalak
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zee24kalak
+#EXTINF:-1 tvg-id="0-9-zeehindustan" tvg-country="IN" tvg-chno="062" tvg-language="hi" tvg-name="Zee Bharat" tvg-logo="https://english.cdn.zeenews.com/images/logo/livetv/ZEE_BHARAT.svg" group-title="ZEE5", Zee Bharat
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeehindustan
+#EXTINF:-1 tvg-id="0-9-zeebiharjharkhand" tvg-country="IN" tvg-chno="063" tvg-language="hi" tvg-name="Zee Bihar Jharkhand" tvg-logo="https://english.cdn.zeenews.com/images/logo/livetv/ZEE_BIHAR-JHARKHAND.svg" group-title="ZEE5", Zee Bihar Jharkhand
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeebiharjharkhand
+#EXTINF:-1 tvg-id="0-9-zeekalinganews" tvg-country="IN" tvg-chno="064" tvg-language="hi" tvg-name="Zee Delhi NCR Haryana" tvg-logo="https://english.cdn.zeenews.com/static/public/updated_logos/delhi-ncr-haryana.svg" group-title="ZEE5", Zee Delhi NCR Haryana
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeekalinganews
+#EXTINF:-1 tvg-id="0-9-zeerajasthannews" tvg-country="IN" tvg-chno="065" tvg-language="hi" tvg-name="Zee Rajasthan News" tvg-logo="https://english.cdn.zeenews.com/images/logo/livetv/ZEE_RAJASTHAN.svg" group-title="ZEE5", Zee Rajasthan News
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeerajasthannews
+#EXTINF:-1 tvg-id="0-9-zeemadhyapradeshchat" tvg-country="IN" tvg-chno="066" tvg-language="hi" tvg-name="Zee Madhya Pradesh Chhattisgarh" tvg-logo="https://english.cdn.zeenews.com/images/logo/livetv/Zee_mp-cg.svg" group-title="ZEE5", Zee Madhya Pradesh Chhattisgarh
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeemadhyapradeshchat
+#EXTINF:-1 tvg-id="0-9-zeesalaam" tvg-country="IN" tvg-chno="067" tvg-language="hi" tvg-name="Zee Salaam" tvg-logo="https://english.cdn.zeenews.com/images/logo/livetv/Salaam_Tv.png" group-title="ZEE5", Zee Salaam
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeesalaam
+#EXTINF:-1 tvg-id="0-9-channel_265145625" tvg-country="IN" tvg-chno="068" tvg-language="hi" tvg-name="Zee News Uttar Pradesh Uttrakhand" tvg-logo="https://english.cdn.zeenews.com/static/public/updated_logos/up-uttarakhand.svg" group-title="ZEE5", Zee News Uttar Pradesh Uttrakhand
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-channel_265145625
+#EXTINF:-1 tvg-id="0-9-zeetvuk" tvg-country="GB" tvg-chno="069" tvg-language="hi" tvg-name="Zee TV HD UK" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetvuk/list/1920x1080list404f827960494873a0f99692d1e8f54f.jpg" group-title="ZEE5", Zee TV HD UK
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeetvuk
+#EXTINF:-1 tvg-id="0-9-zeecinemauk" tvg-country="GB" tvg-chno="070" tvg-language="hi" tvg-name="Zee Cinema UK" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinemauk/list/1920x1080listd6f35a1a8d4f4acbb39d29d200db8290.jpg" group-title="ZEE5", Zee Cinema UK
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeecinemauk
+#EXTINF:-1 tvg-id="0-9-channel_1643519345" tvg-country="GB" tvg-chno="071" tvg-language="hi" tvg-name="Zing USA" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_1643519345/list/1920x1080listclean721faf534a79451fa714b25d2102de48.jpg" group-title="ZEE5", Zing USA
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-channel_1643519345
+#EXTINF:-1 tvg-id="0-9-channel_1510237423" tvg-country="GB" tvg-chno="072" tvg-language="hi" tvg-name="&TV HD USA" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_1510237423/list/1920x1080list26d04b21315949609f8b5a37a0b2d679.jpg" group-title="ZEE5", &TV HD USA
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-channel_1510237423
+#EXTINF:-1 tvg-id="0-9-360" tvg-country="SG" tvg-chno="073" tvg-language="ta" tvg-name="Zee Tamil HD APAC" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-360/list/1920x1080listef67d9a80c9345bdb8254aa042944e0b7ad5084c9f924e2f8b42e4bd7b673fde.jpg" group-title="ZEE5", Zee Tamil HD APAC
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-360
+#EXTINF:-1 tvg-id="0-9-zeetvapac" tvg-country="SG" tvg-chno="074" tvg-language="hi" tvg-name="Zee TV APAC HD" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetvapac/list/1920x1080list9d19430d882842cdb42aef55e83e2010.jpg" group-title="ZEE5", Zee TV APAC HD
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeetvapac
+#EXTINF:-1 tvg-id="0-9-zeecinemaintl" tvg-country="SG" tvg-chno="075" tvg-language="hi" tvg-name="Zee Cinema ME" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinemaintl/list/1920x1080listb14aad0d90b644e8ba27a9d15842fe9c.jpg" group-title="ZEE5", Zee Cinema ME
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeecinemaintl
+#EXTINF:-1 tvg-id="0-9-channel_926372368" tvg-country="SG" tvg-chno="076" tvg-language="mr" tvg-name="Zee Marathi USA" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_926372368/list/1920x1080list77f6a2a9e7dc4fb7bc152faad4e16f34.jpg" group-title="ZEE5", Zee Marathi USA
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-channel_926372368
+#EXTINF:-1 tvg-id="0-9-zeebioskop" tvg-country="SG" tvg-chno="077" tvg-language="id" tvg-name="Zee Bioskop" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeebioskop/list/1920x1080list5409a17e022443fbb70d5e3d0d4ec9f2.jpg" group-title="ZEE5", Zee Bioskop
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeebioskop
+#EXTINF:-1 tvg-id="0-9-tvme" tvg-country="AE" tvg-chno="078" tvg-language="hi" tvg-name="Zee TV ME" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-tvme/list/1920x1080listbae3c1818b08472fa49e231c7a98cc78.jpg" group-title="ZEE5", Zee TV ME
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-tvme
+#EXTINF:-1 tvg-id="0-9-422" tvg-country="AE" tvg-chno="079" tvg-language="ml" tvg-name="Zee Keralam ME" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-422/list/1920x1080list2f9391fdcffa475a85f71c0cd692d5c6.jpg" group-title="ZEE5", Zee Keralam ME
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-422
+#EXTINF:-1 tvg-id="0-9-zeealwan" tvg-country="AE" tvg-chno="080" tvg-language="ar" tvg-name="Zee Alwan" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeealwan/list/zeealwanpfthumbnail1920x1080d29cc3acf6a5414893eeceb9009aa030.jpg" group-title="ZEE5", Zee Alwan
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeealwan
+#EXTINF:-1 tvg-id="0-9-zeeaflam" tvg-country="AE" tvg-chno="081" tvg-language="ar" tvg-name="Zee Aflam" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeaflam/list/zeeaflampfthumbnail1920x108094e49cea51934c7d9afe7bc68f9257e7.jpg" group-title="ZEE5", Zee Aflam
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-zeeaflam
+#EXTINF:-1 tvg-id="0-9-9z5398768" tvg-country="IN" tvg-chno="082" tvg-language="te" tvg-name="Aastha Telugu" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/aastha/320/280/content/common/channel/logos/iilpuo.jpeg" group-title="ZEE5", Aastha Telugu
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5398768
+#EXTINF:-1 tvg-id="0-9-9z5398770" tvg-country="IN" tvg-chno="083" tvg-language="ta" tvg-name="Aastha Tamil" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/aastha/320/280/content/common/channel/logos/vwnnbv.jpeg" group-title="ZEE5", Aastha Tamil
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5398770
+#EXTINF:-1 tvg-id="0-9-9z5398771" tvg-country="IN" tvg-chno="084" tvg-language="kn" tvg-name="Aastha Kannada" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/aastha/320/280/content/common/channel/logos/ndgvsw.jpeg" group-title="ZEE5", Aastha Kannada
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5398771
+#EXTINF:-1 tvg-id="0-9-9z5398791" tvg-country="IN" tvg-chno="085" tvg-language="gu" tvg-name="Aastha Gujarati" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/aastha/320/280/content/common/channel/logos/pqeztp.jpeg" group-title="ZEE5", Aastha Gujarati
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5398791
+#EXTINF:-1 tvg-id="0-9-9z5398792" tvg-country="IN" tvg-chno="086" tvg-language="hi" tvg-name="Dharm Sandesh" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/aastha/320/280/content/common/channel/logos/oognna.jpeg" group-title="ZEE5", Dharm Sandesh
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5398792
+#EXTINF:-1 tvg-id="0-9-9z5398793" tvg-country="IN" tvg-chno="087" tvg-language="hi" tvg-name="Aastha Bhajan" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/aastha/320/280/content/common/channel/logos/cbgzfa.jpeg" group-title="ZEE5", Aastha Bhajan
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5398793
+#EXTINF:-1 tvg-id="0-9-9z5398761" tvg-country="IN" tvg-chno="088" tvg-language="hi" tvg-name="Aastha" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/aastha/320/280/content/common/channel/logos/ycbqly.jpeg" group-title="ZEE5", Aastha
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5398761
+#EXTINF:-1 tvg-id="0-9-9z5398762" tvg-country="IN" tvg-chno="089" tvg-language="hi" tvg-name="Aastha Prime" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/aastha/320/280/content/common/channel/logos/txbmsf.png" group-title="ZEE5", Aastha Prime
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5398762
+#EXTINF:-1 tvg-id="0-9-9z5398763" tvg-country="GB" tvg-chno="090" tvg-language="hi" tvg-name="Aastha UK" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/aastha/320/280/content/common/channel/logos/jkkdzm.jpeg" group-title="ZEE5", Aastha UK
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5398763
+#EXTINF:-1 tvg-id="0-9-9z5398764" tvg-country="US" tvg-chno="091" tvg-language="hi" tvg-name="Aastha USA" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/aastha/320/280/content/common/channel/logos/etsrwx.jpeg" group-title="ZEE5", Aastha USA
+http://mini.allinonereborn.fun/zee_paid/index.php?id=0-9-9z5398764
