@@ -4,7 +4,7 @@
 #EXT-X-TARGETDURATION:10
 # Playlist generated with token refresh
 # Total channels: 271
-# Generated at: "31e4dcede14b84c3daccde41636bc5aa6bb258e3"
+# Generated at: "578594ce8e27619652c285db2c21f37b95155502"
 
 #EXTINF:-1 group-title="HOTSTAR" tvg-logo="usus",DISNEY HD
 http://66.102.120.18:8000/play/a013/index.m3u8
@@ -130,7 +130,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Pogo_Hindi_BTS/output/index.mpd?__hdnea__
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Cartoon_Network_Hindi_BTS/output/index.mpd?__hdnea__=st=1766172004~exp=1766258404~acl=/*~hmac=be32fc6368f844644e0c24b1772c024013a2dc1df3d95f390ec1f86cf2571522
 
 #EXTINF:-1 tvg-id="sony-yay" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids",Sony Yay
-https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1766266200~acl=/*~id=34012989957569644848871572657499~hmac=463f485c0ee3444e6bd241d4f0c26c77a3ca7b0974228833f7727b56660a52a4
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1766277005~acl=/*~id=23711807660190521522771924417513~hmac=f1a25f3e04454b13825221a33f37f883291945fa800f1a71d83b7bc4dff39c64
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="IND | TELUGU D2H" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Cartoon-Network.png",IND: TG: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=381094.m3u8
