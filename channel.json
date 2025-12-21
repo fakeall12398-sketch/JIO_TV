@@ -1,20 +1,39 @@
 [
     {
-        "tvg-id": "1132",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Plus_HD.png",
-        "channel-name": "Star Plus HD",
-        "license_type": "clearkey",
-        "license_key": "6f7b7241b2935a909d389fe318e5baaa:65783311644973348f359dc154bb41db",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Plus_HD_BTS/output/index.mpd"
-    },
-    {
         "tvg-id": "471",
         "group-title": "Entertainment",
-        "tvg-logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",
-        "channel-name": "Sony Sab HD",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonySAB.png",
+        "channel-name": "Sony SAB HD",
         "license_type": "clearkey",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-sab-hd.m3u8"
+        "license_key": "0449d593e6bb5a81a7ab5c5986e5940b:c0abc7e159389031e53a4b8dfa53d141",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonySAB_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1396",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SD.png",
+        "channel-name": "Sony Set SD",
+        "license_type": "clearkey",
+        "license_key": "041a2752e99f5c6c8d4835fe221e16de:73bc7d13c8beb7aa7f798e717544e005",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Sony_SD_MOB/WDVLive/index.mpd"
+    },    
+    {
+        "tvg-id": "291",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png",
+        "channel-name": "Sony SET HD",
+        "license_type": "clearkey",
+        "license_key": "ebd37e936867596a868cc085070e4cd5:f5c58e6bf0a2deb018fe87a934a6a1d0",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Sony_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1104",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Movies_HD.png",
+        "channel-name": "Star Movies HD",
+        "license_type": "clearkey",
+        "license_key": "6ac6943751e558b181da32727f03dff7:f36e5cd48252bcd0fcda2bfe21f5b365",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_HD_BTS/output/index.mpd"
     },
     {
         "tvg-id": "1373",
@@ -25,6 +44,906 @@
         "license_key": "5181d3e6698055578cedc5bfc86b3e56:3dca7917d8cf9bb7095dc72b48bdcd3c",
         "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd"
     },
+    {
+        "tvg-id": "1106",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD1.png",
+        "channel-name": "Star Sports HD1",
+        "license_type": "clearkey",
+        "license_key": "965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1108",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD1_Hindi.png",
+        "channel-name": "Star Sports HD1 Hindi",
+        "license_type": "clearkey",
+        "license_key": "400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1109",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD2.png",
+        "channel-name": "Star Sports HD2",
+        "license_type": "clearkey",
+        "license_key": "9457eb90129456fa8ea95e10ba4ac51e:e620a970cea474c491ac78ae71a4d764",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD2_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1110",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Movies_Select_HD.png",
+        "channel-name": "Star Movies Select HD",
+        "license_type": "clearkey",
+        "license_key": "b55393cd147a54debaf2b0f2d82b5d9f:6b168db49241a78c1b423ab9a29409ef",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_Select_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1111",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Maa_Movies.png",
+        "channel-name": "Maa Movies",
+        "license_type": "clearkey",
+        "license_key": "6dff9a2c741754c1b75312c53bc83d92:b75a65f46065ee70de75a88fed692846",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Maa_Movies_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1112",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Maa_HD.png",
+        "channel-name": "Maa HD",
+        "license_type": "clearkey",
+        "license_key": "6c4b78251e865fc2a23a000374c8e725:983ecd2ffe60cdcf2e5e76ae229a5cb8",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Maa_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1113",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Select_HD.png",
+        "channel-name": "Star Gold Select HD",
+        "license_type": "clearkey",
+        "license_key": "2cb38dd5e6235bd9936ad7a29bc7ffd8:281d7b329be4e22d4e0e3e1d508ba2a4",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_Select_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1114",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_Select_2.png",
+        "channel-name": "Star Sports Select 2",
+        "license_type": "clearkey",
+        "license_key": "ec7d009d07aa5cbc81a441880530dfa5:8147983ad7402ebfc222d28b667a196f",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_2_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1115",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Movies.png",
+        "channel-name": "Star Movies",
+        "license_type": "clearkey",
+        "license_key": "e705c9330a935a119021d97c7677ce62:dd306a57de1715b0e1256d5c1737f485",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1116",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Plus.png",
+        "channel-name": "Star Plus",
+        "license_type": "clearkey",
+        "license_key": "3bba2ffaf08b501796c5d9eb431460a4:7a62074c4c46f3b153259526481c02bf",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Plus_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1117",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Suvarna.png",
+        "channel-name": "Suvarna",
+        "license_type": "clearkey",
+        "license_key": "fc71d871cbf45818a5b3eb3652d75387:added6a0df4d0eab8758b0ed9f54ecf2",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Suvarna_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1118",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Asianet.png",
+        "channel-name": "Asianet",
+        "license_type": "clearkey",
+        "license_key": "6b68a5a175d45f0ba8ed12b3016ea4d8:c7b8ce1a3a24e2f9b4d1249d04155c49",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Asianet_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1119",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Select.png",
+        "channel-name": "Star Gold Select",
+        "license_type": "clearkey",
+        "license_key": "09706397be655eb6a26c6ba99b65e6d5:acb1ebe04e2a29fe098d532d7a506846",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_Select_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1120",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Jalsha_Movies.png",
+        "channel-name": "Jalsha Movies",
+        "license_type": "clearkey",
+        "license_key": "940a0a4080f553cab03ec23a2e80cf7c:b162354170b54cb588182eb75681cac0",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Jalsha_Movies_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1121",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Pravah.png",
+        "channel-name": "Star Pravah",
+        "license_type": "clearkey",
+        "license_key": "3fb941b7c6fe54fb8f66b19804eff952:c1b742ed7b6d4eca1c6bdcb9041d9b80",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Pravah_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1122",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_2_Kannada.png",
+        "channel-name": "Star Sports 2 Kannada",
+        "license_type": "clearkey",
+        "license_key": "7af2add2968a56309519ac2680c18f25:f992a14e0def17ccdfe16f58c4ce56c5",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_2_Kannada_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1123",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_Select_1.png",
+        "channel-name": "Star Sports Select 1",
+        "license_type": "clearkey",
+        "license_key": "ea7985dacbb95f1c9d62e5a1675142e5:39d5910ca04841b5f32bf24623cdae58",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_1_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1124",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_1_Tamil.png",
+        "channel-name": "Star Sports 1 Tamil",
+        "license_type": "clearkey",
+        "license_key": "d0d750ebd52b5756aa7fb833f61ceece:4ae62a20c030c918aad24193c1dda229",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1125",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold.png",
+        "channel-name": "Star Gold",
+        "license_type": "clearkey",
+        "license_key": "940a0a4080f553cab03ec23a2e80cf7c:b162354170b54cb588182eb75681cac0",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1126",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Jalsha.png",
+        "channel-name": "Star Jalsha",
+        "license_type": "clearkey",
+        "license_key": "9d4fac613fa6505c8f4c34269bad472a:4eb0380c9f3d517db1eeaa768a3e23ac",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Jalsha_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1127",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Bharat.png",
+        "channel-name": "Star Bharat",
+        "license_type": "clearkey",
+        "license_key": "687cfa6d31645a91ba3c38a9acdfac7c:c035ca584ac0a2170b96e2fa4523f3be",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Bharat_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1129",
+        "group-title": "Music",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Maa_Music.png",
+        "channel-name": "Maa Music",
+        "license_type": "clearkey",
+        "license_key": "80cfb1a6a4b251dd9b9ae92782a35917:b4cd88f5d71fe94993dd3476cdd63f33",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Maa_Music_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1130",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Vijay.png",
+        "channel-name": "Star Vijay",
+        "license_type": "clearkey",
+        "license_key": "c5f2861efbc7552ba802dcae4e160359:4ea32867828280a4d6f36ea8fbbe38eb",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Vijay_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1131",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vijay_Super.png",
+        "channel-name": "Vijay Super",
+        "license_type": "clearkey",
+        "license_key": "737e9cc83a8a5a55a002fa3ca457244c:a0285e3041ff5f4efae5361e12f759db",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Vijay_Super_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1132",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Plus_HD.png",
+        "channel-name": "Star Plus HD",
+        "license_type": "clearkey",
+        "license_key": "6f7b7241b2935a909d389fe318e5baaa:65783311644973348f359dc154bb41db",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Plus_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1136",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Utsav_Movies.png",
+        "channel-name": "Star Utsav Movies",
+        "license_type": "clearkey",
+        "license_key": "1faf9c42dfe45669a70c470359886145:5a229a5f6f270c880b24014bf3cd6ee7",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Utsav_Movies_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1137",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Maa_Gold.png",
+        "channel-name": "Maa Gold",
+        "license_type": "clearkey",
+        "license_key": "516d26778a21587484208637d89ff773:77599313595e70e5903151b0592ffa15",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Maa_Gold_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1138",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Maa.png",
+        "channel-name": "Star Maa",
+        "license_type": "clearkey",
+        "license_key": "6744a252854352acbfe40413a14fca0f:1de605f98df36a7417eff631e1a0966a",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Maa_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1139",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Asianet_Plus.png",
+        "channel-name": "Asianet Plus",
+        "license_type": "clearkey",
+        "license_key": "90ffee26840f5b329f5f9c978d30bb41:4cbb95492e7b342a772883f221243127",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Asianet_Plus_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1140",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Suvarna_Plus.png",
+        "channel-name": "Suvarna Plus",
+        "license_type": "clearkey",
+        "license_key": "843e1658f5915fdda0a5ecc5bd3dd726:88f0fd96990a66b1307094eaf4998119",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Suvarna_Plus_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1141",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_2.png",
+        "channel-name": "Star Sports 2",
+        "license_type": "clearkey",
+        "license_key": "fc3aafe80845584199a637249fad2ffa:ca4474972fdb4bf8ecb164482853c692",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_2_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1142",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_1.png",
+        "channel-name": "Star Sports1",
+        "license_type": "clearkey",
+        "license_key": "df20894ec30954d3b28097c138f4cfda:ff9b6292b1cddbd11a046029cb314634",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1143",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Utsav.png",
+        "channel-name": "Star Utsav",
+        "license_type": "clearkey",
+        "license_key": "63456f11b1bf599a93a6a4b9a76db2bf:b47756e4d8fb938dcbcb72d6d877fbc3",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Utsav_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1153",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Asianet_Movies.png",
+        "channel-name": "Asianet Movies",
+        "license_type": "clearkey",
+        "license_key": "ca83419dfa1b56f794032b271b8f2c84:d592520eea361507a63c94bff799dfb6",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Asianet_Movies_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1154",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_2.png",
+        "channel-name": "Star Gold 2",
+        "license_type": "clearkey",
+        "license_key": "2db0cd9cb0685309b48e322c83192bda:e13bf7a33eb2e19a8f19568dd383ba6d",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1389",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_3.png",
+        "channel-name": "Star Sports 3",
+        "license_type": "clearkey",
+        "license_key": "e4e8647eaf0659ac85f61765a5abcdc1:d749c9b27505beb0e1a8b6c30ca65de6",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_3_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1393",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyWAH.png",
+        "channel-name": "Sony Wah",
+        "license_type": "clearkey",
+        "license_key": "f87b89f3549e5bdb969cb35ea57827b7:022f3fcd6c3035ed2843b0b45bff4304",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyWAH_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "155",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png",
+        "channel-name": "Sony Ten 5 HD",
+        "license_type": "clearkey",
+        "license_key": "233d5f64b5b1547dae38f5a8b0b85efa:3b000618435f702db7d9910d8265584a",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Six_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "156",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_HD.png",
+        "channel-name": "Star Gold HD",
+        "license_type": "clearkey",
+        "license_key": "ec7ad3786d9e5efa9e0c4aeb3e58c7b7:907509ccae7e68b30ae75b5d09fe60ef",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "162",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png",
+        "channel-name": "Sony Ten 1 HD",
+        "license_type": "clearkey",
+        "license_key": "523acf1f55485476817958a62a3f2ed9:52b3cea435ed25d445f9eae4883c7001",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1650",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_1_Kannada.png",
+        "channel-name": "Star Sports 1 Kannada",
+        "license_type": "clearkey",
+        "license_key": "9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1651",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_1_Telugu.png",
+        "channel-name": "Star Sports 1 Telugu",
+        "license_type": "clearkey",
+        "license_key": "200a6dd89c6b5a48b9991d8ab57fc7d2:1f62834669a97e92ea1f3263274853fc",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1772",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_HD_Tamil.png",
+        "channel-name": "Sony Ten 4 HD Tamil",
+        "license_type": "clearkey",
+        "license_key": "1dc6cf8863e958f5a8486c944f0bb04f:0d74e2d5ac746450ed827e3f828ee1e4",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_HD_Tamil_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1773",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_HD_Telugu.png",
+        "channel-name": "Sony Ten 4 HD Telugu",
+        "license_type": "clearkey",
+        "license_key": "5c99be9d8ed654bf90cab4538ece3a5e:ddafcea98ffa2a1840607ab60c467846",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_HD_Telugu_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1774",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_Tamil.png",
+        "channel-name": "Sony Ten 4 Tamil",
+        "license_type": "clearkey",
+        "license_key": "",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_Tamil_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "1775",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_Telugu.png",
+        "channel-name": "Sony Ten 4 Telugu",
+        "license_type": "clearkey",
+        "license_key": "",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_Telugu_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "180",
+        "group-title": "News",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Asianet_News.png",
+        "channel-name": "Asianet News",
+        "license_type": "clearkey",
+        "license_key": "dbadf906bbc7519e9fd18e57104a6f23:e78d51debe566f93b6a66dc4ce100fab",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Asianet_News_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1984",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png",
+        "channel-name": "Star Sports 2 Hindi HD",
+        "license_type": "clearkey",
+        "license_key": "bd1ea6a1c1fb5dcdb709434e0826bbc0:f57f22cba32739ce7beb1fab3f3d060b",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Sports18_1_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1985",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
+        "channel-name": "Star Sports 2 Hindi",
+        "license_type": "clearkey",
+        "license_key": "a3ed8dc0e0cb5d238da80ee0a85bd2e1:67a96992e6406606f3480ab58d7f540c",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Sports18_1_SD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "1998",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_Khel.png",
+        "channel-name": "Star Sports Khel",
+        "license_type": "clearkey",
+        "license_key": "ab947ddbb9795d38bff35597b4f73108:2671e22eb7dc174c35b6aad4b113f7b0",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Sports18_Khel_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "2852",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/StarSports2Telugu.png",
+        "channel-name": "Star Sports 2 Telugu",
+        "license_type": "clearkey",
+        "license_key": "6576a2664bc1563db2abd4fc192152b2:452e28454297a4193dbdf8f5cebc70b0",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSports2Telugu_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "2853",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/StarSports2Tamil.png",
+        "channel-name": "Star Sports 2 Tamil",
+        "license_type": "clearkey",
+        "license_key": "3c1b335c4bb858a7a6ac5a883d898a09:6eeff4302a7d19befd43c6b7b5fac268",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSports2Tamil_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3096",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_2_HD.png",
+        "channel-name": "Star Gold 2 HD",
+        "license_type": "clearkey",
+        "license_key": "e6afa4754bc15dd28ab6806f417d319d:6a74ef2884813547109ee96098610387",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3097",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Romance.png",
+        "channel-name": "Star Gold Romance",
+        "license_type": "clearkey",
+        "license_key": "ee6e9f18a6c155e3855700b34fa8436f:b670c81b0e4f7f19f1fbeac0eaa7fba8",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_Romance_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3098",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Thrills.png",
+        "channel-name": "Star Gold Thrills",
+        "license_type": "clearkey",
+        "license_key": "189ccd629ff25ec1adc2e34d49b186eb:fd102ddbd3844b55b70c6aa23dbd212b",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_Thrills_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3099",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Pravah_Picture.png",
+        "channel-name": "Star Pravah Picture",
+        "license_type": "clearkey",
+        "license_key": "d1644aff68865ecdb884c36a634c008f:794529e9d938c592514a1eb9eb706da9",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Pravah_Picture_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3100",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Pravah_Picture_HD.png",
+        "channel-name": "Star Pravah Picture HD",
+        "license_type": "clearkey",
+        "license_key": "71f9041eea4954e6acf66f0c50d5ebf9:98148dde17f872774f443297745df456",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Pravah_Picture_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "317",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Jalsha_HD.png",
+        "channel-name": "Star Jalsha HD",
+        "license_type": "clearkey",
+        "license_key": "7810c0264da15a62b200a3254d041aed:cb1e3bcfcdb1281b85625b12dae6de43",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Jalsha_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3214",
+        "group-title": "News",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vertent_Samachar_Plus_24x7.png",
+        "channel-name": "Vertent Samachar Plus 24x7",
+        "license_type": "clearkey",
+        "license_key": "265b06fe9eac53eb8c41750443224a24:3bb9d43b5b26906bdcb1705bcaca4340",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Vertent_Samachar_Plus_24x7_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3266",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vijay_Super_HD.png",
+        "channel-name": "Vijay Super HD",
+        "license_type": "clearkey",
+        "license_key": "4058ba890768578093e4d30bc957b85c:42d335cfebf7292487522ac572d706a8",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Vijay_Super_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3267",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Kiran.png",
+        "channel-name": "Star Kiran",
+        "license_type": "clearkey",
+        "license_key": "e705c9330a935a119021d97c7677ce62:dd306a57de1715b0e1256d5c1737f485",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Kiran_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3269",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vijay_Takkar.png",
+        "channel-name": "Vijay Takkar",
+        "license_type": "clearkey",
+        "license_key": "ecdf4d18807e55bf814c3f40656a33c3:0031af1bf42234195cda0eb88fd6003b",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Vijay_Takkar_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3273",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports2_Tamil_HD.png",
+        "channel-name": "Star Sports 2 Tamil HD",
+        "license_type": "clearkey",
+        "license_key": "dc44fe6251825774b90d58dcfa7d94e0:63e3ae853f483a86752b5b9e6d61eb20",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports2_Tamil_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3274",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports2_Telugu_HD.png",
+        "channel-name": "Star Sports 2 Telugu HD",
+        "license_type": "clearkey",
+        "license_key": "c8a2fb190fc957c1b8333af9a7a39d31:be7497b59d4ce9e33d29bfd1d38bad1d",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports2_Telugu_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3276",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Movies_Select.png",
+        "channel-name": "Star Movies Select",
+        "license_type": "clearkey",
+        "license_key": "4b7d579e28d45041ba78c3a92f0acc92:fbf33acfca489b1354955cbfb09570b5",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_Select_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3277",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_1_Tamil_HD.png",
+        "channel-name": "Star Sports 1 Tamil HD",
+        "license_type": "clearkey",
+        "license_key": "2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3278",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_1_Telugu_HD.png",
+        "channel-name": "Star Sports 1 Telugu HD",
+        "license_type": "clearkey",
+        "license_key": "49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "336",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Pravah_HD.png",
+        "channel-name": "Star Pravah HD",
+        "license_type": "clearkey",
+        "license_key": "ac5fe0f7b01659a9aba3475523f71ae1:b2e3f3af283a309e24eabe6b8681282e",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Pravah_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "3372",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_1.png",
+        "channel-name": "SonyLIV Sports 1",
+        "license_type": "clearkey",
+        "license_key": "4e4c5dba5bfe5a7c9338bc086eb80379:b8e8932f440084e1d2b705fa52eef94b",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyLIV_Sports_1_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "3373",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_2.png",
+        "channel-name": "SonyLIV Sports 2",
+        "license_type": "clearkey",
+        "license_key": "ef24516ae38b50d18049343cd1cd998a:eb4810ec250a1795a0019dba7881ff45",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyLIV_Sports_2_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "3374",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_3.png",
+        "channel-name": "SonyLIV Sports 3",
+        "license_type": "clearkey",
+        "license_key": "3afa887864e6545aa006db21aeb39054:6b8cce271f3cd923d0df32d45b44f6df",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyLIV_Sports_3_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "3397",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_4_Tamil.png",
+        "channel-name": "Sony LIV Sports 4 Tamil",
+        "license_type": "clearkey",
+        "license_key": "9f266ceda9555faf8b40c586ac40406a:92f9a1ca4c16545db65ad0578bd1baa3",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyLIV_Sports_4_Tamil_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "3398",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_4_Telugu.png",
+        "channel-name": "Sony LIV Sports 4 Telugu",
+        "license_type": "clearkey",
+        "license_key": "4d39c423d72a5f1ca5df1de110c80422:572a9370c22c8b5d741352ebf8f68721",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyLIV_Sports_4_Telugu_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "3399",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_5.png",
+        "channel-name": "Sony LIV Sports 5",
+        "license_type": "clearkey",
+        "license_key": "cee8550bf50b569d8ad2ed0c5264f0d2:565a95f1c332c03534e1e5fcc1ff9a8b",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyLIV_Sports_5_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "3418",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyMAX1.png",
+        "channel-name": "Sony MAX1",
+        "license_type": "clearkey",
+        "license_key": "2a1a2b85777a564ba74e8f38ab063def:695f02cdce09b8e5aa7ab9fdeb596bbe",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyMAX1_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "362",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_1_Hindi.png",
+        "channel-name": "Star Sports Hindi 1",
+        "license_type": "clearkey",
+        "license_key": "8ea9b607549252068e260a5f4d7dd321:350c0aaffedf51cc1502e9543c7c885e",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Hindi_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "368",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Vijay_HD.png",
+        "channel-name": "Star Vijay HD",
+        "license_type": "clearkey",
+        "license_key": "849d6b062b645abea937ec7f2b6b1686:1f65503420b88d11a16d4a4eacd95f0f",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Vijay_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "370",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Suvarna_HD.png",
+        "channel-name": "Suvarna HD",
+        "license_type": "clearkey",
+        "license_key": "9065757e265f5f53a8f06a9c9c931d02:6fd7b25773ad2f9641ab5f65a1b18e42",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Suvarna_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "443",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Asianet_HD.png",
+        "channel-name": "Asianet HD",
+        "license_type": "clearkey",
+        "license_key": "438370e98be35e618650b4fde6f7bcee:8af903db53e7b69e6e1c9a04711ebd62",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Asianet_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "457",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Jalsa_Movies_HD.png",
+        "channel-name": "Jalsha Movies HD",
+        "license_type": "clearkey",
+        "license_key": "336cae9ff0c957cfabc598f4faf7e701:24b00e0fec8785b474f544560dfec897",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "459",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Asianet_Movies_HD.png",
+        "channel-name": "Asianet Movies HD",
+        "license_type": "clearkey",
+        "license_key": "318d6d7df2c155b3b15247f320bad160:c06652ae93c16814dad7008e84c7171d",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Asianet_Movies_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "460",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_1.png",
+        "channel-name": "Star Sports Select HD1",
+        "license_type": "clearkey",
+        "license_key": "c2c048e439d65316beeda6ef64d5d0f8:e2fdc132cbdee65501b845ce414fce39",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_1_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "461",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_2.png",
+        "channel-name": "Star Sports Select HD2",
+        "license_type": "clearkey",
+        "license_key": "6017d0514d425fa38f6e80ba6dcc852f:0018944b00adf2078f62386f30c68b74",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "474",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyPAL.png",
+        "channel-name": "Sony Pal",
+        "license_type": "clearkey",
+        "license_key": "951fda0637ef58608a0cc62a31c7f594:59bcb68bb58d93ae568879b8ef4185a2",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyPAL_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "476",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyMAX.png",
+        "channel-name": "Sony Max HD",
+        "license_type": "clearkey",
+        "license_key": "fe8b5e6e0a275d7fbfeb27abf9b75c0b:c27da65de4d17976409daed680b1e9a1",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyMAX_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "483",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyMAX2.png",
+        "channel-name": "Sony MAX2",
+        "license_type": "clearkey",
+        "license_key": "1752d0d071595248b4b6f9f12be72905:b5ce3a8fbe603561190c6f8fcbb34c55",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyMAX2_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "514",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png",
+        "channel-name": "Sony Ten 1",
+        "license_type": "clearkey",
+        "license_key": "",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_1_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "523",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png",
+        "channel-name": "Ten 2",
+        "license_type": "clearkey",
+        "license_key": "",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_2_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "524",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png",
+        "channel-name": "Sony Ten 3 Hindi",
+        "license_type": "clearkey",
+        "license_key": "",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_3_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "525",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Six_SD.png",
+        "channel-name": "Sony Ten 5",
+        "license_type": "clearkey",
+        "license_key": "",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Sony_Six_SD_MOB/WDVLive/index.mpd"
+    },
+    {
+        "tvg-id": "535",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Dhamaal_TV.png",
+        "channel-name": "Dhamaal TV",
+        "license_type": "clearkey",
+        "license_key": "e915104ce8745ddfa8da4a3e548e003a:5ed45da13ffb79d798326ca47b73da03",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Dhamaal_TV_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "626",
+        "group-title": "News",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Suvarna_News.png",
+        "channel-name": "Suvarna News",
+        "license_type": "clearkey",
+        "license_key": "",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Suvarna_News_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "697",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyAATH.png",
+        "channel-name": "Sony aath",
+        "license_type": "clearkey",
+        "license_key": "c00c75edb2a65e2d86f4094249bfbd85:9221a2bda61fe219560311c60662ce30",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyAATH_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "759",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Maa_Gold.png",
+        "channel-name": "Maa Gold HD",
+        "license_type": "clearkey",
+        "license_key": "516d26778a21587484208637d89ff773:77599313595e70e5903151b0592ffa15",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Maa_Gold_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "760",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Maa_Movies_HD.png",
+        "channel-name": "Maa Movies HD",
+        "license_type": "clearkey",
+        "license_key": "6dff9a2c741754c1b75312c53bc83d92:b75a65f46065ee70de75a88fed692846",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Maa_Movies_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "762",
+        "group-title": "Movies",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyPIX.png",
+        "channel-name": "Sony Pix HD",
+        "license_type": "clearkey",
+        "license_key": "00426b6344e351f491f324a94b62cd2f:ae3a59fe9918e7180ed65e2c842f7cc8",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyPIX_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "821",
+        "group-title": "Infotainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyBBCEarthHin.png",
+        "channel-name": "Sony BBC Earth HD",
+        "license_type": "clearkey",
+        "license_key": "f45e69507f0f5aa1a6e82374efb0af25:f84348219837769feb5a26a7b1cd31dc",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "872",
+        "group-title": "Kids",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYHin.png",
+        "channel-name": "Sony Yay Hindi",
+        "license_type": "clearkey",
+        "license_key": "d48f57d25a6b5fb3b2d38d1f8e7e25a4:93e43fff8c073946af5054366bc0926b",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyYAYHin_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "891",
+        "group-title": "Sports",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png",
+        "channel-name": "Sony Ten 2 HD",
+        "license_type": "clearkey",
+        "license_key": "7771cca923225ce08887cbae764e72c6:67d80b71f02d2cd1e4e0ee7b9b752841",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Ten2_HD_BTS/output/index.mpd"
+    },
+    {
+        "tvg-id": "931",
+        "group-title": "Entertainment",
+        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Bharat_HD.png",
+        "channel-name": "Star Bharat HD",
+        "license_type": "clearkey",
+        "license_key": "701524f373c55b2785ac49aab0bdc4a6:9de42eedb40f6c243848eb8aa8103e32",
+        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Bharat_HD_BTS/output/index.mpd"
+    },    
     {
         "tvg-id": "1374",
         "group-title": "Kids",
@@ -62,420 +981,6 @@
         "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Super_Hungama_BTS/output/index.mpd"
     },
     {
-        "tvg-id": "872",
-        "group-title": "Kids",
-        "tvg-logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png",
-        "channel-name": "Sony YaY",
-        "license_type": "clearkey",
-        "license_key": "7a450f0820c4589690eb336c29f18da6:820e84119563b56d6e6f0bf514cbdc3c",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-yay.m3u8"
-    },
-    {
-        "tvg-id": "1116",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Plus.png",
-        "channel-name": "Star Plus",
-        "license_type": "clearkey",
-        "license_key": "3bba2ffaf08b501796c5d9eb431460a4:7a62074c4c46f3b153259526481c02bf",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Plus_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "291",
-        "group-title": "Entertainment",
-        "tvg-logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png",
-        "channel-name": "Sony HD",
-        "license_type": "clearkey",
-        "license_key": "6f7b7241b2935a909d389fe318e5baaa:65783311644973348f359dc154bb41db",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-hd.m3u8"
-    },
-    {
-        "tvg-id": "1146",
-        "group-title": "Entertainment",
-        "tvg-logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png",
-        "channel-name": "Sony Marathi",
-        "license_type": "clearkey",
-        "license_key": "6f7b7241b2935a909d389fe318e5baaa:65783311644973348f359dc154bb41db",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-marathi.m3u8"
-    },
-    {
-        "tvg-id": "474",
-        "group-title": "Entertainment",
-        "tvg-logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png",
-        "channel-name": "Sony Pal",
-        "license_type": "clearkey",
-        "license_key": "6f7b7241b2935a909d389fe318e5baaa:65783311644973348f359dc154bb41db",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-pal.m3u8"
-    },
-    {
-        "tvg-id": "697",
-        "group-title": "Entertainment",
-        "tvg-logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png",
-        "channel-name": "Sony Aath",
-        "license_type": "clearkey",
-        "license_key": "6f7b7241b2935a909d389fe318e5baaa:65783311644973348f359dc154bb41db",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-aath.m3u8"
-    },
-    {
-        "tvg-id": "156",
-        "group-title": "Movies",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_HD.png",
-        "channel-name": "Star Gold HD",
-        "license_type": "clearkey",
-        "license_key": "ec7ad3786d9e5efa9e0c4aeb3e58c7b7:907509ccae7e68b30ae75b5d09fe60ef",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1151",
-        "group-title": "Movies",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Romance.png",
-        "channel-name": "Star Gold Romance",
-        "license_type": "clearkey",
-        "license_key": "ee6e9f18a6c155e3855700b34fa8436f:b670c81b0e4f7f19f1fbeac0eaa7fba8",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Rangamanch_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1153",
-        "group-title": "Movies",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Thrills.png",
-        "channel-name": "Star Gold Thrills",
-        "license_type": "clearkey",
-        "license_key": "189ccd629ff25ec1adc2e34d49b186eb:fd102ddbd3844b55b70c6aa23dbd212b",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_Thrills_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "476",
-        "group-title": "Movies",
-        "tvg-logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png",
-        "channel-name": "Sony MAX HD",
-        "license_type": "clearkey",
-        "license_key": "189ccd629ff25ec1adc2e34d49b186eb:fd102ddbd3844b55b70c6aa23dbd212b",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-max-hd.m3u8"
-    },
-    {
-        "tvg-id": "289",
-        "group-title": "Movies",
-        "tvg-logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png",
-        "channel-name": "Sony MAX",
-        "license_type": "clearkey",
-        "license_key": "189ccd629ff25ec1adc2e34d49b186eb:fd102ddbd3844b55b70c6aa23dbd212b",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-max.m3u8"
-    },
-    {
-        "tvg-id": "483",
-        "group-title": "Movies",
-        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png",
-        "channel-name": "Sony MAX 2",
-        "license_type": "clearkey",
-        "license_key": "189ccd629ff25ec1adc2e34d49b186eb:fd102ddbd3844b55b70c6aa23dbd212b",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-max-2.m3u8"
-    },
-    {
-        "tvg-id": "1393",
-        "group-title": "Movies",
-        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png",
-        "channel-name": "Sony WHA",
-        "license_type": "clearkey",
-        "license_key": "189ccd629ff25ec1adc2e34d49b186eb:fd102ddbd3844b55b70c6aa23dbd212b",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-wah.m3u8"
-    },
-    {
-        "tvg-id": "1389",
-        "group-title": "Movies",
-        "tvg-logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_PIX_HD.png",
-        "channel-name": "Sony PIX HD",
-        "license_type": "clearkey",
-        "license_key": "189ccd629ff25ec1adc2e34d49b186eb:fd102ddbd3844b55b70c6aa23dbd212b",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-pix-hd.m3u8"
-    },
-    {
-        "tvg-id": "1154",
-        "group-title": "Movies",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_2.png",
-        "channel-name": "Star Gold 2",
-        "license_type": "clearkey",
-        "license_key": "2db0cd9cb0685309b48e322c83192bda:e13bf7a33eb2e19a8f19568dd383ba6d",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1155",
-        "group-title": "Movies",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_2_HD.png",
-        "channel-name": "Star Gold 2 HD",
-        "license_type": "clearkey",
-        "license_key": "e6afa4754bc15dd28ab6806f417d319d:6a74ef2884813547109ee96098610387",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "931",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Bharat_HD.png",
-        "channel-name": "Star Bharat HD",
-        "license_type": "clearkey",
-        "license_key": "701524f373c55b2785ac49aab0bdc4a6:9de42eedb40f6c243848eb8aa8103e32",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Bharat_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1127",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Bharat.png",
-        "channel-name": "Star Bharat",
-        "license_type": "clearkey",
-        "license_key": "687cfa6d31645a91ba3c38a9acdfac7c:c035ca584ac0a2170b96e2fa4523f3be",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Bharat_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1125",
-        "group-title": "Movies ",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold.png",
-        "channel-name": "Star Gold",
-        "license_type": "clearkey",
-        "license_key": "940a0a4080f553cab03ec23a2e80cf7c:b162354170b54cb588182eb75681cac0",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1104",
-        "group-title": "Movies ",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Movies_HD.png",
-        "channel-name": "Star Movies HD",
-        "license_type": "clearkey",
-        "license_key": "6ac6943751e558b181da32727f03dff7:f36e5cd48252bcd0fcda2bfe21f5b365",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1115",
-        "group-title": "Movies ",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Movies.png",
-        "channel-name": "Star Movies",
-        "license_type": "clearkey",
-        "license_key": "e705c9330a935a119021d97c7677ce62:dd306a57de1715b0e1256d5c1737f485",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1110",
-        "group-title": "Movies ",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Movies_Select_HD.png",
-        "channel-name": "Star Movies Select HD",
-        "license_type": "clearkey",
-        "license_key": "b55393cd147a54debaf2b0f2d82b5d9f:6b168db49241a78c1b423ab9a29409ef",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_Select_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1113",
-        "group-title": "Movies ",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Select_HD.png",
-        "channel-name": "Star Gold Select HD",
-        "license_type": "clearkey",
-        "license_key": "2cb38dd5e6235bd9936ad7a29bc7ffd8:281d7b329be4e22d4e0e3e1d508ba2a4",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_Select_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1120",
-        "group-title": "Movies ",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Jalsha_Movies.png",
-        "channel-name": "Star Jalsha Movies HD",
-        "license_type": "clearkey",
-        "license_key": "940a0a4080f553cab03ec23a2e80cf7c:b162354170b54cb588182eb75681cac0",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Jalsha_Movies_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1142",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_1.png",
-        "channel-name": "Star Sports 1",
-        "license_type": "clearkey",
-        "license_key": "df20894ec30954d3b28097c138f4cfda:ff9b6292b1cddbd11a046029cb314634",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1141",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_2.png",
-        "channel-name": "Star Sports 2",
-        "license_type": "clearkey",
-        "license_key": "fc3aafe80845584199a637249fad2ffa:ca4474972fdb4bf8ecb164482853c692",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_2_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1106",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_HD1_Hindi.png",
-        "channel-name": "Star Sports 1 Hindi HD",
-        "license_type": "clearkey",
-        "license_key": "400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4",
-        "mpd_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1123",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_Select_1.png",
-        "channel-name": "Star Sports Select 1",
-        "license_type": "clearkey",
-        "license_key": "ea7985dacbb95f1c9d62e5a1675142e5:39d5910ca04841b5f32bf24623cdae58",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_1_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "300",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_1.png",
-        "channel-name": "Star Sports Select 1 HD",
-        "license_type": "clearkey",
-        "license_key": "c2c048e439d65316beeda6ef64d5d0f8:e2fdc132cbdee65501b845ce414fce39",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_1_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1114",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_Select_2.png",
-        "channel-name": "Star Sports Select 2",
-        "license_type": "clearkey",
-        "license_key": "ec7d009d07aa5cbc81a441880530dfa5:8147983ad7402ebfc222d28b667a196f",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_2_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "301",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_2.png",
-        "channel-name": "Star Sports Select 2 HD",
-        "license_type": "clearkey",
-        "license_key": "6017d0514d425fa38f6e80ba6dcc852f:0018944b00adf2078f62386f30c68b74",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1124",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_1_Tamil.png",
-        "channel-name": "Star Sports 1 Tamil",
-        "license_type": "clearkey",
-        "license_key": "d0d750ebd52b5756aa7fb833f61ceece:4ae62a20c030c918aad24193c1dda229",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1136",
-        "group-title": "Movies",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Utsav_Movies.png",
-        "channel-name": "Star Utsav Movies",
-        "license_type": "clearkey",
-        "license_key": "1faf9c42dfe45669a70c470359886145:5a229a5f6f270c880b24014bf3cd6ee7",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Utsav_Movies_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1140",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Suvarna.png",
-        "channel-name": "Star Suvarna Plus",
-        "license_type": "clearkey",
-        "license_key": "843e1658f5915fdda0a5ecc5bd3dd726:88f0fd96990a66b1307094eaf4998119",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Suvarna_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1143",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Utsav.png",
-        "channel-name": "Star Utsav",
-        "license_type": "clearkey",
-        "license_key": "63456f11b1bf599a93a6a4b9a76db2bf:b47756e4d8fb938dcbcb72d6d877fbc3",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Utsav_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "336",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Pravah_HD.png",
-        "channel-name": "Star Pravah HD",
-        "license_type": "clearkey",
-        "license_key": "ac5fe0f7b01659a9aba3475523f71ae1:b2e3f3af283a309e24eabe6b8681282e",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Pravah_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1111",
-        "group-title": "Movies ",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Maa_Movies_HD.png",
-        "channel-name": "Star Maa Movies HD",
-        "license_type": "clearkey",
-        "license_key": "6dff9a2c741754c1b75312c53bc83d92:b75a65f46065ee70de75a88fed692846",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Maa_Movies_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1112",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Maa_HD.png",
-        "channel-name": "Star Maa HD",
-        "license_type": "clearkey",
-        "license_key": "6c4b78251e865fc2a23a000374c8e725:983ecd2ffe60cdcf2e5e76ae229a5cb8",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Maa_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1129",
-        "group-title": "Music",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Maa_Music.png",
-        "channel-name": "Star Maa Music",
-        "license_type": "clearkey",
-        "license_key": "80cfb1a6a4b251dd9b9ae92782a35917:b4cd88f5d71fe94993dd3476cdd63f33",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Maa_Music_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "368",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Vijay_HD.png",
-        "channel-name": "Star Vijay HD",
-        "license_type": "clearkey",
-        "license_key": "849d6b062b645abea937ec7f2b6b1686:1f65503420b88d11a16d4a4eacd95f0f",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Vijay_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "370",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Suvarna_HD.png",
-        "channel-name": "Suvarna HD",
-        "license_type": "clearkey",
-        "license_key": "9065757e265f5f53a8f06a9c9c931d02:6fd7b25773ad2f9641ab5f65a1b18e42",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Suvarna_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1117",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Suvarna.png",
-        "channel-name": "Suvarna",
-        "license_type": "clearkey",
-        "license_key": "fc71d871cbf45818a5b3eb3652d75387:added6a0df4d0eab8758b0ed9f54ecf2",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Suvarna_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1119",
-        "group-title": "Movies",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Select.png",
-        "channel-name": "Star Gold Select",
-        "license_type": "clearkey",
-        "license_key": "09706397be655eb6a26c6ba99b65e6d5:acb1ebe04e2a29fe098d532d7a506846",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_Select_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1121",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Pravah.png",
-        "channel-name": "Star Pravah",
-        "license_type": "clearkey",
-        "license_key": "3fb941b7c6fe54fb8f66b19804eff952:c1b742ed7b6d4eca1c6bdcb9041d9b80",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Pravah_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1130",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Vijay.png",
-        "channel-name": "Star Vijay",
-        "license_type": "clearkey",
-        "license_key": "c5f2861efbc7552ba802dcae4e160359:4ea32867828280a4d6f36ea8fbbe38eb",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Vijay_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1131",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Vijay_Super.png",
-        "channel-name": "Vijay Super",
-        "license_type": "clearkey",
-        "license_key": "737e9cc83a8a5a55a002fa3ca457244c:a0285e3041ff5f4efae5361e12f759db",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Vijay_Super_BTS/output/index.mpd"
-    },
-    {
         "tvg-id": "1332",
         "group-title": "Infotainment",
         "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Nat_Geo_Wild_HD.png",
@@ -483,15 +988,6 @@
         "license_type": "clearkey",
         "license_key": "45fc661aa1af51c98950c43329391d18:c2677c874886e78d24b3fb656c5734e0",
         "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "2437",
-        "group-title": "Infotainment",
-        "tvg-logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png",
-        "channel-name": "Sony BBC Earth HD",
-        "license_type": "clearkey",
-        "license_key": "45fc661aa1af51c98950c43329391d18:c2677c874886e78d24b3fb656c5734e0",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-bbc-earth-hd.m3u8"
     },
     {
         "tvg-id": "1335",
@@ -582,15 +1078,6 @@
         "license_type": "clearkey",
         "license_key": "b9d4acedc66c5660a1e06197a55bccd2:dd53bab1a42f41ae8f0a5c8fd286f456",
         "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ABP_News_India_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "180",
-        "group-title": "News",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Asianet_News.png",
-        "channel-name": "Asianet News",
-        "license_type": "clearkey",
-        "license_key": "b9d4acedc66c5660a1e06197a55bccd2:dd53bab1a42f41ae8f0a5c8fd286f456",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Asianet_News_BTS/output/index.mpd"
     },
     {
         "tvg-id": "182",
@@ -1304,51 +1791,6 @@
         "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Loksabha_TV_BTS/output/index.mpd"
     },
     {
-        "tvg-id": "514",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Ten_1.png",
-        "channel-name": "Sony Ten 1",
-        "license_type": "clearkey",
-        "license_key": "671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-ten-1.m3u8"
-    },
-    {
-        "tvg-id": "523",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Ten_2.png",
-        "channel-name": "Sony Ten 2",
-        "license_type": "clearkey",
-        "license_key": "671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_2_MOB/WDVLive/index.mpd"
-    },
-    {
-        "tvg-id": "892",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Ten_3.png",
-        "channel-name": "Sony Ten 3",
-        "license_type": "clearkey",
-        "license_key": "671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-ten-3.m3u8"
-    },
-    {
-        "tvg-id": "1774",
-        "group-title": "Sports",
-        "tvg-logo": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png",
-        "channel-name": "Sony Ten 4",
-        "license_type": "clearkey",
-        "license_key": "671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-ten-4.m3u8"
-    },
-    {
-        "tvg-id": "1775",
-        "group-title": "Sports",
-        "tvg-logo": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png",
-        "channel-name": "Sony Ten 5",
-        "license_type": "clearkey",
-        "license_key": "671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-ten-5.m3u8"
-    },
-    {
         "tvg-id": "525",
         "group-title": "Entertainment",
         "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ID.png",
@@ -1356,51 +1798,6 @@
         "license_type": "clearkey",
         "license_key": "da494c4a7a545a0ab48b3f893e1feeeb:59b6b3a2a476a00cabefa77623d0d0c1",
         "mpd_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ID_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "162",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Ten_HD.png",
-        "channel-name": "Sony Ten 1 HD",
-        "license_type": "clearkey",
-        "license_key": "671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-ten-1-hd.m3u8"
-    },
-    {
-        "tvg-id": "891",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Ten2_HD.png",
-        "channel-name": "Sony Ten 2 HD",
-        "license_type": "clearkey",
-        "license_key": "671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-ten-2-hd.m3u8"
-    },
-    {
-        "tvg-id": "892",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Ten3_HD.png",
-        "channel-name": "Sony Ten 3 HD",
-        "license_type": "clearkey",
-        "license_key": "671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-ten-3-hd.m3u8"
-    },
-    {
-        "tvg-id": "1773",
-        "group-title": "Sports",
-        "tvg-logo": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png",
-        "channel-name": "Sony Ten 4 HD",
-        "license_type": "clearkey",
-        "license_key": "671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-ten-4-hd.m3u8"
-    },
-    {
-        "tvg-id": "155",
-        "group-title": "Sports",
-        "tvg-logo": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png",
-        "channel-name": "Sony Ten 5 HD",
-        "license_type": "clearkey",
-        "license_key": "671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82",
-        "mpd_url": "https://sonyliv.cricindia95.workers.dev/sony-ten-5-hd.m3u8"
     },
     {
         "tvg-id": "528",
@@ -1446,15 +1843,6 @@
         "license_type": "clearkey",
         "license_key": "3b5f1943767c5c7ca54aa17034f73b07:1d09b391566f482d28d27db449b2222f",
         "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Raj_Pariwar_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "535",
-        "group-title": "Entertainment",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Dhamaal_TV.png",
-        "channel-name": "Dhamaal TV",
-        "license_type": "clearkey",
-        "license_key": "e915104ce8745ddfa8da4a3e548e003a:5ed45da13ffb79d798326ca47b73da03",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Dhamaal_TV_BTS/output/index.mpd"
     },
     {
         "tvg-id": "536",
@@ -2076,15 +2464,6 @@
         "license_type": "clearkey",
         "license_key": "b9d4acedc66c5660a1e06197a55bccd2:dd53bab1a42f41ae8f0a5c8fd286f456",
         "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Prag_News_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "626",
-        "group-title": "News",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Suvarna_News.png",
-        "channel-name": "Suvarna News",
-        "license_type": "clearkey",
-        "license_key": "b9d4acedc66c5660a1e06197a55bccd2:dd53bab1a42f41ae8f0a5c8fd286f456",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Suvarna_News_BTS/output/index.mpd"
     },
     {
         "tvg-id": "627",
@@ -3660,15 +4039,6 @@
         "license_type": "clearkey",
         "license_key": "50c0ac86d9445b3a855fcabae7538aaf:cf79083218d809d379c2f64acbde561f",
         "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Prime_News_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "923",
-        "group-title": "News",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Dighvijay_TV.png",
-        "channel-name": "Dighvijay TV",
-        "license_type": "clearkey",
-        "license_key": "",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/R_Kannada_BTS/output/index.mpd"
     },
     {
         "tvg-id": "924",
@@ -5435,15 +5805,6 @@
         "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/P_News_BTS/output/index.mpd"
     },
     {
-        "tvg-id": "1553",
-        "group-title": "News",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ABSTAR_News.png",
-        "channel-name": "AB Star News",
-        "license_type": "clearkey",
-        "license_key": "23829df55a935d54972a8752ad674ef4:6d7214c2c6169c65a23d7c69011240c1",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ABSTAR_News_BTS/output/index.mpd"
-    },
-    {
         "tvg-id": "1554",
         "group-title": "Devotional",
         "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sanatan_TV.png",
@@ -6353,33 +6714,6 @@
         "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/PMC_Telugu_BTS/output/index.mpd"
     },
     {
-        "tvg-id": "1984",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sports18_1_HD.png",
-        "channel-name": "Star Sports 2 Hindi HD",
-        "license_type": "clearkey",
-        "license_key": "b9d4acedc66c5660a1e06197a55bccd2:dd53bab1a42f41ae8f0a5c8fd286f456",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Sports18_1_HD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1985",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
-        "channel-name": "Star Sports 2 Hindi",
-        "license_type": "clearkey",
-        "license_key": "b9d4acedc66c5660a1e06197a55bccd2:dd53bab1a42f41ae8f0a5c8fd286f456",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Sports18_1_SD_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "1998",
-        "group-title": "Sports",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sports18_Khel.png",
-        "channel-name": "Star Sports Khel",
-        "license_type": "clearkey",
-        "license_key": "ab947ddbb9795d38bff35597b4f73108:2671e22eb7dc174c35b6aad4b113f7b0",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Sports18_Khel_BTS/output/index.mpd"
-    },
-    {
         "tvg-id": "1999",
         "group-title": "News",
         "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Raftaar_Media.png",
@@ -6567,15 +6901,6 @@
         "license_type": "clearkey",
         "license_key": "b749eb4e22915c8790e7b0e4039ed189:630d9fb4a75f8884fe6097b2a62a0d3f",
         "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Pop_Pataka_BTS/output/index.mpd"
-    },
-    {
-        "tvg-id": "2038",
-        "group-title": "Music",
-        "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Dhamaal.png",
-        "channel-name": "Dhamaal",
-        "license_type": "clearkey",
-        "license_key": "63fff67e53565e429748e95229f2c129:cc72cff549464fe605d62825b4e71244",
-        "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Dhamaal_BTS/output/index.mpd"
     },
     {
         "tvg-id": "2039",
