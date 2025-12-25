@@ -1,30 +1,64 @@
-- name: Fetch JioTV playlist and update jstar.m3u (preserve headers)
-  run: |
-    set -e
+name: Update Jio (__hdnea__) playlist as jstar.m3u
 
-    HEADER_FILE=header.m3u
-    BODY_FILE=body.m3u
-    TEMP_FILE=temp.m3u
+on:
+  schedule:
+    - cron: "0 */11 * * *"
+  workflow_dispatch:
 
-    # 1️⃣ Define fixed header (never changes)
-    cat > "$HEADER_FILE" <<'EOF'
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/undertaker321/epg/refs/heads/main/epg.xml.gz"
-#Generated on 1766625114
-EOF
+jobs:
+  update-jstar-playlist:
+    runs-on: ubuntu-latest
 
-    # 2️⃣ Fetch remote playlist
-    curl -s -H "User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; Pixel 4 Build/PQ3A.190801.002)" \
-         -H "Accept-Encoding: gzip" \
-         -H "Connection: Keep-Alive" \
-         --compressed \
-         -o "$TEMP_FILE" \
-         "https://livetv-cb7.pages.dev/hotstar"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    # 3️⃣ Remove any EXT M3U headers & Generated lines from fetched file
-    grep -vE '^#EXTM3U|^#Generated on' "$TEMP_FILE" > "$BODY_FILE"
+      - name: Fetch JioTV playlist and update jstar.m3u (preserve headers)
+        run: |
+          set -e
 
-    # 4️⃣ Combine header + updated body
-    cat "$HEADER_FILE" "$BODY_FILE" > jstar.m3u
+          HEADER_FILE=header.m3u
+          BODY_FILE=body.m3u
+          TEMP_FILE=temp.m3u
 
-    # 5️⃣ Cleanup
-    rm -f "$HEADER_FILE" "$BODY_FILE" "$TEMP_FILE"
+          # Fixed header (never changes)
+          cat > "$HEADER_FILE" <<'EOF'
+          #EXTM3U x-tvg-url="https://raw.githubusercontent.com/undertaker321/epg/refs/heads/main/epg.xml.gz"
+          #Generated on 1766625114
+          EOF
+
+          # Fetch remote playlist
+          curl -s \
+            -H "User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; Pixel 4 Build/PQ3A.190801.002)" \
+            -H "Accept-Encoding: gzip" \
+            -H "Connection: Keep-Alive" \
+            --compressed \
+            -o "$TEMP_FILE" \
+            "https://livetv-cb7.pages.dev/hotstar"
+
+          # Remove headers from fetched file
+          grep -vE '^#EXTM3U|^#Generated on' "$TEMP_FILE" > "$BODY_FILE"
+
+          # Combine header + updated body
+          cat "$HEADER_FILE" "$BODY_FILE" > jstar.m3u
+
+          # Cleanup
+          rm -f "$HEADER_FILE" "$BODY_FILE" "$TEMP_FILE"
+
+      - name: Commit and push updated playlist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jstar.m3u
+          git commit -m "Auto-update Jio IPTV playlist as jstar.m3u" || echo "No changes to commit"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+
+  deploy-pages:
+    needs: update-jstar-playlist
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
