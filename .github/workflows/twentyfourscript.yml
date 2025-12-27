@@ -38,7 +38,7 @@ jobs:
         
         # ================= CONFIG =================
         PLAYLIST_URLS = [
-            "https://dzu7.short.gy/OpplexTVByTelegram@M3UIndiaOriginal.m3u"
+            "https://livetv-cb7.pages.dev/opp_temp.m3u"
         ]
         
         OUTPUT_FILE = "24_7_channels.m3u"
@@ -215,4 +215,5 @@ jobs:
         git add 24_7_channels.m3u
         git diff --staged --quiet || (git commit -m "🔄 Auto-update 24_7_channels.m3u with fresh tokens [skip ci]" && git push)
       env:
+
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
