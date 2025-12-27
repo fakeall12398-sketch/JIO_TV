@@ -33,9 +33,20 @@ jobs:
         TIMEOUT = 10
 
         WHITELIST_CHANNELS = [
-            "motu patlu","shiva","chuchu","baal veer","chacha bhatija","wow kids",
-            "vir the robot","doraemon","pink panther","mr bean","kids","coComelon",
-            "scooby","peppa","blippi","chhota bheem","tom & jerry","booba"
+            "24/7 MOTU PATLU 01", "24/7 MOTU PATLU 02", "24/7 SHIVA", "24/7 CHUCHU TV", 
+            "24/7 Baal Veer", "24/7 Chacha Bhatija", "24/7 Wow Kids Action", 
+            "24/7 Vir The Robot Boy", "24/7 KIDS | DORAEMON", "KIDS: PINK PANTHER 24/7", 
+            "KIDS: CHU CHU TV 24/7", "KIDS: Sonic 24/7", "KIDS: MR BEAN (CARTOON) 24/7", 
+            "KIDS: CoComelon TV 24/7", "24/7 Kids: All Hail King Julien_ Exiled", 
+            "24/7 Kids: Rick And Morty", "24/7 Kids: Masha and the Bear", 
+            "24/7 Kids: Little Baby Bum", "24/7 Kids: The Boss Baby_ Back in Business", 
+            "24/7 Kids: Peppa Pig", "24/7 Kids: Blippi", "24/7 Kids: Kids: Gabby_s Dollhouse", 
+            "24/7 Chhota Bheem", "24/7 Tom & Jerry", "24/7 Scooby-Doo", "24/7 Booba", 
+            "24/7 KIDS SONGS HINDI", "24/7 BabyBus | Nursery Rhymes", "24/7 KIDS | MOV HINDI", 
+            "24/7 KIDS | MOVIES", "24/7 KIDS | MOVIES ENG 01", "24/7 KIDS | MOVIES ENG 02", 
+            "ID: 24/7 Angry Birds Toons", "ID: 24/7 BabyBus Indonesia", "ID: 24/7 Donald Ducks", 
+            "ID: 24/7 Doraemon", "ID: 24/7 Just For Laughs", "ID: 24/7 Mr Bean Cartoon", 
+            "ID: 24/7 Mr. Bean Classic", "ID: 24/7 Tom And Jerry"
         ]
 
         def fetch_playlist(url):
@@ -87,3 +98,4 @@ jobs:
         git diff --staged --quiet || (git commit -m "🔄 Auto-update 24_7_channels.m3u [skip ci]" && git push)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
