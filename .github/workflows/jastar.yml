@@ -1,19 +1,4 @@
-name: Update Jio (__hdnea__) playlist as jstar.m3u
-
-on:
-  schedule:
-    - cron: "0 */11 * * *"
-  workflow_dispatch:
-
-jobs:
-  update-jstar-playlist:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Fetch JioTV playlist and update jstar.m3u (preserve headers)
+- name: Fetch JioTV playlist and update jstar.m3u (preserve headers + append token)
         run: |
           set -e
 
@@ -21,44 +6,40 @@ jobs:
           BODY_FILE=body.m3u
           TEMP_FILE=temp.m3u
 
-          # Fixed header (never changes)
           cat > "$HEADER_FILE" <<'EOF'
-          #EXTM3U x-tvg-url="https://raw.githubusercontent.com/undertaker321/epg/refs/heads/main/jio.xml.gz"
-          #Generated on 1766625114
-          EOF
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/undertaker321/epg/refs/heads/main/jio.xml.gz"
+#Generated on $(date +%s)
+EOF
 
-          # Fetch remote playlist
           curl -s \
-            -H "User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; Pixel 4 Build/PQ3A.190801.002)" \
+            -H "User-Agent: Dalvik/2.1.0 (Linux; Android 9)" \
             -H "Accept-Encoding: gzip" \
-            -H "Connection: Keep-Alive" \
             --compressed \
             -o "$TEMP_FILE" \
             "https://livetv-cb7.pages.dev/hotstar"
 
-          # Remove headers from fetched file
+          # Remove old header
           grep -vE '^#EXTM3U|^#Generated on' "$TEMP_FILE" > "$BODY_FILE"
 
-          # Combine header + updated body
-          cat "$HEADER_FILE" "$BODY_FILE" > jstar.m3u
+          # ✨ Extract token from #EXTHTTP and append to stream URLs
+          awk '
+          /#EXTHTTP:/ {
+            match($0, /__hdnea__=[^"}]+/, token);
+            currentToken = token[0];
+            print;
+            next
+          }
+          /^https?:\/\/.*index\.(mpd|m3u8)/ {
+            if (currentToken != "")
+              print $0 "?" currentToken "&xxx=||cookie=" currentToken;
+            else
+              print;
+            next
+          }
+          { print }
+          ' "$BODY_FILE" > playlist.m3u
 
-          # Cleanup
-          rm -f "$HEADER_FILE" "$BODY_FILE" "$TEMP_FILE"
+          # Combine header + body
+          cat "$HEADER_FILE" playlist.m3u > jstar.m3u
 
-      - name: Commit and push updated playlist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jstar.m3u
-          git commit -m "Auto-update Jio IPTV playlist as jstar.m3u" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
-
-  deploy-pages:
-    needs: update-jstar-playlist
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
-        continue-on-error: true
+          rm -f "$HEADER_FILE" "$BODY_FILE" "$TEMP_FILE" playlist.m3u
