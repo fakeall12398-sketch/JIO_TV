@@ -21,11 +21,13 @@ jobs:
           BODY_FILE=body.m3u
           TEMP_FILE=temp.m3u
 
-          # --- WRITE HEADER (EOF MUST ALIGN WITH cat) ---
-          cat > "$HEADER_FILE" <<'EOF'
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/undertaker321/epg/refs/heads/main/jio.xml.gz"
-#Generated on AUTO-UPDATE-$(date +%s)
-EOF
+          # --- WRITE HEADER ---
+          # Fixed: Removed single quotes around EOF so $(date) works
+          # Fixed: Indentation aligned correctly for YAML
+          cat > "$HEADER_FILE" <<EOF
+          #EXTM3U x-tvg-url="https://raw.githubusercontent.com/undertaker321/epg/refs/heads/main/jio.xml.gz"
+          #Generated on AUTO-UPDATE-$(date +%s)
+          EOF
 
           curl -s \
             -H "User-Agent: Dalvik/2.1.0 (Linux; Android 9)" \
@@ -67,7 +69,7 @@ EOF
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add jstar.m3u
-          git commit -m "Auto-update Jio IPTV playlist" || echo "No changes"
+          git commit -m "Auto-update Jio IPTV playlist with token" || echo "No changes"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
 
   deploy-pages:
