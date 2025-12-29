@@ -1,65 +1,72 @@
 import re
 import requests
-import gzip
 import xml.etree.ElementTree as ET
-from io import BytesIO
+from xml.dom import minidom
+from datetime import datetime
 
-def generate_full_epg():
+def fetch_jiotv_epg():
     m3u_file = 'jstar.m3u'
-    remote_epg_url = 'https://raw.githubusercontent.com/undertaker321/epg/refs/heads/main/jio.xml.gz'
     output_file = 'jstar_epg.xml'
-
-    # 1. Collect all tvg-ids from your M3U
-    target_ids = set()
-    # Matches tvg-id="123"
-    id_pattern = re.compile(r'tvg-id="(?P<id>[^"]+)"')
+    api_url_template = "https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id={}"
     
+    # Root element for EPG
+    tv = ET.Element('tv')
+
+    # 1. Parse M3U for IDs, Logos, and Names
+    # Matches: tvg-id="1069" ... tvg-logo="url",Channel Name
+    pattern = re.compile(r'tvg-id="(?P<id>\d+)".*tvg-logo="(?P<logo>[^"]+)".*,(?P<name>.+)')
+    
+    channels = []
     try:
         with open(m3u_file, 'r', encoding='utf-8') as f:
             for line in f:
-                match = id_pattern.search(line)
+                match = pattern.search(line)
                 if match:
-                    target_ids.add(match.group('id'))
-        print(f"Filtering EPG for {len(target_ids)} channels...")
+                    channels.append(match.groupdict())
     except FileNotFoundError:
         print(f"Error: {m3u_file} not found.")
         return
 
-    # 2. Download and Extract Remote EPG
-    print(f"Downloading source EPG...")
-    response = requests.get(remote_epg_url)
-    if response.status_code != 200:
-        print("Failed to download EPG source.")
-        return
+    # 2. Fetch data for each channel
+    for ch in channels:
+        ch_id = ch['id']
+        print(f"Fetching EPG for {ch['name']} (ID: {ch_id})...")
+        
+        # Add channel metadata to XML
+        channel_node = ET.SubElement(tv, 'channel', id=ch_id)
+        ET.SubElement(channel_node, 'display-name').text = ch['name'].strip()
+        ET.SubElement(channel_node, 'icon', src=ch['logo'])
 
-    with gzip.open(BytesIO(response.content), 'rb') as f:
-        # Use iterparse for high performance with large XML files
-        context = ET.iterparse(f, events=('start', 'end'))
-        _, root = next(context) # Get root element
+        # Fetch live programme data from API
+        try:
+            response = requests.get(api_url_template.format(ch_id), timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                # Assuming the API returns a list of programmes in 'epg' key
+                for item in data.get('epg', []):
+                    # Convert timestamps if necessary or use provided ones
+                    prog = ET.SubElement(tv, 'programme', {
+                        'start': item.get('startEpoch', ''),
+                        'stop': item.get('endEpoch', ''),
+                        'channel': ch_id
+                    })
+                    ET.SubElement(prog, 'title').text = item.get('showname', 'No Title')
+                    ET.SubElement(prog, 'desc').text = item.get('description', '')
+                    ET.SubElement(prog, 'category').text = item.get('showCategory', '')
+                    if item.get('episode_num'):
+                        ET.SubElement(prog, 'episode-num', system="xmltv_ns").text = str(item.get('episode_num'))
+                    if item.get('episode_poster'):
+                        ET.SubElement(prog, 'icon', src=item.get('episode_poster'))
+            else:
+                print(f"  Failed to fetch programmes for {ch_id}")
+        except Exception as e:
+            print(f"  Error fetching {ch_id}: {e}")
 
-        # Create new XML structure
-        new_tv = ET.Element('tv', root.attrib)
-
-        for event, elem in context:
-            if event == 'end':
-                # Filter <channel> tags
-                if elem.tag == 'channel':
-                    if elem.get('id') in target_ids:
-                        new_tv.append(elem)
-                    else:
-                        root.clear() # Free memory
-                
-                # Filter <programme> tags (This contains the schedule data)
-                elif elem.tag == 'programme':
-                    if elem.get('channel') in target_ids:
-                        new_tv.append(elem)
-                    else:
-                        root.clear() # Free memory
-
-        # 3. Write final file
-        tree = ET.ElementTree(new_tv)
-        tree.write(output_file, encoding='utf-8', xml_declaration=True)
-        print(f"Done! Created {output_file}")
+    # 3. Save formatted XML
+    xml_str = minidom.parseString(ET.tostring(tv)).toprettyxml(indent="  ")
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(xml_str)
+    print(f"\nSuccessfully generated {output_file}")
 
 if __name__ == "__main__":
-    generate_full_epg()
+    fetch_jiotv_epg()
