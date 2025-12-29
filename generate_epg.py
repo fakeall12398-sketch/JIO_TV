@@ -1,42 +1,61 @@
 import re
+import requests
+import gzip
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
+from io import BytesIO
 
-def generate_epg(m3u_file, output_file):
-    # Root element for the EPG
-    tv = ET.Element('tv')
-
-    # Regex to extract tvg-id, tvg-logo, and display name from #EXTINF lines
-    # Example line: #EXTINF:-1 tvg-id="1069" group-title="Education" tvg-logo="url",Vande Gujarat 1
-    inf_pattern = re.compile(r'#EXTINF:.*tvg-id="(?P<id>[^"]+)".*tvg-logo="(?P<logo>[^"]+)".*,(?P<name>.+)')
-
+def generate_filtered_epg(m3u_file, remote_epg_url, output_file):
+    # 1. Get the list of channel IDs from your jstar.m3u
+    target_ids = set()
+    inf_pattern = re.compile(r'tvg-id="(?P<id>[^"]+)"')
+    
     try:
         with open(m3u_file, 'r', encoding='utf-8') as f:
             for line in f:
                 match = inf_pattern.search(line)
                 if match:
-                    channel_id = match.group('id')
-                    logo_url = match.group('logo')
-                    display_name = match.group('name').strip()
-
-                    # Create XML structure for each channel
-                    channel = ET.SubElement(tv, 'channel', id=channel_id)
-                    name_elem = ET.SubElement(channel, 'display-name')
-                    name_elem.text = display_name
-                    ET.SubElement(channel, 'icon', src=logo_url)
-
-        # Pretty print the XML
-        xml_string = ET.tostring(tv, encoding='utf-8')
-        reparsed = minidom.parseString(xml_string)
-        pretty_xml = reparsed.toprettyxml(indent="  ")
-
-        with open(output_file, "w", encoding='utf-8') as f:
-            f.write(pretty_xml)
-        print(f"Successfully generated {output_file}")
-
+                    target_ids.add(match.group('id'))
+        print(f"Found {len(target_ids)} channels in {m3u_file}")
     except FileNotFoundError:
         print(f"Error: {m3u_file} not found.")
+        return
+
+    # 2. Download and unzip the jio.xml.gz file
+    print(f"Downloading EPG data from {remote_epg_url}...")
+    response = requests.get(remote_epg_url)
+    if response.status_code != 200:
+        print("Failed to download EPG source.")
+        return
+
+    with gzip.open(BytesIO(response.content), 'rb') as f:
+        tree = ET.parse(f)
+        root = tree.getroot()
+
+    # 3. Create a new XML structure
+    new_tv = ET.Element('tv', root.attrib)
+
+    # 4. Copy <channel> and <programme> tags ONLY if they match your M3U IDs
+    # First, copy the channel definitions
+    for channel in root.findall('channel'):
+        if channel.get('id') in target_ids:
+            new_tv.append(channel)
+
+    # Second, copy the actual programme schedules
+    programme_count = 0
+    for programme in root.findall('programme'):
+        if programme.get('channel') in target_ids:
+            new_tv.append(programme)
+            programme_count += 1
+
+    # 5. Save the filtered result
+    new_tree = ET.ElementTree(new_tv)
+    new_tree.write(output_file, encoding='utf-8', xml_declaration=True)
+    print(f"Successfully generated {output_file} with {programme_count} programmes.")
 
 if __name__ == "__main__":
-    generate_epg('jstar.m3u', 'jstar_epg.xml')
-  
+    M3U_INPUT = 'jstar.m3u'
+    # URL found in the first line of your jstar.m3u file
+    EPG_SOURCE = 'https://raw.githubusercontent.com/undertaker321/epg/refs/heads/main/jio.xml.gz'
+    OUTPUT_XML = 'jstar_epg.xml'
+    
+    generate_filtered_epg(M3U_INPUT, EPG_SOURCE, OUTPUT_XML)
