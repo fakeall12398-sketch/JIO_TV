@@ -21,7 +21,7 @@ import xml.etree.ElementTree as ET
 import gzip
 
 # --- CONFIG / defaults ---
-CHANNELS_FILE = "channel.json"
+CHANNELS_FILE = "jstar.m3u"
 OUTPUT_FILE = "epg.xml"
 OUTPUT_GZ = "epg.xml.gz"
 
