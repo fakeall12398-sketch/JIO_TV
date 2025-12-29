@@ -1,33 +1,35 @@
-name: Update EPG
+name: Generate JStar EPG
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight
+    - cron: '0 0 * * *' # Auto-run daily
   push:
-    branches:
-      - main # Runs whenever you push to main
-  workflow_dispatch: # Allows manual trigger
+    branches: [ main ] # Run on every push to main
+  workflow_dispatch: # Allow manual trigger
 
 jobs:
-  build:
+  update-epg:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-    - name: Run EPG generator
-      run: python generate_epg.py
+      - name: Run Generator Script
+        run: python generate_epg.py
 
-    - name: Commit and push if changed
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add jstar_epg.xml
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update EPG" && git push)
-        
+      - name: Commit and Push XML
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add jstar_epg.xml
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated EPG update"
+            git push
+          fi
