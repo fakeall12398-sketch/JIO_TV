@@ -1,42 +1,65 @@
 import re
+import requests
+import gzip
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
+from io import BytesIO
 
-def generate_epg(m3u_file, output_file):
-    # Root element for the EPG
-    tv = ET.Element('tv')
+def generate_full_epg():
+    m3u_file = 'jstar.m3u'
+    remote_epg_url = 'https://raw.githubusercontent.com/undertaker321/epg/refs/heads/main/jio.xml.gz'
+    output_file = 'jstar_epg.xml'
 
-    # Regex to extract tvg-id, tvg-logo, and display name from #EXTINF lines
-    # Example line: #EXTINF:-1 tvg-id="1069" group-title="Education" tvg-logo="url",Vande Gujarat 1
-    inf_pattern = re.compile(r'#EXTINF:.*tvg-id="(?P<id>[^"]+)".*tvg-logo="(?P<logo>[^"]+)".*,(?P<name>.+)')
-
+    # 1. Collect all tvg-ids from your M3U
+    target_ids = set()
+    # Matches tvg-id="123"
+    id_pattern = re.compile(r'tvg-id="(?P<id>[^"]+)"')
+    
     try:
         with open(m3u_file, 'r', encoding='utf-8') as f:
             for line in f:
-                match = inf_pattern.search(line)
+                match = id_pattern.search(line)
                 if match:
-                    channel_id = match.group('id')
-                    logo_url = match.group('logo')
-                    display_name = match.group('name').strip()
-
-                    # Create XML structure for each channel
-                    channel = ET.SubElement(tv, 'channel', id=channel_id)
-                    name_elem = ET.SubElement(channel, 'display-name')
-                    name_elem.text = display_name
-                    ET.SubElement(channel, 'icon', src=logo_url)
-
-        # Pretty print the XML
-        xml_string = ET.tostring(tv, encoding='utf-8')
-        reparsed = minidom.parseString(xml_string)
-        pretty_xml = reparsed.toprettyxml(indent="  ")
-
-        with open(output_file, "w", encoding='utf-8') as f:
-            f.write(pretty_xml)
-        print(f"Successfully generated {output_file}")
-
+                    target_ids.add(match.group('id'))
+        print(f"Filtering EPG for {len(target_ids)} channels...")
     except FileNotFoundError:
         print(f"Error: {m3u_file} not found.")
+        return
+
+    # 2. Download and Extract Remote EPG
+    print(f"Downloading source EPG...")
+    response = requests.get(remote_epg_url)
+    if response.status_code != 200:
+        print("Failed to download EPG source.")
+        return
+
+    with gzip.open(BytesIO(response.content), 'rb') as f:
+        # Use iterparse for high performance with large XML files
+        context = ET.iterparse(f, events=('start', 'end'))
+        _, root = next(context) # Get root element
+
+        # Create new XML structure
+        new_tv = ET.Element('tv', root.attrib)
+
+        for event, elem in context:
+            if event == 'end':
+                # Filter <channel> tags
+                if elem.tag == 'channel':
+                    if elem.get('id') in target_ids:
+                        new_tv.append(elem)
+                    else:
+                        root.clear() # Free memory
+                
+                # Filter <programme> tags (This contains the schedule data)
+                elif elem.tag == 'programme':
+                    if elem.get('channel') in target_ids:
+                        new_tv.append(elem)
+                    else:
+                        root.clear() # Free memory
+
+        # 3. Write final file
+        tree = ET.ElementTree(new_tv)
+        tree.write(output_file, encoding='utf-8', xml_declaration=True)
+        print(f"Done! Created {output_file}")
 
 if __name__ == "__main__":
-    generate_epg('jstar.m3u', 'jstar_epg.xml')
-  
+    generate_full_epg()
