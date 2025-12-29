@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 generate_epg_7day.py
-Reads channel.json and writes epg.xml (XMLTV) for N days starting from START_DATE.
+Reads jstar.m3u and writes epg.xml (XMLTV) for N days starting from START_DATE.
 Behavior:
  - If env START_DATE_OVERRIDE exists (format "YYYY-MM-DDTHH:MM:SS"), it will be used.
  - Otherwise START_DATE = today's midnight in Asia/Kolkata.
