@@ -23,7 +23,7 @@ jobs:
 
           # Fixed header (never changes)
           cat > "$HEADER_FILE" <<'EOF'
-          #EXTM3U x-tvg-url="https://raw.githubusercontent.com/undertaker321/epg/refs/heads/main/jio.xml.gz"
+          #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
           #Generated on 1766625114
           EOF
 
