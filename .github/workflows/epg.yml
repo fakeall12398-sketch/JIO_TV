@@ -7,7 +7,7 @@ on:
       - "jio.xml.gz"
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"   # update every 12 hours
+    - cron: "0 */12 * * *"   # every 12 hours
 
 jobs:
   generate-epg:
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build epg.xml from XMLTV
+      - name: Build epg.xml.gz from XMLTV
         run: |
           python3 << 'EOF'
           import gzip
@@ -25,19 +25,19 @@ jobs:
           import xml.etree.ElementTree as ET
 
           # -----------------------------
-          # 1. Load tvg-ids from M3U
+          # 1. Load tvg-ids from jstar.m3u
           # -----------------------------
           tvg_ids = set()
           with open("jstar.m3u", encoding="utf-8", errors="ignore") as f:
               for line in f:
-                  match = re.search(r'tvg-id="([^"]+)"', line)
-                  if match:
-                      tvg_ids.add(match.group(1))
+                  m = re.search(r'tvg-id="([^"]+)"', line)
+                  if m:
+                      tvg_ids.add(m.group(1))
 
           print(f"Found {len(tvg_ids)} tvg-ids")
 
           # -----------------------------
-          # 2. Parse XMLTV
+          # 2. Parse source XMLTV (jio.xml.gz)
           # -----------------------------
           with gzip.open("jio.xml.gz", "rt", encoding="utf-8") as f:
               tree = ET.parse(f)
@@ -45,21 +45,21 @@ jobs:
           root = tree.getroot()
           new_root = ET.Element("tv")
 
-          # copy metadata if present
+          # copy root attributes (generator-info-name etc.)
           for k, v in root.attrib.items():
               new_root.set(k, v)
 
           # -----------------------------
-          # 3. Copy channels
+          # 3. Copy matching channels
           # -----------------------------
           channel_count = 0
-          for channel in root.findall("channel"):
-              if channel.attrib.get("id") in tvg_ids:
-                  new_root.append(channel)
+          for ch in root.findall("channel"):
+              if ch.attrib.get("id") in tvg_ids:
+                  new_root.append(ch)
                   channel_count += 1
 
           # -----------------------------
-          # 4. Copy programmes
+          # 4. Copy matching programmes
           # -----------------------------
           programme_count = 0
           for prog in root.findall("programme"):
@@ -68,23 +68,24 @@ jobs:
                   programme_count += 1
 
           # -----------------------------
-          # 5. Write epg.xml
+          # 5. Write compressed epg.xml.gz
           # -----------------------------
-          ET.ElementTree(new_root).write(
-              "epg.xml",
-              encoding="utf-8",
-              xml_declaration=True
-          )
+          with gzip.open("epg.xml.gz", "wt", encoding="utf-8") as out:
+              ET.ElementTree(new_root).write(
+                  out,
+                  encoding="utf-8",
+                  xml_declaration=True
+              )
 
-          print(f"Channels: {channel_count}")
+          print(f"Channels   : {channel_count}")
           print(f"Programmes: {programme_count}")
-          print("epg.xml generated successfully")
+          print("epg.xml.gz generated successfully")
           EOF
 
-      - name: Commit epg.xml
+      - name: Commit epg.xml.gz
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add epg.xml
-          git commit -m "Auto update XMLTV EPG" || echo "No changes"
+          git add epg.xml.gz
+          git commit -m "Auto update XMLTV EPG (compressed)" || echo "No changes"
           git push
