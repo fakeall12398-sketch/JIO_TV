@@ -7,7 +7,7 @@ on:
       - "jio.xml.gz"
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
+    - cron: "0 */12 * * *"
 
 jobs:
   generate-epg:
@@ -24,9 +24,7 @@ jobs:
           import re
           import xml.etree.ElementTree as ET
 
-          # -----------------------------
-          # 1. Load tvg-ids from jstar.m3u
-          # -----------------------------
+          # 1. Load tvg-ids
           tvg_ids = set()
           with open("jstar.m3u", encoding="utf-8", errors="ignore") as f:
               for line in f:
@@ -36,41 +34,32 @@ jobs:
 
           print(f"Found {len(tvg_ids)} tvg-ids")
 
-          # -----------------------------
-          # 2. Parse source XMLTV (jio.xml.gz)
-          # -----------------------------
+          # 2. Parse source XMLTV
           with gzip.open("jio.xml.gz", "rt", encoding="utf-8") as f:
               tree = ET.parse(f)
 
           root = tree.getroot()
           new_root = ET.Element("tv")
 
-          # copy root attributes (generator-info-name etc.)
           for k, v in root.attrib.items():
               new_root.set(k, v)
 
-          # -----------------------------
-          # 3. Copy matching channels
-          # -----------------------------
+          # 3. Copy channels
           channel_count = 0
           for ch in root.findall("channel"):
               if ch.attrib.get("id") in tvg_ids:
                   new_root.append(ch)
                   channel_count += 1
 
-          # -----------------------------
-          # 4. Copy matching programmes
-          # -----------------------------
+          # 4. Copy programmes
           programme_count = 0
           for prog in root.findall("programme"):
               if prog.attrib.get("channel") in tvg_ids:
                   new_root.append(prog)
                   programme_count += 1
 
-          # -----------------------------
-          # 5. Write compressed epg.xml.gz
-          # -----------------------------
-          with gzip.open("epg.xml.gz", "wt", encoding="utf-8") as out:
+          # 5. Write compressed XMLTV (FIXED)
+          with gzip.open("epg.xml.gz", "wb") as out:
               ET.ElementTree(new_root).write(
                   out,
                   encoding="utf-8",
