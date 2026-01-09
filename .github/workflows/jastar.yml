@@ -23,7 +23,7 @@ jobs:
 
           # Fixed header (never changes)
           cat > "$HEADER_FILE" <<'EOF'
-          #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
+          #EXTM3U x-tvg-url="https://epg.joker-verse.workers.dev/jio.xml.gz?uid=8004188626&pass=61498d15"
           #Generated on 1766625114
           EOF
 
