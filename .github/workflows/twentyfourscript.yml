@@ -28,7 +28,7 @@ jobs:
         
         import requests, re, os
         
-        PLAYLIST_SOURCE = "https://livetv-cb7.pages.dev/opp_temp.m3u"
+        PLAYLIST_SOURCE = "https://fakeall12398-sketch.github.io/JIO_TV/Opplex.m3u"
         OUTPUT_FILE = "24_7_channels.m3u"
         TIMEOUT = 10
 
@@ -98,4 +98,5 @@ jobs:
         git diff --staged --quiet || (git commit -m "🔄 Auto-update 24_7_channels.m3u [skip ci]" && git push)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
