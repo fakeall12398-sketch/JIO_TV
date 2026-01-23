@@ -7,9 +7,8 @@ import xml.etree.ElementTree as ET
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# ======================
-# CONFIG (ENV OVERRIDE)
-# ======================
+
+
 M3U_FILE = os.getenv("M3U_FILE", "jstar.m3u")
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", "jio_epg.xml.gz")
 
@@ -32,10 +31,6 @@ MAX_WORKERS = 10   # 🔥 Increase = faster (8–15 safe range)
 # ======================
 def parse_m3u(path):
     channels = []
-    if not os.path.exists(path):
-        print(f"❌ M3U file not found: {path}")
-        return channels
-
     with open(path, "r", encoding="utf-8", errors="ignore") as f:
         lines = f.readlines()
 
@@ -97,85 +92,81 @@ def fetch_epg(channel_id, offset):
 # ======================
 # MAIN
 # ======================
-def main():
-    start_time = time.time()
+start_time = time.time()
 
-    channels = parse_m3u(M3U_FILE)
-    if not channels:
-        print("❌ No channels loaded. Exiting.")
-        return
+channels = parse_m3u(M3U_FILE)
 
-    tv = ET.Element("tv")
+tv = ET.Element("tv")
 
-    # 1️⃣ CHANNEL SECTION
-    for ch in channels:
-        ch_el = ET.SubElement(tv, "channel", {"id": ch["id"]})
-        ET.SubElement(ch_el, "display-name").text = ch["name"]
+# 1️⃣ CHANNEL SECTION
+for ch in channels:
+    ch_el = ET.SubElement(tv, "channel", {"id": ch["id"]})
+    ET.SubElement(ch_el, "display-name").text = ch["name"]
 
-        if ch["logo"]:
-            ET.SubElement(ch_el, "icon", {"src": ch["logo"]})
+    if ch["logo"]:
+        ET.SubElement(ch_el, "icon", {"src": ch["logo"]})
 
-    # 2️⃣ PARALLEL FETCH
-    tasks = []
-    results = []
 
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        for offset in range(-1, 4):  # yesterday → +3 days
-            for ch in channels:
-                tasks.append(executor.submit(fetch_epg, ch["id"], offset))
+# 2️⃣ PARALLEL FETCH
+tasks = []
+results = []
 
-        for future in as_completed(tasks):
-            cid, offset, data = future.result()
-            if not data or "epg" not in data:
-                continue
+with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+    for offset in range(-1, 4):  # yesterday → +3 days
+        for ch in channels:
+            tasks.append(executor.submit(fetch_epg, ch["id"], offset))
 
-            results.append((cid, data))
+    for future in as_completed(tasks):
+        cid, offset, data = future.result()
+        if not data or "epg" not in data:
+            continue
 
-    # 3️⃣ BUILD PROGRAMMES (🔥 FINAL TIME FIX)
-    print("\n📺 Building programmes...")
+        results.append((cid, data))
 
-    for cid, data in results:
-        for p in data.get("epg", []):
-            try:
-                # 🔥 FINAL FIX: Jio timestamps are already IST → DO NOT CONVERT
-                start = datetime.fromtimestamp(p["startEpoch"] / 1000)
-                end   = datetime.fromtimestamp(p["endEpoch"] / 1000)
-            except Exception:
-                continue
 
-            prog = ET.SubElement(tv, "programme", {
-                "start": start.strftime("%Y%m%d%H%M%S +0530"),
-                "stop":  end.strftime("%Y%m%d%H%M%S +0530"),
-                "channel": cid
+# 3️⃣ BUILD PROGRAMMES (🔥 FINAL TIME FIX)
+print(f"\n📺 Building programmes...")
+
+for cid, data in results:
+    for p in data["epg"]:
+        try:
+            # 🔥 FINAL FIX: Jio timestamps are already IST → DO NOT CONVERT
+            start = datetime.fromtimestamp(p["startEpoch"] / 1000)
+            end   = datetime.fromtimestamp(p["endEpoch"] / 1000)
+
+        except Exception:
+            continue
+
+        prog = ET.SubElement(tv, "programme", {
+            "start": start.strftime("%Y%m%d%H%M%S +0530"),
+            "stop":  end.strftime("%Y%m%d%H%M%S +0530"),
+            "channel": cid
+        })
+
+        ET.SubElement(prog, "title").text = str(p.get("showname", "Unknown")).strip()
+        ET.SubElement(prog, "desc").text = str(p.get("description", "")).strip()
+
+        if "genre" in p:
+            ET.SubElement(prog, "category").text = str(p["genre"]).strip()
+
+        # 🔥 Program poster image
+        poster = p.get("episodePoster")
+        if poster:
+            ET.SubElement(prog, "icon", {
+                "src": SHOW_IMAGE_BASE + poster
             })
 
-            ET.SubElement(prog, "title").text = str(p.get("showname", "Unknown")).strip()
-            ET.SubElement(prog, "desc").text = str(p.get("description", "")).strip()
 
-            if "genre" in p:
-                ET.SubElement(prog, "category").text = str(p["genre"]).strip()
+# 4️⃣ SAVE XMLTV (GZIP)
+xml_data = ET.tostring(tv, encoding="utf-8")
 
-            # 🔥 Program poster image
-            poster = p.get("episodePoster")
-            if poster:
-                ET.SubElement(prog, "icon", {
-                    "src": SHOW_IMAGE_BASE + poster
-                })
+with gzip.open(OUTPUT_FILE, "wb") as f:
+    f.write(xml_data)
 
-    # 4️⃣ SAVE XMLTV (GZIP)
-    xml_data = ET.tostring(tv, encoding="utf-8")
+elapsed = time.time() - start_time
 
-    with gzip.open(OUTPUT_FILE, "wb") as f:
-        f.write(xml_data)
-
-    elapsed = time.time() - start_time
-
-    print("\n🎉 DONE (FAST + TIME FIXED)")
-    print("📦 Output:", OUTPUT_FILE)
-    print("📏 Size:", len(xml_data), "bytes")
-    print(f"⏱ Time taken: {elapsed:.2f} seconds")
-    print(f"🚀 Threads used: {MAX_WORKERS}")
-
-
-if __name__ == "__main__":
-    main()
+print("\n🎉 DONE (FAST + TIME FIXED)")
+print("📦 Output:", OUTPUT_FILE)
+print("📏 Size:", len(xml_data), "bytes")
+print(f"⏱ Time taken: {elapsed:.2f} seconds")
+print(f"🚀 Threads used: {MAX_WORKERS}")
