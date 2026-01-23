@@ -6,6 +6,7 @@ from datetime import datetime
 import xml.etree.ElementTree as ET
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
 
 # ======================
 # CONFIG (ENV OVERRIDE)
@@ -24,9 +25,11 @@ HEADERS = {
 
 SHOW_IMAGE_BASE = "https://jiotvimages.cdn.jio.com/dare_images/shows/"
 TIMEOUT = 20
-MAX_WORKERS = 7       # 🔥 LOWERED to avoid 450 block
+MAX_WORKERS = 7
 MAX_RETRIES = 3
-RETRY_DELAY = 3    # seconds
+RETRY_DELAY = 3
+
+print_lock = Lock()
 
 
 # ======================
@@ -67,36 +70,63 @@ def parse_m3u(path):
 
 
 # ======================
-# FETCH EPG FROM JIO (WITH RETRY)
+# FETCH EPG FROM JIO (WITH RETRY + LOG)
 # ======================
-def fetch_epg(channel_id, offset):
+def fetch_epg(channel_id, offset, idx, total):
     params = {"channel_id": channel_id, "offset": offset}
+
+    with print_lock:
+        print(f"➡️ [{idx}/{total}] Fetching channel={channel_id} offset={offset}")
 
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             r = requests.get(BASE_URL, headers=HEADERS, params=params, timeout=TIMEOUT)
 
             if r.status_code == 200:
+                with print_lock:
+                    print(f"✅ OK  channel={channel_id} offset={offset}")
                 return channel_id, offset, r.json()
 
             if r.status_code in (404, 403):
+                with print_lock:
+                    print(f"⏭️ SKIP channel={channel_id} offset={offset} -> {r.status_code}")
                 return channel_id, offset, None
 
             if r.status_code in (429, 450, 500, 502, 503):
                 if attempt < MAX_RETRIES:
+                    with print_lock:
+                        print(
+                            f"🔁 RETRY {attempt}/{MAX_RETRIES} "
+                            f"channel={channel_id} offset={offset} -> {r.status_code}"
+                        )
                     time.sleep(RETRY_DELAY * attempt)
                     continue
                 else:
+                    with print_lock:
+                        print(
+                            f"❌ FAIL channel={channel_id} offset={offset} "
+                            f"after {MAX_RETRIES} retries"
+                        )
                     return channel_id, offset, None
 
-            print(f"❌ {channel_id} offset={offset} -> {r.status_code}")
+            with print_lock:
+                print(f"❌ ERROR channel={channel_id} offset={offset} -> {r.status_code}")
             return channel_id, offset, None
 
         except Exception as e:
             if attempt < MAX_RETRIES:
+                with print_lock:
+                    print(
+                        f"🔁 EXCEPTION RETRY {attempt}/{MAX_RETRIES} "
+                        f"channel={channel_id} offset={offset} -> {e}"
+                    )
                 time.sleep(RETRY_DELAY * attempt)
                 continue
-            print(f"❌ {channel_id} offset={offset} -> {e}")
+
+            with print_lock:
+                print(
+                    f"❌ EXCEPTION FAIL channel={channel_id} offset={offset} -> {e}"
+                )
             return channel_id, offset, None
 
 
@@ -121,18 +151,46 @@ def main():
             ET.SubElement(ch_el, "icon", {"src": ch["logo"]})
 
     # 2️⃣ PARALLEL FETCH
-    tasks = []
+    offsets = list(range(0, 4))   # skip -1 (yesterday)
+    total_tasks = len(offsets) * len(channels)
+    task_index = 0
+
     results = []
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        for offset in range(0, 4):   # 🔥 skip -1 to avoid block
-            for ch in channels:
-                tasks.append(executor.submit(fetch_epg, ch["id"], offset))
+        future_map = {}
 
-        for future in as_completed(tasks):
-            cid, offset, data = future.result()
+        for offset in offsets:
+            for ch in channels:
+                task_index += 1
+                future = executor.submit(
+                    fetch_epg, ch["id"], offset, task_index, total_tasks
+                )
+                future_map[future] = (ch["id"], offset)
+
+        completed = 0
+
+        for future in as_completed(future_map):
+            completed += 1
+            cid, offset = future_map[future]
+
+            try:
+                cid, offset, data = future.result()
+            except Exception as e:
+                with print_lock:
+                    print(f"❌ FUTURE ERROR channel={cid} offset={offset} -> {e}")
+                continue
+
+            with print_lock:
+                percent = (completed / total_tasks) * 100
+                print(
+                    f"📊 Progress: {completed}/{total_tasks} "
+                    f"({percent:.1f}%)"
+                )
+
             if not data or "epg" not in data:
                 continue
+
             results.append((cid, data))
 
     # 3️⃣ BUILD PROGRAMMES
