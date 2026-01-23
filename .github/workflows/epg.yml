@@ -1,0 +1,41 @@
+name: Jio EPG Generator
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"   # once per day at 00:00 UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 📦 Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests
+
+      - name: ⚙️ Run EPG Generator
+        run: |
+          python generate_epg.py
+
+      - name: 📄 Verify Output
+        run: |
+          ls -lh jio_epg.xml.gz
+
+      - name: 🚀 Commit & Push Output
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add jio_epg.xml.gz
+          git commit -m "🔄 Auto-update Jio EPG" || echo "No changes to commit"
+          git push
