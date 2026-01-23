@@ -24,9 +24,9 @@ HEADERS = {
 
 SHOW_IMAGE_BASE = "https://jiotvimages.cdn.jio.com/dare_images/shows/"
 TIMEOUT = 20
-MAX_WORKERS = 5       # 🔥 LOWERED to avoid 450 block
+MAX_WORKERS = 7       # 🔥 LOWERED to avoid 450 block
 MAX_RETRIES = 3
-RETRY_DELAY = 2.5    # seconds
+RETRY_DELAY = 3    # seconds
 
 
 # ======================
