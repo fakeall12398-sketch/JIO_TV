@@ -4,7 +4,7 @@
 #EXT-X-TARGETDURATION:10
 # Playlist generated with token refresh
 # Total channels: 278
-# Generated at: "a37a21d019bea52ff86e5ebf9167f9ad191a5abc"
+# Generated at: "3816f144b2c3ea160750e23e3c3fd5e6cdde540f"
 
 #EXTINF:-1 group-title="HOTSTAR" tvg-logo="usus",DISNEY HD
 http://66.102.120.18:8000/play/a013/index.m3u8
@@ -14,7 +14,7 @@ http://66.102.120.18:8000/play/a013/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=7004383267415ffaa3e40865671fbb97&key=65634619d6be76985ae2283b47d96ac1
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/CN_HD_English_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="1242" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Telugu.png",Sonic Telugu
@@ -22,7 +22,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/CN_HD_English_BTS/output/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=c5f797fac3ce566c990a2057c99a81c2&key=a65755a4676a6c2e9d803d5611954b26
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Sonic_Telugu_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1243" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Kannada.png",Sonic Kannada
@@ -30,7 +30,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Sonic_Telugu_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=6cf1045c66ec5b1681bbf34a0971ab86&key=f0c1edef4ea6b46c8ec0fe04627d8afb
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Sonic_Kannada_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1344" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Malayalam.png",Sonic Malayalam
@@ -38,7 +38,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Sonic_Kannada_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=e5cee6f28393554c94ed38b0d8a65b88&key=ed3a9586ece4ac6cd147e784e0ce1fc6
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Sonic_Malayalam_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1345" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Bangla.png",Sonic Bangla
@@ -46,7 +46,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Sonic_Malayalam_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5d26427bf9a85808bd34848fa7ae1f8a&key=aac720bb73a9db2b2cb64763d5f8942b
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Sonic_Bangla_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1346" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Marathi.png",Sonic Marathi
@@ -54,7 +54,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Sonic_Bangla_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=c329e1a4429c525cad86d4346efcd68a&key=7c21c2f9cddaa5c084bf1d5b02fb4610
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Sonic_Marathi_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1373" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
@@ -62,7 +62,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Sonic_Marathi_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="1374" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Junior.png",Disney Junior
@@ -70,7 +70,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=1b1f9702f7d853c1b198495f64924311&key=40e11e60a12dd6c154dfea0ffbd5bda8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Disney_Junior_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="1375" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_International_HD.png",Disney International HD
@@ -78,7 +78,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Disney_Junior_BTS/output/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=d0e021aa91c65e68a7028c2a6a762eca&key=d50822403365e360d12840251cecee84
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Disney_International_HD_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="1391" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Hungama.png",Hungama
@@ -86,7 +86,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Disney_International_HD_BTS/output/index.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=454f8353caac500d95d641e0c7cfe048&key=0aaca46ea0f5096335598781fbe590e4
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Hungama_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="1392" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Super_Hungama.png",Super Hungama
@@ -94,7 +94,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Hungama_BTS/output/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=7a450f0820c4589690eb336c29f18da6&key=820e84119563b56d6e6f0bf514cbdc3c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Super_Hungama_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="166" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Cartoon_Network_Telugu.png",Cartoon Network Telugu
@@ -102,7 +102,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Super_Hungama_BTS/output/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=3e5ec63e26c1520380236941c3848f68&key=f944e7ee9260a9e6239170db4d6fa713
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Cartoon_Network_Tel_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1883" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Pogo_Telugu.png",Pogo Telugu
@@ -110,7 +110,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Cartoon_Network_Tel_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=e00e2372e66056d99642254b92bcf53e&key=70dc00e600e4a4c16afc0148ad2e8881
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Pogo_Tel_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="290" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Tamil.png",sonic Tamil
@@ -118,7 +118,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Pogo_Tel_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=a62d4ca4ef095564bede0fe525956634&key=5e34a5126bfe29c18947046513f18cce
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/sonic_Tamil_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3436" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CNHDHindi.png",Cartoon Network HD+ Hindi
@@ -126,7 +126,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/sonic_Tamil_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=e0a906e1b3d5536fa62e87ecf5c54859&key=a7c78450be43a75cda96e9daaad9ca1b
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/CNHDHindi_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="542" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Pogo_Tamil.png",Pogo Tamil
@@ -134,7 +134,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/CNHDHindi_BTS/output/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=ace8ad8aaff258edb8743bea9825d2d2&key=89bbc643fba2d72470ee30668ec749c9
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Pogo_Tam_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="548" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nickelodeon_Jr.png",Nickelodeon Jr.
@@ -142,7 +142,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Pogo_Tam_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=aa04d2fbafc55891b207f51d7ecca936&key=5fd9741321499a18954304ef9c57ab8a
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Nick_Jr_Hin_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="559" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Pogo_Hindi.png",Pogo Hindi
@@ -150,7 +150,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Nick_Jr_Hin_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=4b967f351139503a88b1d1945203150b&key=c3e26279cc513e13154958f934141dc0
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Pogo_Hindi_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="815" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png",Sonic Hindi
@@ -158,7 +158,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Pogo_Hindi_BTS/output/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=fdf348b106045794a5ab265d08c677ef&key=83f7bddd4290a229e07c62c6b78f1e74
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/sonic_Hindi_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="816" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Cartoon_Network_Hindi.png",Cartoon Network Hindi
@@ -166,7 +166,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/sonic_Hindi_BTS/output/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=ea48cf7b24dd54dd98c369626b9ad105&key=ee5778d627dfae2c2affc02d76e8db6c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Cartoon_Network_Hindi_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="817" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Cartoon_Network_Tamil.png",Cartoon Network Tamil
@@ -174,7 +174,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Cartoon_Network_Hindi_BTS/output/index.mp
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=553fc9bdb0115b24b23d04be203d1b9d&key=a220f0a32aaee1e6989ef8e6a6728fe1
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Cartoon_Network_Tam_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="872" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYHin.png",Sony Yay Hindi
@@ -182,7 +182,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Cartoon_Network_Tam_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=d48f57d25a6b5fb3b2d38d1f8e7e25a4&key=93e43fff8c073946af5054366bc0926b
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1769844421~exp=1769930821~acl=/*~hmac=4a0e09dd89940e99171c491f85db6dddaaa2c146094cefb9c137c5e8fde1a6c3"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1769887622~exp=1769974022~acl=/*~hmac=148414f5c554ae1bed4740d6acb6ed5bb64c42fe340efba1143d444664880f30"}
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/SonyYAYHin_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="sony-yay" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids",Sony Yay
