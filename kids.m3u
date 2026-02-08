@@ -4,7 +4,7 @@
 #EXT-X-TARGETDURATION:10
 # Playlist generated with token refresh
 # Total channels: 278
-# Generated at: "07135dc6020f49e67773310ee466053c10c1748e"
+# Generated at: "886ae0537cec4955c84c7390a633300274ff3b22"
 
 #EXTINF:-1 group-title="HOTSTAR" tvg-logo="usus",DISNEY HD
 http://66.102.120.18:8000/play/a013/index.m3u8
@@ -186,7 +186,7 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Cartoon_Network_Tam_MOB/WDVLive/index.mpd
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/SonyYAYHin_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="sony-yay" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids",Sony Yay
-https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1770586200~acl=/*~id=08532890988055897818613864486498~hmac=06cd770e5c161ff0d31d2da485c780c72bb16f82708fd9fc431435bc997a460e
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1770607806~acl=/*~id=97660561647212480818157285758637~hmac=2a0c392d3d7d8d8e32d28e01f7e2887008c4870cda3dc525001cf1a6f73f0a66
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="IND | TELUGU D2H" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Cartoon-Network.png",IND: TG: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=381094.m3u8
