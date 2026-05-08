@@ -3,11 +3,8 @@
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-TARGETDURATION:10
 # Playlist generated with token refresh
-# Total channels: 255
-# Generated at: "3af592436ea474f4130cb1f48e5dbba75faabed8"
-
-#EXTINF:-1 tvg-id="sony-yay" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids",Sony Yay
-https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1770618605~acl=/*~id=70235781838996941257053137865334~hmac=47c71ca5830f28e1ea0d7dcadaa44658ae931e8090e316bc4057917f80b0d2c7
+# Total channels: 254
+# Generated at: "731fff86f99084e76707678e008c4ea5255e4f14"
 
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="IND | TELUGU D2H" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Cartoon-Network.png",IND: TG: CARTOON NETWORK
 https://www.redbooks.site/x11.php?id=381094.m3u8
